@@ -37,6 +37,8 @@ B11 (SWIR)
 B12 (SWIR)  
 ```
 
+See more details about each band [here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data).
+
 ## Provider
 
 [Sinergise](https://www.sinergise.com/)

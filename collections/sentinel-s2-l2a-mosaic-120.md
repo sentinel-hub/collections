@@ -45,7 +45,7 @@ B12 (SWIR)
 
 Link for more information: [Announcement blog post](https://medium.com/p/20f3b5de846e)
 
-![Representative image](https://miro.medium.com/max/2400/1*y_6EHRURNgA-0SIfpn33UA.gif)
+<img alt="Yearly time-lapse of the world" style="border-width:0" src="timelapse.gif" /></a>
 
 Yearly time-lapse of the world, using 2019 Sentinel-2 L2A data and the [Blue Marble](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry) image as a static background on excluded areas.
 

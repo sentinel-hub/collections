@@ -36,7 +36,7 @@ B08 (NIR)
 B11 (SWIR)
 B12 (SWIR)  
 ```
-
+The values are corresponding to digital numbers (DN), [typically going from 0-10000](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#units).  
 See more details about each band [here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data).
 
 ## Provider

@@ -15,6 +15,10 @@ Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel value
 
 120 m
 
+## Geographical coverage
+
+Land surface area between 58 degrees South and 72 degrees North.
+
 ## Temporal availability
 
 2019 (2020 coming in April 2021, past years later on)

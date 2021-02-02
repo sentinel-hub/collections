@@ -4,15 +4,12 @@
 
 Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, modelled by removing the cloudy pixels and then performing interpolation among remaining values. As there are some parts of the world, which have lengthy cloudy periods, clouds might be remaining in some parts. The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/).
 
-## Sentinel Hub end-point
+## Sentinel Hub end-points
+| end-point  |  collectionID |
+|---|---|
+|services.sentinel-hub.com|0074520d-bcf5–4811–8f6f-afd946e77695|
+|creodias.sentinel-hub.com|eaa027cc-1d9b-40fc-a15c-9dc486caebd7|
 
-[services.sentinel-hub.com](services.sentinel-hub.com)
-
-## CollectionID
-
-```
-0074520d-bcf5–4811–8f6f-afd946e77695  
-```
 
 ## Resolution
 

@@ -7,7 +7,7 @@ Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel value
 ## Sentinel Hub end-points
 | end-point  |  collectionID |
 |---|---|
-|services.sentinel-hub.com|`0074520d-bcf5–4811–8f6f-afd946e77695`|
+|services.sentinel-hub.com|`0074520d-bcf5-4811-8f6f-afd946e77695`|
 |creodias.sentinel-hub.com|`eaa027cc-1d9b-40fc-a15c-9dc486caebd7`|
 
 

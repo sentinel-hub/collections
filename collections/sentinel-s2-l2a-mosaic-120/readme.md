@@ -32,7 +32,7 @@ Annually
 ```
 B02 (blue)
 B03 (green)
-B04 (blue)
+B04 (red)
 B08 (NIR)
 B11 (SWIR)
 B12 (SWIR)  

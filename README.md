@@ -1,4 +1,5 @@
 # Public Collections
+
 A repository of publicly available collections that are available for access through [Sentinel Hub](https://www.sentinel-hub.com/). Note that collections in this registry are available via Sentinel Hub, but owned and maintained by different providers.
 
 ## What is it for?
@@ -8,6 +9,7 @@ When data is shared on Sentinel Hub, anyone can analyze it and build services on
 ## Available Collections
 
 - [Sentinel-2 L2A 120m Mosaic](collections/sentinel-s2-l2a-mosaic-120)
+- [CORINE Land Cover](collections/corine-land-cover)
 
 ## How are collections added to the registry?
 
@@ -27,6 +29,6 @@ More information
 License
 ```
 
-## How to make use of these collection  
-Check this [FAQ entry](https://www.sentinel-hub.com/faq/#how-to-visualize-own-collection-eobrowser) to see how to configure your Sentinel Hub configuration and/or visualise them in EO Browser. 
+## How to make use of these collection
 
+Check this [FAQ entry](https://www.sentinel-hub.com/faq/#how-to-visualize-own-collection-eobrowser) to see how to configure your Sentinel Hub configuration and/or visualise them in EO Browser.

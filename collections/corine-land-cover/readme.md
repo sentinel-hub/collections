@@ -488,4 +488,4 @@ Table 2: CORINE Land Cover nomenclature and colouring scheme.
 
 ## License
 
-The Copernicus programme is governed by Regulation (EU) No 377/2014 of the European Parliament and of the Council of 3 April 2014 establishing the Copernicus programme and repealing Regulation (EU) No 911/2010. Within the Copernicus programme, a portfolio of land monitoring activities has been delegated by the European Union to the EEA. The land monitoring products and services are made available through the Copernicus land portal on a principle of full, open and free access, as established by the Copernicus data and information policy Regulation (EU) No 1159/2013 of 12 July 2013.
+Full, open and free access, Copernicus license (https://land.copernicus.eu/terms-of-use).

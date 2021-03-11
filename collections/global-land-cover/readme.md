@@ -1,10 +1,9 @@
 # Global Land Cover
 
 ## Short description
-Dynamic Global Land Cover products at 100 m resolution (CGLS-LC100) are delivered annually by [the global component of the Copernicus Land Service](https://land.copernicus.eu/global/products/lc).
-These Land Cover products provide a primary land cover scheme at three classification levels with class definitions according to the Land Cover Classification System ([LCCS](http://www.fao.org/3/x0596e/x0596e00.htm)) scheme including continuous field layers or “fraction maps” for all basic land cover classes that provide proportional estimates for vegetation/ground cover for the land cover types. This continuous classification scheme may depict areas of heterogeneous land cover better than the standard classification scheme and, as such, can be tailored for application use (e.g. forest monitoring, rangeland management, crop monitoring, biodiversity and conservation, monitoring environment and security, climate modelling, etc.)
-
-Land Cover maps (v3.0.1) are provided for the period 2015-2019 with global coverage and are derived from PROBA-V 100 m satellite observations, high quality land cover training sites and ancillary datasets e.g shoreline masks. Yearly updates from 2020 are planned to be generated from the combination of Sentinel-1 and Sentinel-2 satelllite observations.
+Global Land Cover products at 100 m resolution are delivered annually by [the global component of the Copernicus Land Service](https://land.copernicus.eu/global/products/lc).  
+The most recent collection 3 (version 3.0.1) of 100 m Land Cover products for the years 2015 - 2019 were generated from the PROBA-V 100 m and 300 m satellite observations and several other ancillary datasets with global coverage. As from 2020, (2019-conso and 2020-nrt products) are planned to be generated from the combination of Sentinel-1 and Sentinel-2 satellite observations following end of PROBA-V operations.   
+These Land Cover products provide a main discrete land cover classification map according to UN-FAO [LCCS](http://www.fao.org/3/x0596e/x0596e00.htm). Additional continuous  fractional layers for all basic land cover classes which give the percentage of a 100 m pixel that is filled with a specific land cover class, are also included in the Land Cover products to provide more detailed information on each land cover class.  
 
 
 
@@ -20,15 +19,17 @@ Land Cover maps (v3.0.1) are provided for the period 2015-2019 with global cover
 
 ## Geographical coverage
 
-Global. They cover the land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
+Global. land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 
 
 ## Update frequency
 
-A new product is generated annually using an 'epoch'. Where an epoch consists of 3 years input data (one year before and one year after the reference year) in three processing modes. See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf) for more details.
+A new product is generated annually using an 'epoch', where an epoch consists of 3 years input data (one year before and one year after the reference year) in three processing modes. 
 - **base** maps for epoch 2015, that serves as reference for the classifier and regression models,
-- **consolidated** maps (epochs 2016, 2017 and 2018) with full years of prior and pastor data and
-- the **near-real time** (nrt, 2019) maps with one year prior and only three months pastor data.
+- **consolidated** maps (2016, 2017, 2018) one year before and one year after the reference year
+-  **near-real time** maps (2019) with one year prior and only three months data of the reference year. 
+
+See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf) for more details.
 
 ## Temporal availability
 The following epochs are available:
@@ -44,10 +45,10 @@ The following epochs are available:
 
 ## Band information
 
-The available bands include: a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, a set of versatile cover fractions: percentage (%) of ground cover for the 10 main classes, a forest type layer, quality layers on input data density and on the confidence of the detected land cover change (only delivered for maps produced in conso or nrt mode).
+The available bands include: a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, Cover fraction percentage of ground cover for the 10 main classes, a forest type layer, quality layers on input data density and on the confidence of the detected land cover change (only delivered for maps produced in conso or nrt mode)    
+Reference: [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf)
 
-
-Table 1: Bands
+Table 1: Bands 
 
 
 <table>
@@ -55,8 +56,7 @@ Table 1: Bands
     <tr>
       <th>Name</th>
       <th>Units</th>
-      <th>Min</th>
-	    <th>Max</th>
+      <th>Values</th>
 	    <th>Description</th>
     </tr>
   </thead>
@@ -64,112 +64,97 @@ Table 1: Bands
     <tr>
       <td>Discrete_Classification_map </td>
       <td > </td>
-      <td>0</td>
-	    <td>200 </td>
+      <td>0 - 200</td>
 	    <td> main discrete land cover classification according to FAO LCCS scheme </td>
     </tr>
     <tr>
       <td>Discrete_Classification_proba</td>
       <td > % </td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Classification probability, a quality indicator for the discrete classification</td>
     </tr>
     <tr>
       <td>Forest_Type_layer</td>
       <td > </td>
-      <td>0</td>
-      <td >5</td>
+      <td>0 - 5 </td>
       <td>Forest type for all pixels where tree cover fraction is bigger than 1 %</td>
     </tr>
     <tr>
       <td>Bare_CoverFraction_layer</td>
       <td > %</td>
-      <td > 0</td>
-      <td > 100</td>
+      <td >0 - 100</td>
       <td> Fractional cover (%) for the bare and sparse vegetation class</td>
     </tr>
     <tr>
       <td>Crops_CoverFraction_layer</td>
       <td >% </td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the cropland class</td>
     </tr>
     <tr>
       <td>Grass_CoverFraction_layer</td>
       <td >% </td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the herbaceous vegetation class</td>
     </tr>
     <tr>
       <td>MossLichen_CoverFraction_layer</td>
       <td > %</td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100 </td>
 	    <td> Fractional cover (%) for the moss & lichen class</td>
     </tr>
     <tr>
       <td>Shrub_CoverFraction_layer</td>
       <td > % </td>
-      <td>0</td>
-      <td>100 </td>
+      <td>0 - 100</td>
       <td> Fractional cover (%) for the shrubland class</td>
     </tr>
     <tr>
       <td>Snow_CoverFraction_layer</td>
       <td > %</td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the snow & ice class</td>
     </tr>
     <tr>
       <td>Tree_CoverFraction_layer</td>
       <td > %</td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the forest class</td>
     </tr>
     <tr>
       <td>BuiltUp_CoverFraction_layer</td>
       <td >% </td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the built-up class</td>
     </tr>
     <tr>
       <td>PermanentWater_CoverFraction_layer</td>
       <td > %</td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the permanent inland water bodies class</td>
     </tr>
     <tr>
       <td>SeasonalWater_CoverFraction_layer</td>
       <td >% </td>
-      <td>0</td>
-	    <td>100 </td>
+      <td>0 - 100</td>
 	    <td> Fractional cover (%) for the seasonal inland water bodies class</td>
     </tr>
     <tr>
       <td>DataDensityIndicator</td>
       <td > </td>
-      <td>0</td>
-	    <td>100 </td>
-	    <td> Data density indicator showing quality of the EO input data between 0 – 100 (0 = bad, 100 = perfect data)</td>
+      <td>0 - 100</td>
+	    <td> Data density indicator showing quality of the EO input data  (0 = bad, 100 = perfect data)</td>
     </tr>
     <tr>
       <td>Change_Confidence_layer</td>
       <td > </td>
-      <td>0</td>
-	    <td>3 </td>
+      <td>0 - 3</td>
 	    <td> Quality layer regarding the change detection of the current mapped year to the previous mapped year. It is a 3 level confidence mask for all CONSO and NRT maps with value definitions as:
         <ul>
-          <li>0 = No change. No change in discrete class between year and previous year detected.</li>
-          <li>1 - Potential confidence. BFASTmon detected break in second half of NRT year  - potential change.</li>
-          <li>2 - Medium confidence. Imprint of urban, permanent water, snow or wetland OR change detected by BFAST but HMM model didn’t confirm this break in higher resolution OR change detected by BFASTmon in the first half of NRT year.</li>
-          <li>3 = High confidence. BFAST detected a change and HMM confirmed this change in higher resolution.</li>
+          <li>0 = No change.</li>
+          <li>1 - Potential confidence.</li>
+          <li>2 - Medium confidence.</li>
+          <li>3 = High confidence.</li>
         </ul>
         NOTE: The values of Change_Confidence_layer band in 2015 data are not shown correctly, therefore this band in 2015 data should not be used.
       </td>
@@ -343,52 +328,36 @@ Table 3: Forest_Type_Layer classes
   <thead>
     <tr>
       <th>Value</th>
-      <th>Color</th>
-      <th>Color Code</th>
 	    <th>Label</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>0 </td>
-      <td style="background-color:#282828"></td>
-	    <td> 0x282828 </td>
 	    <td> Unknown, doesn’t match any of the other types </td>
     </tr>
     <tr>
       <td>1</td>
-      <td style="background-color:#666000"></td>
-	    <td>0x666000 </td>
 	    <td> Evergreen needle leaf </td>
     </tr>
     <tr>
       <td>2</td>
-      <td style="background-color:#009900"></td>
-	    <td> 0x009900 </td>
 	    <td> Evergreen broad leaf </td>
     </tr>
     <tr>
       <td>3</td>
-      <td style="background-color:#70663e"></td>
-	    <td> 0x70663e  </td>
 	    <td> Deciduous needle leaf </td>
     </tr>
     <tr>
       <td>4</td>
-      <td style="background-color:#a0dc00"></td>
-	    <td> 0xa0dc00 </td>
 	    <td> Deciduous broad leaf </td>
     </tr>
     <tr>
       <td>5</td>
-      <td style="background-color:#929900"> </td>
-	    <td> 0x929900 </td>
 	    <td> Mix of forest type </td>
     </tr>  
     <tr>
       <td>255</td>
-      <td></td>
-	    <td>  </td>
 	    <td> No data </td>
     </tr> 
     
@@ -408,7 +377,7 @@ Table 3: Forest_Type_Layer classes
 
 ![Discrete classification map  for parts of North Africa ](north_africa_discrete_classification.png)
 
-*2019 nrt discrete classification Map for parts of North Africa visualised on EO browser*
+*2019 nrt discrete land cover classification map for parts of North Africa visualised in EO browser*
 
 ![forest type map for Dominican Republic](Dominican_republic_forest_type.png)
 

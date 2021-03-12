@@ -2,8 +2,10 @@
 
 ## Short description
 Global Land Cover products at 100 m resolution are delivered annually by [the global component of the Copernicus Land Service](https://land.copernicus.eu/global/products/lc).  
-The most recent collection 3 (version 3.0.1) of 100 m Land Cover products for the years 2015 - 2019 were generated from the PROBA-V 100 m and 300 m satellite observations and several other ancillary datasets with global coverage. As from 2020, (2019-conso and 2020-nrt products) are planned to be generated from the combination of Sentinel-1 and Sentinel-2 satellite observations following end of PROBA-V operations.   
-These Land Cover products provide a main discrete land cover classification map according to UN-FAO [LCCS](http://www.fao.org/3/x0596e/x0596e00.htm). Additional continuous  fractional layers for all basic land cover classes which give the percentage of a 100 m pixel that is filled with a specific land cover class, are also included in the Land Cover products to provide more detailed information on each land cover class.  
+
+The most recent collection 3 (version 3.0.1) of 100 m Land Cover products for the years 2015 - 2019 were generated from the PROBA-V 100 m and 300 m satellite observations and several other ancillary datasets with global coverage. As from 2020, (2019-conso and 2020-nrt products) are planned to be generated from the combination of Sentinel-1 and Sentinel-2 satellite observations following end of PROBA-V operations.  
+   
+These Land Cover products provide a main discrete land cover classification map according to UN-FAO Land Cover Classification System [LCCS](http://www.fao.org/3/x0596e/x0596e00.htm). Additional continuous  fractional layers for all basic land cover classes which give the percentage of a 100 m pixel that is filled with a specific land cover class, are also included in the Land Cover products to provide more detailed information on each land cover class.  
 
 
 
@@ -19,17 +21,17 @@ These Land Cover products provide a main discrete land cover classification map 
 
 ## Geographical coverage
 
-Global. land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
+Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 
 
 ## Update frequency
 
-A new product is generated annually using an 'epoch', where an epoch consists of 3 years input data (one year before and one year after the reference year) in three processing modes. 
+A new product is generated annually using an 'epoch', where an epoch consists of 3 years input data (one year before and  one year after the reference year) in three processing modes. 
 - **base** maps for epoch 2015, that serves as reference for the classifier and regression models,
 - **consolidated** maps (2016, 2017, 2018) one year before and one year after the reference year
--  **near-real time** maps (2019) with one year prior and only three months data of the reference year. 
+-  **near-real time** maps (2019) with one year before and only three months data of the reference year. 
 
-See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf) for more details.
+See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf) for more details on the procesing modes.
 
 ## Temporal availability
 The following epochs are available:
@@ -45,10 +47,10 @@ The following epochs are available:
 
 ## Band information
 
-The available bands include: a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, Cover fraction percentage of ground cover for the 10 main classes, a forest type layer, quality layers on input data density and on the confidence of the detected land cover change (only delivered for maps produced in conso or nrt mode)    
+The available bands include: a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, a discrete classification probability map, fractional cover maps for the 10 main classes, a forest type layer, quality layer on input data density and on the confidence of the detected land cover change (only delivered for maps produced in conso or nrt mode)    
 Reference: [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf)
 
-Table 1: Bands 
+**Table 1: Bands** 
 
 
 <table>
@@ -161,10 +163,12 @@ Table 1: Bands
     </tr>
     
   </tbody>
-</table>
+</table>  
 
-Table 2: Discrete_Classsification_map  classes
 
+**Table 2: Discrete_Classsification_map  classes**  
+
+A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/).
 
 <table>
   <thead>
@@ -321,8 +325,9 @@ Table 2: Discrete_Classsification_map  classes
 	    <td> No data </td>
     </tr>
   </tbody>
-</table>
-Table 3: Forest_Type_Layer classes
+</table>  
+
+**Table 3: Forest_Type_Layer classes**
 
 <table>
   <thead>
@@ -381,7 +386,7 @@ Table 3: Forest_Type_Layer classes
 
 ![forest type map for Dominican Republic](Dominican_republic_forest_type.png)
 
-*2019 nrt forest type Map for Dominican Republic visualised in EO browser*
+*2019 nrt forest type Map over Dominican Republic and Haiti visualised in EO browser*
 
 ## License
 

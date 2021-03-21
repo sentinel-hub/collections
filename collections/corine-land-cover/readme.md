@@ -6,16 +6,6 @@ In 1985 the 'Coordination of Information on the Environment' (CORINE) programme 
 
 The [CORINE Land Cover (CLC) inventory](https://land.copernicus.eu/pan-european/corine-land-cover) is a vector-based dataset that consists of 44 land cover and land use classes (Table 2) derived from a series of satellite missions since it was first established (Table 1).
 
-## Sentinel Hub end-points
-
-| end-point | collectionID |
-|---|---|
-|creodias.sentinel-hub.com|`cbdba844-f86d-41dc-95ad-b3f7f12535e9`|
-
-## Resolution
-
-100 m
-
 Table 1: The evolution of CORINE Land Cover ([source](https://land.copernicus.eu/pan-european/corine-land-cover)).
 
 <table>
@@ -128,25 +118,6 @@ Table 1: The evolution of CORINE Land Cover ([source](https://land.copernicus.eu
   </tr>
 </tbody>
 </table>
-
-## Geographical coverage
-
-- Pan-European
-- French overseas regions and departments (DOMs)
-
-## Temporal availability
-
-The following datasets are available:
-
-- CLC 2018
-- CLC 2012
-- CLC 2006
-- CLC 2000
-- CLC 1990
-
-## Update frequency
-
-Every 6 years
 
 ## Band information
 
@@ -439,10 +410,6 @@ Table 2: CORINE Land Cover nomenclature and colouring scheme.
   </tbody>
 </table>
 
-## Provider
-
-[European Environment Agency](https://www.eea.europa.eu/)
-
 ## More information
 
 - [Data source](https://land.copernicus.eu/pan-european/corine-land-cover)
@@ -455,7 +422,3 @@ Table 2: CORINE Land Cover nomenclature and colouring scheme.
 ![CORINE Land Cover dataset over Guadeloupe and Martinique](image_fdoms.png)
 
 *CORINE Land Cover dataset over Guadeloupe and Martinique, two French DOMs, in EO Browser.*
-
-## License
-
-Full, open and free access, Copernicus license (https://land.copernicus.eu/terms-of-use).

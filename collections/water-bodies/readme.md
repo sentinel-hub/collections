@@ -19,7 +19,7 @@ More information about the data can be obtained from the [Water Bodies product](
 ## Geographical coverage
 
 Global coverage from longitude -180°E to +180°W and latitude +80°N to -60S  
-NOTE: Depending on the month, some high latitude areas are not covered by Sentinel-2 satellites and thus implies a No Data value in the product.
+**NOTE:** Depending on the month, some high latitude areas are not covered by Sentinel-2 satellites and thus implies a No Data value in the product.
 
 ## Update frequency
 
@@ -61,7 +61,7 @@ Water Bodies product contain 2 bands (WB and QUAL) and are described in Table 1 
     <tr>
       <td> QUAL</td>
       <td> DN </td>
-      <td>71 -76 </td>
+      <td>71 - 76 </td>
 	    <td> Quality layer which gives information on water bodies occurrence
       <ul>
           <li>0 = Sea</li>

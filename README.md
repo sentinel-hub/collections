@@ -11,6 +11,7 @@ When data is shared on Sentinel Hub, anyone can analyze it and build services on
 - [Sentinel-2 L2A 120m Mosaic](collections/sentinel-s2-l2a-mosaic-120)
 - [CORINE Land Cover](collections/corine-land-cover)
 - [Global Land Cover](collections/global-land-cover)
+- [Water Bodies](collections/water-bodies)
 
 
 ## How are collections added to the registry?

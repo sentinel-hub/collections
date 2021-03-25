@@ -1,9 +1,9 @@
 # Water Bodies 
 
 ## Short description
-The Global Water Bodies product shows the surface extent covered by inland water on permanent, seasonal or occasional basis. The  product available here is the  [Water Bodies  100m Version 1](https://land.copernicus.eu/global/products/wb) collection which is derived from Sentinel-2 level 1C data starting from October 2020 after the end of the PROBA-V mission and is delivered as a monthly composite product at 100m resolution.   
+The Global Water Bodies product shows the surface extent covered by inland water on permanent, seasonal or occasional basis. The  product available here is the  [Water Bodies  100m Version 1](https://land.copernicus.eu/global/products/wb) collection which is derived from Sentinel-2 level 1C data, starting from October 2020 after the end of the PROBA-V mission and is delivered as a monthly composite product at 100m resolution.   
 
-The Water Bodies product contain one main Water Bodies detection layer (WB) and one Quality layer (QUAL) that provides information on the seasonal dynamics of the detected water bodies. Water Bodies detection layer (WB) shows water bodies  detected using the Modified Normalized Difference Water Index [(MNDWI)](https://en.wikipedia.org/wiki/Normalized_difference_water_index) derived from Sentinel-2 Level 1C data. The quality layer (QUAL) is generated from water body ocurrence statistics computed from previous monthly water bodies products.The occurrence statistics is ranked from low occurrence to permanent occurrence.
+The Water Bodies product contain one main Water Bodies detection layer (WB) and one Quality layer (QUAL) that provides information on the seasonal dynamics of the detected water bodies. Water Bodies detection layer (WB) shows water bodies  detected using the Modified Normalized Difference Water Index [(MNDWI)](https://en.wikipedia.org/wiki/Normalized_difference_water_index) derived from Sentinel-2 Level 1C data. The Quality layer (QUAL) is generated from water body occurrence statistics computed from previous monthly Water Bodies products.The occurrence statistics is ranked from low occurrence to permanent occurrence.
 
 More information about the data can be obtained from the [Water Bodies product](https://land.copernicus.eu/global/products/wb) page.
 
@@ -92,11 +92,11 @@ Water Bodies product contain 2 bands (WB and QUAL) and are described in Table 1 
 
 ![Water bodies map Baikal lake ](fig/baikal-water.PNG)
 
-*October 2020 monthly composite map showing surface water extent around Russia's largest freshwater lake Baikal visualised in EO browser*
+*October 2020 monthly composite map showing surface water body extent around Russia's largest freshwater lake Baikal visualised in EO browser*
 
 ![Water occurrence map lake Bakhtegan and Tashk, Iran](fig/Bakhtegan-occurrence.PNG)
 
-*Map showing December 2020 water occurrence on Iran's second largest salt lake Bakhtegan and lake Tashk visualised in EO browser*
+*December 2020 water body occurrence on Iran's second largest salt lake Bakhtegan and lake Tashk visualised in EO browser*
 
 ## License
 

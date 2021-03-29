@@ -7,7 +7,44 @@ Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 TemporalAvailability: 2015 - ongoing 
 UpdateFrequency: Annualy.
-BandInformation: Discrete_Classification_map, Discrete_Classification_proba, Forest_Type_layer, Bare_CoverFraction_layer, Crops_CoverFraction_layer, Grass_CoverFraction_layer, MossLichen_CoverFraction_layer, Shrub_CoverFraction_layer, Snow_CoverFraction_layer, Tree_CoverFraction_layer, BuiltUp_CoverFraction_layer, PermanentWater_CoverFraction_layer, SeasonalWater_CoverFraction_layer, DataDensityIndicator, Change_Confidence_layer
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: Discrete_Classification_map
+          Description: main discrete land cover classification according to FAO LCCS scheme
+        - Name: Discrete_Classification_proba
+          Description: Classification probability, a quality indicator for the discrete classification
+        - Name: Forest_Type_layer
+          Description: Forest type for all pixels where tree cover fraction is bigger than 1 %
+        - Name: Bare_CoverFraction_layer
+          Description: Fractional cover (%) for the bare and sparse vegetation class
+        - Name: Crops_CoverFraction_layer
+          Description: Fractional cover (%) for the cropland class
+        - Name: Grass_CoverFraction_layer
+          Description: Fractional cover (%) for the herbaceous vegetation class
+        - Name: MossLichen_CoverFraction_layer
+          Description: Fractional cover (%) for the moss & lichen class
+        - Name: Shrub_CoverFraction_layer
+          Description: Fractional cover (%) for the shrubland class
+        - Name: Snow_CoverFraction_layer
+          Description: Fractional cover (%) for the snow & ice class
+        - Name: Tree_CoverFraction_layer
+          Description: Fractional cover (%) for the forest class
+        - Name: BuiltUp_CoverFraction_layer
+          Description: Fractional cover (%) for the built-up class
+        - Name: PermanentWater_CoverFraction_layer
+          Description: Fractional cover (%) for the permanent inland water bodies class
+        - Name: SeasonalWater_CoverFraction_layer
+          Description: Fractional cover (%) for the seasonal inland water bodies class
+        - Name: DataDensityIndicator
+          Description: Data density indicator showing quality of the EO input data (0 = bad, 100 = perfect data)
+        - Name: Change_Confidence_layer
+          Description: Quality layer regarding the change detection of the current mapped year to the previous mapped year. 
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Commission Joint Research Centre (JRC)](https://land.copernicus.eu/global/about)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

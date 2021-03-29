@@ -10,4 +10,4 @@ phases:
   build:
     commands:
       - npm run build
-      - aws s3 sync docs/ $COLLECTIONS_BROWSER_S3_BUCKET --delete --acl=bucket-owner-full-control
+      - aws s3 sync _output/ $COLLECTIONS_BROWSER_S3_BUCKET --delete --acl=bucket-owner-full-control

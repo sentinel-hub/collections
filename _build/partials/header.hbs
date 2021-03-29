@@ -1,0 +1,57 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{#if isHome}}<meta name="google-site-verification" content="d3RoBpynB-G21xjnmrqTE7iJfzqgS6DugRe7B6yUVb8" />{{/if}}
+
+  {{#if redirect}}<meta http-equiv="Refresh" content="0; url={{redirect}}" />{{/if}}
+
+  <link rel="alternate" type="application/rss+xml" href="{{rootUrl}}/rss.xml" />
+  
+  <link rel="shortcut icon" type="image/ico" href="{{rootUrl}}img/favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="{{rootUrl}}img/touch-icon-iphone-114-smile.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="{{rootUrl}}img/touch-icon-ipad-144-smile.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="{{rootUrl}}img/touch-icon-iphone-114-smile.png"/>
+  <link rel="apple-touch-icon" sizes="144x144" href="{{rootUrl}}img/touch-icon-ipad-144-smile.png"/>  
+
+  <title>{{#if isDetail}}{{Name}} - {{/if}}Sentinel Hub Public Collections</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="{{rootUrl}}css/bootstrap.min.css">
+
+  <!-- Our local CSS -->
+  <link rel="stylesheet" href="{{rootUrl}}css/main.css">
+
+  {{#if isDetail}}
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Dataset",
+    "name" : "{{Name}}",
+    "description" : "{{{md Description true}}}",
+    "license" : "{{{md License true}}}"{{#if ManagedBy}},
+    "sourceOrganization" : "{{{md ManagedBy true}}}"{{/if}}
+  }
+  </script>
+  {{/if}}
+
+  <script>
+    var rootUrl = "{{rootUrl}}";
+  </script>
+</head>
+<body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{{rootUrl}}js/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="{{rootUrl}}js/bootstrap.min.js"></script>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="roda-header">
+        {{#if isHome}}<h1>{{else}}<h2><a href="{{rootUrl}}" alt="Home">{{/if}}Sentinel Hub Public Collections{{#if isHome}}</h1>{{else}}</a></h2>{{/if}}
+        <a href="https://sentinel-hub.com">
+          <img src="{{rootUrl}}img/sentinel-hub-by_sinergise-dark-logo.png" alt="Sentinel Hub" id="header_logo">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container" {{#if isDataAtWork}}id="dataatwork"{{/if}}>

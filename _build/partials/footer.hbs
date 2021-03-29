@@ -1,0 +1,10 @@
+  <hr/>
+  {{#if isDetail}}
+  <p><a href="https://github.com/{{githubRepo}}/blob/{{githubBranch}}/collections/{{Slug}}.yaml">Edit this collection entry on GitHub</a></p>
+  <p><a href="{{rootUrl}}"><b>Home</b></a></p>
+  {{/if}}
+  {{#if isExamples}}
+  <p>If you want to add a collection or usage example to this registry, please follow the instructions on the <a href="https://github.com/{{githubRepo}}">Sentinel Hub Public Collections GitHub repository</a>.</p>
+  <p><a href="{{rootUrl}}"><b>Home</b></a></p>
+  {{/if}}
+</div>

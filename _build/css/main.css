@@ -1,0 +1,342 @@
+/* roboto-100 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../font/roboto-v20-latin-100.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/roboto-v20-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/roboto-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/roboto-v20-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../font/roboto-v20-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/roboto-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/roboto-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/roboto-v20-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../font/roboto-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/roboto-v20-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+a { color:#a2b228; }
+
+a:hover {
+  text-decoration: underline;
+  color:#a2b228;
+}
+
+body { padding: 85px 0 30px 0;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.tag {
+  margin-right: .8em;
+}
+
+.link-tag {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.service-tag {
+  background-color: #232F3E !important;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.roda-header h1, .roda-header h2 {
+  font-size: 24px;
+  color: black;
+  float:left;
+  margin: 26px 0 10px 0;
+}
+
+.roda-header h2 a {
+  color:black;
+}
+
+h1, h2, h3, h4, .dataset h3 a {
+  font-family: 'Roboto';
+  color:#232F3E;
+  font-weight: 700;
+}
+h3 {
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+h4 {
+  margin-top: 20px;
+}
+
+.dataset h3 a:hover {
+  color:#eb5f07;
+}
+
+.datasets {
+  padding-bottom: 30px;
+}
+
+#dataatwork {
+  margin-top: 1.6em;
+}
+
+#dataatwork h4 a {
+  color: #232F3E;
+}
+
+.dataatwork-category {
+  font-weight: bold;
+}
+
+.dataset {
+  margin-bottom: 2em;
+}
+
+.lede {
+  font-family: 'Roboto';
+  font-size: 1.28em;
+  font-weight: 200;
+  line-height: 1.6em;
+}
+
+#header_logo {
+  max-width: 120px;
+  float:right;
+  padding: 20px 0 16px 0 ;
+}
+
+.label {
+  font-weight: 400;
+}
+
+.label-info {
+  background-color: #a2b228;
+}
+
+.label-info:hover {
+  background-color: #c0d049;
+}
+
+.label-info-sustainability {
+  background-color: #1e8900;
+}
+
+.label-info-sustainability:hover {
+  background-color: #6aaf35;
+}
+
+/*.resource-list:nth-child(odd) {
+  background-color: #E5FFFF;
+}*/
+
+ul.resource-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.resource-list li {
+  margin: 0 0 2em 0;
+  border-bottom: 1px solid #d5dbdb;
+}
+
+ul.resource-list li:last-child {
+  border-bottom:none;
+}
+
+ul.dataatwork-list li {
+  margin: 0 0 10px 0;
+}
+
+dt {
+  margin-top: .6em;
+}
+
+.section-row {
+  border-color: #232F3E;
+}
+
+@media (max-width:768px) {
+  .roda-header h1, .roda-header h2 {
+    font-size: 18px;
+    color: black;
+    float:left;
+    margin: 20px 0 20px 0;
+  }
+  #header_logo {
+    float:right;
+    padding:16px 0 16px 0 ;
+  }
+}
+
+@media (min-height: 790px) and (min-width:992px) {
+ .aboutbox {
+    position:fixed;
+    z-index: 2;
+    max-width: 392px;
+  }
+}
+
+@media (min-height: 790px) and (min-width:1200px) {
+ .aboutbox {
+    position:fixed;
+    z-index: 2;
+    max-width: 490px;
+  }
+}
+
+img.collab-logo {
+  width: 100px;
+  padding: 10px;
+  float: left;
+}
+
+img.managed-by-logo {
+  width: 100px;
+}
+
+.cat-anchor {
+  position: relative;
+  top: -50px;
+}
+
+img.providers {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.providers-div {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  line-height: 1.625;
+}
+
+.label {
+  padding: .6em .8em .6em;
+}
+
+input#search-box {
+  background-color:rgb(241, 247, 231);
+}
+
+.form-control {
+  border: none;
+  -webkit-box-shadow: none;
+  height: 40px;
+}
+code {
+  color: #585d2e;
+  background-color: #f3f5e2;
+}
+table th {
+  border: 1px solid hsl(0, 0%, 86%)!important;
+  padding: 0 5px!important;
+  text-align: left!important;
+}
+table tr:nth-child(even) {
+  background: none repeat scroll 0 0 hsl(0, 0%, 96%)!important;
+}
+table tr, table td {
+  border: 1px solid #dcdcdc!important;
+  padding: 5px!important;
+  vertical-align: top!important;
+}
+table > thead > tr {
+  background-color:rgb(245, 245, 245)!important;
+}
+.h2_addition {
+  margin-left: -15px;
+}
+.navbar {
+ box-shadow: rgb(175 158 232 / 40%) -1px 0px 4px 1px;
+ height:80px;
+}
+
+table{
+  width:100%;
+  max-width:100%;
+  margin-bottom:20px
+}
+
+table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th {
+  padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #ddd
+}
+
+table>thead>tr>th {
+    vertical-align:bottom;border-bottom:2px solid #ddd
+  }
+table>caption+thead>tr:first-child>td,.table>caption+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>thead:first-child>tr:first-child>td,.table>thead:first-child>tr:first-child>th{
+    border-top:0
+  }
+table>tbody+tbody{
+    border-top:2px solid #ddd;
+  }
+

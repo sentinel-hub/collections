@@ -185,6 +185,22 @@ const rankDatasets = function (datasets, ignoreRank) {
   return datasets;
 };
 
+const copyDirectory = function(sourcePath, destPath) {
+  var files = fs.readdirSync(sourcePath);
+  fs.mkdirSync(destPath);
+
+  for (var i in files) {
+    var file = files[i];
+    var fileAbs = path.join(sourcePath, file);
+    if (fs.lstatSync(fileAbs).isDirectory()) {
+      copyDirectory(fileAbs, path.join(destPath, file));
+    }
+    else {
+      fs.writeFileSync(path.join(destPath, file), fs.readFileSync(fileAbs));
+    }
+  }
+}
+
 // Handlebars helper functions
 const hbsHelpers = {
   toJSON: function (obj) {
@@ -255,7 +271,13 @@ const hbsHelpers = {
       
     for (var i in extraFiles) {
 	  var file = extraFiles[i];
-	  fs.writeFileSync("./_output/" + dir + "/" + file, fs.readFileSync(path.join(dirAbsolute, file)));
+	  var fileAbs = path.join(dirAbsolute, file);
+	  if (fs.lstatSync(fileAbs).isDirectory()) {
+	    copyDirectory(fileAbs, "./_output/" + dir + "/" + file);
+	  }
+	  else {
+		fs.writeFileSync("./_output/" + dir + "/" + file, fs.readFileSync(fileAbs));
+      }
     }
     
     var mdContent = fs.readFileSync(path.join(dataSourcesDirectory, mdFile), "utf-8");

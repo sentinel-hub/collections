@@ -61,11 +61,11 @@ Water Bodies product contain 2 bands (WB and QUAL) and are described in Table 1 
 - [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS2_PUM_WB100m_V1_I1.00.pdf)
 
 
-![Water bodies map Baikal lake ](fig/baikal-water.PNG)
+![Water bodies map Baikal lake ](baikal-water.PNG)
 
 *October 2020 monthly composite map showing surface water body extent around Russia's largest freshwater lake Baikal visualised in EO browser*
 
-![Water occurrence map lake Bakhtegan and Tashk, Iran](fig/Bakhtegan-occurrence.PNG)
+![Water occurrence map lake Bakhtegan and Tashk, Iran](Bakhtegan-occurrence.PNG)
 
 *December 2020 water body occurrence on Iran's second largest salt lake Bakhtegan and lake Tashk visualised in EO browser*
 

@@ -20,7 +20,7 @@ BandInformation:
         - Name: QUAL
           Description: Quality layer which gives information on water bodies occurrence
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
-Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
+Provider: "[European Commision, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - Water Bodies

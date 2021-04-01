@@ -1,0 +1,45 @@
+Name: Sentinel-1 GRD
+Description: 
+  The [Sentinel - 1 radar imaging mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)
+  is composed of a constellation of two polar-orbiting satellites providing continous all-weather, day and night imagery for 
+  Land and Maritime Monitoring. C-band synthentic aperture radar imaging has the advantage of operating at wavelenghts that are
+  not obstructed by clouds or lack of illumination  and therefore can acquire data during day or night under all weather conditions.
+  With  6 days repeat cycle on the entire world and daily acquistions of sea ice zones and Europe's major shipping routes,
+  Sentinel-1 ensures reliable data availability to support emergency services and applications requiring time series observations. 
+  Sentinel-1 continues the retired ERS and ENVISAT missions. Level 1 GRD products are available since October 2014.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)"
+Resolution: High - 10m, Medium - 40m
+ViewOnEOBrowser: "[EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S1_AWS_IW_VVVH&fromTime=2021-03-28T00%3A00%3A00.000Z&toTime=2021-03-28T23%3A59%3A59.999Z&layerId=ENHANCED-VISUALIZATION-ORTHORECTIFIED&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ff2068f4f-3c75-42cf-84a1-42948340a846)"
+GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))
+TemporalAvailability: October 2014- ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Copernicus](https://copernicus.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - SAR
+  - maritime monitoring
+  - land monitoring
+  - disaster response
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: S1GRD
+    Notes: Global since January 2017
+  - EndPoint: eocloud.sentinel-hub.com
+    Type: S1GRD
+    Notes: Global since October 2014
+  - EndPoint: shservices.mundiwebservices.com
+    Type: S1GRD
+    Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
+CustomScripts:
+    Title: Collection of Sentinel-1 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-03-31"

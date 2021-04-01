@@ -354,7 +354,7 @@ const hbsHelpers = {
     }
     
     if (!tabelaricData.Table) {
-    	return "<p>" + tabelaricData + "</p>"; // was a simple non-tabelaric string
+    	return "<p>" + marked(tabelaricData, {renderer: renderer}) + "</p>"; // was a simple non-tabelaric string
     }
     
     var html = "";

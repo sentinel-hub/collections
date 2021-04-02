@@ -35,5 +35,6 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
+    
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-03-31"

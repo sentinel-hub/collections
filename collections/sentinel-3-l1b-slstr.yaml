@@ -1,0 +1,44 @@
+Name: Sentinel-3 SLSTR L1B
+Description: |
+ The [Sentinel -3](https://sentinel.esa.int/web/sentinel/missions/sentinel-3) is composed of three versatile satellites designed 
+ to provide data continuity for the ERS, ENVISAT and SPOT satellites and to support operational land and ocean observation services.
+ Sentinel -3 satellites make use of four main instruments on board; OLCI, SLSTR, SRAL and MWR, to measure sea surface topography, 
+ sea and land surface temperature and ocean and land surface color.
+ The SLSTR (Sea and Land Surface Temperature Radiometer ) continues the timeline of Sea Surface Temperature measurements from the ATSR instrument series. 
+ The principal objective of SLSTR products is to provide global and regional Sea and Land Surface Temperature (SST, LST) 
+ to a very high level of accuracy (better than 0.3 K for SST) for both climatological and meteorological applications.
+ Level 1B provides calibrated and ortho-geolocated Top Of Atmosphere (TOA) radiances for the 6 VNIR/SWIR bands 
+ and TOA brightness temperatures for the thermal IR and active fire channels. 
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/HZ2R)"
+Resolution: 500m and 1km
+GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/coverage))
+TemporalAvailability: April 2016 - ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Copernicus](https://copernicus.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - multi spectral imagery
+  - Climate 
+  - Atmospheric aerosols
+  - LST
+  - SST 
+  - active fires
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: S3SLSTR
+    Notes: Global since May 2016
+  - EndPoint: code-de.sentinel-hub.com
+    Type: S3SLSTR
+    Notes: Germany since May 2016
+CustomScripts:
+    Title: Collection of Sentinel-3 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-02"

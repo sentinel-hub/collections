@@ -1,0 +1,39 @@
+Name: MODIS MCD43A4.006
+Description: |
+ [MODIS](https://modis.gsfc.nasa.gov/about/) (Moderate Resolution Imaging Spectroradiometer) is the main
+ instrument operating on both NASA's [Terra](https://terra.nasa.gov/) and [Aqua](https://aqua.nasa.gov/) satellites.
+ It acquires images of the earth in 36 bands within the visible and the infrared regions of the spectrum at low to medium spatial resolutions. 
+ MODIS is designed to provide atleast daily observations of land, oceans and lower atmosphere that contribute to
+ local or global scale land or water applications. There are several products derived from MODIS which include land, atmosphere, cryospehere and ocean products.
+ MCD43A4 Nadir BRDF-Adjusted Reflectance (NBAR) product Version 6 is a MODIS land product available in Sentinel Hub. 
+ It is computed daily  for each of MODIS bands 1 - 7 and it contains the most representative pixels from 16 day period temporarily weighted to the ninth day.
+ MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. 
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/)" 
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/6TQV)"
+Resolution: 500m
+GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis.gsfc.nasa.gov/about/specifications.php))
+TemporalAvailability: February 2000 - ongoing
+UpdateFrequency: MODIS data are added regularly, usually within few hours after they are available on the USGS archive
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[USGS](https://www.usgs.gov//)" 
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - agriculture
+  - natural resource
+  - disaster response
+License: |
+  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: MODIS
+    Notes: Global since Feb 2000
+CustomScripts:
+    Title: Collection of MODIS custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#modis
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-08"

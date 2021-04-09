@@ -3,6 +3,7 @@ Description: The Global Water Bodies product shows the surface extent covered by
 AdditionalInfoExternal:
     Title: Additional info 
     Path: water-bodies/README.MD
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/vmqd)"
 Resolution: 100m
 GeographicalCoverage: Global coverage from longitude -180°E to +180°W and latitude +80°N to -60S . Depending on the month, some high latitude areas are not covered by Sentinel-2 satellites.
 TemporalAvailability: October 2020 - ongoing

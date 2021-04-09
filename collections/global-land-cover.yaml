@@ -3,6 +3,7 @@ Description: Global Land Cover products at 100 m resolution are delivered annual
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-land-cover/README.MD
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/fzXz)"
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 TemporalAvailability: 2015 - ongoing 

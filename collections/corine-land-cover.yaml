@@ -3,6 +3,7 @@ Description: The CORINE Land Cover (CLC) inventory consists of 44 land cover and
 AdditionalInfoExternal:
     Title: Additional info 
     Path: corine-land-cover/README.MD
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/fWkD)"
 Resolution: 100m
 GeographicalCoverage: Pan-European, French overseas regions and departments (DOMs)
 TemporalAvailability: 1990, 2000, 2006, 2012, 2018

@@ -1,0 +1,40 @@
+Name: Mapzen 
+Description: |
+  Mapzen DEM is based on [Mapzen's terrain tiles](https://github.com/tilezen/joerd/tree/master/docs) that provide global DEM and bathymetry data.
+  Mapzen terrain tiles is a composite of elevation data of varying resolutions from [multiple open data sources](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md)
+  including [SRTM](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects),
+  [ETOPO1](https://www.ngdc.noaa.gov/mgg/global/global.html),
+  and other higher resolution sources for some parts of the world.
+  Mapzen DEM provides bare-earth terrain heights and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/wDL1)"
+Resolution: "varies per zoom level, location and data source [more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution)"
+GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-sourced-at-what-zooms))
+TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)
+UpdateFrequency: "[depends on updates by Mapzen](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)"
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Mapzen](https://www.mapzen.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - DEM
+  - terrain
+  - 3D
+  - elevation
+  - orthorectification
+License: |
+  [License](https://www.mapzen.com/terms/)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: DEM
+    Notes: Global 
+  - EndPoint: services.sentinel-hub.com
+    Type: DEM
+    Notes: Global coverage up to resolution level 13 (level 14 is missing).
+CustomScripts:
+    Title: Collection of DEM custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#dem
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-09"

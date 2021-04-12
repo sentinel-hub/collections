@@ -24,6 +24,9 @@ BandInformation:
           Description: Green
           Notes: DN, typically from 0-10000         
         - Name: B04
+          Description: Red
+          Notes: DN, typically from 0-10000
+        - Name: B08
           Description: NIR
           Notes: DN, typically from 0-10000
         - Name: B11

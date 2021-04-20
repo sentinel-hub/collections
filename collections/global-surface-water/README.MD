@@ -1,9 +1,9 @@
 # Global Surface Water
 
 ## Short description
-The Global Surface Water dataset was developed by the European Commission's Joint Research Centre (JRC) within the framework of the Copernicus Programme. It is derived from Landsat 5, 7 and 8 imagery and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2019 at the global scale in six different layers. *Open water* is considered as any uncovered stretch of water (freshwater and saltwater areas) greater than 30m² that are visible from space, including natural and artificial water bodies.<br><br>
+The Global Surface Water dataset was developed by the European Commission's Joint Research Centre (JRC) within the framework of the Copernicus Programme. It is derived from Landsat 5, 7 and 8 imagery and shows various aspects of the spatio-temporal distribution of surface water between 1984 and 2019 at the global scale in six different layers. Open water is considered as any uncovered stretch of water (fresh and salt water areas) greater than 30m² visible from space, including natural and artificial water bodies.<br><br>
 
-Please check the [FAQ](https://global-surface-water.appspot.com/faq) on the official [Global Surface Water website](https://global-surface-water.appspot.com/) for more details. Detailed information about the processing methodology for the contained layers can be found in the [Data Users Guide](https://00f74ba44b71d6950e84cf8c9621bc4c8bb41d756c-apidata.googleusercontent.com/download/storage/v1/b/global-surface-water/o/downloads_ancillary%2FDataUsersGuidev2019.pdf?jk=AFshE3UvHpBkUZYXeCM_rhEJEE6HrQqub8VyqxCFCJBp29KmEG-vLNoWE5ybazfbylPstwVQeHFwseFduBbRUVfe6XZzyb8sKYEx0KtdE3W2NYnVSgdyOgcIIQMjLyerBPE5veeHjbXByGl8Z_dL8G4i2ukw0aJUXifQZTe7h_k5-rGlINX-Z01UKEjhBEI-rn0EATqMipJP_2_kVbLp6DVA9uzciWc-_DW8NcahqoT4X_Si5NhVVs1iec7qeIFWv4U27rH7TwCzCPQv5VVZFWKKevfA1lo8Lp7kcyvd4I0tL_-7GlUOgkQ3lcujE9sPqcObj00EBj5SmTarHSLk5a4Ip69HIVpOBST4YpLrQJ3Say7hnMVhFnGiIsH5jVcv87SCDGZ6lEYR_rVn9ELNFghCp8B2sva_JpS-Q5XxDGFWPRr8d76ePNxo9fVYXTKWgKBWiUdKNKkCdMrspbzfoUl7-xdZYF_qvpIwF4Iw8xuAuTYiViXBBlXRE86N9PdiIF7kZm3uKNXlSVLi2Upob9P9fkIQ7Pri8iAw0-MS6YmHvufnoLtGEsi12Q0ZRlZsZWBBiXN-V1j06VeQumrQZtirr_gX9lK1qZUwduMs_iSV2dHrhad7xpcbbByN3ROscUoFRMX-01J5Y4KmXOmgpKXOCEHl4Ba9E2Phh7Qv8rivpX_QlgfHjbbuuQUwglM5TVvkdYXBEWZc-T2WBCWgySPvcijhxu7KXbGD3oh7jItCcxt6Gv_fboiIASQ9jsFn7EppSYnvSDjEYYxMcV4-bAzRMrUwUho47BpqGJ9x3fFIDmLQck4xPzPeFt_wsQ_C2vz6stISBoCP46r9-ZWLywqea-vuOg5Jf-V5ELCv7njp0gKMCvg12xd7TgPf_DpAog2EwDclibmrKVZgLTxU_dNAbOg9fKPbK9x8iafWGuwUDjr9P5nhGPVFvWRjvoPtYeRmyTeyA1V0ZNMe_VgDmDMnKDZiOuKzNE6392UNU73CXWpuh9n_XAhTdis&isca=1) and Pekel et al. (2016) [[1]](#References) as the related scientific publication.
+Please check the [FAQ](https://global-surface-water.appspot.com/faq) on the official [Global Surface Water website](https://global-surface-water.appspot.com/) for more details. Detailed information on the processing methodology for the included layers can be found in the [Data Users Guide](https://00f74ba44b71d6950e84cf8c9621bc4c8bb41d756c-apidata.googleusercontent.com/download/storage/v1/b/global-surface-water/o/downloads_ancillary%2FDataUsersGuidev2019.pdf?jk=AFshE3UvHpBkUZYXeCM_rhEJEE6HrQqub8VyqxCFCJBp29KmEG-vLNoWE5ybazfbylPstwVQeHFwseFduBbRUVfe6XZzyb8sKYEx0KtdE3W2NYnVSgdyOgcIIQMjLyerBPE5veeHjbXByGl8Z_dL8G4i2ukw0aJUXifQZTe7h_k5-rGlINX-Z01UKEjhBEI-rn0EATqMipJP_2_kVbLp6DVA9uzciWc-_DW8NcahqoT4X_Si5NhVVs1iec7qeIFWv4U27rH7TwCzCPQv5VVZFWKKevfA1lo8Lp7kcyvd4I0tL_-7GlUOgkQ3lcujE9sPqcObj00EBj5SmTarHSLk5a4Ip69HIVpOBST4YpLrQJ3Say7hnMVhFnGiIsH5jVcv87SCDGZ6lEYR_rVn9ELNFghCp8B2sva_JpS-Q5XxDGFWPRr8d76ePNxo9fVYXTKWgKBWiUdKNKkCdMrspbzfoUl7-xdZYF_qvpIwF4Iw8xuAuTYiViXBBlXRE86N9PdiIF7kZm3uKNXlSVLi2Upob9P9fkIQ7Pri8iAw0-MS6YmHvufnoLtGEsi12Q0ZRlZsZWBBiXN-V1j06VeQumrQZtirr_gX9lK1qZUwduMs_iSV2dHrhad7xpcbbByN3ROscUoFRMX-01J5Y4KmXOmgpKXOCEHl4Ba9E2Phh7Qv8rivpX_QlgfHjbbuuQUwglM5TVvkdYXBEWZc-T2WBCWgySPvcijhxu7KXbGD3oh7jItCcxt6Gv_fboiIASQ9jsFn7EppSYnvSDjEYYxMcV4-bAzRMrUwUho47BpqGJ9x3fFIDmLQck4xPzPeFt_wsQ_C2vz6stISBoCP46r9-ZWLywqea-vuOg5Jf-V5ELCv7njp0gKMCvg12xd7TgPf_DpAog2EwDclibmrKVZgLTxU_dNAbOg9fKPbK9x8iafWGuwUDjr9P5nhGPVFvWRjvoPtYeRmyTeyA1V0ZNMe_VgDmDMnKDZiOuKzNE6392UNU73CXWpuh9n_XAhTdis&isca=1) and Pekel et al. (2016) [[1]](#References) as the associated scientific publication.
 
 ## Band information
 
@@ -56,7 +56,7 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
 
 ### Occurrence
 
-The water Occurrence layer shows the (intra- and inter-annual) variations of surface water presence in the time range between March 1984 and December 2019. Permanent water surfaces with 100% occurrence over the 36 years are shown in blue, whereas paler shades of pink and purple indicate lower degrees of water presence, according to the official layer symbology (Table 2).<br><br>
+The water Occurrence layer shows the (intra- and inter-annual) variations of surface water presence in the time range between March 1984 and December 2019. Permanent water areas with 100% occurrence over the 36 years are shown in blue, while lighter shades of pink and purple indicate lower degrees of water presence, according to the official layer symbology (Table 2).<br><br>
 
 ![Occurrence Danube Delta in Romania](image_occurrence_danube_delta.png)
 
@@ -64,7 +64,13 @@ The water Occurrence layer shows the (intra- and inter-annual) variations of sur
 
 #### Table 2: Occurrence Symbology
 
-<table>
+<table style="width: 40%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>
@@ -106,7 +112,7 @@ The water Occurrence layer shows the (intra- and inter-annual) variations of sur
 
 ### Occurrence Change Intensity
 
-The Occurrence Change Intensity layer visualises changes in water occurence between two different epochs, the first one ranges from **March 1984 to December 1999**, the other one covers the time range from **January 2000 to December 2019**. According to the official layer symbology, increase in water occurrence is visualised in different intensities of green, no change is shown in black and decrease is shown in shades of red (Table 3).<br><br>
+The Occurrence Change Intensity layer visualises changes in water occurrence between two different epochs, the first ranging from **March 1984 to December 1999**, and the other covering the period from **January 2000 to December 2019**. According to the official layer symbology, the increase of water occurrence is visualised in different shades of green, no change is shown in black and decrease is shown in shades of red (Table 3).<br><br>
 
 ![Occurrence Change Intensity Ganges in Bangladesh](image_change_ganges_river.png)
 
@@ -114,7 +120,13 @@ The Occurrence Change Intensity layer visualises changes in water occurence betw
 
 #### Table 3: Occurrence Change Intensity Symbology
 
-<table>
+<table style="width: 60%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>
@@ -168,7 +180,7 @@ The Occurrence Change Intensity layer visualises changes in water occurence betw
 
 ### Seasonality
 
-The Seasonality layer provides information on the intra-annual distribution of surface water in the year 2019. Corresponding to the amount of months with water coverage, the discrete color map displays areas with permanent water bodies in dark blue and seasonal surface water in gradually brighter shades of blue (Table 4).<br><br>
+The Seasonality layer provides information on the intra-annual distribution of surface water in 2019. According to the number of months with water cover, the discrete colour map shows areas with permanent water bodies in dark blue and seasonal surface water in gradually lighter shades of blue (Table 4).<br><br>
 
 ![Seasonality Salar de Uyuni in Bolivia](image_seasonality_salar_de_uyuni.png)
 
@@ -176,7 +188,13 @@ The Seasonality layer provides information on the intra-annual distribution of s
 
 #### Table 4: Seasonality Symbology
 
-<table>
+<table style="width: 60%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>
@@ -218,7 +236,7 @@ The Seasonality layer provides information on the intra-annual distribution of s
 
 ### Recurrence
 
-The Recurrence layer captures the degree of inter-annual variability in surface water presence. It shows how frequently water returned to a particular location between years in a defined water period within the time range from 1984 to 2019. The water period is defined for each pixel individually, with the period starting from the first month with an observation of surface water to the last month with present surface water in the entire 36 years time range. Areas with seasonal or permanent water presence are visualised in blue, whereas irregularly flooded areas are shown in orange (Table 5).<br><br>
+The Recurrence layer captures the degree of interannual variability in surface water presence. It shows how frequently water returned to a particular location between years in a defined water period within the period from 1984 to 2019. The water period is defined individually for each pixel, ranging from the first month with an observation of surface water to the last month with surface water present throughout the 36-year time range. Areas with seasonal or permanent water presence are visualised in blue, while irregularly flooded areas are shown in orange (Table 5).<br><br>
 
 ![Recurrence paddies near Eluru in India](image_recurrence_paddies_eluru.png)
 
@@ -226,7 +244,13 @@ The Recurrence layer captures the degree of inter-annual variability in surface 
 
 #### Table 5: Recurrence Symbology
 
-<table>
+<table style="width: 50%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>
@@ -268,7 +292,7 @@ The Recurrence layer captures the degree of inter-annual variability in surface 
 
 ### Transitions
 
-The Transitions layer is derived from a seasonality comparison between the first and last years in the 36-year timespan and visualises the changes in the three surface water classes of *not water*, *seasonal* and *permanent water*. A disrete colour map for the class transitions is provided in Table 6.<br><br>
+The Transitions layer is derived from a seasonality comparison between the first and last year in the 36-year time period and visualises changes in the three surface water classes of not water, seasonal, and permanent water. A discrete colour map for the class transitions is provided in Table 6.<br><br>
 
 ![Transitions Paraná River near Santa Fe in Argentina](image_transitions_parana_river.png)
 
@@ -276,7 +300,13 @@ The Transitions layer is derived from a seasonality comparison between the first
 
 #### Table 6: Transitions Symbology
 
-<table>
+<table style="width: 50%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>
@@ -366,7 +396,7 @@ The Transitions layer is derived from a seasonality comparison between the first
 
 ### Extent
 
-The maximum water Extent layer unifies all other layers in that it visualises all locations for which water presence was ever detected in the 36-year timespan.<br><br>
+The maximum water Extent layer combines all other layers by visualising all locations for which water presence has ever been detected over the 36-year period.<br><br>
 
 ![Extent of Lake Kyoga in Uganda](image_extent_lake_kyoga.png)
 
@@ -374,7 +404,13 @@ The maximum water Extent layer unifies all other layers in that it visualises al
 
 #### Table 7: Extent Symbology
 
-<table>
+<table style="width: 40%">
+  <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 5%;">
+       <col span="1" style="width: 70%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Value</th>

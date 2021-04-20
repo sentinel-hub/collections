@@ -18,13 +18,13 @@ BandInformation:
         - Name: Occurrence
           Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2019.
         - Name: Occurrence Change Intensity
-          Description: Changes in water occurrence between two epochs, the first one ranging from 1984 to 1999 and the second one covering years 2000 to 2019.
+          Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2019.
         - Name: Seasonality
-          Description: Intra-annual distribution of surface water in the year 2019.
+          Description: Intra-annual distribution of surface water in 2019.
         - Name: Recurrence
-          Description: Inter-annual variability in surface water presence in a defined water period within the whole time range from 1984 to 2019.
+          Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2019.
         - Name: Transitions
-          Description: Visualises the changes in three surface water classes of (1) not water, (2) seasonal and (3) permanent water between the first and the last years in the 36-year timespan.
+          Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 36-year time period.
         - Name: Extent
           Description: Maximum extent of surface water bodies in the 36-year time range.
 Contact: "[Global Surface Water Explorer Contact](https://global-surface-water.appspot.com/)"

@@ -6,7 +6,7 @@ Description: |
   for monitoring our natural resources and environment.
   [Landsat 8 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
-  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013
+  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/abtC)"
 Resolution: 30m 

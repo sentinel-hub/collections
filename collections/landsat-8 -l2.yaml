@@ -7,8 +7,9 @@ Description: |
   [Landsat 8 Level 2 data ](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-2-science-products)
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
   provides atmospherically corrected Surface Reflectance and Surface Brightness Temperature products generated from Collection 2 Level-1 scenes that have been processed to Tier 1 or Tier 2.
-  Collection 2 level 2 data are available since February 2013 and new data are continously added usually within 24 hours after Level 1 scenes are available.  
+  Collection 2 level 2 data are available since February 2013 and new data are continously added usually within 24 hours after Level 1 scenes are available.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/X3Hc)"
 Resolution: 30m
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
 TemporalAvailability: February 2013 - ongoing

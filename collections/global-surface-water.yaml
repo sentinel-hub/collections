@@ -3,6 +3,7 @@ Description: The Global Surface Water dataset was developed by the European Comm
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
+Image: global-surface-water/global-surface-water.png  
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
 TemporalAvailability: Suface water dynamics between 1984 and 2019
@@ -36,6 +37,7 @@ Tags:
   - inland water
   - derived data
   - climate change
+  - open data
 License: |
  Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
 Resources:

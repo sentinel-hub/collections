@@ -9,9 +9,9 @@
         <div id="{{Slug}}" class="dataset">
           <h3><a href="{{rootUrl}}{{Slug}}/">{{Name}}</a></h3>
           <p>{{#each Tags}}{{#isEqual . 'aws-pds'}}{{else}}<span class="label label-info{{#isEqual . 'sustainability'}}-sustainability{{else}}{{/isEqual}} tag link-tag">{{.}}</span>{{/isEqual}}{{/each}}</p>
-          {{#if AdditionalInfoExternal}}
+          {{#if Image}}
           <p><a href="{{rootUrl}}{{Slug}}/">
-          <img style = "border: 0.5px solid lightgray" src= "{{Slug}}/{{Slug}}.png" alt="{{Slug}}" width="385" height="385" >
+          <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" />
           </a></p>
           {{/if}}
           <p>{{{trimHTML (md Description) 600}}}</p>

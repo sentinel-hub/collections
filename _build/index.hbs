@@ -11,7 +11,7 @@
           <p>{{#each Tags}}{{#isEqual . 'aws-pds'}}{{else}}<span class="label label-info{{#isEqual . 'sustainability'}}-sustainability{{else}}{{/isEqual}} tag link-tag">{{.}}</span>{{/isEqual}}{{/each}}</p>
           {{#if Image}}
           <p><a href="{{rootUrl}}{{Slug}}/">
-          <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" />
+          <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" width="385" />
           </a></p>
           {{/if}}
           <p>{{{trimHTML (md Description) 600}}}</p>

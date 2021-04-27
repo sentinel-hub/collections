@@ -1,8 +1,9 @@
 Name: CORINE Land Cover
-Description: The CORINE Land Cover (CLC) inventory consists of 44 land cover and land use classes derived from a series of satellite missions since it was first established. 
+Description: The CORINE Land Cover (CLC) inventory consists of 44 land cover and land use classes derived from a series of satellite missions since it was first established.
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: corine-land-cover/README.MD
+    Path: corine-land-cover/README.MD 
+Image: corine-land-cover/corine-land-cover.png   
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/fWkD)"
 Resolution: 100m
 GeographicalCoverage: Pan-European, French overseas regions and departments (DOMs)
@@ -17,6 +18,7 @@ Tags:
   - land cover
   - CLMS
   - derived data
+  - open data
 License: |
  Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
 Resources:

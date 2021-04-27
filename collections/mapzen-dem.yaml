@@ -1,4 +1,4 @@
-Name: Mapzen 
+Name: Mapzen DEM
 Description: |
   Mapzen DEM is based on [Mapzen's terrain tiles](https://github.com/tilezen/joerd/tree/master/docs) that provide global DEM and bathymetry data.
   Mapzen terrain tiles is a composite of elevation data of varying resolutions from [multiple open data sources](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md)
@@ -7,6 +7,7 @@ Description: |
   and other higher resolution sources for some parts of the world.
   Mapzen DEM provides bare-earth terrain heights and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
+Image: mapzen-dem/mapzen-dem.png  
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/wDL1)"
 Resolution: "varies per zoom level, location and data source [more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution)"
 GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-sourced-at-what-zooms))
@@ -23,6 +24,7 @@ Tags:
   - 3D
   - elevation
   - orthorectification
+  - open data
 License: |
   [License](https://www.mapzen.com/terms/)
 Resources:

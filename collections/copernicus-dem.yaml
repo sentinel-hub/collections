@@ -11,6 +11,7 @@ Description: |
   Copernicus DEM provides elevation data and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/d3v1)"
+Image: copernicus-dem/copernicus-dem.png
 Resolution: 30m and 90m 
 GeographicalCoverage: Land ([more info](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198)) under "Area of Interest"
 TemporalAvailability: static product(two releases 2019 & 2020) for data acquired in (2011-2015)
@@ -26,6 +27,7 @@ Tags:
   - 3D
   - elevation
   - orthorectification
+  - open data
 License: |
   [License](https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399) (Pages 15-20)
 Resources:

@@ -7,6 +7,7 @@ Description: |
   Sentinel Hub offers a possibility to purchase, order and access SPOT  6/7  imagery archive which is available globally since 2012.
   Sentinel Hub provides SPOT images in  Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/airbus/spot/)"
+Image: spot/spot.png   
 ViewOnFlickr: "[Flickr](https://www.flickr.com/photos/sentinelhub/albums/72157717855313958)"
 Resolution: 1.5 m for panchromatic band and 6 m for multispectral bands.
 GeographicalCoverage: ([more info](https://www.intelligence-airbusds.com/en/8693-spot-67))
@@ -19,7 +20,7 @@ ManagedBy: "[Airbus](https://www.airbus.com/)"
 Tags:
   - high resolution imagery
   - satellite imagery
-  - commercial imagery
+  - commercial data
   - multi spectral imagery
   - vegetation monitoring 
   - agriculture

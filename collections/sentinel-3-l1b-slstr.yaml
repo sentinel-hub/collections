@@ -10,6 +10,7 @@ Description: |
  Level 1B provides calibrated and ortho-geolocated Top Of Atmosphere (TOA) radiances for the 6 VNIR/SWIR bands 
  and TOA brightness temperatures for the thermal IR and active fire channels. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/)"
+Image: sentinel-3-l1b-slstr/sentinel-3-l1b-slstr.png 
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/HZ2R)"
 Resolution: 500m and 1km
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/coverage))
@@ -27,6 +28,7 @@ Tags:
   - LST
   - SST 
   - active fires
+  - open data
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
 Resources:

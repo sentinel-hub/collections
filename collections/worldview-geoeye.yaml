@@ -10,6 +10,7 @@ Description: |
   The archived images are available sporadically over an area of interest since images  are in general not acquired systematically.
   Sentinel Hub provides images in  Top of the atmosphere (TOA) reflectance. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/)"
+Image: worldview-geoeye/worldview-geoeye.png  
 Resolution: 0.5 m for panchromatic band and 2 m for multispectral bands.
 GeographicalCoverage: Land surface area ([more info](https://www.maxar.com/constellation))
 TemporalAvailability: 2009 - ongoing
@@ -19,7 +20,7 @@ Contact: https://forum.sentinel-hub.com
 Provider: "[Maxar](https://www.maxar.com/)"
 ManagedBy: "[European Space Imaging](https://www.euspaceimaging.com/)"
 Tags:
-  - commercial imagery
+  - commercial data
   - multi spectral imagery
   - high resolution imagery
   - maritime monitoring

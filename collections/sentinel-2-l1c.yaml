@@ -6,6 +6,7 @@ Description: |
   The mission provides a global coverage of the Earth's land surface every 5 days,
   making the data of great use in on-going studies. L1C data are available from
   June 2015 globally. L1C data provide Top of the atmosphere (TOA) reflectance.
+Image: sentinel-2-l1c/sentinel-2-l1c.png
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/)"
 ViewOnEOBrowser: "[EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S2L1C&fromTime=2021-03-31T00%3A00%3A00.000Z&toTime=2021-03-31T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F42924c6c-257a-4d04-9b8e-36387513a99c)"
 Resolution: 10m
@@ -23,6 +24,7 @@ Tags:
   - agriculture
   - natural resource
   - disaster response
+  - open data
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use)
 Resources:

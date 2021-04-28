@@ -6,6 +6,7 @@ Description: |
   Sentinel Hub offers a possibility to purchase, order and access PlanetScope both archive and newly acquired  data which is available globally since 2016.
   Sentinel Hub offers access to PlantScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet-scope/)"
+Image: planetscope/planetscope.png
 Resolution: 3m
 GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
 TemporalAvailability: 2016 - ongoing
@@ -16,7 +17,7 @@ Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - high resolution imagery
-  - commercial imagery
+  - commercial data
   - satellite imagery
   - multi spectral imagery
   - vegetation monitoring

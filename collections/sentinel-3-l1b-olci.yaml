@@ -9,6 +9,7 @@ Description: |
  OLCI also provides reliable information on the atmosphere, especially on the aerosols characterisation.
  Level 1B data provides calibrated, ortho-geolocated and spatially re-sampled Top Of Atmosphere (TOA) radiances for the 21 OLCI spectral bands.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/)"
+Image: sentinel-3-l1b-olci/sentinel-3-l1b-olci.png
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/woCR)"
 Resolution: 300m
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-olci/coverage))
@@ -27,6 +28,7 @@ Tags:
   - Marine biology
   - Maritime Monitoring
   - OTCI
+  - open data
 
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use)

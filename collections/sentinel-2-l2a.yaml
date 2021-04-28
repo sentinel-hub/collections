@@ -7,6 +7,7 @@ Description: |
   making the data of great use in on-going studies. L2A data  are available from September 2016 over wider Europe
   region and globally since January 2017. L2A data provide Bottom of the atmosphere (BOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/)"
+Image: sentinel-2-l2a/sentinel-2-l2a.png
 ViewOnEOBrowser: "[EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S2L2A&fromTime=2021-03-31T00%3A00%3A00.000Z&toTime=2021-03-31T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fbd86bcc0-f318-402b-a145-015f85b9427e)"
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))
@@ -23,6 +24,7 @@ Tags:
   - agriculture
   - natural resource
   - disaster response
+  - open data
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
 Resources:

@@ -9,6 +9,7 @@ Description: |
  It is computed daily  for each of MODIS bands 1 - 7 and it contains the most representative pixels from 16 day period temporarily weighted to the ninth day.
  MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/)" 
+Image: modis/modis.png
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/6TQV)"
 Resolution: 500m
 GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis.gsfc.nasa.gov/about/specifications.php))
@@ -24,6 +25,7 @@ Tags:
   - agriculture
   - natural resource
   - disaster response
+  - open data
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:

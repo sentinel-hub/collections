@@ -2,8 +2,9 @@
 
 ## How are collections added to the registry?
 
-Each collection in this repository is described in a dedicated YAML file, e.g. /collections/global-land-cover.yaml  
+Each collection in this repository is described in a dedicated YAML file stored in [./collections](https://github.com/sentinel-hub/public-collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml.  
 Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and Sentinel Hub team will review it and publish it in the Registry.  
+Note that for additional external files e.g the thumbnail image to be displayed correctly , store it in a directory that is named similar to the associated YAML file. 
 Users are also welcome to revise existing collections, e.g. adding new usage examples , tools, etc.  
 
 ## How to make use of these collection

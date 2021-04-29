@@ -8,6 +8,7 @@ Description: |
   Sentinel Hub offers a possibility to purchase, order and access Pleiades imagery archive which is available globally since 2011.
   Sentinel Hub provides Pleiades images in  Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/)"
+Image: pleiades/pleiades.png 
 ViewOnFlickr: "[Flickr](https://www.flickr.com/photos/sentinelhub/albums/72157717855313958)"
 Resolution: 0.5 m for panchromatic band and 2 m for multispectral bands.
 GeographicalCoverage:  ([more info](https://www.intelligence-airbusds.com/en/8692-pleiades))
@@ -20,7 +21,7 @@ ManagedBy: "[Airbus](https://www.airbus.com/)"
 Tags:
   - very  high resolution imagery
   - satellite imagery
-  - commercial imagery
+  - commercial data
   - multi spectral imagery
   - urban mapping
   - defense

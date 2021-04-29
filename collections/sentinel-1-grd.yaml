@@ -8,6 +8,7 @@ Description:
   Sentinel-1 ensures reliable data availability to support emergency services and applications requiring time series observations. 
   Sentinel-1 continues the retired ERS and ENVISAT missions. Level 1 GRD products are available since October 2014.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)"
+Image: sentinel-1-grd/sentinel-1-grd.png 
 Resolution: High - 10m, Medium - 40m
 ViewOnEOBrowser: "[EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S1_AWS_IW_VVVH&fromTime=2021-03-28T00%3A00%3A00.000Z&toTime=2021-03-28T23%3A59%3A59.999Z&layerId=ENHANCED-VISUALIZATION-ORTHORECTIFIED&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ff2068f4f-3c75-42cf-84a1-42948340a846)"
 GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))
@@ -24,6 +25,7 @@ Tags:
   - maritime monitoring
   - land monitoring
   - disaster response
+  - open data
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)
 Resources:

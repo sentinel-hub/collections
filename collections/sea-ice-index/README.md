@@ -14,7 +14,10 @@
 
 The sea ice index product contains 4 bands that are described in Table 1 below.  
 
+<br>
+
 **Table 1: Bands** 
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;

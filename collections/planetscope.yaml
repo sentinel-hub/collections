@@ -1,0 +1,38 @@
+Name: PlanetScope
+Description: |
+  [PlanetScope](https://www.planet.com/products/planet-imagery/) is a satellite constellation of more than 130 satellites called Doves and is operated by Planet. 
+  Each Dove satellite is a CubeSat made of three cubic units and thus measures only 10 cm x 10 cm x 30 cm. 
+  The satellites are launched in groups, and together manage to acquire images covering the entire earth land surface atleast daily.
+  Sentinel Hub offers a possibility to purchase, order and access PlanetScope both archive and newly acquired  data which is available globally since 2016.
+  Sentinel Hub offers access to PlantScope data in Top of the atmosphere (TOA) reflectance.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet-scope/)"
+Image: planetscope/planetscope.png
+Resolution: 3m
+GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
+TemporalAvailability: 2016 - ongoing
+UpdateFrequency: new imagery added on a daily basis
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
+Tags:
+  - high resolution imagery
+  - commercial data
+  - satellite imagery
+  - multi spectral imagery
+  - vegetation monitoring
+  - mapping
+  - agriculture
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user
+CustomScripts:
+    Title: Collection of PlanetScope custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#planet_scope
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-14"

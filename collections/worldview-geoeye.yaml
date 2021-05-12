@@ -1,0 +1,38 @@
+Name: WorldView (+ GeoEye )
+Description: |
+  [Maxar Technologies](https://www.maxar.com/) offers multi-spectral, high resolution, commercial satellite imagery acquired 
+  by currently four on-orbit and three retired [constellation of satellites](https://www.maxar.com/constellation) 
+  namely WorldView, GeoEye, QuickBird and IKONOS.
+  Sentinel Hub offers a possibility to purchase, order and access Worldview and Geoeye satellite imagery ordered through [European Space Imaging](https://docs.sentinel-hub.com/api/latest/static/files/data/maxar/world-view/resources/brochures/EUSI_Company_Brochure.pdf).
+  The data available for purchase through Sentinel Hub are GeoEye-1 (GE01), WorldView-2 (WV02), WorldView-3 (WV03) and WorldView-4 (WV04).
+  WorldView-4 data available for purchase is the imagery archive acquired from  November 2016 to January 2019 while the satellite was operational.
+  The rest of the constellation offers both, imagery archive available since 2009  and a tasking capability to acquire images systematically over an area of interest. 
+  The archived images are available sporadically over an area of interest since images  are in general not acquired systematically.
+  Sentinel Hub provides images in  Top of the atmosphere (TOA) reflectance. 
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/)"
+Image: worldview-geoeye/worldview-geoeye.png  
+Resolution: 0.5 m for panchromatic band and 2 m for multispectral bands.
+GeographicalCoverage: Land surface area ([more info](https://www.maxar.com/constellation))
+TemporalAvailability: 2009 - ongoing
+UpdateFrequency: data is not acquired systematically, data acquisition is tasked
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Maxar](https://www.maxar.com/)"
+ManagedBy: "[European Space Imaging](https://www.euspaceimaging.com/)"
+Tags:
+  - commercial data
+  - multi spectral imagery
+  - high resolution imagery
+  - maritime monitoring
+  - defense
+  - disaster response
+  - mapping
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user
+
+RegistryEntryAdded: "2021-04-17"
+RegistryEntryLastModified: "2021-04-13"

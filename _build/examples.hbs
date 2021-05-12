@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> header isDataAtWork=true}}
+  <p class="lede">Usage examples for all collections listed in the <a href="{{rootUrl}}">Sentinel Hub Public Collections</a>{{#if tag}} tagged with <strong>{{tag}}</strong>{{/if}}.</p>
+  <hr>
+
+  {{#each datasets}}
+    {{#if DataAtWork}}
+      <div id="{{Slug}}" class="dataset">
+        <h4><a href="{{rootUrl}}{{Slug}}/">{{Name}}</a></h4>
+        {{#if DataAtWork.Tutorials}}
+        <h5 class="dataatwork-category">Tutorials</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Tutorials}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName}}
+        {{/each}}
+        </ul>
+        {{/if}}
+        {{#if DataAtWork.Tools}}
+        <h5 class="dataatwork-category">Tools & Applications</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Tools}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName}}
+        {{/each}}
+        </ul>
+        {{/if}}
+        {{#if DataAtWork.Publications}}
+        <h5 class="dataatwork-category">Publications</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Publications}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName}}
+        {{/each}}
+        </ul>
+        {{/if}}
+      </div>
+    {{/if}}
+  {{/each}}
+
+  {{> footer isExamples=true}}

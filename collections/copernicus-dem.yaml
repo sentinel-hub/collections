@@ -1,0 +1,43 @@
+Name: Copernicus DEM
+Description: |
+  [The Copernicus DEM](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198) is a Digital Surface Model (DSM) 
+  which represents the bare-Earth surface and all above ground natural and built features.
+  It is based on [WorldDEM™ ](https://www.intelligence-airbusds.com/imagery/reference-layers/worlddem/) DSM that is derived from [TanDEM-X](https://spacedata.copernicus.eu/web/cscda/data-offer/missions/tandem-x) 
+  and is infilled on a local basis with the following DEMs: ASTER, SRTM90, SRTM30, SRTM30plus, GMTED2010, TerraSAR-X Radargrammetric DEM, ALOS World 3D-30m.
+  Copernicus Programme provides Copernicus DEM in 3 different instances: COP-DEM EEA-10, COP-DEM GLO-30 and COP-DEM GLO-90 where 
+  "COP-DEM GLO-90" tiles and most of the "COP-DEM GLO-30 " tiles are available worldwide with free license.
+  Sentinel Hub provides two instances named COPERNICUS_90 which uses "COP-DEM GLO-90" and COPERNICUS_30 which uses "COP-DEM GLO-30 Public"
+  and "COP-DEM GLO-90" in areas where "COP-DEM GLO-30 Public" tiles are not yet released to the public by Copernicus Programme.
+  Copernicus DEM provides elevation data and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/d3v1)"
+Image: copernicus-dem/copernicus-dem.png
+Resolution: 30m and 90m 
+GeographicalCoverage: Land ([more info](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198)) under "Area of Interest"
+TemporalAvailability: static product(two releases 2019 & 2020) for data acquired in (2011-2015)
+UpdateFrequency: Updated as soon as new release is available publicly
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Copernicus](https://copernicus.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - DEM
+  - terrain
+  - 3D
+  - elevation
+  - orthorectification
+  - open data
+License: |
+  [License](https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399) (Pages 15-20)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: DEM
+    Notes: Global 
+CustomScripts:
+    Title: Collection of DEM custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#dem
+
+
+RegistryEntryAdded: "2020-11-30"
+RegistryEntryLastModified: "2021-04-09"

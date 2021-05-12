@@ -1,0 +1,42 @@
+Name: Landsat - 8 L1
+Description: |
+  [Landsat -8 mission](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) 
+  is the most recent satellite of the Landsat program and it carries OLI(Operational Land Imager) and TIRS(Thermal Infrared Sensor) instruments onboard. 
+  OLI acquires data in the visible, near and short wave infrared regions while TIRS acquires data in the thermal region to provide essential information
+  for monitoring our natural resources and environment.
+  [Landsat 8 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
+  from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
+  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013. 
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"  
+Image: landsat-8-l1/landsat-8-l1.png  
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/abtC)"
+Resolution: 30m 
+GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
+TemporalAvailability: February 2013 - ongoing
+UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[USGS](https://www.usgs.gov//)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"                    
+Tags:
+  - core collection
+  - satellite imagery
+  - natural resource
+  - vegetation monitoring
+  - LULC mapping
+  - LULC change
+  - surface temperature
+  - open data
+License: |
+   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: LOTL1
+    Notes: Global since Feb 2013
+CustomScripts:
+    Title: Collection of Landsat -8 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#landsat-8
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-08"

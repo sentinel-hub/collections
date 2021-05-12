@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> header isDetail=true}}
+
+    <h1>{{Name}}</h1>
+    <p>{{#each Tags}}
+      {{#isEqual . 'aws-pds'}}{{else}}<span class="label label-info{{#isEqual . 'sustainability'}}-sustainability{{else}}{{/isEqual}} tag link-tag">{{.}}</span>{{/isEqual}}
+  {{/each}}
+    </p>
+    <div class="row">
+      <div class="col-md-6">
+      <h3>Description</h3>
+      <p>{{{md Description}}}</p>
+
+      {{#if Documentation}}
+      <h4>Documentation</h4>
+      <p>{{{md Documentation}}}</p>
+      {{/if}}
+
+      {{#if ViewOnEOBrowser}}
+      <h4>View on EO Browser</h4>
+      <p>{{{md ViewOnEOBrowser}}}</p>
+      {{/if}}
+
+       {{#if ViewOnFlickr}}
+      <h4>View on Flickr</h4>
+      <p>{{{md ViewOnFlickr}}}</p>
+      {{/if}}
+      
+      {{#if AdditionalInfo}}
+      <h4>Additional info</h4>
+      <p>{{{md AdditionalInfo}}}</p>
+      {{/if}}    
+      
+      {{#if AdditionalInfoExternal}}
+      <h4>Additional info</h4>
+      <p>{{{mdExternal AdditionalInfoExternal}}}</p>
+      {{/if}}      
+      
+      <h4>Resolution</h4>
+      <p>{{{md Resolution}}}</p>
+      
+      <h4>Geographical coverage</h4>
+      <p>{{{md GeographicalCoverage}}}</p>
+      
+      <h4>Temporal availability</h4>
+      <p>{{{md TemporalAvailability}}}</p>
+      
+      <h4>Update Frequency</h4>
+      <p>{{{md UpdateFrequency}}}</p>
+
+      {{#if BandInformation}}
+      <h4>Band Information</h4>
+      {{{tabelaricRenderer BandInformation}}}
+      {{/if}}
+      
+      {{#if CustomScripts}}
+      <h4>Custom scripts</h4>
+      {{{urlListRenderer CustomScripts}}}
+      {{/if}}
+
+      <h4>License</h4>
+      <p>{{{md License}}}</p>
+
+      {{#if Provider}}
+      <h4>Provider</h4>
+      <p>{{{managedByRenderer Provider}}}</p>
+      {{/if}}
+
+      {{#if ManagedBy}}
+      <h4>Managed By</h4>
+      <p>{{{managedByRenderer ManagedBy}}}</p>
+      <p>See all datasets managed by <a href="{{managedByLink}}">{{managedByName}}</a>.</p>
+      {{/if}}
+
+      <h4>Contact</h4>
+      <p>{{{md Contact}}}</p>
+
+      {{#if DataAtWork}}
+      <h4 name="usageexamples">Usage Examples</h4>
+        {{#if DataAtWork.Tutorials}}
+        <h5 class="dataatwork-category">Tutorials</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Tutorials}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName Services=Services}}
+        {{/each}}
+        </ul>
+        {{/if}}
+        {{#if DataAtWork.Tools}}
+        <h5 class="dataatwork-category">Tools & Applications</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Tools}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName}}
+        {{/each}}
+        </ul>
+        {{/if}}
+        {{#if DataAtWork.Publications}}
+        <h5 class="dataatwork-category">Publications</h5>
+        <ul class="dataatwork-list">
+        {{#each DataAtWork.Publications}}
+          {{> detailList URL=URL Title=Title AuthorURL=AuthorURL AuthorName=AuthorName}}
+        {{/each}}
+        </ul>
+        {{/if}}
+      {{/if}}
+
+      {{#if Metadata}}
+      <h4>More Information</h4>
+      <table class="table table-condensed table-bordered table-hover">
+        {{#each Metadata as |value key|}}
+        <tr>
+          <th>{{key}}</th>
+          <td>{{value}}</td>
+        </tr>
+        {{/each}}
+      </table>
+      {{/if}}
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <h3>Resources</h3>
+      <ul class="resource-list">
+        {{#each Resources}}
+        <li>
+          <dl class="resource-list">
+            {{#if EndPoint}}
+            <dt class="resource-arn">End point</dt>
+            <dd><code>{{EndPoint}}</code></dd>
+            {{/if}}
+            {{#if Type}}
+            <dt class="resource-host">Type</dt>
+            <dd><code>{{Type}}</code></dd>
+            {{/if}}
+            {{#if CollectionId}}
+            <dt class="resource-host">collectionId</dt>
+            <dd><code>{{CollectionId}}</code></dd>
+            {{/if}}
+            {{#if Notes}}
+            <dt class="resource-description">Notes</dt>
+            <dd class="resource-description">{{{md Notes}}}</dd>
+            {{/if}}            
+            {{#isEqual Type 'S3 Bucket'}}
+            {{#unless ControlledAccess}}
+            <dt class="resource-region"><a href="https://aws.amazon.com/cli/">AWS CLI</a> Access{{#unless RequesterPays}} (No AWS account required){{/unless}}</dt>
+            <dd><code>aws s3 ls s3://{{{arnToBucket ARN}}} {{#if RequesterPays}}--request-payer requester{{else}}--no-sign-request{{/if}}</code></dd>
+            {{/unless}}
+            {{/isEqual}}
+            {{#if Explore}}
+            <dt class="resource-explore">Explore</dt>
+            {{#each Explore}}
+            <dd>{{{md .}}}</dd>
+            {{/each}}
+            {{/if}}
+          </dl>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+
+  {{> footer isDetail=true}}
+
+  <script src="{{rootUrl}}js/tags.js"></script>

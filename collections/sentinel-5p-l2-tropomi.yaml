@@ -1,0 +1,48 @@
+Name: Sentinel-5P L2
+Description: |
+ The Copernicus [Sentinel-5 Precursor mission](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p) dedicated to monitoring our atmosphere,
+ consists of one satellite carrying the TROPOspheric Monitoring Instrument (TROPOMI) instrument.  Sentinel-5 Precursor mission aims to fill in
+ global atmospheric data gap between the retired ENVISAT and AURA missions and the future Sentinel -5 mission.The main objective of TROPOMI is 
+ provide daily global observations of key atmospheric constituents related to air quality, ozone layer and climate change monitoring and forecasting. 
+ Level 2 data provide total columns of ozone, sulfur dioxide, nitrogen dioxide, carbon monoxide, formaldehyde, tropospheric columns of ozone, 
+ vertical profiles of ozone and cloud & aerosol information. Level 2 data are available since April 2018.
+ These measurements are used  for improving air quality forecasts as well as for monitoring the concentrations of atmospheric constituents.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/)"
+Image: sentinel-5p-l2-tropomi/sentinel-5p-l2-tropomi.png   
+ViewOnEOBrowser: "Nitrogen Dioxide on [EO Browser](https://sentinelshare.page.link/GQwM)"
+Resolution:  5.5 km x 3.5 km since August 6th in 2019, 7.0 km x 3.5 km at beginning of mission [more info](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ozone)
+GeographicalCoverage: Ocean and Land ([more info](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p/geographical-coverage))
+TemporalAvailability: April 2018 - ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Copernicus](https://copernicus.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - aerosols
+  - air quality
+  - Climate  change
+  - Ozone 
+  - forecasting
+  - N02
+  - open data
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use)
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: S5PL2
+    Notes: Global since May 2018
+  - EndPoint: shservices.mundiwebservices.com
+    Type: S5PL2
+    Notes: Global since May 2018
+  - EndPoint: code-de.sentinel-hub.com
+    Type: S5PL2
+    Notes: Germany since May 2018
+CustomScripts:
+    Title: Collection of Sentinel-5P custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-06"

@@ -1,0 +1,3 @@
+redirects:
+  - source: /tag/example/index.html
+    target: /tag/another_example/index.html

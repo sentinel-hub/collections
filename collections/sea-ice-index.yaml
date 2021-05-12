@@ -1,0 +1,46 @@
+Name: Sea Ice Index
+Description: |
+  [Sea Ice Index](https://nsidc.org/data/G02135/versions/3) products offer information about ice cover and its trends in the Arctic and Antarctica.
+   In this collection, sea ice extent and concentration maps are provided at a resolution of 25 km on a daily basis.
+   The products are computed using images from the Special Sensor Microwave Imager (SSM/I) and 
+   Special Sensor Microwave Imager/Sounder (SSMIS) instruments on Defense Meteorological Satellite Program (DMSP)
+   satellites. Sea ice concentrations are generated from 
+   [brightness temperature data](https://nsidc.org/data/nsidc-0051). Sea ice extent is computed as areas covered by ice
+    with a concentration greater than 15 percent. This dataset is for demonstration purposes only and is not maintained.
+
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: sea-ice-index/README.MD
+Image: sea-ice-index/sea-ice.png
+Resolution: 25km
+GeographicalCoverage: Longitude from 180°W to 180°E and latitude from 39.23°N to 90°N and 30.98°S to 90°S.
+TemporalAvailability: 2017 - May 2021
+UpdateFrequency: None. For demonstration purposes only.
+BandInformation:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: Concentration
+        Description: percentage of ice cover for cells with more than 15 percent ice cover
+      - Name: Extent
+        Description: extent of ocean covered by ice at any concentration greater than 15 percent for a given day
+
+Contact: "NSIDC User Services: nsidc@nsidc.org"
+Provider: "[National Snow & Ice Data Center (NSIDC)](https://nsidc.org/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - climate change
+  - open data
+License: |
+  These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html.
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785
+    CollectionId: 10549890-13bb-4ec5-8ae0-df387bd0b785
+
+RegistryEntryAdded: "2021-05-11"
+RegistryEntryLastModified: "2021-05-11"

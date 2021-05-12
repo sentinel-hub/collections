@@ -1,0 +1,35 @@
+<div class="about col-md-5">
+  <div class="row aboutbox">
+    <h3>About</h3>
+    <p>This registry exists to help people discover and share collections that are available via Sentinel Hub. </p>
+
+    {{#if tag}}
+    <p>See <a href="{{rootUrl}}tag/{{tagURL}}/usage-examples">all usage examples for collections listed in this registry</a> tagged with <strong>{{tag}}</strong>.</p>
+    {{else}}
+    <p>See <a href="{{rootUrl}}usage-examples">all usage examples for collections listed in this registry</a>.</p>
+    {{/if}}
+
+    <hr>
+
+    <h4>Search collections (currently <span id="count-matching">13</span> matching <span id="count-matching-text">collections</span>)</h4>
+    <form>
+      <div class="form-group">
+        <input type="text" id="search-box" class="form-control" placeholder="Search collections" spellcheck="false" autocorrect="off">
+      </div>
+    </form>
+    {{#if tag}}<p>You are currently viewing a subset of data tagged with <strong>{{tag}}</strong>.</p>{{/if}}
+
+    <hr>
+
+    <div >
+        <p><a href="https://collections.eurodatacube.com/">
+          <img src="{{rootUrl}}img/external/edc_banner.png" alt="banner" width="490" />
+         </a></p> 
+    </div>
+
+    <h4>Add to this registry</h4>
+    <p>If you want to add a collection or example of how to use a collection to this registry, please follow the instructions on the <a href="https://github.com/{{githubRepo}}">Sentinel Hub Public Collections GitHub repository</a>.</p>
+
+    <p>Unless specifically stated in the applicable collection's documentation, collections available through the Sentinel Hub Public Collections are not provided and maintained by Sentinel Hub. Collections are provided and maintained by a variety of third parties under a variety of licenses. Please check collection licenses and related documentation to determine if a collection may be used for your application.</p>
+  </div>
+</div>

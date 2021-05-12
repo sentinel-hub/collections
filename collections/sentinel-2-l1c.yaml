@@ -1,0 +1,49 @@
+Name: Sentinel-2 L1C
+Description: |
+  The [Sentinel-2 mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is
+  a land monitoring constellation of two satellites that provide high resolution
+  optical imagery and provide continuity for the current SPOT and Landsat missions.
+  The mission provides a global coverage of the Earth's land surface every 5 days,
+  making the data of great use in on-going studies. L1C data are available from
+  June 2015 globally. L1C data provide Top of the atmosphere (TOA) reflectance.
+Image: sentinel-2-l1c/sentinel-2-l1c.png
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/)"
+ViewOnEOBrowser: "[EO Browser](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S2L1C&fromTime=2021-03-31T00%3A00%3A00.000Z&toTime=2021-03-31T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F42924c6c-257a-4d04-9b8e-36387513a99c)"
+Resolution: 10m
+GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))
+TemporalAvailability: 2015 - ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Copernicus](https://copernicus.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - multi spectral imagery
+  - agriculture
+  - natural resource
+  - disaster response
+  - open data
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: S2L1C
+    Notes: Global since November 2015
+  - EndPoint: creodias.sentinel-hub.com
+    Type: S2L1C
+    Notes: Global since November 2015
+  - EndPoint: code-de.sentinel-hub.com
+    Type: S2L1C
+    Notes: Germany since July 2015
+  - EndPoint: shservices.mundiwebservices.com
+    Type: S2L1C
+    Notes: Europe coverage since July 2015. Rolling policy of 12 months for World.
+CustomScripts:
+    Title: Collection of Sentinel-2 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-03-21"

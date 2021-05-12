@@ -1,0 +1,41 @@
+Name: Pleiades
+Description: |
+  [Pleiades](https://www.intelligence-airbusds.com/en/8692-pleiades) is a satellite constellation providing very high-resolution optical imagery
+  with  daily revisit capability to any point on the globe  and 
+  is owned by [Airbus](https://www.intelligence-airbusds.com/). Pleaiades constellation is composed of twin satellites Pleiades 1A and Pleiades 1B,
+  which share the orbit with SPOT satellites, which makes it possible to combine the data from both sources.
+  Pleiades offers both tasking capability and imagery archive of tasked acquisitions.
+  Sentinel Hub offers a possibility to purchase, order and access Pleiades imagery archive which is available globally since 2011.
+  Sentinel Hub provides Pleiades images in  Top of the atmosphere (TOA) reflectance.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/)"
+Image: pleiades/pleiades.png 
+ViewOnFlickr: "[Flickr](https://www.flickr.com/photos/sentinelhub/albums/72157717855313958)"
+Resolution: 0.5 m for panchromatic band and 2 m for multispectral bands.
+GeographicalCoverage:  ([more info](https://www.intelligence-airbusds.com/en/8692-pleiades))
+TemporalAvailability: December 2011 - ongoing
+UpdateFrequency:  data is not acquired systematically, data acquisition is tasked
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Airbus](https://www.airbus.com//)"
+ManagedBy: "[Airbus](https://www.airbus.com/)"
+Tags:
+  - very  high resolution imagery
+  - satellite imagery
+  - commercial data
+  - multi spectral imagery
+  - urban mapping
+  - defense
+  - disaster response
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user5
+CustomScripts:
+    Title: Collection of Pleiades custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#airbus_pleiades
+
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-04-14"

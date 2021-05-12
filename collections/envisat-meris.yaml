@@ -1,0 +1,116 @@
+Name: ENVISAT MERIS
+Description: |
+  The purpose of the Medium Resolution Imaging Spectrometer (MERIS) on the [ESA](http://www.esa.int/) ENVISAT mission was primarily,
+  to aid in Ocean Colour Observations, and secondary, to aid the understanding of the atmospheric 
+  parameters associated with clouds, water vapour and aerosols.
+  Additionally, MERIS broadened its scope to land surface parameters, in particular, vegetation processes. 
+  Therefore, MERIS  monitors changes in ocean parameters (phytoplankton, yellow substance, suspended matter), 
+  atmosphere (water vapour, CO2, clouds, aerosols), and land (vegetation index, global coverage, moisture etc.).
+  MERIS has a high spectral and radiometric resolution and a dual spatial resolution of 260m x 290m over land and coastal regions  and reduced resolution of 1040m x 1160m over ocean. 
+  It acquires data with 3 days revisit time and in  15 spectral bands whose width and location can be programmed by ground command.
+  The data is available from June 2002 to April 2012. 
+Documentation: "[Explore Meris](https://earth.esa.int/eogateway/instruments/meris)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/ME3o)"
+Image: envisat-meris/envisat-meris.png
+Resolution: |
+ **Full resolution** : 260m across, 290m along track  
+ **Reduced resolution**: 1040m across, 1160m along track
+GeographicalCoverage: |
+  Ocean and Land  
+  90 N, -90 S, -180 W, 180 E
+TemporalAvailability: June 2002 - April 2012
+UpdateFrequency: Archived data
+BandInformation:
+  Table:
+      Columns:
+        - Name: Band 
+          Title: Band 
+        - Name: Centre Wavelength(nm)
+          Title: Centre Wavelength(nm) 
+        - Name: Bandwidth(nm)
+          Title: Bandwidth(nm)
+        - Name: Application
+          Title: Application       
+      Rows:
+        - Band: B01
+          Centre Wavelength(nm): "412.5"
+          Bandwidth(nm): "10"
+          Application: Yellow substance and detrital pigments 
+        - Band: B02
+          Centre Wavelength(nm): "442.5"
+          Bandwidth(nm): "10"
+          Application: Chlorophyll absorption maximum 
+        - Band: B03
+          Centre Wavelength(nm): "490"
+          Bandwidth(nm): "10"
+          Application: Chlorophyll and other pigments 
+        - Band: B04
+          Centre Wavelength(nm): "510"
+          Bandwidth(nm): "10"
+          Application: Suspended sediment, red tides 
+        - Band: B05
+          Centre Wavelength(nm): "560"
+          Bandwidth(nm): "10"
+          Application: Chlorophyll absorption minimum 
+        - Band: B06
+          Centre Wavelength(nm): "620"
+          Bandwidth(nm): "10"
+          Application: Suspended sediments
+        - Band: B07
+          Centre Wavelength(nm): "665"
+          Bandwidth(nm): "10"
+          Application: Chlorophyll absorption and fluorescence reference
+        - Band: B08
+          Centre Wavelength(nm): "681.25 "
+          Bandwidth(nm): "7.5"
+          Application: Chlorophyll fluorescence peak
+        - Band: B09
+          Centre Wavelength(nm): "708.75"
+          Bandwidth(nm): "10"
+          Application: Fluorescence reference, atmospheric corrections
+        - Band: B10
+          Centre Wavelength(nm): "753.75"
+          Bandwidth(nm): "7.5"
+          Application: Vegetation, cloud
+        - Band: B11
+          Centre Wavelength(nm): "760.625 "
+          Bandwidth(nm): "3.75"
+          Application: Oxygen absorption R-branch
+        - Band: B12
+          Centre Wavelength(nm): "778.75"
+          Bandwidth(nm): "15"
+          Application: Atmosphere corrections  
+        - Band: B13
+          Centre Wavelength(nm): "865"
+          Bandwidth(nm): "20"
+          Application: 	Vegetation, water vapour reference 
+        - Band: B14
+          Centre Wavelength(nm): "885"
+          Bandwidth(nm): "10"
+          Application: Atmosphere corrections  
+        - Band: B15
+          Centre Wavelength(nm): "900"
+          Bandwidth(nm): "10"
+          Application: Water vapour, land 
+      
+Contact: https://forum.sentinel-hub.com
+Provider: "[ESA](http://www.esa.int/)" 
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - open data
+  - aerosols
+  - oceans
+  - Atmosphere
+  - agriculture
+License: |
+  All Envisat MERIS products, in accordance with ESA Earth Observation Data Policy, are freely available to users. [ T & C](https://earth.esa.int/pi/esa?type=file&table=aotarget&cmd=image&id=122)
+Resources:
+  - EndPoint: https://eocloud.sentinel-hub.com/ogc/wms/
+    Type: ENVISAT
+    Notes: "Configure your layers with ENVISAT here: http://apps.eocloud.sentinel-hub.com/wms-configurator/"
+  - Notes: " <a href = 'mailto: info@sentinel-hub.com'>contact us</a> to create an account at eocloud entry point."
+
+RegistryEntryAdded: "2018-04-17"
+RegistryEntryLastModified: "2021-05-12"

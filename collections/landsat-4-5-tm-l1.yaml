@@ -1,0 +1,36 @@
+Name: Landsat 4-5 TM L1
+Description: |
+ The Landsat Thematic Mapper (TM) sensor was carried onboard Landsats 4 and 5. 
+ TM collected data in 7 spectral bands; from  the blue, green, red, near-infrared, mid-infrared (2)  and  thermal infrared portions of the electromagnetic spectrum.
+ Visit [USGS EROS Archive - Landsat Archives - Landsat 4-5 Thematic Mapper Collection 2 Level-1 Data](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-4-5-thematic-mapper-collection-2?qt-science_center_objects=0#qt-science_center_objects) webpage
+ for more information.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-tm/#available-bands-and-data)"
+Image: landsat-4-5-tm-l1/landsat-4-5-tm-l1.png 
+Resolution: 30 m (the thermal band is re-sampled from 120 m)
+GeographicalCoverage: Global Land
+TemporalAvailability: |
+  Landsat 4 from July 1982 to December 1993  
+  Landsat 5 from March 1984 to May 2012
+UpdateFrequency: Archived data
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[USGS](https://www.usgs.gov//)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - natural resource
+  - vegetation monitoring
+  - LULC mapping
+  - LULC change
+  - surface temperature
+  - open data
+License: |
+  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: LTML1
+    Notes: Global coverage from July 1982 to May 2012
+
+RegistryEntryAdded: "2021-05-12"
+RegistryEntryLastModified: "2021-05-12"

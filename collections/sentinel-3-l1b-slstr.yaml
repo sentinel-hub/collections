@@ -33,7 +33,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: S3SLSTR
+    Type: sentinel-3-slstr (previously S3SLSTR)
     Notes: Global since May 2016
   - EndPoint: code-de.sentinel-hub.com
     Type: S3SLSTR

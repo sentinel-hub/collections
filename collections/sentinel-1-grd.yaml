@@ -30,7 +30,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)
 Resources:
   - EndPoint: services.sentinel-hub.com
-    Type: S1GRD
+    Type: sentinel-1-grd (previously S1GRD)
     Notes: Global since January 2017
   - EndPoint: eocloud.sentinel-hub.com
     Type: S1GRD

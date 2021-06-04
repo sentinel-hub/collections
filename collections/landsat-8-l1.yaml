@@ -31,7 +31,7 @@ License: |
    [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: LOTL1
+    Type: landsat-ot-l1 (previously LOTL1)
     Notes: Global since Feb 2013
 CustomScripts:
     Title: Collection of Landsat -8 custom scripts

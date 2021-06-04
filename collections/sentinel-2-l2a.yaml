@@ -29,7 +29,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
 Resources:
   - EndPoint: services.sentinel-hub.com
-    Type: S2L2A
+    Type: sentinel-2-l2a (previously S2L2A)
     Notes: 	Europe since November 2016, Global since January 2017
   - EndPoint: shservices.mundiwebservices.com
     Type: S2L2A

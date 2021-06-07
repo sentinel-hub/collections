@@ -29,10 +29,10 @@ License: |
   [License](https://www.mapzen.com/terms/)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: DEM
+    Type: dem (previously DEM)
     Notes: Global 
   - EndPoint: services.sentinel-hub.com
-    Type: DEM
+    Type: dem (previously DEM)
     Notes: Global coverage up to resolution level 13 (level 14 is missing).
 CustomScripts:
     Title: Collection of DEM custom scripts

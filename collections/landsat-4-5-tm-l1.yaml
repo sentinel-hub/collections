@@ -29,7 +29,7 @@ License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: LTML1
+    Type: landsat-tm-l1 (previously LTML1) 
     Notes: Global coverage from July 1982 to May 2012
 
 RegistryEntryAdded: "2021-05-12"

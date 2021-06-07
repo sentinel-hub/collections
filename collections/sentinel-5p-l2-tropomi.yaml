@@ -31,7 +31,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use)
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: S5PL2
+    Type: sentinel-5p-l2 (previously S5PL2)
     Notes: Global since May 2018
   - EndPoint: shservices.mundiwebservices.com
     Type: S5PL2

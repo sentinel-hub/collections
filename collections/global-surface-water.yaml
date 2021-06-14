@@ -1,13 +1,13 @@
 Name: Global Surface Water
-Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2019 at the global scale.
+Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2020 at the global scale.
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
 Image: global-surface-water/global-surface-water.png  
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
-TemporalAvailability: Suface water dynamics between 1984 and 2019
-UpdateFrequency: None 
+TemporalAvailability: 1984 - 2019, 1984 - 2020
+UpdateFrequency: Annual revision
 BandInformation:
  Table:
       Columns:
@@ -17,17 +17,17 @@ BandInformation:
           Title: Description  
       Rows:
         - Name: Occurrence
-          Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2019.
+          Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
         - Name: Occurrence Change Intensity
-          Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2019.
+          Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2020.
         - Name: Seasonality
-          Description: Intra-annual distribution of surface water in 2019.
+          Description: Intra-annual distribution of surface water in the particular review year.
         - Name: Recurrence
-          Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2019.
+          Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2020.
         - Name: Transitions
-          Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 36-year time period.
+          Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 37-year time period.
         - Name: Extent
-          Description: Maximum extent of surface water bodies in the 36-year time range.
+          Description: Maximum extent of surface water bodies in the 37-year time range.
 Contact: "[Global Surface Water Explorer Contact](https://global-surface-water.appspot.com/)"
 Provider: "[European Commission, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -49,4 +49,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2021-04-19"
+RegistryEntryLastModified: "2021-06-14"

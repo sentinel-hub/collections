@@ -16,7 +16,7 @@ ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/fzXz)"
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 TemporalAvailability: 2015 - ongoing 
-UpdateFrequency: Annualy.
+UpdateFrequency: Annually
 BandInformation: 
   Table:
       Columns:
@@ -72,4 +72,4 @@ Resources:
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
 
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2021-03-21"
+RegistryEntryLastModified: "2021-06-14"

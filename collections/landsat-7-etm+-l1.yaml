@@ -19,7 +19,7 @@ Tags:
   - vegetation monitoring
   - LULC mapping
   - LULC change
-  - surface temperature
+  - brightness temperature
   - open data
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
@@ -27,6 +27,8 @@ Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: landsat-etm-l1
     Notes: Global coverage since April 1999. All scenes collected since May 30, 2003 have data gaps due to the Scan Line Corrector (SLC) failure.
-
+CustomScripts:
+    Title: Collection of Landsat 5 and 7 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#landsat-57
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-07-20"

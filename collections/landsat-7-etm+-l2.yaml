@@ -27,6 +27,8 @@ Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: landsat-etm-l2
     Notes: Global coverage since April 1999. 
-
+CustomScripts:
+    Title: Collection of Landsat 5 and 7 custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#landsat-57
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-07-20"

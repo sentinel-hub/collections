@@ -1,0 +1,36 @@
+Name: Landsat 1-5 MSS L1
+Description: |
+ The Landsat Multispectral Scanner System (MSS) sensors were carried onboard Landsats 1 to 5. It provides 4 spectral bands.
+ See [USGS EROS Archive](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-1-5-multispectral-scanner-collection?qt-science_center_objects=0#qt-science_center_objects) for more information. MSS Level-1 data provides Top of Atmosphere Reflectance products for the period from July 1972 to October 1992 and from June 2012 to January 2013.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/)"
+Image: landsat-1-5-mss-l1/landsat-1-5-mss-l1.png 
+Resolution: 68 m x 83 m (commonly resampled to 57 m, or 60 m)
+GeographicalCoverage: Global land
+TemporalAvailability: |
+  Landsat 1 from July 1972 to January 1978  
+  Landsat 2 from January 1975 to February 1982  
+  Landsat 3 from March 1978 to March 1983  
+  Landsat 4 from July 1982 to December 1993   
+  Landsat 5 from 1984 to October 1992, and from June 2012 to January 2013
+UpdateFrequency: Archived data
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[USGS](https://www.usgs.gov//)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - natural resource
+  - vegetation monitoring
+  - LULC mapping
+  - LULC change
+  - open data
+License: |
+  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type:  landsat-mss-l1 
+    Notes: Global coverage from July 1972 to October 1992 and from June 2012 to January 2013
+
+RegistryEntryAdded: "2021-07-16"
+RegistryEntryLastModified: "2021-07-20"

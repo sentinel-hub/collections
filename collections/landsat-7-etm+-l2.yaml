@@ -1,0 +1,32 @@
+Name: Landsat 7 ETM+ L2
+Description: |
+ The Landsat 7 Enhanced Thematic Mapper (ETM+) sensor is carried onboard Landsat 7. ETM+ provides 7 spectral bands and 1 thermal band.
+ See [USGS EROS Archive](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-7-etm-plus-collection-2-level-2?qt-science_center_objects=0#qt-science_center_objects) for more information. Landsat 7 level-2 data provides atmospherically corrected Surface Reflectance and Surface Brightness Temperature products. Level-2 data are available since April 1999.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-etm-l2/)"
+Image: landsat-7-etm+-l2/landsat-7-etm+-l2.png 
+Resolution: 30 m (thermal band is re-sampled from 60 m)
+GeographicalCoverage: Global land
+TemporalAvailability: April 1999 - ongoing
+UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-etm-l2/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[USGS](https://www.usgs.gov//)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - core collection
+  - satellite imagery
+  - natural resource
+  - vegetation monitoring
+  - LULC mapping
+  - LULC change
+  - surface temperature
+  - open data
+License: |
+  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: landsat-etm-l2
+    Notes: Global coverage since April 1999. 
+
+RegistryEntryAdded: "2021-07-16"
+RegistryEntryLastModified: "2021-07-20"

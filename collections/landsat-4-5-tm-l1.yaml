@@ -6,6 +6,7 @@ Description: |
  for more information.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-tm/#available-bands-and-data)"
 Image: landsat-4-5-tm-l1/landsat-4-5-tm-l1.png 
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/sPt3)"
 Resolution: 30 m (the thermal band is re-sampled from 120 m)
 GeographicalCoverage: Global Land
 TemporalAvailability: |
@@ -33,4 +34,4 @@ Resources:
     Notes: Global coverage from July 1982 to May 2012
 
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-05-12"
+RegistryEntryLastModified: "2021-07-20"

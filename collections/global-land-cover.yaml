@@ -70,6 +70,8 @@ Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-
+CustomScripts:
+    Title: Collection of Copernicus services data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-03-20"
 RegistryEntryLastModified: "2021-06-14"

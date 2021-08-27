@@ -31,8 +31,8 @@ License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: landsat-tm-l2 (previously LTML2)
+    Type: landsat-tm-l2 
     Notes: Global coverage from July 1982 to May 2012
 
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-07-20"
+RegistryEntryLastModified: "2021-08-27"

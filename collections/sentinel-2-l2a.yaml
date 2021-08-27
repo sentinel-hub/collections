@@ -29,14 +29,14 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
 Resources:
   - EndPoint: services.sentinel-hub.com
-    Type: sentinel-2-l2a (previously S2L2A)
+    Type: sentinel-2-l2a
     Notes: 	Europe since November 2016, Global since January 2017
   - EndPoint: shservices.mundiwebservices.com
-    Type: S2L2A
+    Type: sentinel-2-l2a
     Notes: Europe since July 2016
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
     
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-03-31"
+RegistryEntryLastModified: "2021-08-27"

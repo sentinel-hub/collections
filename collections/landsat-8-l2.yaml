@@ -32,11 +32,11 @@ License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: landsat-ot-l2 (previously LOTL2)
+    Type: landsat-ot-l2 
     Notes: Global since Feb 2013
 CustomScripts:
     Title: Collection of Landsat - 8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-08"
+RegistryEntryLastModified: "2021-08-27"

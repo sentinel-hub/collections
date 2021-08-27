@@ -30,13 +30,13 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)
 Resources:
   - EndPoint: services.sentinel-hub.com
-    Type: sentinel-1-grd (previously S1GRD)
+    Type: sentinel-1-grd 
     Notes: Global since January 2017
   - EndPoint: eocloud.sentinel-hub.com
-    Type: S1GRD
+    Type: sentinel-1-grd
     Notes: Global since October 2014
   - EndPoint: shservices.mundiwebservices.com
-    Type: S1GRD
+    Type: sentinel-1-grd
     Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
@@ -44,4 +44,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-03-31"
+RegistryEntryLastModified: "2021-08-27"

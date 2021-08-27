@@ -33,14 +33,14 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: sentinel-3-slstr (previously S3SLSTR)
+    Type: sentinel-3-slstr 
     Notes: Global since May 2016
   - EndPoint: code-de.sentinel-hub.com
-    Type: S3SLSTR
+    Type: sentinel-3-slstr
     Notes: Germany since May 2016
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-02"
+RegistryEntryLastModified: "2021-08-27"

@@ -34,10 +34,10 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use)
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: sentinel-3-olci (previously S3OLCI)
+    Type: sentinel-3-olci 
     Notes: Global since May 2016
   - EndPoint: code-de.sentinel-hub.com
-    Type: S3OLCI
+    Type: sentinel-3-olci
     Notes: Germany since May 2016
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
@@ -45,4 +45,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-02"
+RegistryEntryLastModified: "2021-08-27"

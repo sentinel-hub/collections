@@ -32,7 +32,8 @@ License: |
   [License](https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399) (Pages 15-20)
 Resources:
   - EndPoint: services.sentinel-hub.com
-    Type: dem (previously DEM) 
+    Type: dem 
+    DemInstance: COPERNICUS_90, COPERNICUS_30
     Notes: Global 
 CustomScripts:
     Title: Collection of DEM custom scripts
@@ -40,4 +41,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-04-09"
+RegistryEntryLastModified: "2021-08-27"

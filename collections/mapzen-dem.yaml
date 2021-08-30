@@ -29,14 +29,16 @@ License: |
   [License](https://www.mapzen.com/terms/)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: dem (previously DEM)
+    Type: dem 
+    DemInstance: MAPZEN
     Notes: Global 
   - EndPoint: services.sentinel-hub.com
-    Type: dem (previously DEM)
+    Type: dem 
+    DemInstance: MAPZEN
     Notes: Global coverage up to resolution level 13 (level 14 is missing).
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-09"
+RegistryEntryLastModified: "2021-08-27"

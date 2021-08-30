@@ -30,7 +30,7 @@ License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
-    Type: modis (previously MODIS) 
+    Type: modis  
     Notes: Global since Feb 2000
 CustomScripts:
     Title: Collection of MODIS custom scripts
@@ -38,4 +38,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-08"
+RegistryEntryLastModified: "2021-08-27"

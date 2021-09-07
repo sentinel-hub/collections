@@ -1,0 +1,96 @@
+Name: Sentinel-2 L2A 120m Mosaic - 2020
+Description: Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, modelled by removing the cloudy pixels and then performing interpolation among remaining values. As there are some parts of the world, which have lengthy cloudy periods, clouds might be remaining in some parts. The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/). In comparison to 2019 data, 2020 data contains 12 Sentinel-2 L2A bands and an additional quality mask generated from an improved interpolation process.
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: sentinel-s2-l2a-mosaic-120-2020/README.MD
+Image: sentinel-s2-l2a-mosaic-120-2020/sentinel-s2-l2a-mosaic-120-2020.png
+Resolution: 120m
+GeographicalCoverage: Land surface area between 58 degrees South and 72 degrees North.
+TemporalAvailability: 2020 ;  2019 data can be found [here](https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120/); past years will be added later
+UpdateFrequency: New data will be added annually.
+BandInformation:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Notes
+          Title: Notes          
+      Rows:
+        - Name: B01
+          Description: Coastal aerosol
+          Notes: DN, typically from 0-10000
+        - Name: B02
+          Description: Blue
+          Notes: DN, typically from 0-10000
+        - Name: B03
+          Description: Green
+          Notes: DN, typically from 0-10000         
+        - Name: B04
+          Description: Red
+          Notes: DN, typically from 0-10000
+        - Name: B05
+          Description: Vegetation red edge
+          Notes: DN, typically from 0-10000
+        - Name: B06
+          Description: Vegetation red edge
+          Notes: DN, typically from 0-10000
+        - Name: B07
+          Description: Vegetation red edge
+          Notes: DN, typically from 0-10000
+        - Name: B08
+          Description: NIR
+          Notes: DN, typically from 0-10000
+        - Name: B8A
+          Description: Narrow NIR
+          Notes: DN, typically from 0-10000
+        - Name: B09
+          Description: Water Vapour
+          Notes: DN, typically from 0-10000
+        - Name: B10
+          Description: Red
+          Notes: DN, typically from 0-10000
+        - Name: B11
+          Description: SWIR
+          Notes: DN, typically from 0-10000
+        - Name: B12
+          Description: SWIR
+          Notes: DN, typically from 0-10000
+        - Name: QM
+          Description: QualityMask
+          Notes: DN, 0 - Ok; 1 - no data; 2 - interpolation failed
+Contact:  https://forum.sentinel-hub.com  
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - satellite imagery
+  - multi spectral imagery
+  - machine learning
+  - agriculture
+  - open data
+License: "CC-BY 4.0, Credit: Contains modified Copernicus data [year] processed by Sentinel Hub"
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: byoc-484d8dbb-9e3e-41f2-b96b-35189d3ae37f
+    CollectionId: 484d8dbb-9e3e-41f2-b96b-35189d3ae37f
+    Notes: Global data for 2020
+
+DataAtWork:
+  Tutorials:
+    - Title: How to Make the Perfect Time-Lapse of the Earth
+      URL: https://medium.com/sentinel-hub/how-to-make-the-perfect-time-lapse-of-the-earth-351f214527f6
+      AuthorName: Lubej M.
+      AuthorURL: https://medium.com/@lubej.matic
+  Tools & Applications:
+    - Title: Digital Twin Sandbox
+      URL: https://apps.sentinel-hub.com/digital_twin_sandbox
+      AuthorName: Sentinel Hub
+      AuthorURL: http://www.sentinel-hub.com/
+  Publications:
+    - Title: Digital Twin Sandbox Sentinel-2 collection available to everyone
+      URL: https://medium.com/sentinel-hub/digital-twin-sandbox-sentinel-2-collection-available-to-everyone-20f3b5de846e
+      AuthorName: Milcinski G., Lubej M.
+
+RegistryEntryAdded: "2021-09-06"
+RegistryEntryLastModified: "2021-09-06"

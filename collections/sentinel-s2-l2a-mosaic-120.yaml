@@ -1,4 +1,4 @@
-Name: Sentinel-2 L2A 120m Mosaic
+Name: Sentinel-2 L2A 120m Mosaic - 2019
 Description: Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, modelled by removing the cloudy pixels and then performing interpolation among remaining values. As there are some parts of the world, which have lengthy cloudy periods, clouds might be remaining in some parts. The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/). 
 AdditionalInfoExternal:
     Title: Additional info 
@@ -6,7 +6,7 @@ AdditionalInfoExternal:
 Image: sentinel-s2-l2a-mosaic-120/sentinel-s2-l2a-mosaic-120.png
 Resolution: 120m
 GeographicalCoverage: Land surface area between 58 degrees South and 72 degrees North.
-TemporalAvailability: 2019 (2020 coming in April 2021, past years later on)
+TemporalAvailability: 2019; 2020 data can be found [here](https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120-2020/)
 UpdateFrequency: New data will be added annually.
 BandInformation:
   Table:

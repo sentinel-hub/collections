@@ -56,7 +56,7 @@ BandInformation:
           Notes: DN, typically from 0-10000
         - Name: QM
           Description: QualityMask
-          Notes: DN, from 0-3; OK if larger than 0. More info under the additional info field.
+          Notes: DN, from 0-3; OK if larger than 0. Additional info <a href="https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120/readme.html">here</a>.
 Contact:  https://forum.sentinel-hub.com
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

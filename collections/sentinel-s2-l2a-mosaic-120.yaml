@@ -6,9 +6,7 @@ AdditionalInfoExternal:
 Image: sentinel-s2-l2a-mosaic-120/sentinel-s2-l2a-mosaic-120.png
 Resolution: 120m
 GeographicalCoverage: Land surface area between 58 degrees South and 72 degrees North.
-TemporalAvailability: >
-2020 (past years will be added later)
-old 2019 data results can be found [here](https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120/sentinel-2-l2a-120m-mosaic-2019.html)
+TemporalAvailability: 2020 (past years will be added later); old 2019 data results can be found [here](https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120/sentinel-2-l2a-120m-mosaic-2019.html).
 UpdateFrequency: New data will be added annually.
 BandInformation:
   Table:
@@ -58,15 +56,7 @@ BandInformation:
           Notes: DN, typically from 0-10000
         - Name: QM
           Description: QualityMask
-          Notes: DN, 0 - no data; 1 - interpolation passed; 2 - artificially raised value; 3 - interpolation failed
-  QM (Quality Mask) Details: |
-    - 0: no data; areas where no valid observations have been found
-    - 1: interpolation passed; areas where the interpolation process successfully finished
-    - 2: artificially raised value; some/all bands' DN values here were raised from 0 to 1 so that these areas are not confused with `NO_DATA` areas
-    - 3: interpolation failed; usually this happens if it's detected that clouds are always present - the values is set to max of bands' values, which is 10000
-
-    ### Instructions
-    All values larger than 0 are deemed as OK, so it is suggested to use the `QM` band in the following way for selecting valid areas: `QM != 0`
+          Notes: DN, from 0-3; OK if larger than 0. More info under the additional info field.
 Contact:  https://forum.sentinel-hub.com
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

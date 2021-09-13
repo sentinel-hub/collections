@@ -60,13 +60,13 @@ BandInformation:
           Description: QualityMask
           Notes: DN, 0 - no data; 1 - interpolation passed; 2 - artificially raised value; 3 - interpolation failed
   QM (Quality Mask) Details: |
-  - 0: no data; areas where no valid observations have been found
-  - 1: interpolation passed; areas where the interpolation process successfully finished
-  - 2: artificially raised value; some/all bands' DN values here were raised from 0 to 1 so that these areas are not confused with `NO_DATA` areas
-  - 3: interpolation failed; usually this happens if it's detected that clouds are always present - the values is set to max of bands' values, which is 10000
+    - 0: no data; areas where no valid observations have been found
+    - 1: interpolation passed; areas where the interpolation process successfully finished
+    - 2: artificially raised value; some/all bands' DN values here were raised from 0 to 1 so that these areas are not confused with `NO_DATA` areas
+    - 3: interpolation failed; usually this happens if it's detected that clouds are always present - the values is set to max of bands' values, which is 10000
 
-  ### Usage
-  It is suggested to use the `QM` band in the following way for selecting valid areas: `QM != 0`
+    ### Instructions
+    All values larger than 0 are deemed as OK, so it is suggested to use the `QM` band in the following way for selecting valid areas: `QM != 0`
 Contact:  https://forum.sentinel-hub.com
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

@@ -1,4 +1,4 @@
-# Sentinel-2 L2A 120m Mosaic 
+# Sentinel-2 L2A 120m Mosaic
 
 ## Short description
 
@@ -7,13 +7,13 @@ Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel value
 ## Band information  
 Sentinel-2 L2A 120m mosaic contains 12 Sentinel 2 L2A bands and 1 quality mask. Find more information about sentinel 2 L2A bands [here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data)
 
-## More information  
+## More information
 
 ### Representative Images
 
 ![World mosaic 2020](world_mosaic_2020.png)
 
-*World mosaic, using 2020 Sentinel-2 L2A data.*  
+*World mosaic, using 2020 Sentinel-2 L2A data.*
 
 
 ![World mosaic 2020, blue marble background](world_mosaic_2020_blue_marble.png)

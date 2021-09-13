@@ -22,15 +22,25 @@ All values larger than 0 are deemed as OK, so it is suggested to use the `QM` ba
 
 ## More information
 
-### Representative Images
+### Representative Images and Animations
 
-![World mosaic 2020](world_mosaic_2020.png)
+<img src="world_mosaic_2020.png" alt="World mosaic 2020" width="100%"/>
+<br>
 
 *World mosaic, using 2020 Sentinel-2 L2A data.*
 
+<br>
+<br>
+<img src="world_mosaic_2020_blue_marble.gif" alt="World mosaic 2020, blue marble background" width="100%"/>
+<br>
 
-![World mosaic 2020, blue marble background](world_mosaic_2020_blue_marble.png)
+*World mosaic 2020 animation on blue marble background with sea ice index information*
 
-*World mosaic 2020 on blue marble background with sea ice index information*
+<br>
+<br>
+<img src="world_mosaic_2020_blue_marble_3d.gif" alt="World mosaic 2020, blue marble background" />
+<br>
+
+*World mosaic 2020 3D animation on blue marble background with sea ice index information*
 
 

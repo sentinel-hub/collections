@@ -1,16 +1,16 @@
 # Vegetation Phenology and Productivity Parameters Season 1, Yearly
 
 ## Short description
-  Vegetation Phenology and Productivity Parameters (VPP) product is part of the Copernicus Land Monitoring Service (CLMS), 
-  pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite. 
-  The VPP product is comprised of 13 parameters that describe specific stages of the seasonal vegetation growth cycle. 
-  These parameters are extracted from Seasonal Trajectories of the [Plant Phenology Index(PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) derived from Sentinel-2 satellite observations at 10m resolution. Since growing seasons can traverse years, VPP parameters are provided for a maximum of two growing seasons per year. 
-  The  parameters include (1) start of season (date, PPI value and slope), (2) end of season (date, PPI value and slope), (3)length of season, (4) minimum of season, 
-  (4) peak of the season (date and PPI value), (5) amplitude, (6) small integrated value and (7) large integrated value. 
-  VPP parameters are generated over the EEA39 region on a yearly frequency from January 1 2017 onwards. 
-  Among other applications, the high-resolution phenology data provides a detailed assessment of the impacts of 
-  human or climate change on the ecosystem through monitoring of vegetation responses to disturbances, e.g. droughts, storms, insect infestations, and to human influence from global to local levels. 
-  More information about VPP product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-seasonal-trajectories/)
+Vegetation Phenology and Productivity Parameters (VPP) product is part of the Copernicus Land Monitoring Service (CLMS), 
+pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite. 
+The VPP product is comprised of 13 parameters that describe specific stages of the seasonal vegetation growth cycle. 
+These parameters are extracted from Seasonal Trajectories of the [Plant Phenology Index(PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) derived from Sentinel-2 satellite observations at 10m resolution. Since growing seasons can traverse years, VPP parameters are provided for a maximum of two growing seasons per year. 
+The  parameters include (1) start of season (date, PPI value and slope), (2) end of season (date, PPI value and slope), (3)length of season, (4) minimum of season, 
+(4) peak of the season (date and PPI value), (5) amplitude, (6) small integrated value and (7) large integrated value. 
+VPP parameters are generated over the EEA39 region on a yearly frequency from January 1 2017 onwards. 
+Among other applications, the high-resolution phenology data provides a detailed assessment of the impacts of 
+human or climate change on the ecosystem through monitoring of vegetation responses to disturbances, e.g. droughts, storms, insect infestations, and to human influence from global to local levels. 
+More information about VPP product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-seasonal-trajectories/)
 
 ## Band information
 The available bands include: 13 parameters and QFLAG

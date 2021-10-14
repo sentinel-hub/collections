@@ -97,7 +97,7 @@ The available bands include: 13 parameters and QFLAG
 <img src="sprod-candasnos-spain-2019.PNG" alt="Seasonal Productivity Season 2" width="100%"/>
 <br>
 
-*VSeasonal productivity season 2, 2019, Candasnos Spain.*
+*Seasonal productivity season 2, 2019, Candasnos Spain.*
 
 <br>
 <br>

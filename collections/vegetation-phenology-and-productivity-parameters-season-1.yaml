@@ -1,0 +1,142 @@
+Name: Vegetation Phenology and Productivity Parameters Season 1, Yearly
+Description: |
+  Vegetation Phenology and Productivity Parameters (VPP) product is part of the Copernicus Land Monitoring Service (CLMS), 
+  pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite. 
+  The VPP product is comprised of 13 parameters that describe specific stages of the seasonal vegetation growth cycle. 
+  These parameters are extracted from Seasonal Trajectories of the [Plant Phenology Index(PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) 
+  derived from Sentinel-2 satellite observations at 10m resolution. Since growing seasons can traverse years, VPP parameters are provided for a maximum of two growing seasons per year. 
+  The  parameters include (1) start of season (date, PPI value and slope), (2) end of season (date, PPI value and slope), (3)length of season, (4) minimum of season, 
+  (4) peak of the season (date and PPI value), (5) amplitude, (6) small integrated value and (7) large integrated value. 
+  VPP parameters are generated over the EEA39 region on a yearly frequency from January 1 2017 onwards. 
+  Among other applications, the high-resolution phenology data provides a detailed assessment of the impacts of 
+  human or climate change on the ecosystem through monitoring of vegetation responses to disturbances, e.g. droughts, storms, insect infestations, and to human influence from global to local levels. 
+  More information about VPP product is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-seasonal-trajectories/)
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: vegetation-phenology-and-productivity-parameters-season-1/README.MD 
+Image: vegetation-phenology-and-productivity-parameters-season-1/thumbnail.png       
+Resolution: 10m
+GeographicalCoverage:  Europe  (Lat; 26N, 72N Lon; -25 W 45 E )
+TemporalAvailability: January 1, 2017 - ongoing 
+UpdateFrequency: Annually
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description  
+        - Name: Unit
+          Title: Unit
+        - Name: Sentinel Hub Units
+          Title: Sentinel Hub Units
+        - Name: Digital Range
+          Title: Digital Range   
+        - Name: No data
+          Title: No data                 
+      Rows:
+        - Name: SOSD
+          Description: Day of start-of-season
+          Unit: day-of-year
+          Sentinel Hub Units: DN
+          Digital Range: 16001 - 65365; Format YYDOY 
+          No data: 0
+        - Name: EOSD
+          Description: Day of end-of-season
+          Unit: day-of-year
+          Sentinel Hub Units: DN
+          Digital Range: 16001 - 65365; Format YYDOY 
+          No data: 0
+        - Name: MAXD
+          Description: Day of maximum-of-season
+          Unit: day-of-year
+          Sentinel Hub Units: DN
+          Digital Range: 16001 - 65365; Format YYDOY 
+          No data: 0
+        - Name: SOSV
+          Description: Vegetation index value at SOSD
+          Unit: PPI
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 3 (physical value), 0 to 30000 (DN)
+          No data: 32768
+        - Name: EOSV
+          Description: Vegetation index value at EOSD
+          Unit: PPI
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 3 (physical value), 0 to 30000 (DN)
+          No data: 32768
+        - Name: MAXV
+          Description: Vegetation index value at MAXD
+          Unit: PPI
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 3 (physical value), 0 to 30000 (DN)
+          No data: 32768
+        - Name: MINV
+          Description: Average vegetation index value of minima on left and right sides of each season
+          Unit: PPI
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 3 (physical value), 0 to 30000 (DN)
+          No data: 32768
+        - Name: AMPL
+          Description: Season amplitude (MAXV – MINV)
+          Unit: PPI
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 3 (physical value), 0 to 30000 (DN)
+          No data: 32768
+        - Name: LENGTH
+          Description: Length of Season (number of days between start and end)
+          Unit: day
+          Sentinel Hub Units: DN
+          Digital Range:  1 to 1096
+          No data: 0
+        - Name: LSLOPE
+          Description: Slope of the greening up period
+          Unit: PPI × day-1
+          Sentinel Hub Units: DN
+          Digital Range:  0.01 to 0.5 (physical value), 100 to 5000 (DN)
+          No data: 32768
+        - Name: RSLOPE
+          Description: Slope of the senescent period
+          Unit: PPI × day-1
+          Sentinel Hub Units: DN
+          Digital Range:  0.01 to 0.5 (physical value), 0 to 5000 (DN)
+          No data: 32768
+        - Name: SPROD
+          Description: Seasonal productivity. The growing season integral computed as the sum of all daily values between SOSD and EOSD
+          Unit: PPI × day
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 1095 (physical value), 0 to 10950 (DN)
+          No data: 32768
+        - Name: TPROD
+          Description: Total productivity. The growing season integral computed as sum of all daily values minus their base level value.
+          Unit: PPI × day
+          Sentinel Hub Units: DN
+          Digital Range:  0 to 1095 (physical value), 0 to 10950 (DN)
+          No data: 32768
+        - Name: QFLAG
+          Description: Quality Flag
+          Unit: Dimensionless
+          Sentinel Hub Units: DN
+          Digital Range:  1 to 10; Additional info <a href="https://vegetation-phenology-and-productivity-parameters-season-1/readme.html">here</a>.
+          No data: 0         
+Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - vegetation
+  - agriculture
+  - Plant phenology index 
+  - CLMS
+  - phenology
+  - derived data
+  - open data
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: byoc-67c73156-095d-4f53-8a09-9ddf3848fbb6
+    CollectionId: 67c73156-095d-4f53-8a09-9ddf3848fbb6
+CustomScripts:
+    Title: Collection of Copernicus services data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+RegistryEntryAdded: "2021-10-12"
+RegistryEntryLastModified: "2021-10-12"

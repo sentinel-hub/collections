@@ -54,12 +54,12 @@ The available bands include: 13 parameters and QFLAG
     <tr>
       <td>5</td>
       <td >Low </td>
-      <td>More than 2 clear-sky land observations found during green up</td>
+      <td>More than 2 clear-sky land observations found during green peak</td>
     </tr>
     <tr>
       <td>4</td>
       <td >Low </td>
-      <td>More than 2 clear-sky land observations found during green up</td>
+      <td>More than 2 clear-sky land observations found during green down</td>
     </tr>
     <tr>
       <td>3</td>
@@ -90,18 +90,18 @@ The available bands include: 13 parameters and QFLAG
 <img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 2" width="100%"/>
 <br>
 
-*Vegetation index value at day of start of season 2, 2019, Candasnos Spain.*
+*Vegetation index value at day of maximum of season 2, 2019, Candasnos Spain.*
 
 <br>
 <br>
 <img src="sprod-candasnos-spain-2019.PNG" alt="Seasonal Productivity Season 2" width="100%"/>
 <br>
 
-*Vegetation index value at day of maximum of season 2, 2019, Candasnos Spain.*
+*Seasonal productivity season 2, 2019, Candasnos Spain.*
 
 <br>
 <br>
 <img src="tprod-candasnos-spain-2019.PNG" alt="Total Productivits Season 2" width="100%"/>
 <br>
 
-*Vegetation index value at day of end of season 2, 2019, Candasnos Spain.*
+*Total productivity season 2, 2019, Candasnos Spain.*

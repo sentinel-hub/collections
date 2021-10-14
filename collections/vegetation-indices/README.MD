@@ -24,7 +24,7 @@ FAPAR corresponds to the fraction of photosynthetically active radiation absorbe
 Physical values range from 0 to 1.  
 
 ### Leaf Area Index (LAI)
-LAI is defined as one half of the total  area of photosynthetically active elements of the canopy per unit horizontal ground area. The LAI provided by HRVPP corresponds to actual LAI of all the canopy layers, including all green contributors. Practically, the LAI quantifies the thickness of the vegetation cover.
+LAI is defined as one half of the total  area of photosynthetically active elements of the canopy per unit horizontal ground area. The LAI provided by HRVPP corresponds to actual LAI of all the canopy layers, including all green contributors. Practically, the LAI quantifies the thickness of the vegetation cover.  
 Physical values range from 0 to 8.
 
 ### Quality Flag (QFLAG2)
@@ -130,21 +130,21 @@ Physical values range from 0 to 8.
 
 ### Representative Images 
 
-<img src="south-tyrol-northern-italy-fapar.PNG" alt="FAPAR" width="100%"/>
+<img src="south-tyrol-northern-italy-fapar.png" alt="FAPAR" width="100%"/>
 <br>
 
-*FAPAR August 2019, South Tyrol Northern Italy.*
-
-<br>
-<br>
-<img src="south-tyrol-northern-italy-ndvi.PNG" alt="NDVI" width="100%"/>
-<br>
-
-*NDVI August 2019, South Tyrol Northern Italy.*
+*FAPAR August 1, 2020, South Tyrol Northern Italy.*
 
 <br>
 <br>
-<img src="south-tyrol-northern-italy-ppi.PNG" alt="PPI" width="100%"/>
+<img src="south-tyrol-northern-italy-ndvi.png" alt="NDVI" width="100%"/>
 <br>
 
-*PPI August 2019, South Tyrol Northern Italy.*
+*NDVI August 1, 2020, South Tyrol Northern Italy.*
+
+<br>
+<br>
+<img src="south-tyrol-northern-italy-ppi.png" alt="PPI" width="100%"/>
+<br>
+
+*PPI August 1, 2020, South Tyrol Northern Italy.*

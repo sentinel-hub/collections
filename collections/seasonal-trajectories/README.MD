@@ -53,7 +53,8 @@ The available bands include: PPI and QFLAG
       <td>The time series was not processed</td>
     </tr>
    </tbody>
-</table>
+</table>  
+
 ## More information
 
 ### Representative Images 

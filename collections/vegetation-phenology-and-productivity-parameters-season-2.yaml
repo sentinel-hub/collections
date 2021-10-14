@@ -117,7 +117,7 @@ BandInformation:
           Description: Quality Flag
           Unit: Dimensionless
           Sentinel Hub Units: DN
-          Digital Range:  1 to 10; Additional info <a href="https://collections.eurodatacube.com/vegetation-phenology-and-productivity-parameters-season-2/readme.html">here</a>.
+          Digital Range:  1 to 10; Additional info <a href="https://collections.sentinel-hub.com/vegetation-phenology-and-productivity-parameters-season-2/readme.html">here</a>.
           No data: 0 
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"

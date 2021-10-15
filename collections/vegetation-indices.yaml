@@ -4,14 +4,14 @@ Description: |
   The product is comprised of 4 raw Vegetation Indices; (1) Normalized Difference Vegetation Index (NDVI), (2) Leaf Area Index (LAI), 
   (3) Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) and (4) Plant Phenology Index (PPI) generated near real-time (NRT) from Sentinel-2 satellite observations. 
   The raw Vegetation Indices are provided on a daily basis at 10m resolution from October 2016 onwards. Therefore VI products are available over the EEA39 region for the respective observation day 
-  based on 5-day revisit period of Sentinel-2. The VIs are accompanied by  a related QFLAG2 band that flags clouds, shadows, snow, open water and other areas where the VI retrieval is less reliable. 
+  based on 5-day revisit period of Sentinel-2. The VIs are accompanied by a related QFLAG2 band that flags clouds, shadows, snow, open water and other areas where the VI retrieval is less reliable. 
   More information about raw vegetation indices is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-vegetation-indices/)
 AdditionalInfoExternal:
     Title: Additional info 
     Path: vegetation-indices/README.MD 
 Image: vegetation-indices/thumbnail.png       
 Resolution: 10m
-GeographicalCoverage:  Europe  (Lat; 26N, 72N Lon; -25 W 45 E )
+GeographicalCoverage:  Europe (Lat; 26N 72N Lon; -25W 45E )
 TemporalAvailability: October 1, 2016 - ongoing 
 UpdateFrequency: Daily
 BandInformation: 
@@ -61,12 +61,12 @@ BandInformation:
           Digital Range: 1 to 32768; Additional info <a href="https://collections.sentinel-hub.com/vegetation-indices/readme.html">here</a>.
           No data: 65535
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
-Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - vegetation
   - agriculture
-  - Phenology 
+  - phenology 
   - Plant phenology index
   - CLMS
   - derived data

@@ -18,11 +18,11 @@ ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - machine learning
   - land cover
+  - corine
   - CLMS
   - derived data
   - open data
-License: |
- Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
+License: Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-cbdba844-f86d-41dc-95ad-b3f7f12535e9
@@ -31,4 +31,4 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-03-21"
+RegistryEntryLastModified: "2021-10-19"

@@ -1,0 +1,45 @@
+Name: CORINE Land Cover Accounting Layers
+Description: |
+ The CORINE Land Cover (CLC) Accounting Layers are CLC status layers modified for the purpose of consistent statistical analysis in the land cover change accounting system at EEA. 
+ The modification combines CLC status and change layers in the 100m raster in order to create homogeneous quality time series of CLC / CLC-change layers for accounting purposes.
+ The CLC inventory consists of 44 land cover and land use classes derived from a series of satellite missions since it was first established. 
+ There are altogether 5 mapping inventories implemented since 1986, producing five status layers (CLC1990, CLC2000, CLC2006, CLC2012, CLC2018), 4 CLC-Change layers for the corresponding periods (1990-2000, 2000-2006, 2006-2012, 2012-2018) and 4 CLC Accounting layers for 2000, 2006, 2012 and 2018. 
+ More information can be found in Annex 5 of the [Product User manual](https://land.copernicus.eu/user-corner/technical-library/clc-product-user-manual). 
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: corine-land-cover-accounting-layers/README.MD 
+Image: corine-land-cover-accounting-layers/thumbnail.png   
+Resolution: 100m
+GeographicalCoverage: EEA39 region
+TemporalAvailability: 2000, 2006, 2012, 2018
+UpdateFrequency: Every 6 years. 
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: CLC_ACC
+          Description: Corine Land Cover Accounting Layer 
+Contact: <a href="mailto:sdi@eea.europa.eu">European Environment Agency</a> 
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - accounting
+  - land cover
+  - CLMS
+  - corine
+  - derived data
+  - open data
+License: EEA standard re-use policy ([Read More](https://www.eea.europa.eu/legal/copyright)).
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: byoc-4c5441a6-6040-4dc4-a392-c1317bbd1031
+    CollectionId: 4c5441a6-6040-4dc4-a392-c1317bbd1031
+CustomScripts:
+    Title: Collection of Copernicus services data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+RegistryEntryAdded: "2021-10-19"
+RegistryEntryLastModified: "2021-10-19"

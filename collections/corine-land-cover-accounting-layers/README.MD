@@ -253,22 +253,17 @@ A visualisation script can be found in our [custom scripts repository](https://c
 ## More information
 
 - [Data source](https://www.eea.europa.eu/data-and-maps/data/corine-land-cover-accounting-layers) 
-
 - [Visualisation script in custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover_accounting_layers/)
-
 - [Product User manual](https://land.copernicus.eu/user-corner/technical-library/clc-product-user-manual)
 
 <br>
 <br>
 <img src="istanbul-turkey.png" alt="2018 CLC Accounting Layer Istanbul Turkey" width="100%"/>
 <br>
-
 *2018 CLC Accounting Layer, Istanbul Turkey visualised in EO Browser.*
-
 
 <br>
 <br>
 <img src="po-italy.png" alt="2018 CLC Accounting Layer Po Italy" width="100%"/>
 <br>
-
 *2018 CLC Accounting Layer, agricultural areas along Po River, Italy visualised in EO Browser.*

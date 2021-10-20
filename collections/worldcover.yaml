@@ -1,0 +1,44 @@
+Name: WorldCover
+Description: |
+  [WorldCover](https://esa-worldcover.org/en) is a global land cover map produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. 
+  In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural 
+  characteristics of the observed land cover. Therefore, the combination of Sentinel-1 and Sentinel-2 data makes it possible to update the land cover map almost in real time. 
+  WorldCover has been produced for 2020 with a global coverage. It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: worldcover/README.MD 
+Image: worldcover/thumbnail.png       
+Resolution: 10m
+GeographicalCoverage: Global
+TemporalAvailability: "2020" 
+UpdateFrequency: Annually
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: Map
+          Description: WorldCover Map
+Contact: "[VITO Remote Sensing](https://esa-worldcover.org/en/contact)"
+Provider: "[European Space Agency](https://esa-worldcover.org/en)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - land cover
+  - agriculture
+  - biodiversity
+  - worldcover
+  - derived data
+  - open data
+License: "CC-BY 4.0, [read more](https://creativecommons.org/licenses/by/4.0/). Attribution: ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium."
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: byoc-0b940c63-45dd-4e6b-8019-c3660b81b884
+    CollectionId: 0b940c63-45dd-4e6b-8019-c3660b81b884
+CustomScripts:
+    Title: Collection of Copernicus services data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+RegistryEntryAdded: "2021-10-20"
+RegistryEntryLastModified: "2021-10-20"

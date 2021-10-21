@@ -7,8 +7,8 @@
  There are altogether 5 mapping inventories implemented since 1986, producing five status layers (CLC1990, CLC2000, CLC2006, CLC2012, CLC2018), 4 CLC-Change layers for the corresponding periods (1990-2000, 2000-2006, 2006-2012, 2012-2018) and 4 CLC accounting layers for 2000, 2006, 2012 and 2018. 
 
 ## Band information
-The `CLC-ACC` band values correspond to a land cover and land use classification scheme with class values ranging from 111 to 999. Please see the nomenclature and coloring scheme in the table below. For more details about the classes, please see the official [CORINE Land Cover nomenclature guidelines](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/html/index.html) or the illustrated [nomenclature guidelines document](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/docs/pdf/CLC2018_Nomenclature_illustrated_guide_20190510.pdf).
-
+The `CLC-ACC` band values correspond to a land cover and land use classification scheme with class values ranging from 111 to 999. Please see the nomenclature and coloring scheme in the table below. For more details about the classes, please see the official [CORINE Land Cover nomenclature guidelines](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/html/index.html) or the illustrated [nomenclature guidelines document](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/docs/pdf/CLC2018_Nomenclature_illustrated_guide_20190510.pdf). 
+ 
 A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover-accounting_layers/).
 
 ### Table 2: CORINE Land Cover nomenclature and colouring scheme.
@@ -259,11 +259,13 @@ A visualisation script can be found in our [custom scripts repository](https://c
 <br>
 <br>
 <img src="istanbul-turkey.png" alt="2018 CLC Accounting Layer Istanbul Turkey" width="100%"/>
-<br>
+<br>  
+
 *2018 CLC Accounting Layer, Istanbul Turkey visualised in EO Browser.*
 
 <br>
 <br>
 <img src="po-italy.png" alt="2018 CLC Accounting Layer Po Italy" width="100%"/>
-<br>
+<br>  
+
 *2018 CLC Accounting Layer, agricultural areas along Po River, Italy visualised in EO Browser.*

@@ -8,7 +8,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: worldcover/README.MD 
-Image: worldcover/thumbnail.png       
+Image: worldcover/thumbnail.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/hjyS)"
 Resolution: 10m
 GeographicalCoverage: Global land area
 TemporalAvailability: "2020" 
@@ -42,4 +43,4 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-10-20"
-RegistryEntryLastModified: "2021-10-21"
+RegistryEntryLastModified: "2021-10-22"

@@ -54,7 +54,7 @@ BandInformation:
           Sentinel Hub Units: DN
           Digital Range: 0 to 8 (physical value), 0 to 10000 (DN)
           No data: 32768
-        - Name: QFLAG
+        - Name: QFLAG2
           Description: Quality Flag
           Unit: Dimensionless          
           Sentinel Hub Units: DN

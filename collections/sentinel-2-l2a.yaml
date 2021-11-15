@@ -4,7 +4,7 @@ Description: |
   a land monitoring constellation of two satellites that provide high resolution
   optical imagery and provide continuity for the current SPOT and Landsat missions.
   The mission provides a global coverage of the Earth's land surface every 5 days,
-  making the data of great use in on-going studies. L2A data  are available from September 2016 over wider Europe
+  making the data of great use in on-going studies. L2A data  are available from November 2016 over Europe
   region and globally since January 2017. L2A data provide Bottom of the atmosphere (BOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/)"
 Image: sentinel-2-l2a/sentinel-2-l2a.png

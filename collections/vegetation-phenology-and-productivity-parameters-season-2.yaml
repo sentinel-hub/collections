@@ -106,13 +106,13 @@ BandInformation:
           Unit: PPI × day
           Sentinel Hub Units: DN
           Digital Range: 0 to 1095 (physical value), 0 to 10950 (DN)
-          No data: 32768
+          No data: 65535
         - Name: TPROD
           Description: Total productivity. The growing season integral computed as sum of all daily values minus their base level value.
           Unit: PPI × day
           Sentinel Hub Units: DN
           Digital Range: 0 to 1095 (physical value), 0 to 10950 (DN)
-          No data: 32768
+          No data: 65535
         - Name: QFLAG
           Description: Quality Flag
           Unit: Dimensionless

@@ -100,16 +100,11 @@ WorldCover product has 1 band named `Map`. The values of this band are described
 
 ### Representative Images 
 
-<br>
-<br>
 <img src="south_romania.png" alt="WorldCover South Romania" width="100%"/>
-<br>
 
 *WorldCover 2020, river Olt, South of Romania visualised in EO Browser.*
 
 <br>
-<br>
 <img src="manaus_brazil.png" alt="WorldCover Amazonas Brazil" width="100%"/>
-<br>
 
 *WorldCover 2020, Manaus Amazonas Brazil visualised in EO Browser*

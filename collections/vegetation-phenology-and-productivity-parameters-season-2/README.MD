@@ -89,7 +89,7 @@ The available bands include: 13 parameters and QFLAG
 
 <img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 2" width="100%"/>  
 
-*Vegetation index value at day of maximum of season 2, 2019, Candasnos Spain.*   
+*Vegetation index value at day of maximum of season 2, 2019, Candasnos Spain.*
 
 <br>
 <br>

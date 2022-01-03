@@ -131,20 +131,17 @@ Physical values range from 0 to 8.
 ### Representative Images 
 
 <img src="south-tyrol-northern-italy-fapar.png" alt="FAPAR" width="100%"/>
-<br>
 
 *FAPAR August 1, 2020, South Tyrol Northern Italy.*
 
 <br>
 <br>
 <img src="south-tyrol-northern-italy-ndvi.png" alt="NDVI" width="100%"/>
-<br>
 
 *NDVI August 1, 2020, South Tyrol Northern Italy.*
 
 <br>
 <br>
 <img src="south-tyrol-northern-italy-ppi.png" alt="PPI" width="100%"/>
-<br>
 
 *PPI August 1, 2020, South Tyrol Northern Italy.*

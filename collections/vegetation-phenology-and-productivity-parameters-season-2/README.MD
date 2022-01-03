@@ -32,7 +32,7 @@ The available bands include: 13 parameters and QFLAG
       <td>More than 2 clear-sky land observations found during green up, green down and green peak</td>
     </tr>
     <tr>
-      <td>49</td>
+      <td>9</td>
       <td >Medium </td>
       <td>More than 2 clear-sky land observations found during green down and green peak</td>
     </tr>

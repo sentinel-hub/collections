@@ -14,7 +14,7 @@ GeographicalCoverage: Global coverage with longitude from 180°W to 180°E and l
 TemporalAvailability: Reference year 2018
 UpdateFrequency: Irregular
 BandInformation: Built-up probability [0 - 100 %] at 10 m spatial resolution
-Contact: "[Joint Research Centre - GLobal Human Settlement Contact](jrc-ghsl-data@ec.europa.eu)"
+Contact: "[Joint Research Centre - Global Human Settlement Contact](jrc-ghsl-data@ec.europa.eu)"
 Provider: "[European Commission, Joint Research Centre (JRC)](https://ghsl.jrc.ec.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:

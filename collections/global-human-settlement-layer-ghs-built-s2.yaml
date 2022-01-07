@@ -6,7 +6,7 @@ Description: |
   It was derived from a Sentinel-2 global image composite for the reference year 2018 using Convolutional Neural Networks.
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: global-human-settlement-layer/README.MD 
+    Path: global-human-settlement-layer-ghs-built-s2/README.MD 
 Image: global-human-settlement-layer/global-human-settlement-layer.png       
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/sgSh)"
 Resolution: 10m
@@ -31,5 +31,5 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-RegistryEntryAdded: "2022-01-05"
-RegistryEntryLastModified: "2022-01-05"
+RegistryEntryAdded: "2022-01-07"
+RegistryEntryLastModified: "2022-01-07"

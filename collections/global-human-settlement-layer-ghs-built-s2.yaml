@@ -5,9 +5,9 @@ Description: |
   The GLobal Human Settlement Layer GHS-BUILT-S2 is a global map of built-up areas (expressed as probabilities) at 10 m spatial resolution.
   It was derived from a Sentinel-2 global image composite for the reference year 2018 using Convolutional Neural Networks.
 AdditionalInfoExternal:
-    Title: Additional info 
+    Title: Additional info
     Path: global-human-settlement-layer-ghs-built-s2/README.MD 
-Image: global-human-settlement-layer-ghs-built-s2/global-human-settlement-layer.png       
+Image: global-human-settlement-layer-ghs-built-s2/global-human-settlement-layerghs-built-s2.png
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/sgSh)"
 Resolution: 10m
 GeographicalCoverage: Global coverage with longitude from 180°W to 180°E and latitude from 72°N to 56°S

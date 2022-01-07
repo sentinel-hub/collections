@@ -1,8 +1,8 @@
-Name: GLobal Human Settlement Layer - GHS-BUILT-S2
+Name: Global Human Settlement Layer - GHS-BUILT-S2
 Description: |
   The Global Human Settlement (GHS) framework produces global maps of built-up, population density
   and settlements to monitor human presence on Earth over time.
-  The GLobal Human Settlement Layer GHS-BUILT-S2 is a global map of built-up areas (expressed as probabilities) at 10 m spatial resolution.
+  The Global Human Settlement Layer GHS-BUILT-S2 is a global map of built-up areas (expressed as probabilities) at 10 m spatial resolution.
   It was derived from a Sentinel-2 global image composite for the reference year 2018 using Convolutional Neural Networks.
 AdditionalInfoExternal:
     Title: Additional info

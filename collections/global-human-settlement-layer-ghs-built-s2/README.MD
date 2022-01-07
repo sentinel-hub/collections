@@ -3,8 +3,8 @@
 ## Short description
 
 The Global Human Settlement (GHS) framework produces global maps of built-up, population density and settlements to monitor human presence on Earth over time. The data are managed by the Joint Research Centre (JRC) and the DG for Regional and Urban Policy (DG REGIO) of the European Commission, together with the international partnership GEO Human Planet Initiative of the GEO Human Planet Initiative.  
-The Global Human Settlement Layer *GHS-BUILT-S2* is a global map of built-up areas (expressed as probabilities from 0 to 100 %) at 10 m spatial resolution. It was derived from a Sentinel-2 global image composite for the reference year 2018 using Convolutional Neural Networks.
-
+The Global Human Settlement Layer *GHS-BUILT-S2* is a global map of built-up areas (expressed as probabilities from 0 to 100 %) at 10 m spatial resolution. It was derived from a Sentinel-2 global image composite for the reference year 2018 using Convolutional Neural Networks.  
+<br>
 Note: the currently available data is in an advanced but preliminary state. Possible gaps and inconsistencies will be fixed in a final quality control process.
 
 ## Band information
@@ -23,7 +23,7 @@ Built-up probability values rescaled in the range 0-100 (0 for probability = 0 a
 
 *Global Human Settlement Layer built-up probabilities over Paris (France) visualised in EO Browser*
 
-<img src="ghsl_overview.png" alt="GLobal Human Settlement Layer built-up probabilities over Paris" width="100%"/>
+<img src="ghsl_overview.png" alt="GLobal Human Settlement Layer built-up probabilities over Germany, Netherlands and Belgium" width="100%"/>
 <br>
 
 *Global Human Settlement Layer built-up probabilities over parts of Germany, Netherlands and Belgium visualised in EO Browser*

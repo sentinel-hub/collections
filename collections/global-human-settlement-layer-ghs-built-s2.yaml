@@ -8,7 +8,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: global-human-settlement-layer-ghs-built-s2/README.MD 
 Image: global-human-settlement-layer-ghs-built-s2/global-human-settlement-layer-ghs-built-s2.png
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/sgSh)"
+# ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/sgSh)"
 Resolution: 10m
 GeographicalCoverage: Global coverage with longitude from 180°W to 180°E and latitude from 72°N to 56°S
 TemporalAvailability: Reference year 2018

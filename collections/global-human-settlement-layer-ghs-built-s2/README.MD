@@ -18,12 +18,13 @@ Built-up probability values rescaled in the range 0-100 (0 for probability = 0 a
 - [Scientific publication on the dataset generation](https://link.springer.com/article/10.1007/s00521-020-05449-7)
 - [Global Human Settlement Layer - Understanding Human Presence on Planet Earth (booklet)](https://ghsl.jrc.ec.europa.eu/documents/GHSL_Brochure.pdf?t=1639151473)
 
-<img src="ghsl_paris.png" alt="GLobal Human Settlement Layer built-up probabilities over Paris" width="100%"/>
+<img src="ghsl_paris.png" alt="Global Human Settlement Layer built-up probabilities over Paris" width="100%"/>
 <br>
 
-*Global Human Settlement Layer built-up probabilities over Paris (France) visualised in EO Browser*
+*Global Human Settlement Layer built-up probabilities over Paris (France) visualised in EO Browser*  
+<br>
 
-<img src="ghsl_overview.png" alt="GLobal Human Settlement Layer built-up probabilities over Germany, Netherlands and Belgium" width="100%"/>
+<img src="ghsl_overview.png" alt="Global Human Settlement Layer built-up probabilities over Germany, Netherlands and Belgium" width="100%"/>
 <br>
 
 *Global Human Settlement Layer built-up probabilities over parts of Germany, Netherlands and Belgium visualised in EO Browser*

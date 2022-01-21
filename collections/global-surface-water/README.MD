@@ -59,7 +59,8 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
 
 The water Occurrence layer shows the (intra- and inter-annual) variations of surface water presence in the time range between March 1984 and December 2020. Permanent water areas with 100% occurrence over the 37 years are shown in blue, while lighter shades of pink and purple indicate lower degrees of water presence, according to the official layer symbology (Table 2).<br><br>
 
-![Occurrence Danube Delta in Romania](image_occurrence_danube_delta.png)
+<img src="image_occurrence_danube_delta.png" alt="Occurrence Danube Delta in Romania" width="100%"/>
+<br>
 
 *Occurrence layer visualisation in EO Browser for the Danube Delta in Romania.*
 
@@ -115,7 +116,8 @@ A visualisation script for the Occurrence layer can be found in our [custom scri
 
 The Occurrence Change Intensity layer visualises changes in water occurrence between two different epochs, the first ranging from **March 1984 to December 1999**, and the other covering the period from **January 2000 to December 2020**. According to the official layer symbology, the increase of water occurrence is visualised in different shades of green, no change is shown in black and decrease is shown in shades of red (Table 3).<br><br>
 
-![Occurrence Change Intensity Ganges in Bangladesh](image_change_ganges_river.png)
+<img src="image_change_ganges_river.png" alt="Occurrence Change Intensity Ganges in Bangladesh" width="100%"/>
+<br>
 
 *Occurrence Change Intensity layer visualisation in EO Browser for a section of the Padma River, the main distributary of the Ganges, in Bangladesh.*
 
@@ -183,7 +185,8 @@ A visualisation script for the Occurence Change Intensity layer can be found in 
 
 The Seasonality layer provides information on the intra-annual distribution of surface water in the particular review year. According to the number of months with water cover, the discrete colour map shows areas with permanent water bodies in dark blue and seasonal surface water in gradually lighter shades of blue (Table 4).<br><br>
 
-![Seasonality Salar de Uyuni in Bolivia](image_seasonality_salar_de_uyuni.png)
+<img src="image_seasonality_salar_de_uyuni.png" alt="Seasonality Salar de Uyuni in Bolivia" width="100%"/>
+<br>
 
 *Eo Browser visualisation of surface water Seasonality in the world's largest salt flat Salar de Uyuni in southwest Bolivia.*
 
@@ -239,7 +242,8 @@ A visualisation script for the Seasonality layer can be found in our [custom scr
 
 The Recurrence layer captures the degree of interannual variability in surface water presence. It shows how frequently water returned to a particular location between years in a defined water period within the period from 1984 to 2020. The water period is defined individually for each pixel, ranging from the first month with an observation of surface water to the last month with surface water present throughout the 37-year time range. Areas with seasonal or permanent water presence are visualised in blue, while irregularly flooded areas are shown in orange (Table 5).<br><br>
 
-![Recurrence paddies near Eluru in India](image_recurrence_paddies_eluru.png)
+<img src="image_recurrence_paddies_eluru.png" alt="Recurrence paddies near Eluru in India" width="100%"/>
+<br>
 
 *Recurrence layer visualisation in EO Browser showing Paddy fields near the city of Eluru in West Godavari, India.*
 
@@ -295,7 +299,8 @@ A visualisation script for the Recurrence layer can be found in our [custom scri
 
 The Transitions layer is derived from a seasonality comparison between the first and last year in the 37-year time period and visualises changes in the three surface water classes of not water, seasonal, and permanent water. A discrete colour map for the class transitions is provided in Table 6.<br><br>
 
-![Transitions Paraná River near Santa Fe in Argentina](image_transitions_parana_river.png)
+<img src="image_transitions_parana_river.png" alt="Transitions Paraná River near Santa Fe in Argentina" width="100%"/>
+<br>
 
 *EO Browser visualisation of the Transitions layer showing the Paraná River near santa Fe, Argentina.*
 
@@ -399,7 +404,8 @@ A visualisation script for the Transitions layer can be found in our [custom scr
 
 The maximum water Extent layer combines all other layers by visualising all locations for which water presence has ever been detected over the 37-year period.<br><br>
 
-![Extent of Lake Kyoga in Uganda](image_extent_lake_kyoga.png)
+<img src="image_extent_lake_kyoga.png" alt="Extent of Lake Kyoga in Uganda" width="100%"/>
+<br>
 
 *Extent layer visualisation in EO Browser capturing the maximum water extent for Lake Kyoga, Uganda.*
 

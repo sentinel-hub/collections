@@ -1,0 +1,47 @@
+Name: CNES Land Cover Map
+Description: |
+  The CNES Land Cover Map (Occupation des Sols, OSO) produces land classification for Metropolitan France at 10 m spatial resolution based on Sentinel-2 L2A data within the Theia Land Cover CES framework. 
+  Maps for 2020, 2019, and 2018 use a 23-categories nomenclature. For earlier maps in 2017 and 2016, a fully compatible 17-classes nomenclature is employed. 
+
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: cnes-land-cover-map/README.MD 
+Image: cnes-land-cover-map/cnes-land-cover-map.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/kP8Y)"
+Resolution: 10m
+GeographicalCoverage: Metropolitan France
+TemporalAvailability: 2016 - ongoing
+UpdateFrequency: Annually
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: Map
+          Description: Main discrete classification according to 23-categories nomenclature.
+        - Name: Confidence
+          Description: The confidence of the classifier.
+        - Name: Validity
+          Description: The number of cloudless images.
+Contact: "[Jordi Inglada](jordi.inglada@cesbio.eu), [Vincent Thierion](vincent.thierion@inrae.fr), [Silvia Valero](silvia.valero@cesbio.cnes.fr)"
+Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - land cover
+  - machine learning
+  - derived data
+  - open data
+License: |
+  [ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from data Copernicus. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: byoc-9baa2732-6597-49d2-ae3b-68ba0a5386b2
+    CollectionId: 9baa2732-6597-49d2-ae3b-68ba0a5386b2
+CustomScripts:
+    Title: The custom scripts for visualisation of classification, confidencem, and validity maps.
+    URL: cnes-land-cover-map/scripts.js
+RegistryEntryAdded: "2022-02-08"
+RegistryEntryLastModified: "2022-02-08"

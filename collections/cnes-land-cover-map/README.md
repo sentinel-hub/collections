@@ -4,9 +4,9 @@
 The CNES Land Cover Map (Occupation des Sols, OSO) produces land classification for Metropolitan France at 10 m spatial resolution based on Sentinel-2 L2A data within the Theia Land Cover CES framework. Maps for 2020, 2019, and 2018 use a 23-categories nomenclature. For earlier maps in 2017 and 2016, a fully compatible 17-classes nomenclature is employed.
 
 ## Band information
-CNES Land Cover product has 3 bands. The `OCS` band contains main classification data with class values ranging from 1 to 23. The Land Cover nomenclature and colouring scheme is shown below.
+The CNES Land Cover product contains 3 bands. The `OCS` band contains main classification data with class values ranging from 1 to 23. The Land Cover nomenclature and colouring scheme is shown below.
 
-The other 2 bands are the `OCS_Confidence` and the `OCS_Validity` band. The `OCS_Confidence` band provides the information on the confidence of classifier with confidence values ranging from 0 to 100. The `OCS_Validity` band indicates the number of cloudless images.
+The other 2 bands are `OCS_Confidence` and `OCS_Validity`. The `OCS_Confidence` band provides the information on the classifier confidence with values ranging from 0 to 100. The `OCS_Validity` band indicates the number of cloudless images.
 
 ### CNES Land Cover nomenclature and colouring scheme.
 
@@ -161,7 +161,8 @@ The other 2 bands are the `OCS_Confidence` and the `OCS_Validity` band. The `OCS
   </tbody>
 </table>
 
-## More information  
+## More information
+All data originated from Theia and can be downloaded via their [website](https://www.theia-land.fr/en/product/land-cover-map/).
 
 ### Representative Images
 

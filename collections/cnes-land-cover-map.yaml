@@ -35,13 +35,13 @@ Tags:
   - derived data
   - open data
 License: |
-  [ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from data Copernicus. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
+  [ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: byoc-9baa2732-6597-49d2-ae3b-68ba0a5386b2
     CollectionId: 9baa2732-6597-49d2-ae3b-68ba0a5386b2
 CustomScripts:
-    Title: The custom scripts for visualisation of classification, confidencem, and validity maps.
-    URL: cnes-land-cover-map/scripts.js
+    Title: The custom scripts for visualisation of classification, confidence, and validity maps.
+    URL: scripts.js
 RegistryEntryAdded: "2022-02-08"
 RegistryEntryLastModified: "2022-02-08"

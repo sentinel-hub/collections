@@ -6,7 +6,7 @@ The CNES Land Cover Map (Occupation des Sols, OSO) produces land classification 
 ## Band information
 The CNES Land Cover product contains 3 bands. The `OCS` band contains main classification data with class values ranging from 1 to 23. The Land Cover nomenclature and colouring scheme is shown below.
 
-The other 2 bands are `OCS_Confidence` and `OCS_Validity`. The `OCS_Confidence` band provides the information on the classifier confidence with values ranging from 0 to 100. The `OCS_Validity` band indicates the number of cloudless images.
+The other 2 bands are `OCS_Confidence` and `OCS_Validity`. The `OCS_Confidence` band provides the information on the classifier confidence with values ranging from 1 to 100. The `OCS_Validity` band indicates the number of cloudless images.
 
 ### CNES Land Cover nomenclature and colouring scheme.
 

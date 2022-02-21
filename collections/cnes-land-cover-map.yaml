@@ -41,7 +41,7 @@ Resources:
     Type: byoc-9baa2732-6597-49d2-ae3b-68ba0a5386b2
     CollectionId: 9baa2732-6597-49d2-ae3b-68ba0a5386b2
 CustomScripts:
-    Title: The custom scripts for visualisation of classification, confidence, and validity maps.
-    URL: scripts.js
+    Title: Custom scripts for other collections
+    URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2022-02-08"
 RegistryEntryLastModified: "2022-02-08"

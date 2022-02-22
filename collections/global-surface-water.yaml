@@ -46,8 +46,8 @@ Resources:
     Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
 CustomScripts:
-    Title: Collection of Copernicus services data custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+    Title: Custom scripts for other collections
+    URL: https://custom-scripts.sentinel-hub.com/#other_collections
 
 RegistryEntryAdded: "2021-04-19"
 RegistryEntryLastModified: "2021-06-14"

@@ -8,7 +8,7 @@ The CNES Land Cover product contains 3 bands. The `OCS` band contains main class
 
 The other 2 bands are `OCS_Confidence` and `OCS_Validity`. The `OCS_Confidence` band provides the information on the classifier confidence with values ranging from 1 to 100. The `OCS_Validity` band indicates the number of cloudless images.
 
-### CNES Land Cover nomenclature and colouring scheme.
+### CNES Land Cover nomenclature and colouring scheme
 
 <table>
   <thead>
@@ -161,18 +161,88 @@ The other 2 bands are `OCS_Confidence` and `OCS_Validity`. The `OCS_Confidence` 
   </tbody>
 </table>
 
+### CNES Land Cover classifier confidence colouring scheme
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Color</th>
+      <th>Color Code</th>
+      <th>Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td bgcolor="#000000"></td>
+      <td>#000000</td>
+      <td>1% confidence</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td bgcolor="#00c800"></td>
+      <td>#00c800</td>
+      <td>100% confidence</td>
+    </tr>
+  </tbody>
+</table>
+
+### CNES Land Cover validity colouring scheme
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Color</th>
+      <th>Color Code</th>
+      <th>Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td bgcolor="#000000"></td>
+      <td>#000000</td>
+      <td>1 cloudless image</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td bgcolor="#e60000"></td>
+      <td>#e60000</td>
+      <td>45 cloudless images</td>
+    </tr>
+  </tbody>
+</table>
+
 ## More information
 All data originated from Theia and can be downloaded via their [website](https://www.theia-land.fr/en/product/land-cover-map/).
 
 ### Representative Images
 
-<img src="cnes-land-cover-map.png" alt="The overview of CNES Land Cover Map" width="100%"/>
+<img src="cnes-land-cover-map-france-overview.png" alt="The overview of CNES land cover map" width="100%"/>
 
 *CNES Land Cover 2020 for France visualised in EO Browser.*
 
 <br>
-<img src="lyon.png" alt="CNES Land cover Map around Lyon" width="100%"/>
+<img src="cnes-land-cover-map-lyon.png" alt="CNES land cover map around Lyon" width="100%"/>
 
 *CNES Land Cover 2020 around Lyon visualised in EO Browser*
 
+<img src="cnes-classifier-confidence-france-overview.png" alt="The overview of CNES land cover classifier condifence" width="100%"/>
 
+*CNES Land Cover classifier confidence 2020 for France visualised in EO Browser.*
+
+<br>
+<img src="cnes-classifier-confidence-lyon.png" alt="CNES land cover classifier confidence around Lyon" width="100%"/>
+
+*CNES Land Cover classifier confidence 2020 around Lyon visualised in EO Browser*
+
+<img src="cnes-land-cover-validity-france-overview.png" alt="The overview of CNES land cover validity" width="100%"/>
+
+*CNES Land Cover validity 2020 for France visualised in EO Browser.*
+
+<br>
+<img src="cnes-land-cover-validity-lyon.png" alt="CNES land cover validity around Lyon" width="100%"/>
+
+*CNES Land Cover validity 2020 around Lyon visualised in EO Browser*

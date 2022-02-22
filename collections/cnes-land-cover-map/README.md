@@ -246,3 +246,7 @@ All data originated from Theia and can be downloaded via their [website](https:/
 <img src="cnes-land-cover-validity-lyon.png" alt="CNES land cover validity around Lyon" width="100%"/>
 
 *CNES Land Cover validity 2020 around Lyon visualised in EO Browser*
+
+## Acknowledgements
+
+Ingestion of this dataset into public collection on Sentinel Hub was done with support of the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No. 101004112.

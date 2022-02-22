@@ -6,7 +6,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info
     Path: cnes-land-cover-map/README.MD 
-Image: cnes-land-cover-map/cnes-land-cover-map.png
+Image: cnes-land-cover-map/cnes-land-cover-map-france-overview.png
 #ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/kP8Y)"
 Resolution: 10m
 GeographicalCoverage: Metropolitan France

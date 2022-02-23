@@ -26,7 +26,10 @@ BandInformation:
           Description: The confidence of the classifier.
         - Name: Validity
           Description: The number of cloudless images.
-Contact: "[Jordi Inglada](jordi.inglada@cesbio.eu), [Vincent Thierion](vincent.thierion@inrae.fr), [Silvia Valero](silvia.valero@cesbio.cnes.fr)"
+Contact: |
+"Jordi Inglada: jordi.inglada@cesbio.eu", 
+"Vincent Thierion: vincent.thierion@inrae.fr", 
+"Silvia Valero: silvia.valero@cesbio.cnes.fr"
 Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:

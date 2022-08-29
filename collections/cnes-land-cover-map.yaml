@@ -7,10 +7,10 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: cnes-land-cover-map/README.MD 
 Image: cnes-land-cover-map/cnes-land-cover-map-france-overview.png
-#ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/kP8Y)"
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/EurE)"
 Resolution: 10m
-GeographicalCoverage: Metropolitan France
-TemporalAvailability: 2016 - ongoing
+GeographicalCoverage: Metropolitan France with longitude from 6.26°W to 11.85°E and latitude from 51.45°N to 40.46°N
+TemporalAvailability: 2016-01-01 - 2020-01-01
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -18,13 +18,13 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
-        - Name: Map
+        - Name: OCS
           Description: Main discrete classification according to 23-categories nomenclature.
-        - Name: Confidence
+        - Name: OCS_Confidence
           Description: The confidence of the classifier.
-        - Name: Validity
+        - Name: OCS_Validity
           Description: The number of cloudless images.
 Contact: "Jordi Inglada: jordi.inglada@cesbio.eu, Vincent Thierion: vincent.thierion@inrae.fr, Silvia Valero: silvia.valero@cesbio.cnes.fr"
 Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
@@ -34,6 +34,9 @@ Tags:
   - machine learning
   - derived data
   - open data
+  - raster
+  - sentinel hub
+  - systematic
 License: |
   [ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
 Resources:
@@ -44,4 +47,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2022-02-08"
-RegistryEntryLastModified: "2022-02-08"
+RegistryEntryLastModified: "2022-08-29"

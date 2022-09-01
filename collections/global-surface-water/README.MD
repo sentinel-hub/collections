@@ -22,32 +22,32 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
   </thead>
   <tbody>
     <tr>
-      <td>Occurrence</td>
+      <td>occurrence</td>
       <td >unsigned int8</td>
       <td>The occurrence value expressed as a percentage</td>
     </tr>
      <tr>
-      <td>Occurrence Change Intensity</td>
+      <td>change_norm</td>
       <td >unsigned int8</td>
       <td>The normalised difference in the mean occurrence value between the two epochs for homologous months epoch1-epoch2 /epoch1+epoch2</td>
     </tr>
     <tr>
-      <td>Seasonality</td>
+      <td>seasonality</td>
       <td >unsigned int8</td>
       <td>The number of months that water was present from January to December in the year of review (2019 or 2020)</td>
     </tr>
     <tr>
-      <td>Recurrence</td>
+      <td>recurrence</td>
       <td >unsigned int8</td>
       <td>The frequency with which water returns from years to year expressed as a percentage</td>
     </tr>
     <tr>
-      <td>Transitions</td>
+      <td>transition</td>
       <td >unsigned int8</td>
       <td>The type of transition between the first and last year</td>
     </tr>
     <tr>
-      <td>Extent</td>
+      <td>max_extent</td>
       <td >unsigned int8</td>
       <td>A simple flag indicating if water was detected or not</td>
     </tr>

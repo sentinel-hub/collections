@@ -19,7 +19,7 @@ BandInformation:
       Rows:
         - Name: occurrence
           Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
-        - Name: change_norm
+        - Name: change
           Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2020.
         - Name: seasonality
           Description: Intra-annual distribution of surface water in the particular review year.
@@ -27,7 +27,7 @@ BandInformation:
           Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2020.
         - Name: transition
           Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 37-year time period.
-        - Name: max_extent
+        - Name: extent
           Description: Maximum extent of surface water bodies in the 37-year time range.
 Contact: "[Global Surface Water Explorer Contact](https://global-surface-water.appspot.com/)"
 Provider: "[European Commission, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"

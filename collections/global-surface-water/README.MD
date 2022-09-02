@@ -27,7 +27,7 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
       <td>The occurrence value expressed as a percentage</td>
     </tr>
      <tr>
-      <td>change_norm</td>
+      <td>change</td>
       <td >unsigned int8</td>
       <td>The normalised difference in the mean occurrence value between the two epochs for homologous months epoch1-epoch2 /epoch1+epoch2</td>
     </tr>
@@ -47,7 +47,7 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
       <td>The type of transition between the first and last year</td>
     </tr>
     <tr>
-      <td>max_extent</td>
+      <td>extent</td>
       <td >unsigned int8</td>
       <td>A simple flag indicating if water was detected or not</td>
     </tr>

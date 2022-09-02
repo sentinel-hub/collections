@@ -25,7 +25,7 @@ BandInformation:
           Description: Intra-annual distribution of surface water in the particular review year.
         - Name: recurrence
           Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2020.
-        - Name: transition
+        - Name: transitions
           Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 37-year time period.
         - Name: extent
           Description: Maximum extent of surface water bodies in the 37-year time range.

@@ -42,7 +42,7 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
       <td>The frequency with which water returns from years to year expressed as a percentage</td>
     </tr>
     <tr>
-      <td>transition</td>
+      <td>transitions</td>
       <td >unsigned int8</td>
       <td>The type of transition between the first and last year</td>
     </tr>

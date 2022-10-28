@@ -4,7 +4,7 @@
   The European Space Agency (ESA) WorldCover is a global land cover map with 11 different land cover classes produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. 
   In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural 
   characteristics of the observed land cover. Therefore, the combination of Sentinel-1 and Sentinel-2 data makes it possible to update the land cover map almost in real time. 
-  WorldCover Map has been produced for 2020 (01 January to 31 December) with a global coverage as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.
+  WorldCover Map has been produced for 2020 and 2021 with a global coverage as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.
 
 ## Band information
 WorldCover product has 1 band named `Map`. The values of this band are described below.  

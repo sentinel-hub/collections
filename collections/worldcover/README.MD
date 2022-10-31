@@ -1,10 +1,11 @@
 # WorldCover
 
 ## Short description
-  The European Space Agency (ESA) WorldCover is a global land cover map with 11 different land cover classes produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. 
-  In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural 
-  characteristics of the observed land cover. Therefore, the combination of Sentinel-1 and Sentinel-2 data makes it possible to update the land cover map almost in real time. 
-  WorldCover Map has been produced for 2020 and 2021 with a global coverage as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.
+The European Space Agency (ESA) WorldCover is a global land cover map with 11 different land cover classes produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural characteristics of the observed land cover. Therefore, the combination of Sentinel-1 and Sentinel-2 data makes it possible to update the land cover map almost in real time. 
+
+WorldCover Map was first produced for 2020 using v100 of the algorithm and later for 2021 with v200 algorithm. Due to the different algorithm versions, it should be noted that changes between WorldCover map 2020 and WorldCover map 2021 are a result of both actual changes in land cover and in the used algorithm. WorldCover map is provided as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides global coverage of valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.  
+
+More information can be found on the [WorldCover website](https://esa-worldcover.org/en) and the [2020 v100 Product user Manual](https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf) and  [2021 v200 Product user Manual](https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/docs/WorldCover_PUM_V2.0.pdf)
 
 ## Band information
 WorldCover product has 1 band named `Map`. The values of this band are described below.  

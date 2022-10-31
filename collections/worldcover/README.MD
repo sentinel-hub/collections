@@ -18,69 +18,69 @@ WorldCover product has 1 band named `Map`. The values of this band are described
       <th>Value</th>
       <th>Color</th>
       <th>Color Code</th>
-        <th>Class Name</th>
+      <th>Class Name</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>10 </td>
       <td style="background-color:#006400"></td>
-        <td>0x006400 </td>
-        <td>Tree cover </td>
+      <td>0x006400 </td>
+      <td>Tree cover </td>
     </tr>
     <tr>
       <td>20</td>
       <td style="background-color:#ffbb22"></td>
-        <td>0xffbb22 </td>
-        <td>Shrubland </td>
+      <td>0xffbb22 </td>
+      <td>Shrubland </td>
     </tr>
     <tr>
       <td>30</td>
       <td style="background-color:#ffff4c"></td>
-        <td>0xffff4c </td>
-        <td>Grassland </td>
+      <td>0xffff4c </td>
+      <td>Grassland </td>
     </tr>
     <tr>
       <td>40</td>
       <td style="background-color:#f096ff" ></td>
-        <td>0xf096ff  </td>
-        <td>Cropland </td>
+      <td>0xf096ff  </td>
+      <td>Cropland </td>
     </tr>
     <tr>
       <td>50</td>
       <td style="background-color:#fa0000" ></td>
-        <td>0xfa0000 </td>
-        <td>Built up </td>
+      <td>0xfa0000 </td>
+      <td>Built up </td>
     </tr>
     <tr>
       <td>60</td>
       <td style="background-color:#b4b4b4"></td>
-        <td> 0xb4b4b4 </td>
-        <td> Bare /sparse vegetation </td>
+      <td> 0xb4b4b4 </td>
+      <td> Bare /sparse vegetation </td>
     </tr>  
     <tr>
       <td>70</td>
       <td style="background-color:#f0f0f0"></td>
-        <td>0xf0f0f0 </td>
-        <td>Snow and Ice </td>
+      <td>0xf0f0f0 </td>
+      <td>Snow and Ice </td>
     </tr> 
     <tr>
       <td>80</td>
       <td style="background-color:#0032c8"></td>
-        <td>0x0064c8  </td>
-        <td>Permanent water bodies </td>
+      <td>0x0064c8  </td>
+      <td>Permanent water bodies </td>
     </tr> 
     <tr>
       <td>90</td>
       <td style="background-color:#0096a0"></td>
-        <td>0x0096a0 </td>
-        <td>Herbaceous wetland </td>
+      <td>0x0096a0 </td>
+      <td>Herbaceous wetland </td>
     </tr>
     <tr>
       <td>95</td>
       <td style="background-color:#00cf75"></td>
-        <td>0x00cf75 </td>
-        <td>Mangroves </td>
+      <td>0x00cf75 </td>
+      <td>Mangroves </td>
     </tr>
     <tr>
       <td>100</td>
@@ -92,7 +92,7 @@ WorldCover product has 1 band named `Map`. The values of this band are described
       <td>0</td>
       <td></td>
       <td></td>
-        <td> No data </td>
+      <td> No data </td>
     </tr>
    </tbody>
 </table> 

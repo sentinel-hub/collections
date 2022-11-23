@@ -1,6 +1,6 @@
 Name: SkySat
 Description: |
-  [Skysat](https://www.planet.com/products/planet-imagery/) SkySat satellite constellation consists of 21 satellites, 
+  [Skysat](https://www.planet.com/products/planet-imagery/) satellite constellation consists of 21 satellites, 
   which were launched between 2013 and 2020. The satellites are based on a CubeSat concept but are a bit bigger comparing 
   to the PlanetScope's satellites. Because of its rapid revisit time, this data is suitable to monitor fast changes on 
   earth's surface. However, note that the data acquisition must be tasked, data is not acquired systematically.

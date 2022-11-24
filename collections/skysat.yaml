@@ -28,7 +28,10 @@ Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
     Notes: Contains the data purchased by individual user
+CustomScripts:
+    Title: Collection of SkySat custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sky_sat
 
 
-RegistryEntryAdded: "2022-11-17"
-RegistryEntryLastModified: "2022-11-17"
+RegistryEntryAdded: "2022-11-24"
+RegistryEntryLastModified: "2022-11-24"

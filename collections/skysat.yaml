@@ -1,0 +1,37 @@
+Name: SkySat
+Description: |
+  [Skysat](https://www.planet.com/products/planet-imagery/) satellite constellation consists of 21 satellites, 
+  which were launched between 2013 and 2020. The satellites are based on a CubeSat concept but are a bit bigger comparing 
+  to the PlanetScope's satellites. Because of its rapid revisit time, this data is suitable to monitor fast changes on 
+  earth's surface. However, note that the data acquisition must be tasked, data is not acquired systematically.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/)"
+Image: skysat/skysat.png
+Resolution: 0.5m (resampled)
+GeographicalCoverage: Worldwide ([more info](https://www.planet.com/products/planet-imagery/))
+TemporalAvailability: 2014 - ongoing
+UpdateFrequency: Capacity to image up to 10x a day but acquisitions must be tasked (ordered).
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#available-bands-and-data)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
+Tags:
+  - high resolution imagery
+  - commercial data
+  - satellite imagery
+  - multi spectral imagery
+  - vegetation monitoring
+  - mapping
+  - agriculture
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user
+CustomScripts:
+    Title: Collection of SkySat custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#sky_sat
+
+
+RegistryEntryAdded: "2022-11-24"
+RegistryEntryLastModified: "2022-11-24"

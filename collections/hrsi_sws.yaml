@@ -1,0 +1,29 @@
+Name: 
+Description: 
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: /README.MD 
+Image: /thumbnail.png       
+Resolution: 
+GeographicalCoverage: 
+TemporalAvailability: 
+UpdateFrequency:
+BandInformation: 
+Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - CLMS
+  - derived data
+  - open data
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: 
+    CollectionId:
+CustomScripts:
+    Title: Collection of Copernicus services data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#High-Resolution_Snow_&_Ice_Monitoring
+
+RegistryEntryAdded: "2023-02-07"
+RegistryEntryLastModified: "2023-02-07"

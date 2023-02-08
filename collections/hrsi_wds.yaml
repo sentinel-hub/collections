@@ -34,7 +34,7 @@ BandInformation:
             Description: Snow State Classification
             Unit: Dimensionless
             Sentinel Hub Units: DN
-            Data Values: Wet snow - 110, Dry snow - 115, Snow free or patchy snow cover - 120, Radar shadow / layover / foreshortening - 200, Cloud or cloud shadow - 205, Water - 210, Forest - 220, Urban area -230
+            Data Values: Wet snow - 110, Dry snow - 115, Snow free or patchy snow cover - 120, Radar shadow / layover / foreshortening - 200, Cloud or cloud shadow - 205, Water - 210, Forest - 220, Urban area - 230
             No data: 255
           - Name: QCSSC
             Description: Quality layer

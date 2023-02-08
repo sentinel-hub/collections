@@ -11,11 +11,38 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: /README.MD 
 Image: /thumbnail.png       
-Resolution: 
-GeographicalCoverage: 
+Resolution: 20m
+GeographicalCoverage: EEA39
 TemporalAvailability: 
-UpdateFrequency:
-BandInformation: 
+UpdateFrequency: Annually (released in October after end of the hydrological year)
+BandInformation:
+  Table:
+        Columns:
+          - Name: Name
+            Title: Name
+          - Name: Description
+            Title: Description  
+          - Name: Unit
+            Title: Unit
+          - Name: Sentinel Hub Units
+            Title: Sentinel Hub Units
+          - Name: Data Values
+            Title: Data Values 
+          - Name: No data
+            Title: No data            
+        Rows:
+          - Name: PSA
+            Description: Persistent snow area
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: No persistent snow - 0, Persistent snow - 1
+            No data: 255
+          - Name: QC
+            Description: Quality layer
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3
+            No data: 255 
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

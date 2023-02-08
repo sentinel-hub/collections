@@ -10,11 +10,38 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: /README.MD 
 Image: /thumbnail.png       
-Resolution: 
-GeographicalCoverage: 
+Resolution: 60m
+GeographicalCoverage: EEA39
 TemporalAvailability: 
 UpdateFrequency:
-BandInformation: 
+BandInformation:
+  Table:
+        Columns:
+          - Name: Name
+            Title: Name
+          - Name: Description
+            Title: Description  
+          - Name: Unit
+            Title: Unit
+          - Name: Sentinel Hub Units
+            Title: Sentinel Hub Units
+          - Name: Data Values
+            Title: Data Values 
+          - Name: No data
+            Title: No data            
+        Rows:
+          - Name: SSC
+            Description: Snow State Classification
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: Wet snow - 110, Dry snow - 115, Snow free or patchy snow cover - 120, Radar shadow / layover / foreshortening - 200, Cloud or cloud shadow - 205, Water - 210, Forest - 220, Urban area -230
+            No data: 255
+          - Name: QCSSC
+            Description: Quality layer
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Masked - 250
+            No data: 255  
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

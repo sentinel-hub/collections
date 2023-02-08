@@ -10,11 +10,56 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: /README.MD 
 Image: /thumbnail.png       
-Resolution: 
-GeographicalCoverage: 
-TemporalAvailability: 
+Resolution: 20m
+GeographicalCoverage: EEA39
+TemporalAvailability: 5 days
 UpdateFrequency:
 BandInformation: 
+  Table:
+        Columns:
+          - Name: Name
+            Title: Name
+          - Name: Description
+            Title: Description  
+          - Name: Unit
+            Title: Unit
+          - Name: Sentinel Hub Units
+            Title: Sentinel Hub Units
+          - Name: Data Values
+            Title: Data Values 
+          - Name: No data
+            Title: No data            
+        Rows:
+          - Name: FSCTOC
+            Description: Top of canopy fractional snow cover (%)
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 FSCTOC (%), Cloud or cloud shadow - 205
+            No data: 255
+          - Name: FSCOG
+            Description: On-ground fractional snow cover (%)
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 FSCOG (%), Cloud or cloud shadow - 205
+            No data: 255
+          - Name: QCTOC
+            Description: Quality layer providing basic assessment of FSCTOC quality
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
+            No data: 255
+          - Name: QCOG
+            Description: Quality layer providing basic assessment of FSCOG quality
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
+            No data: 255          
+          - Name: NDSI
+            Description: Normalised difference snow index (%) of detected snow areas.
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 NDSI (%), Cloud or cloud shadow - 205
+            No data: 255
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -25,8 +70,8 @@ Tags:
 License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: 
-    CollectionId:
+    Type: byoc-80db97d0-fd6a-4e13-9cf3-d1842beaae5c
+    CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#High-Resolution_Snow_&_Ice_Monitoring

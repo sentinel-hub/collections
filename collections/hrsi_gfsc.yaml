@@ -52,8 +52,8 @@ Tags:
 License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
-    Type: 
-    CollectionId:
+    Type: byoc-e0e66010-ab8a-46d5-94bd-ae5c750e7341
+    CollectionId: e0e66010-ab8a-46d5-94bd-ae5c750e7341
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#High-Resolution_Snow_&_Ice_Monitoring

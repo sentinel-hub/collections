@@ -13,7 +13,7 @@ AdditionalInfoExternal:
 Image: /thumbnail.png       
 Resolution: 20m
 GeographicalCoverage: EEA39
-TemporalAvailability: 
+TemporalAvailability: 1st September 2016 - present
 UpdateFrequency: Annually (released in October after end of the hydrological year)
 BandInformation:
   Table:

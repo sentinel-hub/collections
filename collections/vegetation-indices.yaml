@@ -12,7 +12,7 @@ AdditionalInfoExternal:
 Image: vegetation-indices/thumbnail.png       
 Resolution: 10m
 GeographicalCoverage:  Europe (Lat; 26N 72N Lon; -25W 45E )
-TemporalAvailability: October 1, 2016 - Februray 28, 2021 
+TemporalAvailability: October 1, 2016 - Ongoing
 UpdateFrequency: Daily
 BandInformation: 
   Table:
@@ -80,4 +80,4 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-10-12"
-RegistryEntryLastModified: "2021-11-04"
+RegistryEntryLastModified: "2023-02-13"

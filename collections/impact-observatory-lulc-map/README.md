@@ -82,6 +82,10 @@ The [product documentation](https://www.impactobservatory.com/global_maps/) can 
 
 ### Representative Images
 
-<img src="io_lulc.png" alt="10m Annual Land Use Land Cover Europe" width="100%"/>
+<img src="io-lulc.png" alt="10m Annual Land Use Land Cover Europe" width="100%"/>
 
 *10m Annual Land Use Land Cover 2021, Europe visualised in EO Browser.*
+
+<img src="io-lulc-ganges-delta.png" alt="10m Annual Land Use Land Cover Ganges Delta" width="100%"/>
+
+*10m Annual Land Use Land Cover 2022, Ganges Delta visualised in EO Browser.*

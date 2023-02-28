@@ -7,7 +7,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info
     Path: impact-observatory-lulc-map/README.MD 
-Image: impact-observatory-lulc-map/io-lulc-map.png
+Image: impact-observatory-lulc-map/io-lulc-ganges-delta.png
 # ViewOnEOBrowser: 
 Resolution: 10m
 GeographicalCoverage: Global land area
@@ -22,7 +22,7 @@ BandInformation:
           Title: Description
       Rows:
         - Name: lulc
-          Description: Main discrete classification defined in the [product documentation](https://www.impactobservatory.com/global_maps/).
+          Description: Main discrete classification defined in the <a href="https://www.impactobservatory.com/global_maps/">product documentation</a>.
 Contact: "Impact Observatory: hello@impactobservatory.com"
 Provider: "[Impact Observatory](https://www.impactobservatory.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

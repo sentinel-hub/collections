@@ -4,6 +4,9 @@ Description: |
   measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
   (RLIE) and aggregated river and lake ice extent (ARLIE).
 
+  More information about the data can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) and
+  the snow products user manual is located [here](https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum). 
+
   The Fractional Snow Cover (FSC) product provides the snow fraction at the Top Of Canopy (FSCTOC) and On Ground (FSCOG). NDSI is also provided as part of this service.
 AdditionalInfoExternal:
     Title: Additional info 

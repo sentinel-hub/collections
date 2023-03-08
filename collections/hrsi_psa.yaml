@@ -11,8 +11,8 @@ Description: |
   present throughout the hydrological year).
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: /README.MD 
-Image: /thumbnail.png       
+    Path: hrsi_psa/README.MD 
+Image: hrsi_psa/thumbnail.png       
 Resolution: 20m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

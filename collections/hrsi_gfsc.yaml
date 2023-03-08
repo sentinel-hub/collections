@@ -10,8 +10,8 @@ Description: |
   The daily cumulative Gap-filled Fractional Snow Cover (GFSC) product is a more complete version of the FSC product; gap-filled both at a spatial and temporal scale.
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: /README.MD 
-Image: /thumbnail.png       
+    Path: hrsi_gfsc/README.MD 
+Image: hrsi_gfsc/thumbnail.png       
 Resolution: 60m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

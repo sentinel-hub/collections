@@ -1,10 +1,10 @@
 Name: High-Resolution Snow & Ice Monitoring; Daily cumulative Gap-filled Fractional Snow Cover
-Description: 
-The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
-measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
-(RLIE) and aggregated river and lake ice extent (ARLIE).
+Description: |
+  The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
+  measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
+  (RLIE) and aggregated river and lake ice extent (ARLIE).
 
-The daily cumulative Gap-filled Fractional Snow Cover (GFSC) product is a more complete version of the FSC product; gap-filled both at a spatial and temporal scale.
+  The daily cumulative Gap-filled Fractional Snow Cover (GFSC) product is a more complete version of the FSC product; gap-filled both at a spatial and temporal scale.
 AdditionalInfoExternal:
     Title: Additional info 
     Path: /README.MD 

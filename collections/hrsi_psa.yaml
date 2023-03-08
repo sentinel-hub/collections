@@ -1,11 +1,11 @@
 Name: High-Resolution Snow & Ice Monitoring; Persistent Snow Area
-Description: 
-The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
-measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
-(RLIE) and aggregated river and lake ice extent (ARLIE).
-
-The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is 
-present throughout the hydrological year).
+Description: |
+  The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
+  measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
+  (RLIE) and aggregated river and lake ice extent (ARLIE).
+  
+  The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is 
+  present throughout the hydrological year).
 AdditionalInfoExternal:
     Title: Additional info 
     Path: /README.MD 

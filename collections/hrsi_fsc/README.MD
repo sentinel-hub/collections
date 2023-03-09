@@ -2,6 +2,8 @@
 
 ## Short description
 
+The Fractional Snow Cover (FSC) product provides the snow fraction at the Top Of Canopy (FSCTOC) and On Ground (FSCOG). NDSI is also provided as part of this service.
+
 ## Band information
 
 ## More information  

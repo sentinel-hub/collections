@@ -2,6 +2,8 @@
 
 ## Short description
 
+The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is present throughout the hydrological year).
+
 ## Band information
 
 Possible values

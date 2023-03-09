@@ -2,6 +2,8 @@
 
 ## Short description
 
+The SAR Wet Snow (SWS) product provides information on the wet snow extent in high-mountain areas. 
+
 ## Band information
 
 Table 1: Classification classes and colouring scheme.

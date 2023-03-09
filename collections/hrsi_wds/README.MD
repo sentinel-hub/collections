@@ -2,6 +2,8 @@
 
 ## Short description
 
+The Wet/Dry Snow (WDS) product differentiates the snow state conditions within the snow mask defined by the FSCTOC information.
+
 ## Band information
 
 Table 1: Classification classes and colouring scheme.

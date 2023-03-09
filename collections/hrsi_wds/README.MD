@@ -4,92 +4,64 @@
 
 ## Band information
 
-### WorldCover Map classes description
+Table 1: Classification classes and colouring scheme.
 
 <table>
   <thead>
     <tr>
       <th>Value</th>
       <th>Color</th>
-      <th>Color Code</th>
-	    <th>Class Name</th>
+      <th>Label</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>10 </td>
-      <td style="background-color:#006400"></td>
-	    <td>0x006400 </td>
-	    <td>Tree cover </td>
+      <td>1</td>
+      <td style="background-color: #ff4dff;"></td>
+      <td>110 - Wet snow</td>
     </tr>
     <tr>
-      <td>20</td>
-      <td style="background-color:#ffbb22"></td>
-	    <td>0xffbb22 </td>
-	    <td>Shrubland </td>
+      <td>2</td>
+      <td style="background-color: #ffffff;"></td>
+      <td>115 - Dry snow</td>
     </tr>
     <tr>
-      <td>30</td>
-      <td style="background-color:#ffff4c"></td>
-	    <td>0xffff4c </td>
-	    <td>Grassland </td>
+      <td>3</td>
+      <td style="background-color: #e6e64d;"></td>
+      <td>120 - Snow free or patchy snow</td>
     </tr>
     <tr>
-      <td>40</td>
-      <td style="background-color:#f096ff" ></td>
-	    <td>0xf096ff  </td>
-	    <td>Cropland </td>
+      <td>4</td>
+      <td style="background-color: #000000;"></td>
+      <td>200 - Radar shadow / layover / foreshortening</td>
     </tr>
     <tr>
-      <td>50</td>
-      <td style="background-color:#fa0000" ></td>
-	    <td>0xfa0000 </td>
-	    <td>Built up </td>
+      <td>5</td>
+      <td style="background-color: #cccccc;"></td>
+      <td>205 - Cloud or cloud shadow</td>
     </tr>
     <tr>
-      <td>60</td>
-      <td style="background-color:#b4b4b4"></td>
-	    <td> 0xb4b4b4 </td>
-	    <td> Bare /sparse vegetation </td>
-    </tr>  
-    <tr>
-      <td>70</td>
-      <td style="background-color:#f0f0f0"></td>
-	    <td>0xf0f0f0 </td>
-	    <td>Snow and Ice </td>
-    </tr> 
-    <tr>
-      <td>80</td>
-      <td style="background-color:#0032c8"></td>
-	    <td>0x0064c8  </td>
-	    <td>Permanent water bodies </td>
-    </tr> 
-    <tr>
-      <td>90</td>
-      <td style="background-color:#0096a0"></td>
-	    <td>0x0096a0 </td>
-	    <td>Herbaceous wetland </td>
+      <td>6</td>
+      <td style="background-color: #4d4dff;"></td>
+      <td>210 - Water</td>
     </tr>
     <tr>
-      <td>95</td>
-      <td style="background-color:#00cf75"></td>
-	    <td>0x00cf75 </td>
-	    <td>Mangroves </td>
+      <td>7</td>
+      <td style="background-color: #00a600;"></td>
+      <td>220 - Forest</td>
     </tr>
     <tr>
-      <td>100</td>
-      <td style="background-color:#fae6a0"></td>
-	    <td>0xfae6a0 </td>
-	    <td>Moss and lichen </td>
+      <td>8</td>
+      <td style="background-color: #f2a64d;"></td>
+      <td>230 - Urban area</td>
     </tr>
     <tr>
-      <td>0</td>
-      <td></td>
-      <td></td>
-	    <td> No data </td>
+      <td>9</td>
+      <td style="background-color: #ff0000;"></td>
+      <td>255 - No data</td>
     </tr>
-   </tbody>
-</table> 
+</tbody>
+</table>  
 
 ## More information  
 

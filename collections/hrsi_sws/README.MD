@@ -62,6 +62,8 @@ Table 1: Classification classes and colouring scheme.
 
 ## More information  
 
+More information about the HR-S&I snow production workflows that highlights the dependencies between the diferent products and how they are derived can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products).
+
 ### Representative Images 
 
 <img src="figure.png" alt="SWS WSM, 1st April 2021, Bormio, IT" width="100%"/>

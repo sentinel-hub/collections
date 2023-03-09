@@ -8,6 +8,8 @@ The Fractional Snow Cover (FSC) product provides the snow fraction at the Top Of
 
 ## More information  
 
+More information about the HR-S&I snow production workflows that highlights the dependencies between the diferent products and how they are derived can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products).
+
 ### Representative Images 
 
 <img src="south_romania.png" alt="WorldCover South Romania" width="100%"/>

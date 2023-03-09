@@ -1,4 +1,4 @@
-# High-Resolution Snow & Ice Monitoring; Fractional Snow Cover
+# High-Resolution Snow & Ice Monitoring; SAR Wet Snow in high mountains - Wet Snow classification in high Mountains areas
 
 ## Short description
 
@@ -62,11 +62,6 @@ Table 1: Classification classes and colouring scheme.
 
 ### Representative Images 
 
-<img src="south_romania.png" alt="WorldCover South Romania" width="100%"/>
+<img src="figure.png" alt="SWS WSM, 1st April 2021, Bormio, IT" width="100%"/>
 
-*WorldCover 2020, river Olt, South of Romania visualised in EO Browser.*
-
-<br>
-<img src="manaus_brazil.png" alt="WorldCover Amazonas Brazil" width="100%"/>
-
-*WorldCover 2020, Manaus Amazonas Brazil visualised in EO Browser*
+*SAR Wet Snow in high mountains - Wet Snow classification in high Mountains areas, 1st April 2021, Bormio, IT.*

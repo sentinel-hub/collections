@@ -12,11 +12,6 @@ More information about the HR-S&I snow production workflows that highlights the 
 
 ### Representative Images 
 
-<img src="south_romania.png" alt="WorldCover South Romania" width="100%"/>
+<img src="figure.png" alt="GFSC, 23rd April 2020, Innsbruck, AT" width="100%"/>
 
-*WorldCover 2020, river Olt, South of Romania visualised in EO Browser.*
-
-<br>
-<img src="manaus_brazil.png" alt="WorldCover Amazonas Brazil" width="100%"/>
-
-*WorldCover 2020, Manaus Amazonas Brazil visualised in EO Browser*
+*Daily cumulative Gap-filled Fractional Snow Cover - Fractional snow cover, 23rd April 2020, Innsbruck, AT.*

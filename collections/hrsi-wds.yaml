@@ -10,8 +10,8 @@ Description: |
   The Wet/Dry Snow (WDS) product differentiates the snow state conditions within the snow mask defined by the FSCTOC information.
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: hrsi_wds/README.MD 
-Image: /thumbnail.png       
+    Path: hrsi-wds/README.MD 
+Image: hrsi-wds/thumbnail.png       
 Resolution: 60m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

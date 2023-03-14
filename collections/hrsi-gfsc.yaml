@@ -11,7 +11,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-gfsc/README.MD 
-Image: hrsi-gfsc/thumbnail.png       
+Image: hrsi-gfsc/hrsi-gfsc.png       
 Resolution: 60m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

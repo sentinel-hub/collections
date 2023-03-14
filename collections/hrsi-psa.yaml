@@ -12,7 +12,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-psa/README.MD 
-Image: hrsi-psa/thumbnail.png       
+Image: hrsi-psa/hrsi-psa.png       
 Resolution: 20m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

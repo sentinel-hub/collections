@@ -11,7 +11,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-wds/README.MD 
-Image: hrsi-wds/thumbnail.png       
+Image: hrsi-wds/hrsi-wds.png       
 Resolution: 60m
 GeographicalCoverage: EEA39
 TemporalAvailability: 1st September 2016 - present

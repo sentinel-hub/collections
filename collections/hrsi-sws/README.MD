@@ -6,7 +6,34 @@ The SAR Wet Snow (SWS) product provides information on the wet snow extent in hi
 
 ## Band information
 
-Table 1: Classification classes and colouring scheme.
+Table 1: Bands available in HR&SI SWS data collection.
+
+<table>
+  <thead>
+    <tr>
+      <th>Band Name</th>
+      <th>Sample Type</th>
+      <th>Expected Values</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WSM </td>
+      <td >UINT 8</td>
+      <td>Refer to Table 2 </td>
+      <td>Wet Snow classification in high Mountains areas </td>
+    </tr>
+    <tr>
+      <td>QCWSM </td>
+      <td >UINT8 </td>
+      <td>0 - high quality, 1 - medium quality, 2 - low quality, 3 - minimal quality, 250 - masked, 255 - no data  </td>
+      <td>WSM quality layer </td>
+    </tr>         
+   </tbody>
+</table> 
+
+Table 2: Classification classes and colouring scheme for WSM band.
 
 <table>
   <thead>

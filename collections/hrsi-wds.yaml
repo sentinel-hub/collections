@@ -13,7 +13,7 @@ AdditionalInfoExternal:
     Path: hrsi-wds/README.MD 
 Image: hrsi-wds/hrsi-wds.png       
 Resolution: 60m
-GeographicalCoverage: EEA39
+GeographicalCoverage: EEA38+UK
 TemporalAvailability: September 2016 - ongoing
 UpdateFrequency:
 BandInformation:

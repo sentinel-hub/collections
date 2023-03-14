@@ -13,7 +13,7 @@ AdditionalInfoExternal:
     Path: hrsi-fsc/README.MD 
 Image: hrsi-fsc/hrsi-fsc.png       
 Resolution: 20m
-GeographicalCoverage: EEA39
+GeographicalCoverage: EEA38+UK
 TemporalAvailability: September 2016 - ongoing
 UpdateFrequency: 5 days
 BandInformation: 

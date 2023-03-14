@@ -14,7 +14,7 @@ AdditionalInfoExternal:
     Path: hrsi-psa/README.MD 
 Image: hrsi-psa/hrsi-psa.png       
 Resolution: 20m
-GeographicalCoverage: EEA39
+GeographicalCoverage: EEA38+UK
 TemporalAvailability: September 2016 - ongoing
 UpdateFrequency: Annually (released in October after end of the hydrological year)
 BandInformation:

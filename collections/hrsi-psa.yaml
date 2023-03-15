@@ -58,8 +58,8 @@ Resources:
     Type: byoc-da7e0012-8c43-42db-a5dc-cfd606c8b2dd
     CollectionId: da7e0012-8c43-42db-a5dc-cfd606c8b2dd
 CustomScripts:
-    Title: Collection of Copernicus services data custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#High-Resolution_Snow_&_Ice_Monitoring
+    Title: Collection of HR&SI data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#high-resolution-snow--ice-monitoring
 
 RegistryEntryAdded: "2023-02-07"
 RegistryEntryLastModified: "2023-02-07"

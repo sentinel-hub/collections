@@ -30,6 +30,7 @@ The Persistent Snow Area (PSA) product is generated annually from FSC products a
     </tr>         
    </tbody>
 </table> 
+
 ## More information  
 
 More information about the HR-S&I snow production workflows that highlights the dependencies between the diferent products and how they are derived can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products).

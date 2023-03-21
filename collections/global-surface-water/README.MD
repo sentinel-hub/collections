@@ -2,7 +2,7 @@
 
 ## Short description
 
-The Global Surface Water dataset was developed by the European Commission's Joint Research Centre (JRC) within the framework of the Copernicus Programme. It is derived from Landsat 5, 7 and 8 imagery and shows various aspects of the spatio-temporal distribution of surface water between 1984 and 2020 (with annual revisions) at the global scale in six different layers. Surface water is considered as any uncovered stretch of water (fresh and salt water areas) greater than 30m² visible from space, including natural and artificial water bodies.<br><br>
+The Global Surface Water dataset was developed by the European Commission's Joint Research Centre (JRC) within the framework of the Copernicus Programme. It is derived from Landsat 5, 7 and 8 imagery and shows various aspects of the spatio-temporal distribution of surface water between 1984 and 2021 (with annual revisions) at the global scale in six different layers. Surface water is considered as any uncovered stretch of water (fresh and salt water areas) greater than 30m² visible from space, including natural and artificial water bodies.<br><br>
 
 Please check the [FAQ](https://global-surface-water.appspot.com/faq) on the official [Global Surface Water website](https://global-surface-water.appspot.com/) for more details. Detailed information on the processing methodology for the included layers can be found in the [Data Users Guide](https://global-surface-water.appspot.com/download) and Pekel et al. (2016) [[1]](#References) as the associated scientific publication.
 
@@ -34,12 +34,12 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
     <tr>
       <td>seasonality</td>
       <td >unsigned int8</td>
-      <td>The number of months that water was present from January to December in the year of review (2019 or 2020)</td>
+      <td>The number of months that water was present from January to December in the year of review (2019, 2020 or 2021)</td>
     </tr>
     <tr>
       <td>recurrence</td>
       <td >unsigned int8</td>
-      <td>The frequency with which water returns from years to year expressed as a percentage</td>
+      <td>The frequency with which water returns from year to year expressed as a percentage</td>
     </tr>
     <tr>
       <td>transitions</td>
@@ -57,7 +57,7 @@ The Global Surface Water dataset contains six layers that are listed in the tabl
 
 ### Occurrence
 
-The water Occurrence layer shows the (intra- and inter-annual) variations of surface water presence in the time range between March 1984 and December 2020. Permanent water areas with 100% occurrence over the 37 years are shown in blue, while lighter shades of pink and purple indicate lower degrees of water presence, according to the official layer symbology (Table 2).<br><br>
+The water Occurrence layer shows the (intra- and inter-annual) variations of surface water presence in the time range between March 1984 and December 2021. Permanent water areas with 100% occurrence over the 38 years are shown in blue, while lighter shades of pink and purple indicate lower degrees of water presence, according to the official layer symbology (Table 2).<br><br>
 
 <img src="image_occurrence_danube_delta.png" alt="Occurrence Danube Delta in Romania" width="100%"/>
 <br>
@@ -114,7 +114,7 @@ A visualisation script for the Occurrence layer can be found in our [custom scri
 
 ### Occurrence Change Intensity
 
-The Occurrence Change Intensity layer visualises changes in water occurrence between two different epochs, the first ranging from **March 1984 to December 1999**, and the other covering the period from **January 2000 to December 2020**. According to the official layer symbology, the increase of water occurrence is visualised in different shades of green, no change is shown in black and decrease is shown in shades of red (Table 3).<br><br>
+The Occurrence Change Intensity layer visualises changes in water occurrence between two different epochs, the first ranging from **March 1984 to December 1999**, and the other covering the period from **January 2000 to December 2021**. According to the official layer symbology, the increase of water occurrence is visualised in different shades of green, no change is shown in black and decrease is shown in shades of red (Table 3).<br><br>
 
 <img src="image_change_ganges_river.png" alt="Occurrence Change Intensity Ganges in Bangladesh" width="100%"/>
 <br>
@@ -240,7 +240,7 @@ A visualisation script for the Seasonality layer can be found in our [custom scr
 
 ### Recurrence
 
-The Recurrence layer captures the degree of interannual variability in surface water presence. It shows how frequently water returned to a particular location between years in a defined water period within the period from 1984 to 2020. The water period is defined individually for each pixel, ranging from the first month with an observation of surface water to the last month with surface water present throughout the 37-year time range. Areas with seasonal or permanent water presence are visualised in blue, while irregularly flooded areas are shown in orange (Table 5).<br><br>
+The Recurrence layer captures the degree of interannual variability in surface water presence. It shows how frequently water returned to a particular location between years in a defined water period within the period from 1984 to 2021. The water period is defined individually for each pixel, ranging from the first month with an observation of surface water to the last month with surface water present throughout the 38-year time range. Areas with seasonal or permanent water presence are visualised in blue, while irregularly flooded areas are shown in orange (Table 5).<br><br>
 
 <img src="image_recurrence_paddies_eluru.png" alt="Recurrence paddies near Eluru in India" width="100%"/>
 <br>
@@ -297,7 +297,7 @@ A visualisation script for the Recurrence layer can be found in our [custom scri
 
 ### Transitions
 
-The Transitions layer is derived from a seasonality comparison between the first and last year in the 37-year time period and visualises changes in the three surface water classes of not water, seasonal, and permanent water. A discrete colour map for the class transitions is provided in Table 6.<br><br>
+The Transitions layer is derived from a seasonality comparison between the first and last year in the 38-year time period and visualises changes in the three surface water classes of not water, seasonal, and permanent water. A discrete colour map for the class transitions is provided in Table 6.<br><br>
 
 <img src="image_transitions_parana_river.png" alt="Transitions Paraná River near Santa Fe in Argentina" width="100%"/>
 <br>
@@ -402,7 +402,7 @@ A visualisation script for the Transitions layer can be found in our [custom scr
 
 ### Extent
 
-The maximum water Extent layer combines all other layers by visualising all locations for which water presence has ever been detected over the 37-year period.<br><br>
+The maximum water Extent layer combines all other layers by visualising all locations for which water presence has ever been detected over the 38-year period.<br><br>
 
 <img src="image_extent_lake_kyoga.png" alt="Extent of Lake Kyoga in Uganda" width="100%"/>
 <br>

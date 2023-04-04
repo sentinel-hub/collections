@@ -2,7 +2,7 @@ Name: Sentinel 1 River and Lake Ice Extent
 Description: |
   The Sentinel 1 River and Lake Ice Extent S1 (RLIE S1) product is part of the Copernicus Land Monitoring Service (CLMS), 
   pan-European High Resolution Snow and Ice Monitoring [(HR-S&I)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) Ice product suite.The River and Lake Ice Extent (RLIE) products measure the presence of ice in rivers and lakes described by the EU-HYDRO network database, in particular the area of snow-free or snow-covered ice. 
-  The RLIE S1 product is released in near real time for the entire EEA39 zone based on the revisit time of the Sentinel 1 syntetic aperture radar constellation, at a spatial resolution of 20 m x 20 m.  Because it is time critical for several applications, every effort is made to provide near real time ice products between 6 and 12 hours after the data sensing time. 
+  The RLIE S1 product is released in near real time for the entire EEA39 zone based on the revisit time of the Sentinel 1 syntetic aperture radar constellation, and it is generated at a spatial resolution of 20 m x 20 m.  Because it is time critical for several applications, every effort is made to provide near real time ice products between 6 and 12 hours after the data sensing time. 
   More information about the RLIE S1 product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-pum)
 AdditionalInfoExternal:
     Title: Additional info 
@@ -32,15 +32,15 @@ BandInformation:
       Rows:
         - Name: RLIE
           Description: River and lake ice extent
-          Units: -
-          Range: -
+          Units: Not aplicable
+          Range: Not aplicable
           Sentinel Hub Units: DN
           Digital Range: 1, 100 
           No data: 255
         - Name: QC
           Description: Quality layer providing basic assessment of RLIE quality
-          Units: -
-          Range: -          
+          Units: Not aplicable
+          Range: Not aplicable         
           Sentinel Hub Units: DN
           Digital Range: 0 - 3
           No data: 255
@@ -48,9 +48,9 @@ BandInformation:
           Description: Quality flags 
           Units: bit; Additional info <a href="https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-s1-atbd/">here</a>.
           Range: 1 - 7 
-          Sentinel Hub Units: -
-          Digital Range: -          
-          No data: -
+          Sentinel Hub Units: Not aplicable
+          Digital Range: Not aplicable         
+          No data: Not aplicable
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

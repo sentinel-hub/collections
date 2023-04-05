@@ -32,15 +32,15 @@ BandInformation:
       Rows:
         - Name: RLIE
           Description: River and lake ice extent
-          Units: Not aplicable
-          Range: Not aplicable
+          Units: Not applicable
+          Range: Not applicable
           Sentinel Hub Units: DN
           Digital Range: 1, 100 
           No data: 255
         - Name: QC
           Description: Quality layer providing basic assessment of RLIE quality
-          Units: Not aplicable
-          Range: Not aplicable         
+          Units: Not applicable
+          Range: Not applicable         
           Sentinel Hub Units: DN
           Digital Range: 0 - 3
           No data: 255
@@ -48,9 +48,9 @@ BandInformation:
           Description: Quality flags 
           Units: bit; Additional info <a href="https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-s1-atbd/">here</a>.
           Range: 1 - 7 
-          Sentinel Hub Units: Not aplicable
-          Digital Range: Not aplicable         
-          No data: Not aplicable
+          Sentinel Hub Units: Not applicable
+          Digital Range: Not applicable         
+          No data: Not applicable
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

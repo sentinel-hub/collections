@@ -56,6 +56,8 @@ Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - water
+  - river
+  - lake
   - ice
   - CLMS
   - derived data

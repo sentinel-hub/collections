@@ -8,7 +8,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: impact-observatory-lulc-map/README.MD 
 Image: impact-observatory-lulc-map/io-lulc-ganges-delta.png
-# ViewOnEOBrowser: 
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/Yzf7)" 
 Resolution: 10m
 GeographicalCoverage: Global land area
 TemporalAvailability: 2017, 2018, 2019, 2020, 2021

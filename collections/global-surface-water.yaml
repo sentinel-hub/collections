@@ -3,7 +3,8 @@ Description: The Global Surface Water dataset was developed by the European Comm
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
-Image: global-surface-water/global-surface-water.png  
+Image: global-surface-water/global-surface-water.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/VoYx)"  
 EOBrowser: https://sentinelshare.page.link/BN9T
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.

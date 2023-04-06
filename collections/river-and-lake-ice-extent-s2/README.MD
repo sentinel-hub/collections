@@ -7,7 +7,7 @@ The RLIE S2 product is released in near real time for the entire EEA39 zone base
 More information about the RLIE S2 product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-pum)
 
 ## Band information
-The RLIE S2 contains two layers: (1) the extent of rivers and lakes, (2) quality layer with confidence levels (QC), and (3) quality flags (QCFLAGS).
+The RLIE S2 contains three layers: (1) the extent of rivers and lakes, (2) quality layer with confidence levels (QC), and (3) quality flags (QCFLAGS).
 
 ### River and Lake Ice Extent symbology (RLIE)
 

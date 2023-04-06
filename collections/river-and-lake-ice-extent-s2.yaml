@@ -42,7 +42,7 @@ BandInformation:
           Units: Not applicable
           Range: Not applicable         
           Sentinel Hub Units: DN
-          Digital Range: 0 - 3, 295
+          Digital Range: 0 - 3, 205
           No data: 255
         - Name: QCFLAGS
           Description: Quality flags 

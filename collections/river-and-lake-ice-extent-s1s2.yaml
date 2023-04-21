@@ -5,56 +5,57 @@ Description: |
   The RLIE S1+S2 product is computed from the combination of RLIE S1 and RLIE S2 products.The RLIE S2 product from a given day is gap-filled using the RLIE S1 information from the same day. Because the RLIE S1+S2 is only produced when RLIE S2 and RLIE S1 products are aquired on the same day, it is delivered in delayed-time for the entire EEA39 zone at a spatial resolution of 20 m x 20 m.
   More information about the RLIE S1+S2 product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-pum)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: river-and-lake-ice-extent-s1s2/README.MD 
-Image: river-and-lake-ice-extent-s1s2/thumbnail.png       
+  Title: Additional info
+  Path: river-and-lake-ice-extent-s1s2/README.MD
+Image: river-and-lake-ice-extent-s1s2/thumbnail.png
 Resolution: 20m
 GeographicalCoverage: Europe  (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: September 1, 2016 - ongoing 
-UpdateFrequency: Annually
-BandInformation: 
+TemporalAvailability: September 1, 2016 - ongoing
+UpdateFrequency: Delayed time, when S1 and S2 are acquired on the same day
+BandInformation:
   Table:
-      Columns:
-        - Name: Name
-          Title: Name
-        - Name: Description
-          Title: Description  
-        - Name: Units
-          Title: Units
-        - Name: Range
-          Title: Range 
-        - Name: Sentinel Hub Units
-          Title: Sentinel Hub Units
-        - Name: Digital Range
-          Title: Digital Range   
-        - Name: No data
-          Title: No data                 
-      Rows:
-        - Name: RLIE
-          Description: River and lake ice extent
-          Units: Not applicable
-          Range: Not applicable
-          Sentinel Hub Units: DN
-          Digital Range: 1, 100, 205, 254 
-          No data: 255
-        - Name: QC
-          Description: Quality layer providing basic assessment of RLIE quality
-          Units: Not applicable
-          Range: Not applicable         
-          Sentinel Hub Units: DN
-          Digital Range: 0 - 3, 205
-          No data: 255
-        - Name: QCFLAGS
-          Description: Quality flags 
-          Units: bit; Additional info <a href="https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-s1-atbd/">here</a>.
-          Range: 1 - 8 
-          Sentinel Hub Units: Not applicable
-          Digital Range: Not applicable         
-          No data: Not applicable
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Units
+        Title: Units
+      - Name: Range
+        Title: Range
+      - Name: Sentinel Hub Units
+        Title: Sentinel Hub Units
+      - Name: Digital Range
+        Title: Digital Range
+      - Name: No data
+        Title: No data
+    Rows:
+      - Name: RLIE
+        Description: River and lake ice extent
+        Units: Not applicable
+        Range: Not applicable
+        Sentinel Hub Units: DN
+        Digital Range: 1, 100, 205, 254
+        No data: 255
+      - Name: QC
+        Description: Quality layer providing basic assessment of RLIE quality
+        Units: Not applicable
+        Range: Not applicable
+        Sentinel Hub Units: DN
+        Digital Range: 0 - 3, 205
+        No data: 255
+      - Name: QCFLAGS
+        Description: Quality flags
+        Units: bit; Additional info <a href="https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-s1-atbd/">here</a>.
+        Range: 1 - 8
+        Sentinel Hub Units: Not applicable
+        Digital Range: Not applicable
+        No data: Not applicable
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
-Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - hrsi
   - water
   - river
   - lake
@@ -68,7 +69,7 @@ Resources:
     Type: byoc-fe2c0caf-fbe8-49a1-91ae-e730ea65116a
     CollectionId: fe2c0caf-fbe8-49a1-91ae-e730ea65116a
 CustomScripts:
-    Title: Collection of Copernicus services data custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+  Title: Collection of Copernicus services data custom scripts
+  URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2023-04-06"
 RegistryEntryLastModified: "2023-04-06"

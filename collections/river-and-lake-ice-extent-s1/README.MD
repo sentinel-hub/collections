@@ -1,12 +1,14 @@
-# Sentinel 1 River and Lake Ice Extent
+# River and Lake Ice Extent - Sentinel 1
 
 ## Short description
-The Sentinel 1 River and Lake Ice Extent S1 (RLIE S1) product is part of the Copernicus Land Monitoring Service (CLMS), 
+
+The River and Lake Ice Extent - Sentinel 1 (RLIE S1) product is part of the Copernicus Land Monitoring Service (CLMS), 
 pan-European High Resolution Snow and Ice Monitoring [(HR-S&I)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) Ice product suite.The River and Lake Ice Extent (RLIE) products measure the presence of ice in rivers and lakes described by the EU-HYDRO network database, in particular the area of snow-free or snow-covered ice. 
 The RLIE S1 product is released in near real time for the entire EEA39 zone based on the revisit time of the Sentinel 1 syntetic aperture radar constellation (~ 6 days at the equator and ~1 to 3 days in European countries), and it is generated at a spatial resolution of 20 m x 20 m.  Because it is time critical for several applications, every effort is made to provide near real time ice products between 6 and 12 hours after the data sensing time. 
 More information about the RLIE S1 product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-pum)
 
 ## Band information
+
 The RLIE S1 contains three layers: (1) the extent of rivers and lakes, (2) quality layer with confidence levels (QC), and (3) quality flags (QCFLAGS).
 
 ### River and Lake Ice Extent symbology (RLIE)
@@ -89,7 +91,7 @@ The RLIE S1 contains three layers: (1) the extent of rivers and lakes, (2) quali
 </table>
 <br>
 
-###  Quality flags (QCFLAGS)
+### Quality flags (QCFLAGS)
 
 <table style="width: 40%">
   <colgroup>
@@ -136,7 +138,8 @@ The RLIE S1 contains three layers: (1) the extent of rivers and lakes, (2) quali
 <br>
 
 ## More information
-### Representative Images 
+
+### Representative Images
 
 <img src="extent-nordland-norway.PNG" alt="Sentinel 1 River and Lake Ice Extent" width="100%"/>
 
@@ -148,5 +151,3 @@ The RLIE S1 contains three layers: (1) the extent of rivers and lakes, (2) quali
 <br>
 
 *Confidence levels of the Sentinel 1 River and Lake Ice Extent, 2023, Nordland, Norway.*
-
-

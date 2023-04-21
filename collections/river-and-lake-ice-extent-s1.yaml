@@ -11,7 +11,7 @@ Image: river-and-lake-ice-extent-s1/thumbnail.png
 Resolution: 20m
 GeographicalCoverage: Europe  (Lat; 26N 72N Lon; -25W 45E)
 TemporalAvailability: September 1, 2016 - ongoing
-UpdateFrequency: NRT, 6 and 12 hours after the data sensing time.
+UpdateFrequency: NRT, between 6 and 12 hours after the data sensing time.
 BandInformation:
   Table:
     Columns:

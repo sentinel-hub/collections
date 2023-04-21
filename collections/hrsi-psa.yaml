@@ -1,0 +1,67 @@
+Name: High-Resolution Snow & Ice Monitoring; Persistent Snow Area
+Description: |
+  The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
+  measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
+  (RLIE) and aggregated river and lake ice extent (ARLIE).
+
+  More information about the data can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) and
+  the snow products user manual is located [here](https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum). 
+
+  The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is 
+  present throughout the hydrological year).
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: hrsi-psa/README.MD 
+Image: hrsi-psa/hrsi-psa.png       
+Resolution: 20m
+GeographicalCoverage: EEA38+UK
+TemporalAvailability: September 2016 - ongoing
+UpdateFrequency: Annually (released in October after end of the hydrological year)
+BandInformation:
+  Table:
+        Columns:
+          - Name: Name
+            Title: Name
+          - Name: Description
+            Title: Description  
+          - Name: Unit
+            Title: Unit
+          - Name: Sentinel Hub Units
+            Title: Sentinel Hub Units
+          - Name: Data Values
+            Title: Data Values 
+          - Name: No data
+            Title: No data            
+        Rows:
+          - Name: PSA
+            Description: Persistent snow area
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: No persistent snow - 0, Persistent snow - 1
+            No data: 255
+          - Name: QC
+            Description: Quality layer
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3
+            No data: 255 
+Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - CLMS
+  - derived data
+  - open data  
+  - snow
+  - hrsi
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+Resources:
+  - EndPoint: creodias.sentinel-hub.com
+    Type: byoc-da7e0012-8c43-42db-a5dc-cfd606c8b2dd
+    CollectionId: da7e0012-8c43-42db-a5dc-cfd606c8b2dd
+CustomScripts:
+    Title: Collection of HR&SI data custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#high-resolution-snow--ice-monitoring
+
+RegistryEntryAdded: "2023-03-16"
+RegistryEntryLastModified: "2023-03-16"

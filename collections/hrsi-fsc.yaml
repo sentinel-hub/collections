@@ -78,7 +78,7 @@ Resources:
     CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
 CustomScripts:
     Title: Collection of HR&SI data custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#high-resolution-snow--ice-monitoring
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#fractional-snow-cover
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-03-16"
+RegistryEntryLastModified: "2023-05-23"

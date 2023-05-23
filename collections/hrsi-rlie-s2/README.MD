@@ -156,13 +156,13 @@ The RLIE S2 contains three layers: (1) the extent of rivers and lakes, (2) quali
 
 ### Representative Images
 
-<img src="extent-varese-como-lecco-italy.PNG" alt="Sentinel 2 River and Lake Ice Extent" width="100%"/>
+<img src="extent-varese-como-lecco-italy.png" alt="Sentinel 2 River and Lake Ice Extent" width="100%"/>
 
 *Sentinel 2 River and Lake Ice Extent, 2022, Varese-Como-Lecco, Italy.*
 
 <br>
 <br>
-<img src="qlayer-varese-como-lecco-italy.PNG" alt="Confidence levels of the Sentinel 2 River and Lake Ice Extent layer" width="100%"/>
+<img src="qlayer-varese-como-lecco-italy.png" alt="Confidence levels of the Sentinel 2 River and Lake Ice Extent layer" width="100%"/>
 <br>
 
 *Confidence levels of the Sentinel 2 River and Lake Ice Extent, 2022, Varese-Como-Lecco, Italy.*

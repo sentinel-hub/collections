@@ -160,13 +160,13 @@ The RLIE S1+S2 contains three layers: (1) the extent of rivers and lakes, (2) qu
 
 ### Representative Images
 
-<img src="extent-rovaniemi-findland.PNG" alt="River and Lake Ice Extent S1+S2" width="100%"/>
+<img src="extent-rovaniemi-findland.png" alt="River and Lake Ice Extent S1+S2" width="100%"/>
 
 *River and Lake Ice Extent S1+S2, 2021, Rovaniemi, Findland.*
 
 <br>
 <br>
-<img src="qlayer-rovaniemi-findland.PNG" alt="Confidence levels of the River and Lake Ice Extent layer S1+S2" width="100%"/>
+<img src="qlayer-rovaniemi-findland.png" alt="Confidence levels of the River and Lake Ice Extent layer S1+S2" width="100%"/>
 <br>
 
 *Confidence levels of the River and Lake Ice Extent S1+S2, 2021, Rovaniemi, Findland.*

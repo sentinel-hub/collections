@@ -141,13 +141,13 @@ The RLIE S1 contains three layers: (1) the extent of rivers and lakes, (2) quali
 
 ### Representative Images
 
-<img src="extent-nordland-norway.PNG" alt="Sentinel 1 River and Lake Ice Extent" width="100%"/>
+<img src="extent-nordland-norway.png" alt="Sentinel 1 River and Lake Ice Extent" width="100%"/>
 
 *Sentinel 1 River and Lake Ice Extent, 2023, Nordland, Norway.*
 
 <br>
 <br>
-<img src="qlayer-nordland-norway.PNG" alt="Confidence levels of the Sentinel 1 River and Lake Ice Extent layer" width="100%"/>
+<img src="qlayer-nordland-norway.png" alt="Confidence levels of the Sentinel 1 River and Lake Ice Extent layer" width="100%"/>
 <br>
 
 *Confidence levels of the Sentinel 1 River and Lake Ice Extent, 2023, Nordland, Norway.*

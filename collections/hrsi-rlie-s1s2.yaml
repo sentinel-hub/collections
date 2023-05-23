@@ -1,4 +1,4 @@
-Name: River and Lake Ice Extent S1+S2
+Name: High-Resolution Snow & Ice Monitoring; River and Lake Ice Extent S1+S2
 Description: |
   The River and Lake Ice Extent S1+S2 (RLIE S1+S2) product is part of the Copernicus Land Monitoring Service (CLMS), 
   pan-European High Resolution Snow and Ice Monitoring [(HR-S&I)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) Ice product suite.The River and Lake Ice Extent (RLIE) products measure the presence of ice in rivers and lakes described by the EU-HYDRO network database, in particular the area of snow-free or snow-covered ice. 
@@ -6,8 +6,8 @@ Description: |
   More information about the RLIE S1+S2 product methodology and workflow is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-ice-pum)
 AdditionalInfoExternal:
   Title: Additional info
-  Path: river-and-lake-ice-extent-s1s2/README.MD
-Image: river-and-lake-ice-extent-s1s2/thumbnail.png
+  Path: hrsi-rlie-s1s2/README.MD
+Image: hrsi-rlie-s1s2/thumbnail.png
 Resolution: 20m
 GeographicalCoverage: Europe  (Lat; 26N 72N Lon; -25W 45E)
 TemporalAvailability: September 1, 2016 - ongoing

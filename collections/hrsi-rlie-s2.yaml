@@ -67,9 +67,9 @@ License: Freely and openly accessible according to the Copernicus data and infor
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-fe2c0caf-fbe8-49a1-91ae-e730ea65116a
-    CollectionId: fe2c0caf-fbe8-49a1-91ae-e730ea65116a
+    CollectionId: 1b375fda-482c-484c-974f-7308f0b51359
 CustomScripts:
   Title: Collection of Copernicus services data custom scripts
   URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#rlie-s2
 RegistryEntryAdded: "2023-04-04"
-RegistryEntryLastModified: "2023-05-23"
+RegistryEntryLastModified: "2023-06-15"

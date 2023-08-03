@@ -32,13 +32,13 @@ BandInformation:
           - Name: No data
             Title: No data            
         Rows:
-          - Name: SSC
+          - Name: WSM
             Description: Wet Snow Classification in high Mountains areas
             Unit: Dimensionless
             Sentinel Hub Units: DN
             Data Values: Wet snow - 110, Dry snow or snow free or patchy snow - 125, Radar shadow / layover / foreshortening - 200, Water - 210, Forest - 220, Urban area - 230, Non-mountain areas - 240
             No data: 255
-          - Name: QCSSC
+          - Name: QCWSM
             Description: Quality layer
             Unit: Dimensionless
             Sentinel Hub Units: DN
@@ -63,4 +63,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#sar-wet-snow-in-high-mountains
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-05-23"
+RegistryEntryLastModified: "2023-08-03"

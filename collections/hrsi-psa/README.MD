@@ -3,6 +3,8 @@
 ## Short description
 
 The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is present throughout the hydrological year).
+ 
+The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is present throughout the hydrological year). The PSA corresponds to pixels with a snow probability greater than 0.95, i.e. where snow was observed in at least 95% of the observations (under clear-sky conditions). For optimisation reasons, the retrieval methodology assumes that the minimal snow cover is reached across Europe between 1 May and 30 September; thus the algorithm performs the aggregation only over this period. 
 
 ## Band information
 

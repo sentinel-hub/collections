@@ -13,9 +13,9 @@ AdditionalInfoExternal:
     Path: hrsi-wds/README.MD 
 Image: hrsi-wds/hrsi-wds.png       
 Resolution: 60m
-GeographicalCoverage: EEA38+UK
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
-UpdateFrequency:
+UpdateFrequency: In near real-time, according S1 revisit and FSC release
 BandInformation:
   Table:
         Columns:
@@ -63,4 +63,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#wet--dry-snow---snow-state-classification
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-05-23"
+RegistryEntryLastModified: "2023-08-03"

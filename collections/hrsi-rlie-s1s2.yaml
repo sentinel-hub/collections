@@ -9,7 +9,7 @@ AdditionalInfoExternal:
   Path: hrsi-rlie-s1s2/README.MD
 Image: hrsi-rlie-s1s2/thumbnail.png
 Resolution: 20m
-GeographicalCoverage: Europe  (Lat; 26N 72N Lon; -25W 45E)
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 1, 2016 - ongoing
 UpdateFrequency: Delayed time, when S1 and S2 are acquired on the same day
 BandInformation:
@@ -72,4 +72,4 @@ CustomScripts:
   Title: Collection of Copernicus services data custom scripts
   URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#rlie-s1s2
 RegistryEntryAdded: "2023-04-06"
-RegistryEntryLastModified: "2023-06-29"
+RegistryEntryLastModified: "2023-08-03"

@@ -11,7 +11,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-gfsc/README.MD 
-Image: hrsi-gfsc/hrsi-gfsc.png       
+Image: hrsi-gfsc/hrsi-gfsc.png   
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/gY5U)"    
 Resolution: 60m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
@@ -63,4 +64,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#daily-cumulative-gap-filled-fractional-snow-cover
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-04"

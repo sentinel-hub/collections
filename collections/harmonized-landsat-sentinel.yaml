@@ -4,6 +4,7 @@ Description: |
  Input products are Landsat 8-9 Collection 2 Level 1 top-of-atmosphere reflectance and Sentinel-2 L1C top-of-atmosphere reflectance, which NASA radiometrically harmonizes to the maximum extent, resamples to common 30-meter resolution, and grids using the Sentinel-2 Military Grid Reference System (MGRS) UTM grid. Because of this, the products are different from Landsat 8-9 Collection 2 Level 2 surface reflectance and Sentinel-2 L2A surface reflectance.
 Documentation: "[here](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/)"
 Image: harmonized-landsat-sentinel/harmonized-landsat-sentinel.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/jsn7)"
 Resolution: 30 m
 GeographicalCoverage: Global land
 TemporalAvailability: April 2013 - ongoing.

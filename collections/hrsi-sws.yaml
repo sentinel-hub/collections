@@ -11,7 +11,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-sws/README.MD 
-Image: hrsi-sws/hrsi-sws.png       
+Image: hrsi-sws/hrsi-sws.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/c5WM)"       
 Resolution: 60m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
@@ -63,4 +64,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#sar-wet-snow-in-high-mountains
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-04"

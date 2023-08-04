@@ -14,7 +14,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-psa/README.MD 
-Image: hrsi-psa/hrsi-psa.png       
+Image: hrsi-psa/hrsi-psa.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/tWUV)"       
 Resolution: 20m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: May 2017 - ongoing
@@ -66,4 +67,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#persistent-snow-area
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-04"

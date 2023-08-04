@@ -8,6 +8,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: hrsi-rlie-s1/README.MD
 Image: hrsi-rlie-s1/thumbnail.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/SRi1)"
 Resolution: 20m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 1, 2016 - ongoing
@@ -72,4 +73,4 @@ CustomScripts:
   Title: Collection of Copernicus services data custom scripts
   URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#rlie-s1
 RegistryEntryAdded: "2023-04-04"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-04"

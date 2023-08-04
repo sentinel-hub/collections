@@ -21,6 +21,8 @@ Tags:
   - LULC change
   - brightness temperature
   - open data
+  - landsat
+  - sentinel
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
@@ -31,4 +33,4 @@ CustomScripts:
     Title: Collection of custom scripts of Harmonized Landsat Sentinel
     URL: https://custom-scripts.sentinel-hub.com/#harmonized-landsat-sentinel
 RegistryEntryAdded: "2022-11-17"
-RegistryEntryLastModified: "2022-11-17"
+RegistryEntryLastModified: "2023-08-04"

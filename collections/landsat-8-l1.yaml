@@ -1,12 +1,12 @@
-Name: Landsat - 8 L1
+Name: Landsat 8-9 L1
 Description: |
-  [Landsat -8 mission](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) 
-  is the most recent satellite of the Landsat program and it carries OLI(Operational Land Imager) and TIRS(Thermal Infrared Sensor) instruments onboard. 
-  OLI acquires data in the visible, near and short wave infrared regions while TIRS acquires data in the thermal region to provide essential information
-  for monitoring our natural resources and environment.
-  [Landsat 8 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
+  [Landsat 8-9 Level 1](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-operational-land-imager-and) collection includes both 
+  [Landsat 8](https://www.usgs.gov/landsat-missions/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) and the most recently launched 
+  [Landsat 9](https://www.usgs.gov/landsat-missions/landsat-9) satellites (provided by NASA/USGS), both carrying the Operational Land Imager (OLI) and 
+  the Thermal Infrared Sensor (TIRS) instruments, with 9 optical and 2 thermal bands. These two sensors provide seasonal coverage of the global landmass.
+  [Landsat 8-9 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
-  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013. 
+  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013 for Landsat 8 and since January 2022 for Landsat 9.  
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"  
 Image: landsat-8-l1/landsat-8-l1.png  
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/abtC)"
@@ -27,6 +27,7 @@ Tags:
   - LULC change
   - surface temperature
   - open data
+  - landsat
 License: |
    [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
@@ -34,9 +35,9 @@ Resources:
     Type: landsat-ot-l1 
     Notes: Global since Feb 2013
 CustomScripts:
-    Title: Collection of Landsat -8 custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#landsat-8
+    Title: Collection of Landsat custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/landsat/
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-27"
+RegistryEntryLastModified: "2023-08-04"

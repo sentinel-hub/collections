@@ -26,12 +26,16 @@ Tags:
   - LULC change
   - surface temperature
   - open data
+  - landsat
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: landsat-tm-l1  
     Notes: Global coverage from July 1982 to May 2012
+CustomScripts:
+    Title: Collection of Landsat custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/landsat/
 
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-08-27"
+RegistryEntryLastModified: "2023-08-04"

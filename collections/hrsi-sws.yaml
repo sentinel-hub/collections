@@ -13,9 +13,9 @@ AdditionalInfoExternal:
     Path: hrsi-sws/README.MD 
 Image: hrsi-sws/hrsi-sws.png       
 Resolution: 60m
-GeographicalCoverage: EEA38+UK
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
-UpdateFrequency:
+UpdateFrequency: In near real-time, according S1 revisit
 BandInformation:
   Table:
         Columns:

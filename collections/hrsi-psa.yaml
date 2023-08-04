@@ -8,14 +8,16 @@ Description: |
   the snow products user manual is located [here](https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum). 
 
   The Persistent Snow Area (PSA) product is generated annually from FSC products and provides the extent of persistent snow cover for that year (the area where snow is 
-  present throughout the hydrological year).
+  present throughout the hydrological year). The PSA corresponds to pixels with a snow probability greater than 0.95, i.e. where snow was observed in at least 95% 
+  of the observations (under clear-sky conditions). For optimisation reasons, the retrieval methodology assumes that the minimal snow cover is reached across Europe between 
+  1 May and 30 September; thus the algorithm performs the aggregation only over this period.
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-psa/README.MD 
 Image: hrsi-psa/hrsi-psa.png       
 Resolution: 20m
-GeographicalCoverage: EEA38+UK
-TemporalAvailability: September 2016 - ongoing
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
+TemporalAvailability: May 2017 - ongoing
 UpdateFrequency: Annually (released in October after end of the hydrological year)
 BandInformation:
   Table:
@@ -64,4 +66,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#persistent-snow-area
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-05-23"
+RegistryEntryLastModified: "2023-08-03"

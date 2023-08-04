@@ -13,9 +13,9 @@ AdditionalInfoExternal:
     Path: hrsi-gfsc/README.MD 
 Image: hrsi-gfsc/hrsi-gfsc.png       
 Resolution: 60m
-GeographicalCoverage: EEA38+UK
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
-UpdateFrequency: 5-7 days
+UpdateFrequency: 5-7 days, In near real-time, at each release of FSC, WDS or SWS
 BandInformation:
   Table:
         Columns:
@@ -63,4 +63,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#daily-cumulative-gap-filled-fractional-snow-cover
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-05-23"
+RegistryEntryLastModified: "2023-08-03"

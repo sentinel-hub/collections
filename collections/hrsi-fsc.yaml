@@ -11,7 +11,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-fsc/README.MD 
-Image: hrsi-fsc/hrsi-fsc.png       
+Image: hrsi-fsc/hrsi-fsc.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/aUUT)"       
 Resolution: 20m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
@@ -81,4 +82,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#fractional-snow-cover
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-04"

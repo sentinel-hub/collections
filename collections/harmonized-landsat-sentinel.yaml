@@ -4,6 +4,7 @@ Description: |
  Input products are Landsat 8-9 Collection 2 Level 1 top-of-atmosphere reflectance and Sentinel-2 L1C top-of-atmosphere reflectance, which NASA radiometrically harmonizes to the maximum extent, resamples to common 30-meter resolution, and grids using the Sentinel-2 Military Grid Reference System (MGRS) UTM grid. Because of this, the products are different from Landsat 8-9 Collection 2 Level 2 surface reflectance and Sentinel-2 L2A surface reflectance.
 Documentation: "[here](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/)"
 Image: harmonized-landsat-sentinel/harmonized-landsat-sentinel.png
+ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/jsn7)"
 Resolution: 30 m
 GeographicalCoverage: Global land
 TemporalAvailability: April 2013 - ongoing.
@@ -21,6 +22,8 @@ Tags:
   - LULC change
   - brightness temperature
   - open data
+  - landsat
+  - sentinel
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
@@ -31,4 +34,4 @@ CustomScripts:
     Title: Collection of custom scripts of Harmonized Landsat Sentinel
     URL: https://custom-scripts.sentinel-hub.com/#harmonized-landsat-sentinel
 RegistryEntryAdded: "2022-11-17"
-RegistryEntryLastModified: "2022-11-17"
+RegistryEntryLastModified: "2023-08-04"

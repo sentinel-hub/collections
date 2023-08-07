@@ -66,6 +66,7 @@ Tags:
   - machine learning
   - agriculture
   - open data
+  - sentinel 
 License: "CC-BY 4.0, Credit: Contains modified Copernicus data 2020 processed by Sentinel Hub"
 Resources:
   - EndPoint: services.sentinel-hub.com
@@ -90,4 +91,4 @@ DataAtWork:
       AuthorName: Milcinski G., Lubej M.
 
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-09-13"
+RegistryEntryLastModified: "2023-08-04"

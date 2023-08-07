@@ -25,12 +25,17 @@ Tags:
   - LULC mapping
   - LULC change
   - open data
+  - landsat
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type:  landsat-mss-l1 
     Notes: Global coverage from July 1972 to October 1992 and from June 2012 to January 2013
+CustomScripts:
+    Title: Collection of Landsat custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/landsat/
+
 
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2021-07-20"
+RegistryEntryLastModified: "2023-08-04"

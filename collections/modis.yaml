@@ -7,14 +7,14 @@ Description: |
  local or global scale land or water applications. There are several products derived from MODIS which include land, atmosphere, cryospehere and ocean products.
  MCD43A4 Nadir BRDF-Adjusted Reflectance (NBAR) product Version 6 is a MODIS land product available in Sentinel Hub. 
  It is computed daily  for each of MODIS bands 1 - 7 and it contains the most representative pixels from 16 day period temporarily weighted to the ninth day.
- MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. 
+ MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. Sentinel Hub no longer has the latest MODIS data because the underlying data provider has ceased operations. Data from February 24, 2000 to February 10, 2023 remains accessible.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/)" 
 Image: modis/modis.png
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/6TQV)"
 Resolution: 500m
 GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis.gsfc.nasa.gov/about/specifications.php))
-TemporalAvailability: February 2000 - ongoing
-UpdateFrequency: MODIS data are added regularly, usually within few hours after they are available on the USGS archive
+TemporalAvailability: February 24, 2000 -  February 10, 2023
+UpdateFrequency: Archived data. Sentinel Hub no longer has the latest MODIS data. 
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com
 Provider: "[USGS](https://www.usgs.gov//)" 
@@ -31,11 +31,11 @@ License: |
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: modis  
-    Notes: Global since Feb 2000
+    Notes: Gloabl from February 24, 2000 to February 10, 2023
 CustomScripts:
     Title: Collection of MODIS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#modis
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-27"
+RegistryEntryLastModified: "2023-08-18"

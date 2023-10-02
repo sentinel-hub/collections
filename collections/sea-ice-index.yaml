@@ -36,7 +36,7 @@ Tags:
   - climate change
   - open data
 License: |
-  These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html.
+  These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785

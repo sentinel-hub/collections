@@ -14,7 +14,7 @@ A new product is generated annually using an 'epoch', where an epoch consists of
 - **consolidated** maps (2016, 2017, 2018) one year before and one year after the reference year
 -  **near-real time** maps (2019) with one year before and only three months data of the reference year. 
 
-See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf) for more details on the procesing modes.
+See [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.4.pdf) for more details on the procesing modes.
 
 ## Temporal availability
 The following epochs are available:
@@ -31,7 +31,7 @@ The following epochs are available:
 ## Band information
 
 The available bands include: a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, a discrete classification probability map, fractional cover maps for the 10 main classes, a forest type layer, quality layer on input data density and on the confidence of the detected land cover change (only delivered for maps produced in conso or nrt mode)    
-Reference: [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf)
+Reference: [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.4.pdf)
 
 **Table 1: Bands** 
 
@@ -151,7 +151,7 @@ Reference: [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vi
 
 **Table 2: Discrete_Classsification_map  classes**  
 
-A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/).
+A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global-land-cover/).
 
 <table>
   <thead>
@@ -356,7 +356,7 @@ A visualisation script can be found in our [custom scripts repository](https://c
 ## More information
 - [Global Land Cover viewer for maps and area statistics](https://lcviewer.vito.be/2015)
 - [Data source](https://lcviewer.vito.be/download)
-- [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.3.pdf)
+- [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS1_PUM_LC100m-V3_I3.4.pdf)
 
 
 ![Discrete classification map  for parts of North Africa ](north_africa_discrete_classification.png)

@@ -78,7 +78,7 @@ The 10m Annual Land Use Land Cover product contains 1 band. The values of this b
 </table>
 
 ## More information
-The [product documentation](https://www.impactobservatory.com/global_maps/) can be found on [Impact Observatory](https://www.impactobservatory.com/) and are available on [AWS](https://registry.opendata.aws/io-lulc/).
+The [product documentation](https://www.impactobservatory.com/maps-for-good/) can be found on [Impact Observatory](https://www.impactobservatory.com/) and are available on [AWS](https://registry.opendata.aws/io-lulc/).
 
 ### Representative Images
 

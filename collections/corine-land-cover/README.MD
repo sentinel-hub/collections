@@ -123,7 +123,7 @@ Table 1: The evolution of CORINE Land Cover ([source](https://land.copernicus.eu
 
 The band values correspond to a land cover and land use classification scheme with class values ranging from 0 to 44. Please see the nomenclature and coloring scheme in the table below. For more details about the classes, please see the official [CORINE Land Cover nomenclature guidelines](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/html/index.html) or the illustrated [nomenclature guidelines document](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/docs/pdf/CLC2018_Nomenclature_illustrated_guide_20190510.pdf).
 
-A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/).
+A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine/corine_land_cover/).
 
 Table 2: CORINE Land Cover nomenclature and colouring scheme.
 
@@ -413,7 +413,7 @@ Table 2: CORINE Land Cover nomenclature and colouring scheme.
 ## More information
 
 - [Data source](https://land.copernicus.eu/pan-european/corine-land-cover)
-- [Visualisation script in custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/)
+- [Visualisation script in custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine/corine_land_cover/)
 
 ![CORINE Land Cover dataset over the Alps](image_alps.png)
 

@@ -11,7 +11,7 @@ TemporalAvailability: April 2013 - ongoing.
 UpdateFrequency: 2-3 days
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/hls/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com
-Provider: "[Land Processes Distributed Active Archive Center (LP DAAC)](https://lpdaac.usgs.gov//)"
+Provider: "[Land Processes Distributed Active Archive Center (LP DAAC)](https://lpdaac.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - core collection

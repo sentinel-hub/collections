@@ -9,7 +9,7 @@
 ## Band information
 The `CLC-ACC` band values correspond to a land cover and land use classification scheme with class values ranging from 111 to 999. Please see the nomenclature and coloring scheme in the table below. For more details about the classes, please see the official [CORINE Land Cover nomenclature guidelines](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/html/index.html) or the illustrated [nomenclature guidelines document](https://land.copernicus.eu/user-corner/technical-library/corine-land-cover-nomenclature-guidelines/docs/pdf/CLC2018_Nomenclature_illustrated_guide_20190510.pdf). 
  
-A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover-accounting_layers/).
+A visualisation script can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine/corine_land_cover-accounting_layers/).
 
 ### Table 2: CORINE Land Cover nomenclature and colouring scheme.
 
@@ -253,7 +253,7 @@ A visualisation script can be found in our [custom scripts repository](https://c
 ## More information
 
 - [Data source](https://www.eea.europa.eu/data-and-maps/data/corine-land-cover-accounting-layers) 
-- [Visualisation script in custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover_accounting_layers/)
+- [Visualisation script in custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/corine/corine_land_cover_accounting_layers/)
 - [Product User manual](https://land.copernicus.eu/user-corner/technical-library/clc-product-user-manual)
 
 <br>

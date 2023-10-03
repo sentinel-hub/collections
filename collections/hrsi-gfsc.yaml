@@ -54,7 +54,7 @@ Tags:
   - open data
   - snow
   - hrsi
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-e0e66010-ab8a-46d5-94bd-ae5c750e7341

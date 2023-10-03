@@ -110,7 +110,7 @@ The water Occurrence layer shows the (intra- and inter-annual) variations of sur
 </table>
 <br>
 
-A visualisation script for the Occurrence layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_occurrence/).
+A visualisation script for the Occurrence layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_occurrence/).
 
 ### Occurrence Change Intensity
 
@@ -179,7 +179,7 @@ The Occurrence Change Intensity layer visualises changes in water occurrence bet
 </table>
 <br>
 
-A visualisation script for the Occurence Change Intensity layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_change/).
+A visualisation script for the Occurence Change Intensity layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_change/).
 
 ### Seasonality
 
@@ -236,7 +236,7 @@ The Seasonality layer provides information on the intra-annual distribution of s
 </table>
 <br>
 
-A visualisation script for the Seasonality layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_seasonality/).
+A visualisation script for the Seasonality layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_seasonality/).
 
 ### Recurrence
 
@@ -293,7 +293,7 @@ The Recurrence layer captures the degree of interannual variability in surface w
 </table>
 <br>
 
-A visualisation script for the Recurrence layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_recurrence/).
+A visualisation script for the Recurrence layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_recurrence/).
 
 ### Transitions
 
@@ -398,7 +398,7 @@ The Transitions layer is derived from a seasonality comparison between the first
 </table>
 <br>
 
-A visualisation script for the Transitions layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_transitions/).
+A visualisation script for the Transitions layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_transitions/).
 
 ### Extent
 
@@ -449,7 +449,7 @@ The maximum water Extent layer combines all other layers by visualising all loca
 </table>
 <br>
 
-A visualisation script for the Extent layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_extent/).
+A visualisation script for the Extent layer can be found in our [custom scripts repository](https://custom-scripts.sentinel-hub.com/other_collections/global-surface-water/global_surface_water_extent/).
 
 ## More information
 

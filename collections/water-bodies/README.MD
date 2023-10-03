@@ -58,7 +58,7 @@ Water Bodies product contain 2 bands (WB and QUAL) and are described in Table 1 
 
 ## More information
 - [Data Source](https://land.copernicus.vgt.vito.be/PDF/portal/Application.html#Browse;Root=514888;Collection=1000152;Time=NORMAL,NORMAL,-1,,,-1,,)
-- [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS2_PUM_WB100m_V1_I1.00.pdf)
+- [Product User Manual](https://land.copernicus.eu/global/sites/cgls.vito.be/files/products/CGLOPS2_PUM_WB100m_V1_I1.10.pdf)
 
 <img src="baikal-water.PNG" alt="Water bodies map Baikal lake" width="100%"/>
 <br>

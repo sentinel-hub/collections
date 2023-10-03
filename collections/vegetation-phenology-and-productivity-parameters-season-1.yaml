@@ -130,7 +130,7 @@ Tags:
   - phenology
   - derived data
   - open data
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-67c73156-095d-4f53-8a09-9ddf3848fbb6

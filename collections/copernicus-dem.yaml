@@ -13,7 +13,7 @@ Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
 ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/d3v1)"
 Image: copernicus-dem/copernicus-dem.png
 Resolution: 30m and 90m 
-GeographicalCoverage: Land ([more info](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model)) under "Area of Interest"
+GeographicalCoverage: European and Worldwide coverage ([more info](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model)) 
 TemporalAvailability: static product(two releases 2019 & 2020) for data acquired in (2011-2015)
 UpdateFrequency: Updated as soon as new release is available publicly
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  

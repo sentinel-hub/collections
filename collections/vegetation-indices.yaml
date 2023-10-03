@@ -71,7 +71,7 @@ Tags:
   - CLMS
   - derived data
   - open data
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-472c0398-430d-4157-a62d-603363d7a4e8

@@ -1,0 +1,37 @@
+Name: Land Surface Temperature
+Description: |
+  [Land Surface Temperature](https://www.planet.com/products/planetary-variables/) provides twice-daily measurements of land surface temperature with high spatial resolution and consistency. 
+  LST data eliminates the need for maintaining large networks of physical sensors, reduces the impact of cloud cover on measurements, and enables a more accurate reflection of ground conditions across large areas.
+AdditionalInfoExternal:
+    Title: Open Data for Land Surface Temperature
+    Path: land-surface-temperature/README.MD
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/)"
+Image: land-surface-temperature/land-surface-temperature.png
+Resolution: 100m and 1000m
+GeographicalCoverage: Global; Open data in [limited areas](land-surface-temperature/README.MD); 
+TemporalAvailability: 100 m (July, 1st 2017 - Present)1000 m (June, 15th 2002 - October 4th 2011 (AMSRE) July, 25th 2012 - Present (AMSR2))
+UpdateFrequency: Above 50 degrees latitude:2 obs. daily at 01:30 and 13:30. At the equator:at least ±180 obs. at 01:30 and ±180 obs. at 13:30 observations annually.
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/#available-bands)  
+Contact: https://www.planet.com/contact-sales/#contact-sales
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
+Tags:
+  - open data
+  - commercial data
+  - satellite imagery
+  - planetary variables
+  - agriculture
+  - thermal
+License: |
+  [License](https://www.planet.com/licensing-information/)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](land-surface-temperature/README.MD).
+CustomScripts:
+    Title: Collection of Land Surface Temperature custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/land-surface-temperature/
+
+
+RegistryEntryAdded: "2024-01-08"
+RegistryEntryLastModified: "2024-01-08"

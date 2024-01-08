@@ -1,0 +1,39 @@
+Name: Crop Biomass
+Description: |
+  [Crop Biomass](https://www.planet.com/products/planetary-variables/) provides the ability to track and respond to the highly dynamic nature of biomass in agricultural fields throughout the season. 
+  This enables better-informed decisions, input optimization, interventions, and harvest planning. 
+  This is a relative measure of biomass, so each pixel value has a value of 0 (low biomass) to 1 (high biomass). 
+  The product is provided daily and every day, the user gets a new raster with the data from the most updated direct observation from the day before.
+AdditionalInfoExternal:
+    Title: Open Data for Crop Biomass
+    Path: crop-biomass/README.MD
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/crop-biomass/)"
+Image: crop-biomass/crop-biomass.png
+Resolution: 10m
+GeographicalCoverage: Global; Open data in [limited areas](crop-biomass/README.MD); 
+TemporalAvailability: Global since 2019 (limited after December 2021)
+UpdateFrequency: Daily
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/crop-biomass/#available-bands)  
+Contact: https://www.planet.com/contact-sales/#contact-sales
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
+Tags:
+  - open data
+  - commercial data
+  - satellite imagery
+  - planetary variables
+  - agriculture
+  - biomass
+License: |
+  [License](https://www.planet.com/licensing-information/)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](crop-biomass/README.MD).
+CustomScripts:
+    Title: Collection of Crop Biomass custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/crop-biomass/
+
+
+RegistryEntryAdded: "2024-01-08"
+RegistryEntryLastModified: "2024-01-08"

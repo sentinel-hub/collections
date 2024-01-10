@@ -1,4 +1,4 @@
-# Soil Water Content
+# Crop Biomass
 
 ## Short Description
 [Crop Biomass](https://www.planet.com/products/planetary-variables/) provides the ability to track and respond to the highly dynamic nature of biomass n agricultural fields throughout the season.   This enables better-informed decisions, input optimization, interventions, and harvest planning.   This is a relative measure of biomass, so each pixel value has a value of 0 (low biomass) to 1 (high biomass).   The product is provided daily and every day, the user gets a new raster with the data from the most updated direct observation from the day before.

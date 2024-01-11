@@ -11,7 +11,7 @@ AdditionalInfoExternal:
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/)"
 Image: soil-water-content/soil-water-content.png
 Resolution: 100m and 1000km
-GeographicalCoverage: Global; Open data in [limited areas](soil-water-content/open-data.html); 
+GeographicalCoverage: Global; Open data in [limited areas](open-data.html); 
 TemporalAvailability: 1000 m (2002 - present), 100 m (2017 - present)
 UpdateFrequency: 137-365 observations per year
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/#available-bands)  
@@ -30,7 +30,7 @@ License: |
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](soil-water-content/open-data.html).
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](open-data.html).
 CustomScripts:
     Title: Collection of Soil Water Content custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/soil-water-content/

@@ -10,7 +10,7 @@ AdditionalInfoExternal:
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/crop-biomass/)"
 Image: crop-biomass/crop-biomass.png
 Resolution: 10m
-GeographicalCoverage: Global; Open data in [limited areas](crop-biomass/open-data.html); 
+GeographicalCoverage: Global; Open data in [limited areas](open-data.html); 
 TemporalAvailability: Global since 2019 (limited after December 2021)
 UpdateFrequency: Daily
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/crop-biomass/#available-bands)  
@@ -29,7 +29,7 @@ License: |
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](crop-biomass/open-data.html).
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA open data here](open-data.html).
 CustomScripts:
     Title: Collection of Crop Biomass custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/crop-biomass/

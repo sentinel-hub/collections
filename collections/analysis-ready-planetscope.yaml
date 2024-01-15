@@ -1,34 +1,47 @@
 Name: Analysis Ready PlanetScope (2021 - 2022 Nebraska Sample)
 Description: |
- Analysis Ready PlanetScope is Planet’s medium  resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.
+  Analysis Ready PlanetScope is Planet's medium resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.
 
-Image: analysis-ready-planetscope/analysis-ready-planetscope.png 
+Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 Resolution: 3 meters
-GeographicalCoverage: Area west of Lincoln, Nebraska, USA (-96.68,40.73 : -96.39,40.95)
+GeographicalCoverage: "Area west of Lincoln, Nebraska, USA (-96.68,40.73 : -96.39,40.95)"
 TemporalAvailability: January 01, 2021 - December 31, 2022
 BandInformation:
-  - QA1: Cloud and shadow mask (1: clear; 2: bright cloud; 3: cloud shadows; 4: haze; 5: adjacent clouds/cloud shadows; 6: Additional cloud/cloud shadow/haze elements based on a cross-scene correlation detection approach; 7: other contamination, including snow; -999: no PlanetScope scene data available)
-  - QA2: Pixel provenance (see GeoTIFF metadata for mapping to scene IDs)
-  - QA3: Number of FORCE L8 / L9 / S2 reference scenes used during calibration
-  - SR1: Blue band
-  - SR2: Green band
-  - SR3: Red band 
-  - SR4: NIR band 
-Contact: support@planet.com
-Provider: [Planet](https://www.planet.com/)
-ManagedBy: [Planet](https://www.planet.com/)
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: QA1
+        Description: "Cloud and shadow mask (1: clear; 2: bright cloud; 3: cloud shadows; 4: haze; 5: adjacent clouds/cloud shadows; 6: Additional cloud/cloud shadow/haze elements based on a cross-scene correlation detection approach; 7: other contamination, including snow; -999: no PlanetScope scene data available)."
+      - Name: QA2
+        Description: "Pixel provenance (see GeoTIFF metadata for mapping to scene IDs)."
+      - Name: QA3
+        Description: "Number of FORCE L8 / L9 / S2 reference scenes used during calibration."
+      - Name: SR1
+        Description: "Blue band."
+      - Name: SR2
+        Description: "Green band."
+      - Name: SR3
+        Description: "Red band."
+      - Name: SR4
+        Description: "NIR band."
+Contact: "support@planet.com"
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - open data
   - commercial data
   - satellite imagery
   - analysis ready data
   - planetscope
-  - time series 
+  - time series
 License: CC-BY-SA
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-CustomScripts:
-    Coming soon
+    CollectionId:
 RegistryEntryAdded: "2024-01-15"
 RegistryEntryLastModified: "2024-01-15"

@@ -1,11 +1,13 @@
 # Crop Biomass
 
 ## Short Description
-[Crop Biomass](https://www.planet.com/products/planetary-variables/) provides the ability to track and respond to the highly dynamic nature of biomass n agricultural fields throughout the season.   This enables better-informed decisions, input optimization, interventions, and harvest planning.   This is a relative measure of biomass, so each pixel value has a value of 0 (low biomass) to 1 (high biomass).   The product is provided daily and every day, the user gets a new raster with the data from the most updated direct observation from the day before.
+
+[Crop Biomass](https://www.planet.com/products/planetary-variables/) provides the ability to track and respond to the highly dynamic nature of biomass in agricultural fields throughout the season. This enables better-informed decisions, input optimization, interventions, and harvest planning. This is a relative measure of biomass, so each pixel value has a value of 0 (low biomass) to 1 (high biomass). The product is provided daily and every day, the user gets a new raster with the data from the most updated direct observation from the day before.<br /><br />
 
 A collection of Crop Biomass for a limited area and time of interest is available with the CC-BY-SA license.
 
 ## Collections
+
 <table>
   <thead>
     <tr>
@@ -24,6 +26,7 @@ A collection of Crop Biomass for a limited area and time of interest is availabl
 </table>
 
 ### Open Data Areas
+
 To access data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 <table>
@@ -51,4 +54,4 @@ To access data over your own areas and times of interest, [contact Planet](https
       <td >{"type":"Polygon","coordinates":[[[-57.85901538999997,-32.71934139299998],[-57.741644151999935,-32.720309191999945],[-57.74008043499998,-32.53066719499998],[-57.85745167399995,-32.529699395999955],[-57.85901538999997,-32.71934139299998]]]}</td>
     </tr>
    </tbody>
-</table> 
+</table>

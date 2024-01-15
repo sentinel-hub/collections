@@ -42,6 +42,6 @@ License: CC-BY-SA
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    CollectionId:
+    CollectionId: b690a8ba-05c4-49dc-91c7-8484a1007176
 RegistryEntryAdded: "2024-01-15"
 RegistryEntryLastModified: "2024-01-15"

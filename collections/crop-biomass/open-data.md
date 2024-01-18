@@ -22,7 +22,7 @@ A collection of Crop Biomass for a limited area and time of interest is availabl
       <td>BIOMASS-PROXY_V3.0_10</td>
       <td>BYOC-4b4f9591-d988-4028-b759-f8a61a1976bc</td>
       <td>2019-01-01 to 2022-12-31</td>
-      <th>bp</th>
+      <td>bp</td>
     </tr>
    </tbody>
 </table>

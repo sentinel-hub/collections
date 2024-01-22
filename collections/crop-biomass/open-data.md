@@ -14,7 +14,6 @@ A collection of Crop Biomass for a limited area and time of interest is availabl
       <th>Source ID</th>
       <th>Collection ID</th>
       <th>Time Range</th>
-      <th>Band Name</th>
     </tr>
   </thead>
   <tbody>
@@ -22,7 +21,6 @@ A collection of Crop Biomass for a limited area and time of interest is availabl
       <td>BIOMASS-PROXY_V3.0_10</td>
       <td>BYOC-fc844940-ecc7-49ff-b072-9f81b36ef191</td>
       <td>2019-01-01 to 2022-12-31</td>
-      <td>bp</td>
     </tr>
    </tbody>
 </table>

@@ -6,6 +6,8 @@ Description: |
   Sentinel Hub offers a possibility to purchase, order and access PlanetScope both archive and newly acquired  data which is available globally since 2016.
   Sentinel Hub offers access to PlantScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet-scope/)"
+SandboxData: |
+  Discover samples of PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for PlanetScope](sandbox-data.html)
 Image: planetscope/planetscope.png
 Resolution: 3m
 GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
@@ -23,6 +25,7 @@ Tags:
   - vegetation monitoring
   - mapping
   - agriculture
+  - sandbox data
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use)
 Resources:

@@ -340,3 +340,30 @@ table>tbody+tbody{
     border-top:2px solid #ddd;
   }
 
+.container33 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  grid-gap: 40px; /* Adjust spacing between image cards */
+  padding: 10px;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imagette {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+.text {
+  margin-top: 5px;
+}

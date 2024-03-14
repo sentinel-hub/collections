@@ -41,31 +41,31 @@ To access data over your own areas and times of interest, [contact Planet](https
     <div class="image-card">
         <img src="planetscope.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
-            <div class="title">Nebraska, United States</div>
+            <div class="title">Planalmira, Brazil</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>
         </div>
     </div>
     <div class="image-card">
-        <img src="planetscope.png" alt="EOB Highlight 1" class="imagette">
+        <img src="planetscope.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
-            <div class="title">Bordeaux, France</div>
+            <div class="title">Cairo, Egypt</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>
         </div>
     </div>
     <div class="image-card">
-        <img src="planetscope.png" alt="EOB Highlight 1" class="imagette">
+        <img src="planetscope.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
-            <div class="title">Lorem ipsum, Slovenia</div>
+            <div class="title">Perth, Australia</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>

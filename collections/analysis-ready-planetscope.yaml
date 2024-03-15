@@ -1,11 +1,16 @@
-Name: Analysis Ready PlanetScope (2021 - 2022 Nebraska Sample)
+Name: Analysis Ready PlanetScope 
 Description: |
   Analysis Ready PlanetScope is Planet's medium resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.
-
+AdditionalInfoExternal:
+    Title: Analysis Ready PlanetScope open data 
+    Path: analysis-ready-planetscope/open-data.md
 Image: analysis-ready-planetscope/analysis-ready-planetscope.png
+SandboxData: |
+  Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis Ready PlanetScope](sandbox-data.html)
 Resolution: 3 meters
-GeographicalCoverage: "Area west of Lincoln, Nebraska, USA (-96.68,40.73 : -96.39,40.95)"
-TemporalAvailability: January 01, 2021 - December 31, 2022
+GeographicalCoverage: TBD
+UpdateFrequency: TBD
+TemporalAvailability: TBD
 BandInformation:
   Table:
     Columns:
@@ -38,10 +43,15 @@ Tags:
   - analysis ready data
   - planetscope
   - time series
-License: CC-BY-SA
+  - sandbox data
+
+License: TBD
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    CollectionId: b690a8ba-05c4-49dc-91c7-8484a1007176
+    Notes: Contains the data purchased by individual user. Explore sample CC-BY-SA [sandbox data here](sandbox-data.html)  and [open data here](open-data.html)
+CustomScripts:
+    Title: Coming soon here
+    URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
-RegistryEntryLastModified: "2024-01-15"
+RegistryEntryLastModified: "2024-03-15"

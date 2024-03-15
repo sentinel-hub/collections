@@ -347,23 +347,23 @@ table>tbody+tbody{
   padding: 10px;
 }
 
-.image-card {
+.container33 .image-card {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.imagette {
+.container33 .imagette {
   width: 100px;
   height: 100px;
   margin-right: 10px;
 }
 
-.title {
+.container33 .title {
   font-weight: bold;
   margin-top: 1px;
 }
 
-.text {
+.container33 .text {
   margin-top: 5px;
 }

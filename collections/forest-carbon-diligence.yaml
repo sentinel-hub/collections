@@ -1,0 +1,32 @@
+Name: Forest Carbon Diligence (Sandbox Data)
+Description: |
+  The Forest Carbon Diligence product consists of a bundle of data resources: Canopy Height, Canopy Cover, and Aboveground Live Carbon with a spatial resolution of 30 m. These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/)"
+SandboxData: |
+  Discover samples of Forest Carbon Diligence, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Forest Carbon Diligence](sandbox-data.html)
+Image: forest-carbon-diligence/forest-carbon-diligence.png
+Resolution: 30m
+GeographicalCoverage: Global
+TemporalAvailability: 2013 - ongoing
+UpdateFrequency: Annual
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/#available-bands)  
+Contact: https://forum.sentinel-hub.com
+Provider: "[Planet](https://www.planet.com/)"
+ManagedBy: "[Planet](https://www.planet.com/)"
+# What tags are needed?
+Tags:
+  - vegetation monitoring
+  - mapping
+  - sandbox data
+License: TBD #[License](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use)
+Resources:
+  - EndPoint: services.sentinel-hub.com
+    Type: TBD #BYOC collection
+    Notes: TBD #Contains the data purchased by individual user
+CustomScripts:
+    Title: Collection of Forest Carbon Diligence custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/forest-carbon-diligence/
+
+
+RegistryEntryAdded: "2024-03-15"
+RegistryEntryLastModified: "2024-03-15"

@@ -359,11 +359,18 @@ table>tbody+tbody{
   margin-right: 10px;
 }
 
+.container33 .info {
+  height: 100px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
 .container33 .title {
   font-weight: bold;
-  margin-top: 1px;
 }
 
 .container33 .text {
-  margin-top: 5px;
+  flex-grow: 1;
 }

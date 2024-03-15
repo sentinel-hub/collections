@@ -56,7 +56,7 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">Bordeaux, France</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
-                xxkm<sup>2</sup><br>
+                625km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>
         </div>
@@ -67,7 +67,7 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">SaoFeliz do Xingu, Brazil</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
-                xxkm<sup>2</sup><br>
+                625km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>
         </div>
@@ -78,7 +78,7 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">Des Moines, USA</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
-                xxkm<sup>2</sup><br>
+                625km<sup>2</sup><br>
                 Visualise in EO Browser ->
             </div>
         </div>

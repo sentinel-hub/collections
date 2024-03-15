@@ -44,9 +44,9 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">Planalmira, Brazil</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup><br>
-                Visualise in EO Browser ->
+                25km<sup>2</sup>
             </div>
+            <div class="eob-link">Visualise in EO Browser -></div>
         </div>
     </div>
     <div class="image-card">
@@ -55,9 +55,9 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">Cairo, Egypt</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup><br>
-                Visualise in EO Browser ->
+                25km<sup>2</sup>
             </div>
+            <div class="eob-link">Visualise in EO Browser -></div>
         </div>
     </div>
     <div class="image-card">
@@ -66,9 +66,9 @@ To access data over your own areas and times of interest, [contact Planet](https
             <div class="title">Perth, Australia</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup><br>
-                Visualise in EO Browser ->
+                25km<sup>2</sup>
             </div>
+            <div class="eob-link">Visualise in EO Browser -></div>
         </div>
     </div>
 </div>

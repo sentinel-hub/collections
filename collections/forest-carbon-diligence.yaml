@@ -1,4 +1,4 @@
-Name: Forest Carbon Diligence (Sandbox Data)
+Name: Forest Carbon Diligence
 Description: |
   The Forest Carbon Diligence product consists of a bundle of data resources: Canopy Height, Canopy Cover, and Aboveground Live Carbon with a spatial resolution of 30 m. These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/)"

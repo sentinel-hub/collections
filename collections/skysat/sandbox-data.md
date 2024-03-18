@@ -42,9 +42,9 @@ To access data over your own areas and times of interest, [contact Planet](https
     <div class="image-card">
         <img src="skysat.png" alt="EOB Highlight 1" class="imagette">
          <div class="info">
-            <div class="title">Nebraska, United States</div>
+            <div class="title">Bordeaux, France</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                xxxx-xx-xx to xxxx-xx-xx<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link">Visualise in EO Browser -></div>
@@ -53,9 +53,9 @@ To access data over your own areas and times of interest, [contact Planet](https
     <div class="image-card">
         <img src="skysat.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
-            <div class="title">Bordeaux, France</div>
+            <div class="title">Cairo, Egypt</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                2021-04-16 to 2022-09-22<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link">Visualise in EO Browser -></div>
@@ -64,9 +64,9 @@ To access data over your own areas and times of interest, [contact Planet](https
     <div class="image-card">
         <img src="skysat.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
-            <div class="title">Lorem ipsum, Slovenia</div>
+            <div class="title">Perth, Australia</div>
             <div class="text">
-                2019-01-01 to 2022-12-31<br>
+                2021-01-01 to 2022-12-28<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link">Visualise in EO Browser -></div>

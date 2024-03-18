@@ -3,13 +3,14 @@
     <h3>About</h3>
     <p>This registry exists to help people discover and share collections that are available via Sentinel Hub. </p>
 
-    {{#if tag}}
-    <p><li>See <a href="{{rootUrl}}tag/{{tagURL}}/usage-examples">all usage examples for collections listed in this registry</a> tagged with <strong>{{tag}}</strong>.</li></p>
-    {{else}}
-    <p><li>See <a href="{{rootUrl}}usage-examples">all usage examples for collections listed in this registry</a>.</li></p>
-    {{/if}}
-
-    <p><li><strong>New: </strong> <a href="{{rootUrl}}planet-sandbox-data">Planet Sandbox Data Collections</a>.</li></p>
+    <ul>
+      {{#if tag}}
+        <li>See <a href="{{rootUrl}}tag/{{tagURL}}/usage-examples">all usage examples for collections listed in this registry</a> tagged with <strong>{{tag}}</strong>.</li>
+      {{else}}
+        <li>See <a href="{{rootUrl}}usage-examples">all usage examples for collections listed in this registry</a>.</li>
+      {{/if}}
+      <li><strong>New: </strong> <a href="{{rootUrl}}planet-sandbox-data">Planet Sandbox Data Collections</a>.</li>
+    </ul>
 
     <hr>
 

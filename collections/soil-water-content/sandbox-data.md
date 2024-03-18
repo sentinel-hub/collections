@@ -3,9 +3,7 @@
 TODO: add links
 -->
 
-<p>The Soil Water Content (SWC) is the measure of the amount of water present in a unit volume of soil. It is typically expressed as a percentage and represents the ratio between the volume of water and the total volume of the soil. This Planetary Variable measures the water content of the soil almost daily with a spatial resolution of 100 m and 1000 m. It is not affected by clouds and has a long and consistent data record of more than 20 years.</p>
-
-<p>A collection of Soil Water Content for a limited area and time of interest is available with the CC-BY-SA license.</p>
+<p>This sandbox collection of Soil Water Content offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.</p>
 
 ## Collections
 
@@ -37,7 +35,6 @@ To access data over your own areas and times of interest, [contact Planet](https
 *Insert map here*
 <br>
 [Download GeoJSONs]()
-
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.

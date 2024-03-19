@@ -3,9 +3,7 @@
 TODO: add links
 -->
 
-<p>Land Surface Temperature (LST) provides twice-daily measurements of land surface temperature with high spatial resolution and consistency. LST data eliminates the need to maintain large networks of physical sensors, reduces the impact of cloud cover on measurements, and provides a more accurate reflection of ground conditions over large areas.</p>
-
-<p>A collection of Land Surface Temperature for a limited area and time of interest is available with the CC-BY-SA license.</p>
+<p>This sandbox collection of Land Surface Temperature offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.</p>
 
 ## Collections
 

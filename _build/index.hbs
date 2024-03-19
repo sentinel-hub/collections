@@ -2,7 +2,13 @@
 <html lang="en">
   {{> header isHome=isHome}}
 
+    {{#isEqual tag "sandbox data"}}
+    {{> aboutSandboxTag}}
+
+    {{else}}
     {{> about}}
+
+    {{/isEqual}}
 
     {{> collectionsList}}
 

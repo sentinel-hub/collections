@@ -1,17 +1,18 @@
 Name: Planet Basemaps
 Description: |
-  Near daily global medium resolution imagery that generates visually consistent and scientifically accurate mosaics. Basemaps provide a clear, comprehensive view of an area of interest. 
-  We automate the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
-  Planet Basemaps are also well suited for machine learning-analytics.
+ Globally available mosaics between 74° N and 60° S at a cell size of 4.77 m (at equator) using Mercator projection. 
+ Basemaps are offered at a weekly, biweekly, monthly, or quarterly cadence and provide a clear, comprehensive view of an area of interest by automating the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
+ Planet Basemaps are also well suited for machine learning-analytics by applying cloud masking and radiometric normalization to allow for consistent data across large geographic areas of interest.
 
-Documentation: TBC
+Documentation: "[Here](https://developers.planet.com/docs/basemaps/)"
 SandboxData: |
   Discover samples of Basemaps, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Basemaps](sandbox-data.html)
 Image: planet-basemaps/planet-basemaps.png
-Resolution: TBC
-GeographicalCoverage: TBC - Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
+Resolution: 4.77m at equator
+GeographicalCoverage: Global between 74° N and 60° S
 TemporalAvailability: TBC-  2016 - ongoing
-UpdateFrequency: TBC
+UpdateFrequency: TBD
+Temporal Resolution: Weekly, Biweekly, Monthly or Quarterly
 BandInformation: TBC
 Contact: "support@planet.com"
 Provider: "[Planet](https://www.planet.com/)"
@@ -26,14 +27,14 @@ Tags:
   - mapping
   - analysis ready data
   - sandbox data
-License: TBC
+License: "[License](https://www.planet.com/licensing-information/)"
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-SA sandbox data here](sandbox-data.html)
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
 CustomScripts:
     Title: Coming soon here
     URL: https://custom-scripts.sentinel-hub.com/
 
 RegistryEntryAdded: "2024-03-15"
-RegistryEntryLastModified: "2024-03-15"
+RegistryEntryLastModified: "2024-03-19"

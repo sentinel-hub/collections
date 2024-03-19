@@ -3,9 +3,7 @@
 TODO: add links
 -->
 
-<p>Near daily global medium resolution imagery that generates visually consistent and scientifically accurate mosaics.</p>
-
-<p>A collection of PlanetScope for a limited area and time of interest is available with the CC-BY-SA license.</p>
+<p> This sandbox collection of  <a href="https://developers.planet.com/docs/basemaps/">Planet Basemap</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
 
 
 ## Collections
@@ -77,4 +75,4 @@ To access data over your own areas and times of interest, [contact Planet](https
 TODO: add link
 -->
 
-Discover more [Planet Sandbox Data collections]()
+Discover more [Planet Sandbox Data collections](TBD)

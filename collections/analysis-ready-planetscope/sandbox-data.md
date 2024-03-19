@@ -1,11 +1,9 @@
-# Analysis Ready PlanetScope Sandbox Data
+# Analysis-Ready PlanetScope Sandbox Data
 <!---
 TODO: add links
 -->
 
-<p>Analysis Ready PlanetScope is Planet's medium resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.</p>
-
-<p>A collection of Analysis Ready PlanetScope for a limited area and time of interest is available with the CC-BY-SA license.</p>
+<p> This sandbox collection of  <a href="ask Karla">Analysis-ready Planetscope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
 
 
 ## Collections

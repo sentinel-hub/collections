@@ -3,11 +3,7 @@
 TODO: add links
 -->
 
-<p>The <a href="https://www.planet.com/products/planet-imagery/">SkySat</a> satellite constellation consists of 21 satellites that were launched between 2013 and 2020. The satellites are based on a CubeSat concept, but are slightly larger than the PlanetScope satellites. Because of its rapid revisit time, these data are suitable for monitoring rapid changes on the Earth's surface. Note, however, that the data acquisition must be tasked, i.e. the data is not acquired systematically.
-</p>
-
-<p>A collection of SkySat for a limited area and time of interest is available with the CC-BY-SA license.</p>
-
+This sandbox collection of <a href="https://www.planet.com/products/planet-imagery/">SkySat</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.
 
 ## Collections
 <table>

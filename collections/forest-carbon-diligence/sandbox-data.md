@@ -2,11 +2,7 @@
 <!---
 TODO: add links
 -->
-
-<p>The Forest Carbon Diligence product consists of a bundle of data resources: Canopy Height, Canopy Cover, and Aboveground Live Carbon with a spatial resolution of 30 m. These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).</p>
-
-<p>A collection of Forest Carbon Diligence for a limited area and time of interest is available with the CC-BY-SA license.</p>
-
+This sandbox collection of [Forest Carbon Diligence](https://www.planet.com/products/forest-carbon/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.
 <!---
 TODO: add BYOC collection IDs
 -->

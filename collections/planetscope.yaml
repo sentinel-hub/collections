@@ -1,10 +1,8 @@
 Name: PlanetScope
 Description: |
-  [PlanetScope](https://www.planet.com/products/planet-imagery/) is a satellite constellation of more than 130 satellites called Doves and is operated by Planet. 
-  Each Dove satellite is a CubeSat made of three cubic units and thus measures only 10 cm x 10 cm x 30 cm. 
-  The satellites are launched in groups, and together manage to acquire images covering the entire earth land surface atleast daily.
-  Sentinel Hub offers a possibility to purchase, order and access PlanetScope both archive and newly acquired  data which is available globally since 2016.
-  Sentinel Hub offers access to PlantScope data in Top of the atmosphere (TOA) reflectance.
+  With hundreds of roughly 200 Dove satellites in orbit, [PlanetScope](https://www.planet.com/products/planet-imagery/) Monitoring provides a high-resolution, continuous, and complete view of the world from above, every day. PlanetScope images are approximately 3 m per pixel resolution.
+
+  Sentinel Hub offers the possibility to purchase, order and access both the archive data and newly acquired data available globally since 2016. Sentinel Hub provides access to PlantScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet-scope/)"
 SandboxData: |
   Discover samples of PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for PlanetScope](sandbox-data.html)

@@ -23,7 +23,7 @@ This sandbox collection of <a href="https://www.planet.com/products/planet-image
 </table>
 
 ## Sandbox Areas
-To access data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 <br>
 *Insert map here*
 <br>

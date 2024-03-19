@@ -622,6 +622,31 @@ function htmlOverview () {
     .pipe(gulp.dest('./_output/'));
 };
 
+// Compile sandbox data page and move to _output
+function htmlSandboxData() {
+  const datasets = getDatasets();
+
+  // Filter out datasets without a "sandbox data" tag
+  let filteredDatasets = datasets.filter((d) => {
+    return d.Tags.includes("sandbox data");
+  });
+
+  // HBS templating
+  var templateData = {
+    datasets: filteredDatasets,
+    isHome: true,
+    rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
+    githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
+    githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+  };
+
+  return gulp.src('./_build/sandbox_index.hbs')
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('./_output/planet-sandbox-data/'));
+};
+
+
 // Compile redirect pages and move to _output
 function htmlRedirects (cb) {
   const file = fs.readFileSync('./_build/config.yaml', 'utf8');
@@ -848,7 +873,7 @@ function htmlProviders (cb) {
 };
 
 // Server with live reload
-exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
+exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSandboxData, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
 
   browserSync({
     port: 3000,
@@ -871,6 +896,6 @@ exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), 
   gulp.watch('_build/**/*', gulp.series('default'));
 });
 
-exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
+exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSandboxData, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
 exports.default = exports.build;
 

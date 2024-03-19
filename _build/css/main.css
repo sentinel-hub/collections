@@ -374,3 +374,9 @@ table>tbody+tbody{
 .container33 .text {
   flex-grow: 1;
 }
+
+.sandbox-dataset .image-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -2,7 +2,7 @@
 <!---
 TODO: add links
 -->
-This sandbox collection of <a href="https://www.planet.com/products/planet-imagery/PlanetScope">PlanetScope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.
+This sandbox collection of <a href="https://www.planet.com/products/planet-imagery/PlanetScope">PlanetScope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>
@@ -23,7 +23,7 @@ This sandbox collection of <a href="https://www.planet.com/products/planet-image
 </table>
 
 ## Sandbox Areas
-To access data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 <br>
 *Insert map here*
 <br>

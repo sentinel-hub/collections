@@ -3,7 +3,7 @@
 TODO: add links
 -->
 
-This sandbox collection of <a href="https://www.planet.com/products/planet-imagery/">SkySat</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.
+This sandbox collection of [SkySat](https://www.planet.com/products/planet-imagery/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>

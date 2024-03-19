@@ -3,7 +3,7 @@
 TODO: add links
 -->
 
-<p>This sandbox collection of Soil Water Content offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.</p>
+<p>This sandbox collection of Soil Water Content offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).</p>
 
 ## Collections
 

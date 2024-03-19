@@ -3,8 +3,7 @@
 TODO: add links
 -->
 
-<p> This sandbox collection of  <a href="https://developers.planet.com/docs/basemaps/">Planet Basemap</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
-
+This sandbox collection of [Planet Basemap](https://developers.planet.com/docs/basemaps/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>

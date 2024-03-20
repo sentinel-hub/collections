@@ -2,7 +2,7 @@
   <div class="row">
     {{#each datasets}}
     <div id="{{Slug}}" class="sandbox-dataset">
-      <h4>{{Name}}</h4>
+      <h4><a href="{{rootUrl}}{{Slug}}/sandbox-data.html" class="sandbox-dataset-title">{{Name}} Sandbox Data</a></h4>
       
       <div class="image-card">
         {{#if Image}}

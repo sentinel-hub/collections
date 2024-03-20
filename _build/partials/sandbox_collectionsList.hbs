@@ -6,11 +6,11 @@
       
       <div class="image-card">
         {{#if Image}}
-          <p class="imagette">
+          <div class="imagette">
             <a href="{{rootUrl}}{{Slug}}/sandbox-data.html">
-              <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" width="193" />
+              <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" />
             </a>
-          </p>
+          </div>
         {{/if}}
         <div class="info">
           <p>{{{trimHTML (md Description) 500}}}</p>

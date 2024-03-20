@@ -375,8 +375,24 @@ table>tbody+tbody{
   flex-grow: 1;
 }
 
+.sandbox-dataset .sandbox-dataset-title {
+  color: black;
+}
+
 .sandbox-dataset .image-card {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.sandbox-dataset .image-card .imagette {
+  min-width: 124px;
+  width: 124px;
+  height: 124px;
+  margin-right: 16px;
+}
+.sandbox-dataset .image-card .imagette * {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

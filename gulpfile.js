@@ -634,7 +634,6 @@ function htmlSandboxData() {
   // HBS templating
   var templateData = {
     datasets: filteredDatasets,
-    isHome: true,
     rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
     githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
     githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH

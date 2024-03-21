@@ -378,3 +378,13 @@ table>tbody+tbody{
 #leaflet-map {
   height: 520px;
 }
+
+.leaflet-popup-content-wrapper {
+  font-size: 14px !important;
+}
+.leaflet-copy-geojson {
+  background-color: #A2B228;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #A2B228;
+}

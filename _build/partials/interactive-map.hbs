@@ -1,16 +1,31 @@
 <div id="leaflet-map"></div>
 <script>
-    console.log("use data sent to this handlebars template", {rootUrl})
-    const map = L.map('leaflet-map').setView([51.505, -0.09], 13);
+    console.log("use data sent to this handlebars template", {rootUrl});
+
+    const map = L.map('leaflet-map').setView([0, 0], 2);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
-    
+
     // filter the polygons and points from geojson (file) and add them to the map
+
+    const marker = L.marker([51.5, -0.09]).addTo(map);
+
     const polygon = L.polygon([
         [51.509, -0.08],
         [51.503, -0.06],
         [51.51, -0.047]
     ]).addTo(map);
+
+    const popupText = 
+        "<h4>title</h4>" +
+        "<div>" +
+        "Time range: YYYY-MM-DD to YYYY-MM-DD<br>" +
+        "Area size: 00 km<sup>2</sup><br>" +
+        "<button class='leaflet-copy-geojson'>copy geojson</button>" +
+        "</div>";
+
+    marker.bindPopup(popupText);
+    polygon.bindPopup(popupText);
 </script>

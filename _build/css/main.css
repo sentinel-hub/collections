@@ -374,3 +374,7 @@ table>tbody+tbody{
 .container33 .text {
   flex-grow: 1;
 }
+
+#leaflet-map {
+  height: 520px;
+}

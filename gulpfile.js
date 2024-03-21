@@ -196,11 +196,6 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
     var mdContent = fs.readFileSync(mdFile, "utf-8");
     var htmlContent = marked(mdContent, {renderer: renderer});
 
-    var stringToReplace = "<em>Insert map here</em>";
-    if (htmlContent.includes(stringToReplace)){
-      var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
-      htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
-    }
     
     var templateData = {
       baseURL: process.env.BASE_URL,
@@ -208,10 +203,20 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
       rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
       githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
       githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+      // add id of the collections / something similar which
+      // will enable the code in interactive-map.hbs to display
+      // the correct points and polygons
     };
+
     var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
     var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
     
+    var stringToReplace = "<em>Insert map here</em>";
+    if (htmlContent.includes(stringToReplace)) {
+      var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
+      htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
+    }
+
     htmlContent = htmlHeader + htmlContent + htmlFooter;
     
     fs.writeFileSync(path.join(destDirectory, htmlFile), htmlContent);

@@ -196,8 +196,11 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
     var mdContent = fs.readFileSync(mdFile, "utf-8");
     var htmlContent = marked(mdContent, {renderer: renderer});
 
-    var interactiveMap = fs.readFileSync('./_build/js/interactive-map.html', 'utf-8')
-    htmlContent = htmlContent.replace("<em>Insert map here</em>", interactiveMap);
+    var stringToReplace = "<em>Insert map here</em>";
+    if (htmlContent.includes(stringToReplace)){
+      var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
+      htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
+    }
     
     var templateData = {
       baseURL: process.env.BASE_URL,

@@ -1,6 +1,9 @@
 Name: Analysis-Ready PlanetScope 
 Description: |
-  Analysis Ready PlanetScope is Planet's medium resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.
+  Analysis-ready PlanetScope combines the monitoring benefits of daily 3 m spatial imagery, while enhancing temporal and spatial consistency with trusted, third-party data sources (Landsat, Sentinel-2, MODIS, VIIRS). 
+  This is accomplished with a proprietary algorithm that creates pre-processed, harmonized, and spatially consistent daily stacks of images that enable time-series analysis and machine learning applications. 
+  The resulting 4-band data is exceedingly radiometrically and geometrically accurate thanks to vast amounts of reference data in the Planet Archive. With deeper and more extensive pre-processing, data is more precise and pre-formatted for time-series analysis and machine learning applications
+
 Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 SandboxData: |
   Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis Ready PlanetScope](sandbox-data.html)
@@ -34,7 +37,6 @@ Contact: "support@planet.com"
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
-  - open data
   - commercial data
   - satellite imagery
   - analysis ready data

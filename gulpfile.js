@@ -238,7 +238,7 @@ const copyDirectory = function(sourcePath, destPath, fileProcessingFunc) {
 const copyDirectoryWithMDProcessing = function(sourcePath, destPath, breadcrumbsParent) {
 	return copyDirectory(sourcePath, destPath, function(file) {
 		if (path.extname(file).toLowerCase() == '.md') {
-      convertMDtoHTML(file, destPath, breadcrumbsParent);
+			convertMDtoHTML(file, destPath, breadcrumbsParent);
 			return true;
 		}
 		return false;

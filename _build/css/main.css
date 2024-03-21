@@ -397,11 +397,18 @@ table>tbody+tbody{
   height: 100%;
 }
 
-.breadcrumps.fixed {
+.breadcrumbs {
+  color: #787878;
+  position: relative;
+  top: 14px;
+}
+
+.breadcrumbs.fixed {
   position: fixed;
+  top: 90px;
   z-index: 3;
 }
 
-.breadcrumps, .breadcrumps a {
+.breadcrumbs a {
   color: #787878;
 }

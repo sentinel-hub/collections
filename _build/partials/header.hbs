@@ -58,11 +58,11 @@
 
   {{#if isHome}}
   {{else}}
-    <div class="breadcrumps">
+    <div class="breadcrumps {{#if tag}}fixed{{/if}} {{#if fixedBreadcrumbs}}fixed{{/if}}">
       <a href="{{rootUrl}}" alt="Home">Collections</a> /
       {{#if tag}}
         tags / {{tag}} /
-      {{else if  breadcrumbsParent}}
+      {{else if breadcrumbsParent}}
         <a href="./index.html" alt="{{breadcrumbsParent}}">{{breadcrumbsParent}} /</a>
       {{/if}}
     </div>

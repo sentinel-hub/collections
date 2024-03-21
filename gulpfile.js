@@ -186,7 +186,7 @@ const rankDatasets = function (datasets, ignoreRank) {
 };
 
 
-const convertMDtoHTML = function(mdFile, destDirectory) {
+const convertMDtoHTML = function(mdFile, destDirectory, breadcrumbsParent) {
     var htmlFile = path.basename(path.basename(mdFile, '.md'), '.MD').toLowerCase();
     htmlFile += ".html";
 	if (fs.existsSync(path.join(destDirectory, htmlFile))) {
@@ -201,7 +201,8 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
       buildDate: new Date().toUTCString(),
       rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
       githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
-      githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+      githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH,
+      breadcrumbsParent: breadcrumbsParent,
     };
     var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
     var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
@@ -234,10 +235,10 @@ const copyDirectory = function(sourcePath, destPath, fileProcessingFunc) {
   }
 }
 
-const copyDirectoryWithMDProcessing = function(sourcePath, destPath) {
+const copyDirectoryWithMDProcessing = function(sourcePath, destPath, breadcrumbsParent) {
 	return copyDirectory(sourcePath, destPath, function(file) {
 		if (path.extname(file).toLowerCase() == '.md') {
-			convertMDtoHTML(file, destPath);
+      convertMDtoHTML(file, destPath, breadcrumbsParent);
 			return true;
 		}
 		return false;
@@ -299,7 +300,7 @@ const hbsHelpers = {
     htmlFile += ".html";
     
     var dir = path.dirname(mdFile);
-	copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir));
+	copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir), undefined);
     
     return "<a href=\"" + process.env.COLLECTIONS_BROWSER_ROOT_URL + dir + "/" + htmlFile + "\">" + data.Title + "</a>";
   },
@@ -774,8 +775,8 @@ function htmlDetail () {
         templateData.managedByLink = `${process.env.COLLECTIONS_BROWSER_ROOT_URL}?search=managedBy:${managedByName.toLowerCase()}`;
         templateData.managedByName = managedByName;
       }
-	  
-      copyDirectoryWithMDProcessing(`./collections/${slug}`, `./_output/${slug}`);
+  
+      copyDirectoryWithMDProcessing(`./collections/${slug}`, `./_output/${slug}`, templateData.Name);
 
       // Render
       return gulp.src('./_build/detail.hbs')

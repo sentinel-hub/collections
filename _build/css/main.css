@@ -396,3 +396,7 @@ table>tbody+tbody{
   width: 100%;
   height: 100%;
 }
+
+.breadcrumps, .breadcrumps a {
+  color: #787878;
+}

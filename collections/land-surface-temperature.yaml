@@ -1,7 +1,10 @@
 Name: Land Surface Temperature
 Description: |
-  [Land Surface Temperature](https://www.planet.com/products/planetary-variables/) (LST) provides twice-daily measurements of land surface temperature with high spatial resolution and consistency. 
-  LST data eliminates the need for maintaining large networks of physical sensors, reduces the impact of cloud cover on measurements, and enables a more accurate reflection of ground conditions across large areas.
+  [Land Surface Temperature](https://www.planet.com/products/planetary-variables/) (LST) s a feed of high-resolution, globally available measurement of the skin temperature of the Earth. 
+  Combining observations from a range of satellite constellations, Land Surface Temperature is not hindered by clouds, ensuring a continuous, consistent and scientifically reliable data record of more than 20 years. 
+  Consequently, there is no requirement to uphold extensive networks of physical sensors.  
+  This Planetary Variable measures the temperature twice a day (daytime and nighttime) with a spatial resolution of 100 m and 1000 m, providing vital intelligence about our nexus food/water system, and urban living conditions.
+
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/)"
 SandboxData: |
   Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Land Surface Temperature](sandbox-data.html)
@@ -11,7 +14,7 @@ GeographicalCoverage: Global; Open data in [limited areas](open-data.html);
 TemporalAvailability: 100 m (July, 1st 2017 - Present)1000 m (June, 15th 2002 - October 4th 2011 (AMSRE) July, 25th 2012 - Present (AMSR2))
 UpdateFrequency: Above 50 degrees latitude:2 obs. daily at 01:30 and 13:30. At the equator:at least ±180 obs. at 01:30 and ±180 obs. at 13:30 observations annually.
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/#available-bands)  
-Contact: https://www.planet.com/contact-sales/#contact-sales
+Contact: https://forum.sentinel-hub.com
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -21,8 +24,7 @@ Tags:
   - agriculture
   - thermal
   - sandbox data
-License: |
-  [License](https://www.planet.com/licensing-information/)
+License: "[License](https://www.planet.com/licensing-information/)"
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
@@ -33,4 +35,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2024-01-08"
-RegistryEntryLastModified: "2024-03-20"
+RegistryEntryLastModified: "2024-03-21"

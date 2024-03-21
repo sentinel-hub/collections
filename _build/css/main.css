@@ -235,7 +235,7 @@ dt {
  .aboutbox {
     position:fixed;
     z-index: 2;
-    width: 392px;
+    max-width: 392px;
   }
 }
 
@@ -243,7 +243,7 @@ dt {
  .aboutbox {
     position:fixed;
     z-index: 2;
-    width: 490px;
+    max-width: 490px;
   }
 }
 

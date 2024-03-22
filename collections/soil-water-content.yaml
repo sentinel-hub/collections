@@ -10,7 +10,7 @@ SandboxData: |
   Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Soil Water Content](sandbox-data.html)
 Image: soil-water-content/soil-water-content.png
 Resolution: 100m and 1000km
-GeographicalCoverage: Global; Open data in [limited areas](open-data.html); 
+GeographicalCoverage: Global
 TemporalAvailability: 1000 m (2002 - present), 100 m (2017 - present)
 UpdateFrequency: 137-365 observations per year
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/#available-bands)  

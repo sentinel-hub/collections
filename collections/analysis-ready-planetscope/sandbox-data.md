@@ -1,7 +1,4 @@
 # Analysis-Ready PlanetScope Sandbox Data
-<!---
-TODO: add links
--->
 
 <p> This sandbox collection of  <a href="ask Karla">Analysis-ready Planetscope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
 
@@ -18,7 +15,7 @@ TODO: add links
   <tbody>
     <tr>
       <td>PS_ARD_SR_DAILY</td>
-      <td>BYOC-xx</td>
+      <td>coming soon</td>
       <td>2021-05-01 to 2023-04-30</td>
     </tr>
    </tbody>
@@ -71,8 +68,5 @@ To access data over your own areas and times of interest, [contact Planet](https
     </div>
 </div>
 <br>
-<!---
-TODO: add link
--->
 
-Discover more [Planet Sandbox Data collections]()
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)

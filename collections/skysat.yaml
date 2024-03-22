@@ -1,7 +1,9 @@
 Name: SkySat
 Description: |
   Planet's extensive [Skysat](https://www.planet.com/products/planet-imagery/) archive is available at 50 cm spatial resolution for images collected on or after June 30, 2020, and at 72 cm spatial resolution for images collected before June 30, 2020. 
-  The SkySat image archive dates back to 2014. The Skysat satellite constellation consists of ~20 satellites that were launched between 2013 and 2020. 
+  The SkySat image archive dates back to 2014. 
+  
+  The Skysat satellite constellation consists of ~20 satellites that were launched between 2013 and 2020. 
   Because of its rapid revisit time, these data are suitable for monitoring rapid changes on the Earth's surface. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/)"
 SandboxData: |

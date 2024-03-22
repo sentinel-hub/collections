@@ -24,12 +24,12 @@ This sandbox collection of [SkySat](https://www.planet.com/products/planet-image
 </table>
 
 ## Sandbox Areas
-To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
-<br><br>
 *Insert map here*
-<br><br>
+
 [Download GeoJSONs]()
 
+
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
@@ -38,7 +38,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
     <div class="image-card">
         <img src="skysat.png" alt="EOB Highlight 1" class="imagette">
          <div class="info">
-            <div class="title">Bordeaux, France</div>
+            <div class="title">XXX</div>
             <div class="text">
                 xxxx-xx-xx to xxxx-xx-xx<br>
                 25km<sup>2</sup>
@@ -47,25 +47,25 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         </div>
     </div>
     <div class="image-card">
-        <img src="skysat.png" alt="EOB Highlight 2" class="imagette">
+        <img src="SS_EGY.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
             <div class="title">Cairo, Egypt</div>
             <div class="text">
                 2021-04-16 to 2022-09-22<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+           <div class="eob-link"><a href="https://sentinelshare.page.link/vmDK">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="skysat.png" alt="EOB Highlight 3" class="imagette">
+        <img src="SS_AUS.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
             <div class="title">Perth, Australia</div>
             <div class="text">
                 2021-01-01 to 2022-12-28<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/xeDd">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
@@ -74,4 +74,4 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
 TODO: add link
 -->
 
-Discover more [Planet Sandbox Data collections]().
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

@@ -396,3 +396,19 @@ table>tbody+tbody{
   width: 100%;
   height: 100%;
 }
+
+.breadcrumbs {
+  color: #787878;
+  position: relative;
+  top: 14px;
+}
+
+.breadcrumbs.fixed {
+  position: fixed;
+  top: 90px;
+  z-index: 3;
+}
+
+.breadcrumbs a {
+  color: #787878;
+}

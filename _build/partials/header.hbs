@@ -55,3 +55,15 @@
     </div>
   </nav>
   <div class="container" {{#if isDataAtWork}}id="dataatwork"{{/if}}>
+
+  {{#if isHome}}
+  {{else}}
+    <div class="breadcrumbs {{#if tag}}fixed{{/if}} {{#if fixedBreadcrumbs}}fixed{{/if}}">
+      <a href="{{rootUrl}}" alt="Home">Collections</a> /
+      {{#if tag}}
+        tags / {{tag}} /
+      {{else if breadcrumbsParent}}
+        <a href="./index.html" alt="{{breadcrumbsParent}}">{{breadcrumbsParent}}</a> /
+      {{/if}}
+    </div>
+  {{/if}}

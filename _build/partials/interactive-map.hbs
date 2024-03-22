@@ -1,13 +1,10 @@
 <div id="leaflet-map"></div>
 <script>
     async function loadData(){
-        const pointsResponse = await fetch("points.geojson");
-        const geojsonPoints = pointsResponse.status === 404 ? null : await pointsResponse.json();
-
         const polygonsResponse = await fetch("polygons.geojson");
         const geojsonPolygons = polygonsResponse.status === 404 ? null : await polygonsResponse.json();
 
-        return {geojsonPoints, geojsonPolygons };
+        return geojsonPolygons;
     }
 
     function generatePopupText(feature){
@@ -21,42 +18,34 @@
             "</div>";
     }
 
-    function addPolygonsToLeafletMap(geojsonPolygons, leafletMap){
+    function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap){
         if(!geojsonPolygons){
             return;
         }
-        geojsonPolygons.features.forEach(polygon => {
-            const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
-            const leafletPolygon = L.polygon(switchedCoords, {color: '#009db1'}).addTo(leafletMap);
 
-            const popupText = generatePopupText(polygon);
-            leafletPolygon.bindPopup(popupText);
-        });
-    }
-
-    function addPointsToLeafletMap(geojsonPoints, leafletMap){
-        if (!geojsonPoints) {
-            return;
-        }
-
-        var myIcon = L.icon({
+        const customMarker = L.icon({
             iconUrl: '{{rootUrl}}img/map-pin.svg',
             iconSize: [28, 44],
             iconAnchor: [14, 38],
             popupAnchor: [0, -44],
         });
 
-        geojsonPoints.features.forEach(point => {
-            const switchedCoords = [point.geometry.coordinates[1], point.geometry.coordinates[0]]
-            const marker = L.marker(switchedCoords, { icon: myIcon }).addTo(leafletMap);
-            const popupText = generatePopupText(point);
+        geojsonPolygons.features.forEach(polygon => {
+            const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
+            const leafletPolygon = L.polygon(switchedCoords, {color: '#009db1'}).addTo(leafletMap);
+
+            const centroid = leafletPolygon.getCenter();
+            const marker = L.marker(centroid, { icon: customMarker }).addTo(leafletMap);
+
+            const popupText = generatePopupText(polygon);
+            leafletPolygon.bindPopup(popupText);
             marker.bindPopup(popupText);
         });
     }
 
-    loadData().then(({geojsonPoints, geojsonPolygons }) => {
+    loadData().then((geojsonPolygons) => {
         // don't render map if no data to show
-        if(!geojsonPoints && !geojsonPolygons){
+        if(!geojsonPolygons){
             document.getElementById("leaflet-map").style.height = "0px";
             return;
         }
@@ -69,8 +58,7 @@
         }).addTo(leafletMap);
 
         // add geojson polygons and points to the map
-        addPolygonsToLeafletMap(geojsonPolygons, leafletMap);
-        addPointsToLeafletMap(geojsonPoints, leafletMap);
+        addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap);
         
     }).catch(e => console.error(e));
     

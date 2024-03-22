@@ -1,31 +1,57 @@
 <div id="leaflet-map"></div>
 <script>
-    console.log("use data sent to this handlebars template", {rootUrl});
+    async function loadData(){
+        const pointsResponse = await fetch("{{geojsonPointsUrl}}");
+        const geojsonPoints = await pointsResponse.json();
 
-    const map = L.map('leaflet-map').setView([0, 0], 2);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+        const polygonsResponse = await fetch("{{geojsonPolygonsUrl}}");
+        const geojsonPolygons = await polygonsResponse.json();
 
-    // filter the polygons and points from geojson (file) and add them to the map
+        return {geojsonPoints, geojsonPolygons };
+    }
 
-    const marker = L.marker([51.5, -0.09]).addTo(map);
+    function generatePopupText(feature){
+        const functionString = () => navigator.clipboard.writeText(JSON.stringify(feature.geometry))
 
-    const polygon = L.polygon([
-        [51.509, -0.08],
-        [51.503, -0.06],
-        [51.51, -0.047]
-    ]).addTo(map);
+        return "<h4>title</h4>" +
+            "<div>" +
+            "Time range:" + feature.properties.from + " to " + feature.properties.to + "<br>" +
+            "Area size: " + feature.properties["area / sqkmm"] + " km<sup>2</sup><br>" +
+            '<button class="leaflet-copy-geojson">copy geojson</button>' +
+            "</div>";
+    }
 
-    const popupText = 
-        "<h4>title</h4>" +
-        "<div>" +
-        "Time range: YYYY-MM-DD to YYYY-MM-DD<br>" +
-        "Area size: 00 km<sup>2</sup><br>" +
-        "<button class='leaflet-copy-geojson'>copy geojson</button>" +
-        "</div>";
+    function addPolygonsToLeafletMap(geojsonPolygons, leafletMap){
+        geojsonPolygons.features.forEach(polygon => {
+            const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
+            const leafletPolygon = L.polygon(switchedCoords).addTo(leafletMap);
 
-    marker.bindPopup(popupText);
-    polygon.bindPopup(popupText);
+            const popupText = generatePopupText(polygon);
+            leafletPolygon.bindPopup(popupText);
+        });
+    }
+
+    function addPointsToLeafletMap(geojsonPoints, leafletMap){
+        geojsonPoints.features.forEach(point => {
+            const switchedCoords = [point.geometry.coordinates[1], point.geometry.coordinates[0]]
+            const marker = L.marker(switchedCoords).addTo(leafletMap);
+
+            const popupText = generatePopupText(point);
+            marker.bindPopup(popupText);
+        });
+    }
+
+    loadData().then(({geojsonPoints, geojsonPolygons }) => {
+        const leafletMap = L.map('leaflet-map').setView([0, 0], 2);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(leafletMap);
+
+        // add geojson polygons and points to the map
+        addPolygonsToLeafletMap(geojsonPolygons, leafletMap);
+        addPointsToLeafletMap(geojsonPoints, leafletMap);
+        
+    }).catch(e => console.error(e));
+    
 </script>

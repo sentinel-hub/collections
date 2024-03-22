@@ -13,7 +13,7 @@
     function generatePopupText(feature){
         const functionString = () => navigator.clipboard.writeText(JSON.stringify(feature.geometry))
 
-        return "<h4>title</h4>" +
+        return "<h4>Area with data</h4>" +
             "<div>" +
             "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
             "Area size: " + feature.properties["area / sqkmm"] + " km<sup>2</sup><br>" +
@@ -38,10 +38,17 @@
         if (!geojsonPoints) {
             return;
         }
+
+        var myIcon = L.icon({
+            iconUrl: '{{rootUrl}}img/map-pin.svg',
+            iconSize: [28, 44],
+            iconAnchor: [14, 38],
+            popupAnchor: [0, -44],
+        });
+
         geojsonPoints.features.forEach(point => {
             const switchedCoords = [point.geometry.coordinates[1], point.geometry.coordinates[0]]
-            const marker = L.marker(switchedCoords).addTo(leafletMap);
-
+            const marker = L.marker(switchedCoords, { icon: myIcon }).addTo(leafletMap);
             const popupText = generatePopupText(point);
             marker.bindPopup(popupText);
         });

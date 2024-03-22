@@ -443,3 +443,7 @@ table>tbody+tbody{
 .sandbox-about-title #sandbox-planet-logo {
   height: 44px;
 }
+
+.small-font {
+  font-size: small;
+}

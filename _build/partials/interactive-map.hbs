@@ -27,7 +27,7 @@
         }
         geojsonPolygons.features.forEach(polygon => {
             const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
-            const leafletPolygon = L.polygon(switchedCoords).addTo(leafletMap);
+            const leafletPolygon = L.polygon(switchedCoords, {color: '#009db1'}).addTo(leafletMap);
 
             const popupText = generatePopupText(polygon);
             leafletPolygon.bindPopup(popupText);

@@ -28,6 +28,7 @@ This sandbox collection of [SkySat](https://www.planet.com/products/planet-image
 
 [Download GeoJSONs]()
 
+<br>
 
 To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 

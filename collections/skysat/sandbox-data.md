@@ -1,9 +1,6 @@
 # SkySat Sandbox Data
-<!---
-TODO: add links
--->
 
-This sandbox collection of [SkySat](https://www.planet.com/products/planet-imagery/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+This sandbox collection of [SkySat](../skysat/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>
@@ -39,7 +36,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
     <div class="image-card">
         <img src="skysat.png" alt="EOB Highlight 1" class="imagette">
          <div class="info">
-            <div class="title">XXX</div>
+            <div class="title">Coming soon.</div>
             <div class="text">
                 xxxx-xx-xx to xxxx-xx-xx<br>
                 25km<sup>2</sup>
@@ -55,7 +52,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2021-04-16 to 2022-09-22<br>
                 25km<sup>2</sup>
             </div>
-           <div class="eob-link"><a href="https://sentinelshare.page.link/vmDK">Visualise in EO Browser -></a></div>
+           <div class="eob-link"><a href="https://sentinelshare.page.link/ULez">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -66,7 +63,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2021-01-01 to 2022-12-28<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/xeDd">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/QK9m">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>

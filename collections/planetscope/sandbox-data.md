@@ -1,8 +1,6 @@
 # PlanetScope Sandbox Data
-<!---
-TODO: add links
--->
-This sandbox collection of [PlanetScope](https://www.planet.com/products/planet-imagery/PlanetScope) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+
+This sandbox collection of [PlanetScope](../planetscope/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>
@@ -43,7 +41,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/7S8r">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/cFBA">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -54,7 +52,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/hqo2">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/gpHW">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -65,7 +63,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/xqxa">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/NSWA">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>

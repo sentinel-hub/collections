@@ -1,11 +1,7 @@
 # Forest Carbon Diligence Sandbox Data
-<!---
-TODO: add links
--->
-This sandbox collection of [Forest Carbon Diligence](https://www.planet.com/products/forest-carbon/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
-<!---
-TODO: add BYOC collection IDs
--->
+
+This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+
 ## Collections
 <table>
   <thead>
@@ -18,65 +14,66 @@ TODO: add BYOC collection IDs
   <tbody>
     <tr>
       <td>CANOPY_HEIGHT_v1.0.0_30</td>
-      <td>BYOC-xxx</td>
+      <td>BYOC-f3312c82-edea-42a1-8c9d-ada86ddcc857</td>
       <td>2013-01-01 - 2017-12-31</td>
     </tr>
     <tr>
       <td>CANOPY_COVER_v1.0.0_30</td>
-      <td>BYOC-xxx</td>
+      <td>BYOC-e3d2a21c-cb75-4311-86ac-024385c85b9c</td>
       <td>2013-01-01 - 2017-12-31</td>
     </tr>
     <tr>
       <td>ABOVEGROUND_CARBON_DENSITY_v1.0.0_30</td>
-      <td>BYOC-xxx</td>
+      <td>BYOC-cc31cada-80d8-46fe-a746-43ac2f87b5da</td>
       <td>2013-01-01 - 2017-12-31</td>
     </tr>
    </tbody>
 </table>
 
 ## Sandbox Areas
-To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
-<br><br>
 *Insert map here*
-<br><br>
+
 [Download GeoJSONs]()
 
+<br>
+
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="forest-carbon-diligence.png" alt="EOB Highlight 1" class="imagette">
+        <img src="FCD_FRA.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
                 625km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/Dwu8">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="forest-carbon-diligence.png" alt="EOB Highlight 2" class="imagette">
+        <img src="FCD_BRA.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
-            <div class="title">SaoFeliz do Xingu, Brazil</div>
+            <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
                 625km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/XN9P">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="forest-carbon-diligence.png" alt="EOB Highlight 3" class="imagette">
+        <img src="FCD_USA.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
             <div class="title">Des Moines, USA</div>
             <div class="text">
                 2013-01-01 - 2017-12-31<br>
                 625km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/RTKM">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
@@ -85,4 +82,4 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
 TODO: add link
 -->
 
-Discover more [Planet Sandbox Data collections]().
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

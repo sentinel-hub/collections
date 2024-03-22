@@ -47,7 +47,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/rB5S">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/2JA2">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -58,7 +58,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/QP6R">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/mXr6">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -69,13 +69,10 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/wTnZ">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/jQLD">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
 <br>
-<!---
-TODO: add link
--->
 
-Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

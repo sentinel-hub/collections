@@ -1,6 +1,6 @@
 # Planet Basemaps Sandbox Data
 
-This sandbox collection of [Planet Basemap](https://www.planet.com/products/basemap/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+This sandbox collection of [Planet Basemap](../planet-basemaps/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>
@@ -21,51 +21,52 @@ This sandbox collection of [Planet Basemap](https://www.planet.com/products/base
 </table>
 
 ## Sandbox Areas
-To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
-<br>
 *Insert map here*
-<br>
+
 [Download GeoJSONs]()
 
+<br>
+
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="Brazil.png" alt="EOB Highlight 1" class="imagette">
+        <img src="PB_BRA.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
-            <div class="title">PSão Félix do Xingu, Brazil</div>
+            <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/dXLH">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/fhtP">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="Bordeaux.png" alt="EOB Highlight 2" class="imagette">
+        <img src="PB_FRA.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/vDD7">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/er62">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="Perth.png" alt="EOB Highlight 3" class="imagette">
+        <img src="PB_AUS.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
             <div class="title">Perth, Australia</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/XtVz">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/3WS4">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
 <br>
 
-Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

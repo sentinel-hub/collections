@@ -1,6 +1,6 @@
 # Soil Water Content Sandbox Data
 
-<p>This sandbox collection of Soil Water Content offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).</p>
+This sandbox collection of [Soil Water Content](../soil-water-content/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 
@@ -47,7 +47,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/ghCw">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/D2wf">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -58,7 +58,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/ees6">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/663C">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -69,11 +69,11 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/KahH">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/AFxB">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
 <br>
 
 
-Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

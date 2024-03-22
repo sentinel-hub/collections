@@ -71,7 +71,7 @@ To access data over your own areas and times of interest, [contact Planet](https
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="https://sentinelshare.page.link/wTnZ">Visualise in EO Browser -></div>
         </div>
     </div>
 </div>
@@ -80,4 +80,4 @@ To access data over your own areas and times of interest, [contact Planet](https
 TODO: add link
 -->
 
-Discover more [Planet Sandbox Data collections]()
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)

@@ -27,53 +27,53 @@
 </table>
 
 ## Sandbox Areas
-To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
-<br>
 *Insert map here*
-<br>
+
 [Download GeoJSONs]()
+
+<br>
+
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="Des-Moines.png" alt="EOB Highlight 1" class="imagette">
+        <img src="SWC_USA.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
             <div class="title">Des Moines, United States</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/ghCw">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/ghCw">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="Griffith.png" alt="EOB Highlight 2" class="imagette">
+        <img src="SWC_AUS.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
             <div class="title">Griffith, Australia</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/ees6">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/ees6">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="Bordeaux.png" alt="EOB Highlight 3" class="imagette">
+        <img src="SWC_FRA.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="https://sentinelshare.page.link/KahH">Visualise in EO Browser -></div>
+            <div class="eob-link"><a href="https://sentinelshare.page.link/KahH">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>
 <br>
-<!---
-TODO: add link
--->
+
 
 Discover more [Planet Sandbox Data collections](../planet-sandbox-data/)

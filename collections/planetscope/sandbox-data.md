@@ -69,8 +69,6 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
     </div>
 </div>
 <br>
-<!---
-TODO: add link
--->
 
-Discover more [Planet Sandbox Data collections]().
+
+Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

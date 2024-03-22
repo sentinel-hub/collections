@@ -382,6 +382,7 @@ table>tbody+tbody{
 .leaflet-popup-content-wrapper {
   font-size: 14px !important;
 }
+
 .leaflet-copy-geojson {
   background-color: #A2B228;
   color: white;

@@ -202,8 +202,6 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
       rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
       githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
       githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH,
-      geojsonPointsUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL + "geojson/PS_points.geojson",
-      geojsonPolygonsUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL + "geojson/PS_polygons.geojson",
       // add id of the collections / something similar which
       // will enable the code in interactive-map.hbs to display
       // the correct points and polygons
@@ -213,7 +211,7 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
     var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
 
     var stringToReplace = "<em>Insert map here</em>";
-    if (htmlContent.includes(stringToReplace)) {
+    if ("<em>Insert map here</em>") {
       var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
       htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
     }
@@ -558,12 +556,6 @@ function img () {
     .pipe(gulp.dest('./_output/img/'));
 };
 
-
-function geojsons() {
-  return gulp.src('./_build/geojson/**/*')
-    .pipe(gulp.dest('./_output/geojson/'));
-}
-
 // Compile the sitemap and move to _output
 function htmlSitemap () {
   // Build up sitemap items
@@ -866,7 +858,7 @@ function htmlProviders (cb) {
 };
 
 // Server with live reload
-exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, geojsons, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
+exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
 
   browserSync({
     port: 3000,
@@ -889,6 +881,6 @@ exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, geojsons, yaml
   gulp.watch('_build/**/*', gulp.series('default'));
 });
 
-exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, geojsons, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
+exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
 exports.default = exports.build;
 

@@ -23,11 +23,10 @@ This sandbox collection of [PlanetScope](https://www.planet.com/products/planet-
 </table>
 
 ## Sandbox Areas
-<br>
 *Insert map here*
-<br>
+
 [Download GeoJSONs]()
-<br>
+
 To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights

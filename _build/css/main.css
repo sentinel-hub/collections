@@ -170,6 +170,7 @@ h4 {
 
 .label {
   font-weight: 400;
+  margin-top: 8px;
 }
 
 .label-info {
@@ -382,7 +383,6 @@ table>tbody+tbody{
 .sandbox-dataset .image-card {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .sandbox-dataset .image-card .imagette {
@@ -427,4 +427,14 @@ table>tbody+tbody{
   border-radius: 4px;
   border: 1px solid #A2B228;
   margin-top: 8px;
+}
+
+.sandbox-about-title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sandbox-about-title #sandbox-planet-logo {
+  height: 44px;
 }

@@ -428,3 +428,13 @@ table>tbody+tbody{
   border: 1px solid #A2B228;
   margin-top: 8px;
 }
+
+.sandbox-about-title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sandbox-about-title #sandbox-planet-logo {
+  height: 44px;
+}

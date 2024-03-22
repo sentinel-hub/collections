@@ -18,7 +18,12 @@ TODO: add links
   <tbody>
     <tr>
       <td>LST-AMSR2_V1.0_100</td>
-      <td>BYOC-xx</td>
+      <td>BYOC-8d977093-cf9e-4351-8159-90f2522c29c1</td>
+      <td>2002-06-15 - 2022-12-31</td>
+    </tr>
+    <tr>
+      <td>LST-AMSR2_V1.0_1000</td>
+      <td>BYOC-6b613b07-410a-4312-93ad-d1751fdc55de</td>
       <td>2002-06-15 - 2022-12-31</td>
     </tr>
    </tbody>
@@ -37,31 +42,31 @@ To access data over your own areas and times of interest, [contact Planet](https
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="analysis-ready-planetscope.png" alt="EOB Highlight 1" class="imagette">
+        <img src="Bordeaux.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
-            <div class="title">Planalmira, Brazil</div>
+            <div class="title">Bordeaux, France</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="https://sentinelshare.page.link/rB5S">Visualise in EO Browser -></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="analysis-ready-planetscope.png" alt="EOB Highlight 2" class="imagette">
+        <img src="Griffith.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
-            <div class="title">Cairo, Egypt</div>
+            <div class="title">Griffith, Australia</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
-            <div class="eob-link">Visualise in EO Browser -></div>
+            <div class="https://sentinelshare.page.link/QP6R">Visualise in EO Browser -></div>
         </div>
     </div>
     <div class="image-card">
-        <img src="analysis-ready-planetscope.png" alt="EOB Highlight 3" class="imagette">
+        <img src="Des-Moines.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
-            <div class="title">Perth, Australia</div>
+            <div class="title">Des Moines, United States</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>

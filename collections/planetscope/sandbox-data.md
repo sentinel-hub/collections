@@ -27,6 +27,7 @@ This sandbox collection of [PlanetScope](https://www.planet.com/products/planet-
 
 [Download GeoJSONs]()
 
+
 To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights

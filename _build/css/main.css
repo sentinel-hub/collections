@@ -382,7 +382,6 @@ table>tbody+tbody{
 .sandbox-dataset .image-card {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .sandbox-dataset .image-card .imagette {

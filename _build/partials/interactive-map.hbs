@@ -1,0 +1,70 @@
+<div id="leaflet-map"></div>
+<script>
+    async function loadData(){
+        const pointsResponse = await fetch("points.geojson");
+        const geojsonPoints = pointsResponse.status === 404 ? null : await pointsResponse.json();
+
+        const polygonsResponse = await fetch("polygons.geojson");
+        const geojsonPolygons = polygonsResponse.status === 404 ? null : await polygonsResponse.json();
+
+        return {geojsonPoints, geojsonPolygons };
+    }
+
+    function generatePopupText(feature){
+        const functionString = () => navigator.clipboard.writeText(JSON.stringify(feature.geometry))
+
+        return "<h4>title</h4>" +
+            "<div>" +
+            "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
+            "Area size: " + feature.properties["area / sqkmm"] + " km<sup>2</sup><br>" +
+            '<button class="leaflet-copy-geojson">Copy geojson</button>' +
+            "</div>";
+    }
+
+    function addPolygonsToLeafletMap(geojsonPolygons, leafletMap){
+        if(!geojsonPolygons){
+            return;
+        }
+        geojsonPolygons.features.forEach(polygon => {
+            const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
+            const leafletPolygon = L.polygon(switchedCoords).addTo(leafletMap);
+
+            const popupText = generatePopupText(polygon);
+            leafletPolygon.bindPopup(popupText);
+        });
+    }
+
+    function addPointsToLeafletMap(geojsonPoints, leafletMap){
+        if (!geojsonPoints) {
+            return;
+        }
+        geojsonPoints.features.forEach(point => {
+            const switchedCoords = [point.geometry.coordinates[1], point.geometry.coordinates[0]]
+            const marker = L.marker(switchedCoords).addTo(leafletMap);
+
+            const popupText = generatePopupText(point);
+            marker.bindPopup(popupText);
+        });
+    }
+
+    loadData().then(({geojsonPoints, geojsonPolygons }) => {
+        // don't render map if no data to show
+        if(!geojsonPoints && !geojsonPolygons){
+            document.getElementById("leaflet-map").style.height = "0px";
+            return;
+        }
+
+        // create leaflet map and add OSM base layer
+        const leafletMap = L.map('leaflet-map').setView([0, 0], 2);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(leafletMap);
+
+        // add geojson polygons and points to the map
+        addPolygonsToLeafletMap(geojsonPolygons, leafletMap);
+        addPointsToLeafletMap(geojsonPoints, leafletMap);
+        
+    }).catch(e => console.error(e));
+    
+</script>

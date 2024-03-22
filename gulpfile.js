@@ -195,7 +195,7 @@ const convertMDtoHTML = function(mdFile, destDirectory, breadcrumbsParent) {
     
     var mdContent = fs.readFileSync(mdFile, "utf-8");
     var htmlContent = marked(mdContent, {renderer: renderer});
-    
+
     var templateData = {
       baseURL: process.env.BASE_URL,
       buildDate: new Date().toUTCString(),
@@ -204,9 +204,16 @@ const convertMDtoHTML = function(mdFile, destDirectory, breadcrumbsParent) {
       githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH,
       breadcrumbsParent: breadcrumbsParent,
     };
+
     var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
     var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
-    
+
+    var stringToReplace = "<em>Insert map here</em>";
+    if ("<em>Insert map here</em>") {
+      var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
+      htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
+    }
+
     htmlContent = htmlHeader + htmlContent + htmlFooter;
     
     fs.writeFileSync(path.join(destDirectory, htmlFile), htmlContent);

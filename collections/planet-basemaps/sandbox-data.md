@@ -23,7 +23,7 @@ This sandbox collection of [Planet Basemap](../planet-basemaps/) offers a limite
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../planet-basemaps/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

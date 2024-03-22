@@ -33,7 +33,7 @@ This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../forest-carbon-diligence/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

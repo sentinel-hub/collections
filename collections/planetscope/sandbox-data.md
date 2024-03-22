@@ -23,7 +23,7 @@ This sandbox collection of [PlanetScope](../planetscope/) offers a limited area 
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../planetscope/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

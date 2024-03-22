@@ -29,7 +29,7 @@ This Sandbox collection of [Land Surface Temperature](../land-surface-temperatur
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../land-surface-temperature/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

@@ -23,7 +23,7 @@ This sandbox collection of [SkySat](../skysat/) offers a limited area and time o
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../skysat/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

@@ -29,7 +29,7 @@ This sandbox collection of [Soil Water Content](../soil-water-content/) offers a
 ## Sandbox Areas
 *Insert map here*
 
-[Download GeoJSONs]()
+<a href="../soil-water-content/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 

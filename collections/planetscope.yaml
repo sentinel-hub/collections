@@ -1,7 +1,6 @@
 Name: PlanetScope
 Description: |
-  With hundreds of Dove satellites in orbit, [PlanetScope](https://www.planet.com/products/planet-imagery/) Monitoring provides a medium-resolution, continuous, and complete view of the world from above, every day. PlanetScope images are approximately 3 m per pixel resolution.
-
+  With hundreds of Dove satellites in orbit, [PlanetScope](https://www.planet.com/products/planet-imagery/) Monitoring provides a medium-resolution, continuous, and complete view of the world from above, every day. PlanetScope images are approximately 3 m per pixel resolution.  
   Sentinel Hub offers the ability to purchase, order and access both the archive data and newly acquired data available globally since 2016. Sentinel Hub provides access to PlanetScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet-scope/)"
 SandboxData: |
@@ -29,7 +28,7 @@ License: |
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
 CustomScripts:
     Title: Collection of PlanetScope custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#planet_scope

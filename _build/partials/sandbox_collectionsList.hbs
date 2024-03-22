@@ -1,0 +1,27 @@
+<div class="col-md-6 col-md-offset-1 datasets">
+  <div class="row">
+    {{#each datasets}}
+    <div id="{{Slug}}" class="sandbox-dataset">
+      <h4><a href="{{rootUrl}}{{Slug}}/sandbox-data.html" class="sandbox-dataset-title">{{Name}} Sandbox Data</a></h4>
+      
+      <div class="image-card">
+        {{#if Image}}
+          <div class="imagette">
+            <a href="{{rootUrl}}{{Slug}}/sandbox-data.html">
+              <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" />
+            </a>
+          </div>
+        {{/if}}
+        <div class="info">
+          <p>{{{trimHTML (md Description) 500}}}</p>
+          <p><a href="{{rootUrl}}{{Slug}}/sandbox-data.html">Sandbox data for {{Name}} &rarr;</a></p>
+        </div>
+
+      </div>
+      
+      
+      
+    </div>
+    {{/each}}
+  </div>
+</div>

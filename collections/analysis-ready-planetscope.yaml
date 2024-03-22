@@ -1,13 +1,17 @@
 Name: Analysis-Ready PlanetScope 
 Description: |
-  Analysis Ready PlanetScope is Planet's medium resolution time series dataset. It is an enhanced 4-band PlanetScope data product boasting a high degree of data consistency over time. It aims to eliminate the data preparation burden inherent with minimally processed PlanetScope products (L0,L1,L2) while retaining or enhancing all of the benefits of daily imagery at 3m spatial resolution. It has been radiometrically and geometrically calibrated. It includes a temporally-developed cloud mask. This version contains "no data" values where clouds have been masked.
+  Analysis-ready PlanetScope combines the monitoring benefits of daily 3 m spatial imagery, while enhancing temporal and spatial consistency with trusted, third-party data sources (Landsat, Sentinel-2, MODIS, VIIRS). 
+  This is accomplished with a proprietary algorithm that creates pre-processed, harmonized, and spatially consistent daily stacks of images that enable time-series analysis and machine learning applications. The resulting 4-band data is exceedingly radiometrically and geometrically accurate thanks to vast amounts of reference data in the Planet Archive. 
+  With deeper and more extensive pre-processing, data is more precise and pre-formatted for time-series analysis and machine learning applications. Draw on the powerful, cloud-based visualization and analytical tools in Sentinel Hub to work with data that's tailored to your specific area and time of interest. 
+  Limit storage and compute costs by working with only the data you need before delivering data to your preferred GIS, data science, remote sensing, or software environments via API or OGC streaming services.
 Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 SandboxData: |
   Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis Ready PlanetScope](sandbox-data.html)
 Resolution: 3 meters
-GeographicalCoverage: TBD
-UpdateFrequency: TBD
-TemporalAvailability: TBD
+GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
+TemporalAvailability: January 01, 2018 - Present
+UpdateFrequency: New versions are released multiple times a year.
+TemporalResolution: Near-daily when PlanetScope imagery is available over AOI 
 BandInformation:
   Table:
     Columns:
@@ -16,25 +20,24 @@ BandInformation:
       - Name: Description
         Title: Description
     Rows:
-      - Name: QA1
-        Description: "Cloud and shadow mask (1: clear; 2: bright cloud; 3: cloud shadows; 4: haze; 5: adjacent clouds/cloud shadows; 6: Additional cloud/cloud shadow/haze elements based on a cross-scene correlation detection approach; 7: other contamination, including snow; -999: no PlanetScope scene data available)."
-      - Name: QA2
-        Description: "Pixel provenance (see GeoTIFF metadata for mapping to scene IDs)."
-      - Name: QA3
-        Description: "Number of FORCE L8 / L9 / S2 reference scenes used during calibration."
-      - Name: SR1
-        Description: "Blue band."
-      - Name: SR2
-        Description: "Green band."
-      - Name: SR3
-        Description: "Red band."
-      - Name: SR4
-        Description: "NIR band."
+      - Name: B1
+        Description: "Blue"
+      - Name: B2
+        Description: "Green"
+      - Name: B3
+        Description: "Red"
+      - Name: B4
+        Description: "NIR"
+      - Name: Q1
+        Description: "Cloud_mask"
+      - Name: Q2
+        Description: "Scene Mask"
+      - Name: Q3
+        Description: "Num_ref_scenes"
 Contact: "support@planet.com"
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
-  - open data
   - commercial data
   - satellite imagery
   - analysis ready data
@@ -51,4 +54,4 @@ CustomScripts:
     Title: Coming soon here
     URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
-RegistryEntryLastModified: "2024-03-20"
+RegistryEntryLastModified: "2024-03-21"

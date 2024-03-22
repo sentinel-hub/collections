@@ -1,19 +1,53 @@
 Name: Planet Basemaps
 Description: |
- Globally available mosaics between 74° N and 60° S at a cell size of 4.77 m (at equator) using Mercator projection. 
- Basemaps are offered at a weekly, biweekly, monthly, or quarterly cadence and provide a clear, comprehensive view of an area of interest by automating the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
+ Globally available mosaics at a cell size of 4.77 m (at equator) using Mercator projection. 
+ [Planet Basemaps](https://www.planet.com/products/planetary-variables/) are offered at a weekly, biweekly, monthly, or quarterly cadence and provide a clear, comprehensive view of an area of interest by automating the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
  Planet Basemaps are also well suited for machine learning-analytics by applying cloud masking and radiometric normalization to allow for consistent data across large geographic areas of interest.
-
-Documentation: "[Here](https://developers.planet.com/docs/basemaps/)"
+Documentation: "[Planet Basemaps Product](https://www.planet.com/products/basemap/) and [Planet Basemaps API](https://www.planet.com/products/basemap/)"
 SandboxData: |
-  Discover samples of Basemaps, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Basemaps](sandbox-data.html)
+  Discover samples of Basemaps, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Planet Basemaps](sandbox-data.html)
 Image: planet-basemaps/planet-basemaps.png
-Resolution: 4.77m at equator
-GeographicalCoverage: Global between 74° N and 60° S
-TemporalAvailability: TBC-  2016 - ongoing
-UpdateFrequency: TBD
-Temporal Resolution: Weekly, Biweekly, Monthly or Quarterly
-BandInformation: TBC
+Resolution: 4.77m at equator based on PlanetScope GSD
+GeographicalCoverage: Global between 74° N and 60° S (seasonally dependent)
+TemporalAvailability: 01 July 2016 - present
+UpdateFrequency: Weekly, Biweekly, Monthly, Quarterly 
+Temporal Resolution: Weekly, biweekly, monthly or quarterly using PlanetScope daily imagery
+BandInformation:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: blue
+        Description: "Blue"
+      - Name: green
+        Description: "Green"
+      - Name: red
+        Description: "Red"
+      - Name: nir
+        Description: "NIR"
+      - Name: alpha
+        Description: "Alpha"
+      - Name: provenance
+        Description: "Provenance"
+      - Name: clear
+        Description: "Usable Data mask - Clear mask"
+      - Name: snow
+        Description: "Usable Data mask - Snow mask"
+      - Name: shadow
+        Description: "Usable Data mask - Shadow mask"
+      - Name: haze_light
+        Description: "Usable Data mask - Light haze mask"
+      - Name: haze_heavy
+        Description: "Usable Data mask - Heavy haze mask"
+      - Name: cloud
+        Description: "sable Data mask - Cloud mask"
+      - Name: confidence
+        Description: "Usable Data mask - Confidence map"    
+      - Name: udm1
+        Description: "Unusable Data Mask"      
 Contact: "support@planet.com"
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
@@ -37,4 +71,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/
 
 RegistryEntryAdded: "2024-03-15"
-RegistryEntryLastModified: "2024-03-19"
+RegistryEntryLastModified: "2024-03-21"

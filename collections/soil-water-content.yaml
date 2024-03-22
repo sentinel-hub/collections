@@ -14,7 +14,7 @@ GeographicalCoverage: Global; Open data in [limited areas](open-data.html);
 TemporalAvailability: 1000 m (2002 - present), 100 m (2017 - present)
 UpdateFrequency: 137-365 observations per year
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/#available-bands)  
-Contact: https://www.planet.com/contact-sales/#contact-sales
+Contact: https://forum.sentinel-hub.com
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -36,4 +36,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2024-01-08"
-RegistryEntryLastModified: "2024-03-20"
+RegistryEntryLastModified: "2024-03-21"

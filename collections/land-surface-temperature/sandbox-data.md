@@ -1,9 +1,6 @@
 # Land Surface Temperature Sandbox Data
-<!---
-TODO: add links
--->
 
-<p>This sandbox collection of Land Surface Temperature offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the CC-BY-NC license.</p>
+This Sandbox collection of [Land Surface Temperature](../land-surface-temperature/) offers a limited area and time of interest. Only Planet users and Sentinel Hub users with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 
@@ -30,19 +27,20 @@ TODO: add links
 </table>
 
 ## Sandbox Areas
-To access data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
-<br>
 *Insert map here*
-<br>
+
 [Download GeoJSONs]()
 
+<br>
+
+To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="Bordeaux.png" alt="EOB Highlight 1" class="imagette">
+        <img src="LST_FRA.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
@@ -53,7 +51,7 @@ To access data over your own areas and times of interest, [contact Planet](https
         </div>
     </div>
     <div class="image-card">
-        <img src="Griffith.png" alt="EOB Highlight 2" class="imagette">
+        <img src="LST_AUS.png" alt="EOB Highlight 2" class="imagette">
         <div class="info">
             <div class="title">Griffith, Australia</div>
             <div class="text">
@@ -64,7 +62,7 @@ To access data over your own areas and times of interest, [contact Planet](https
         </div>
     </div>
     <div class="image-card">
-        <img src="Des-Moines.png" alt="EOB Highlight 3" class="imagette">
+        <img src="LST_USA.png" alt="EOB Highlight 3" class="imagette">
         <div class="info">
             <div class="title">Des Moines, United States</div>
             <div class="text">

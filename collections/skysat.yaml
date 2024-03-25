@@ -5,7 +5,7 @@ Description: |
   
   The Skysat satellite constellation consists of ~20 satellites that were launched between 2013 and 2020. 
   Because of its rapid revisit time, these data are suitable for monitoring rapid changes on the Earth's surface. 
-Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/)"
+Documentation: "[SkySat Product](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/)"
 SandboxData: |
   Discover samples of SkySat, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for SkySat](sandbox-data.html)
 Image: skysat/skysat.png

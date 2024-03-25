@@ -1,6 +1,6 @@
 # Analysis-Ready PlanetScope Sandbox Data
 
-<p> This sandbox collection of  <a href="ask Karla">Analysis-ready Planetscope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
+<p> This sandbox collection of  <a href="ask Karla">Analysis-Ready Planetscope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
 
 
 ## Collections

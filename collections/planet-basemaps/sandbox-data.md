@@ -1,6 +1,6 @@
 # Planet Basemaps Sandbox Data
 
-This sandbox collection of [Planet Basemap](../planet-basemaps/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+This sandbox collection of [Planet Basemaps](../planet-basemaps/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
 <table>

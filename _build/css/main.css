@@ -403,6 +403,10 @@ table>tbody+tbody{
   flex-grow: 1;
 }
 
+.aboutbox p {
+  width: 100%;
+}
+
 .sandbox-dataset .sandbox-dataset-title {
   color: black;
 }

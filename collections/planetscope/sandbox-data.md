@@ -36,7 +36,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
     <div class="image-card">
         <img src="PS_BRA.png" alt="EOB Highlight 1" class="imagette">
         <div class="info">
-            <div class="title">Planalmira, Brazil</div>
+            <div class="title">Leopoldo de Bulhões, Brazil</div>
             <div class="text">
                 2022-05-01 to 2023-04-30<br>
                 25km<sup>2</sup>

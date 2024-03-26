@@ -48,8 +48,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
-                2013-01-01 - 2017-12-31<br>
-                625km<sup>2</sup>
+                2013-01-01 - 2017-01-01<br>
+                599km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/Dwu8">Visualise in EO Browser -></a></div>
         </div>
@@ -59,8 +59,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">
-                2013-01-01 - 2017-12-31<br>
-                625km<sup>2</sup>
+                2013-01-01 - 2017-01-01<br>
+                568km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/XN9P">Visualise in EO Browser -></a></div>
         </div>
@@ -70,8 +70,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Des Moines, USA</div>
             <div class="text">
-                2013-01-01 - 2017-12-31<br>
-                625km<sup>2</sup>
+                2013-01-01 - 2017-01-31<br>
+                581km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/RTKM">Visualise in EO Browser -></a></div>
         </div>

@@ -15,7 +15,7 @@ This sandbox collection of [Planet Basemaps](../planet-basemaps/) offers a limit
     <tr>
       <td>ps_s2_normalized_sr_monthly_mosaic</td>
       <td>BYOC-48c018f-67a1-4827-a1e4-f3ab98690312</td>
-      <td>2022-05-01 - 2023-04-30</td>
+      <td>2017-01-01 - 2023-04-01</td>
     </tr>
    </tbody>
 </table>
@@ -38,8 +38,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-01-01 to 2023-04-01<br>
+                27020km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/fhtP">Visualise in EO Browser -></a></div>
         </div>
@@ -49,8 +49,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-01-01 to 2023-04-01<br>
+                19181km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/er62">Visualise in EO Browser -></a></div>
         </div>
@@ -60,8 +60,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Perth, Australia</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-01-01 to 2023-04-01<br>
+                29827km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/3WS4">Visualise in EO Browser -></a></div>
         </div>

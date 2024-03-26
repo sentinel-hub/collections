@@ -44,8 +44,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Des Moines, United States</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-07-01 to 2022-12-31<br>
+                2373km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/D2wf">Visualise in EO Browser -></a></div>
         </div>
@@ -55,8 +55,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Griffith, Australia</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-07-01 to 2022-12-31<br>
+                593km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/663C">Visualise in EO Browser -></a></div>
         </div>
@@ -66,8 +66,8 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
-                2022-05-01 to 2023-04-30<br>
-                25km<sup>2</sup>
+                2017-07-01 to 2023-04-30<br>
+                2460km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/AFxB">Visualise in EO Browser -></a></div>
         </div>

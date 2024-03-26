@@ -39,7 +39,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
             <div class="title">Coming soon.</div>
             <div class="text">
                 xxxx-xx-xx to xxxx-xx-xx<br>
-                25km<sup>2</sup>
+                xxkm<sup>2</sup>
             </div>
             <div class="eob-link">Visualise in EO Browser -></div>
         </div>
@@ -60,7 +60,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         <div class="info">
             <div class="title">Perth, Australia</div>
             <div class="text">
-                2021-01-01 to 2022-12-28<br>
+                2021-04-16 to 2022-09-22<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href="https://sentinelshare.page.link/QK9m">Visualise in EO Browser -></a></div>
@@ -68,8 +68,5 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
     </div>
 </div>
 <br>
-<!---
-TODO: add link
--->
 
 Discover more [Planet Sandbox Data collections](../planet-sandbox-data/).

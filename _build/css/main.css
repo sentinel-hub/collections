@@ -441,7 +441,7 @@ table>tbody+tbody{
 }
 
 .leaflet-copy-geojson:hover {
-  color: #c0d049;
+  background-color: #c0d049;
 }
 
 .leaflet-copy-geojson:active {

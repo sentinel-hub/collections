@@ -464,12 +464,13 @@ table>tbody+tbody{
 
 .explore-EOB-btn h3 {
   color: #a2b228;
-  padding: 20px 20px 0px 20px;
+  padding: 15px 15px 0px 15px;
 }
 
 .explore-EOB-btn h4 {
   color: #333;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 15px 15px 15px;
+  font-size: 16px;
 }
 
 .explore-EOB-btn a {

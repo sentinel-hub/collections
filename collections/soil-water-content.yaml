@@ -1,6 +1,6 @@
 Name: Soil Water Content
 Description: |
-  The [Soil Water Content](https://www.planet.com/products/planetary-variables/) is the measure of the amount of water present in a unit volume of soil. 
+  The <a href="https://www.planet.com/products/planetary-variables/" target="_blank">Soil Water Content</a> is the measure of the amount of water present in a unit volume of soil. 
   It is typically expressed as a percentage and represents the ratio between the volume of water and the total volume of the soil. 
   This measurement is crucial for understanding the water status of the soil and provides information on factors such as drought monitoring, soil health and hydrological processes. 
   The Soil Water Content Planetary Variable measures the water content of the soil almost daily with a spatial resolution of 100 m and 1000 m. 

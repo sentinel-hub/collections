@@ -1,6 +1,6 @@
 Name: Forest Carbon Diligence
 Description: |
-  The [Forest Carbon Diligence](https://www.planet.com/products/forest-carbon/) product consists of a bundle of data resources: canopy height, canopy cover, and aboveground live carbon with a spatial resolution of 30 m. 
+  The <a href="https://www.planet.com/products/forest-carbon/" target="_blank">Forest Carbon Diligence</a> product consists of a bundle of data resources: canopy height, canopy cover, and aboveground live carbon with a spatial resolution of 30 m. 
   These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).
 Documentation: "[Forest Carbon Diligence Product](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/)"
 SandboxData: |

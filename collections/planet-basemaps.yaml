@@ -1,7 +1,7 @@
 Name: Planet Basemaps
 Description: |
  Globally available mosaics at a cell size of 4.77 m (at equator) using Mercator projection. 
- [Planet Basemaps](https://www.planet.com/products/planetary-variables/) are offered at a weekly, biweekly, monthly, or quarterly cadence and provide a clear, comprehensive view of an area of interest by automating the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
+ <a href="https://www.planet.com/products/planetary-variables/" target="_blank">Planet Basemaps</a> are offered at a weekly, biweekly, monthly, or quarterly cadence and provide a clear, comprehensive view of an area of interest by automating the selection of the best individual images to create a complete, seamless, and recent “mosaic” that allows you to understand change over broad areas. 
  Planet Basemaps are also well suited for machine learning-analytics by applying cloud masking and radiometric normalization to allow for consistent data across large geographic areas of interest.
 Documentation: "[Planet Basemaps Product](https://www.planet.com/products/basemap/) and [Planet Basemaps API](https://www.planet.com/products/basemap/)"
 SandboxData: |

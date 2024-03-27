@@ -440,6 +440,14 @@ table>tbody+tbody{
   margin-top: 8px;
 }
 
+.leaflet-copy-geojson:hover {
+  background-color: #c0d049;
+}
+
+.leaflet-copy-geojson:active {
+  background-color: #A2B228;
+}
+
 .sandbox-about-title {
   margin-top: 30px;
   display: flex;

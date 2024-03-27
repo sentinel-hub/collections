@@ -457,3 +457,19 @@ table>tbody+tbody{
 .sandbox-about-title #sandbox-planet-logo {
   height: 44px;
 }
+
+.explore-EOB-btn {
+  background-color: rgb(241,247,231, .9);
+}
+
+.explore-EOB-btn h4 {
+  color: #a2b228;
+}
+
+.explore-EOB-btn a {
+  text-decoration: none;
+}
+
+.explore-btn-footer {
+  font-size: 12px;
+}

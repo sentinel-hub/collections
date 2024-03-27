@@ -16,7 +16,7 @@ This sandbox collection of [Soil Water Content](../soil-water-content/) offers a
     <tr>
       <td>SWC-SMAP-L_V2.0_100</td>
       <td>BYOC-65f7e4fb-a27a-4fae-8d79-06a59d7e6ede</td>
-      <td>2015-04-01 - 2022-12-31</td>
+      <td>2017-04-01 - 2022-12-31</td>
     </tr>
     <tr>
       <td>SWC-SMAP-L_V5.0_1000</td>

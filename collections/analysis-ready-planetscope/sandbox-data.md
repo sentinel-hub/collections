@@ -16,7 +16,7 @@
     <tr>
       <td>PS_ARD_SR_DAILY</td>
       <td>coming soon</td>
-      <td>2021-05-01 to 2023-04-30</td>
+      <td>2022-05-01 to 2023-04-30</td>
     </tr>
    </tbody>
 </table>

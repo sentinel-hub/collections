@@ -462,8 +462,14 @@ table>tbody+tbody{
   background-color: rgb(241,247,231, .9);
 }
 
-.explore-EOB-btn h4 {
+.explore-EOB-btn h3 {
   color: #a2b228;
+  padding: 20px 20px 0px 20px;
+}
+
+.explore-EOB-btn h4 {
+  color: #333;
+  padding: 0px 20px 20px 20px;
 }
 
 .explore-EOB-btn a {
@@ -472,4 +478,5 @@ table>tbody+tbody{
 
 .explore-btn-footer {
   font-size: 12px;
+  opacity: 0.5;
 }

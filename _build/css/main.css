@@ -247,6 +247,10 @@ dt {
   color: #787878;
 }
 
+.aboutbox {
+  background-color: red;
+}
+
 @media screen and (min-height: 930px) and (min-width:992px) {
  .aboutbox {
     position: fixed;

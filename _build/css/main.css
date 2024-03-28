@@ -478,16 +478,16 @@ table>tbody+tbody{
   height: 44px;
 }
 
-.explore-sbd-btn {
+.explore-psd-btn {
   background-color: rgb(241,247,231, .9);
 }
 
-.explore-sbd-btn h3 {
+.explore-psd-btn h3 {
   color: #a2b228;
   padding: 15px 15px 0px 15px;
 }
 
-.explore-sbd-btn h4 {
+.explore-psd-btn h4 {
   color: #333;
   padding: 0px 15px 15px 15px;
   margin-top: 10px;
@@ -495,7 +495,7 @@ table>tbody+tbody{
   font-weight: normal;
 }
 
-.explore-sbd-btn a {
+.explore-psd-btn a {
   text-decoration: none;
 }
 

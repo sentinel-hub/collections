@@ -248,8 +248,13 @@ dt {
 }
 
 @media (min-height: 830px) and (min-width:992px) {
- .aboutbox {
+  .aboutbox {
     position: fixed;
+    z-index: 2;
+    width: 392px;
+  }
+
+  .aboutbox-psd {
     z-index: 2;
     width: 392px;
   }
@@ -262,8 +267,13 @@ dt {
 }
 
 @media (min-height: 830px) and (min-width:1200px) {
- .aboutbox {
+  .aboutbox {
     position: fixed;
+    z-index: 2;
+    width: 490px;
+  }
+
+  .aboutbox-psd {
     z-index: 2;
     width: 490px;
   }

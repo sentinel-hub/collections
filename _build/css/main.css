@@ -264,6 +264,10 @@ dt {
     top: 90px;
     z-index: 3;
   }
+  
+  .about:has(.aboutbox-psd) + .breadcrumbs {
+    position: relative;
+  }
 }
 
 @media (min-height: 830px) and (min-width:1200px) {
@@ -282,6 +286,10 @@ dt {
     position: fixed;
     top: 90px;
     z-index: 3;
+  }
+
+  .about:has(.aboutbox-psd) + .breadcrumbs {
+    position: relative;
   }
 }
 

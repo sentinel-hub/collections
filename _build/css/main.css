@@ -265,7 +265,7 @@ dt {
     z-index: 3;
   }
 
-  .breadcrumbs:has(.breadcrumbs + .about:has(.aboutbox-psd)) {
+  .breadcrumbs:has(.breadcrumbs + .about > .aboutbox-psd) {
     position: relative;
     top: 20px;
   }
@@ -289,7 +289,7 @@ dt {
     z-index: 3;
   }
 
-  .breadcrumbs:has(.breadcrumbs + .about:has(.aboutbox-psd)) {
+  .breadcrumbs:has(.breadcrumbs + .about > .aboutbox-psd) {
     position: relative;
     top: 20px;
   }

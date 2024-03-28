@@ -251,7 +251,7 @@ dt {
   background-color: red;
 }
 
-@media screen and (min-height: 930px) and (min-width:992px) {
+@media screen and (min-height: 530px) and (min-width:992px) {
  .aboutbox {
     position: fixed;
     z-index: 2;
@@ -265,7 +265,7 @@ dt {
   }
 }
 
-@media screen and (min-height: 930px) and (min-width:1200px) {
+/* @media screen and (min-height: 930px) and (min-width:1200px) {
  .aboutbox {
     position: fixed;
     z-index: 2;
@@ -277,7 +277,7 @@ dt {
     top: 90px;
     z-index: 3;
   }
-}
+} */
 
 img.collab-logo {
   width: 100px;

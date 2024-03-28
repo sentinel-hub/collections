@@ -254,24 +254,6 @@ dt {
     width: 392px;
   }
 
- .aboutbox-psd {
-    z-index: 2;
-    width: 490px;
-  }
-
-  .breadcrumbs.fixed {
-    position: fixed;
-    top: 90px;
-    z-index: 3;
-  }
-}
-
-@media (min-height: 930px) and (min-width:1200px) {
-  .aboutbox-psd {
-    z-index: 2;
-    width: 490px;
-  }
-
   .breadcrumbs.fixed {
     position: fixed;
     top: 90px;

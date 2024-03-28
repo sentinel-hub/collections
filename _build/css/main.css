@@ -247,9 +247,14 @@ dt {
   color: #787878;
 }
 
-@media (min-height: 930px) and (min-width:992px) {
- .aboutbox {
-    position:fixed;
+@media (min-height: 830px) and (min-width:992px) {
+  .aboutbox {
+    position: fixed;
+    z-index: 2;
+    width: 392px;
+  }
+
+  .aboutbox-psd {
     z-index: 2;
     width: 392px;
   }
@@ -259,11 +264,21 @@ dt {
     top: 90px;
     z-index: 3;
   }
+
+  .breadcrumbs:has(+ .about > .aboutbox-psd) {
+    position: relative;
+    top: 20px;
+  }
 }
 
-@media (min-height: 930px) and (min-width:1200px) {
- .aboutbox {
-    position:fixed;
+@media (min-height: 830px) and (min-width:1200px) {
+  .aboutbox {
+    position: fixed;
+    z-index: 2;
+    width: 490px;
+  }
+
+  .aboutbox-psd {
     z-index: 2;
     width: 490px;
   }
@@ -272,6 +287,11 @@ dt {
     position: fixed;
     top: 90px;
     z-index: 3;
+  }
+
+  .breadcrumbs:has(+ .about > .aboutbox-psd) {
+    position: relative;
+    top: 20px;
   }
 }
 
@@ -456,4 +476,30 @@ table>tbody+tbody{
 
 .sandbox-about-title #sandbox-planet-logo {
   height: 44px;
+}
+
+.explore-psd-btn {
+  background-color: rgb(241,247,231, .9);
+}
+
+.explore-psd-btn h3 {
+  color: #a2b228;
+  padding: 15px 15px 0px 15px;
+}
+
+.explore-psd-btn h4 {
+  color: #333;
+  padding: 0px 15px 15px 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.explore-psd-btn a {
+  text-decoration: none;
+}
+
+.explore-btn-footer {
+  font-size: 12px;
+  opacity: 0.5;
 }

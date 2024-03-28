@@ -33,7 +33,7 @@ This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/
 
 ## Sandbox Areas
 
-_Insert map here_
+*Insert map here*
 
 <a href="../forest-carbon-diligence/polygons.geojson" download>Download GeoJSONs</a>
 
@@ -48,7 +48,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
 
 <div class="container33">
     <div class="image-card">
-        <img src="FCD_FRA.png" alt="EOB Highlight 1" class="imagette">
+    <a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D12%26lat%3D44.7345%26lng%3D-0.676%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252Ff006c031-60da-4262-bdf7-6fc4f1532d13%26datasetId%3Dcc31cada-80d8-46fe-a746-43ac2f87b5da%26fromTime%3D2017-01-01T00%253A00%253A00.000Z%26toTime%3D2017-01-01T23%253A59%253A59.999Z%26layerId%3DABOVEGROUND-CARBON-DENSITY%26demSource3D%3D%22MAPZEN%22"><img src="FCD_FRA.png" alt="EOB Highlight 1" class="imagette"></a>
         <div class="info">
             <div class="title">Bordeaux, France</div>
             <div class="text">
@@ -59,7 +59,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         </div>
     </div>
     <div class="image-card">
-        <a href="https://sentinelshare.page.link/XN9P">
+        <a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D12%26lat%3D-6.7652%26lng%3D-52.3763%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252Ff006c031-60da-4262-bdf7-6fc4f1532d13%26datasetId%3De3d2a21c-cb75-4311-86ac-024385c85b9c%26fromTime%3D2017-01-01T00%253A00%253A00.000Z%26toTime%3D2017-01-01T23%253A59%253A59.999Z%26layerId%3DCANOPY-COVER%26demSource3D%3D%22MAPZEN%22">
         <img src="FCD_BRA.png" alt="EOB Highlight 2" class="imagette">
         </a>
         <div class="info">
@@ -72,7 +72,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         </div>
     </div>
     <div class="image-card">
-        <img src="FCD_USA.png" alt="EOB Highlight 3" class="imagette">
+    <a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D12%26lat%3D41.2969%26lng%3D-93.959%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252Ff006c031-60da-4262-bdf7-6fc4f1532d13%26datasetId%3Df3312c82-edea-42a1-8c9d-ada86ddcc857%26fromTime%3D2016-01-01T00%253A00%253A00.000Z%26toTime%3D2016-01-01T23%253A59%253A59.999Z%26layerId%3DCANOPY-HEIGHT%26demSource3D%3D%22MAPZEN%22"><img src="FCD_USA.png" alt="EOB Highlight 3" class="imagette"></a>
         <div class="info">
             <div class="title">Des Moines, USA</div>
             <div class="text">

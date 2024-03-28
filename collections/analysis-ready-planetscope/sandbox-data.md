@@ -34,7 +34,7 @@ To access data over your own areas and times of interest, [contact Planet](https
 <br>
 <div class="container33">
     <div class="image-card">
-        <img src="analysis-ready-planetscope.png" alt="EOB Highlight 3" class="imagette">
+    <a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D12%26lat%3D40.8408%26lng%3D-96.5355%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252F415887db-d2e7-4a13-b076-70f3135bd821%26datasetId%3Db690a8ba-05c4-49dc-91c7-8484a1007176%26fromTime%3D2022-12-22T00%253A00%253A00.000Z%26toTime%3D2022-12-22T23%253A59%253A59.999Z%26layerId%3DTRUE-COLOR%20%26demSource3D%3D%22MAPZEN%E2%80%9D"><img src="analysis-ready-planetscope.png" alt="EOB Highlight 3" class="imagette"></a>
         <div class="info">
             <div class="title">Nebraska, United States</div>
             <div class="text">

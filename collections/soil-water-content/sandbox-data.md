@@ -47,7 +47,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2017-07-01 to 2022-12-31<br>
                 2373km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/D2wf">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D11%26lat%3D41.191%26lng%3D-93.818%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252F2e4a87f8-2beb-483e-a62e-689a5916d958%26datasetId%3D65f7e4fb-a27a-4fae-8d79-06a59d7e6ede%26fromTime%3D2022-12-31T00%253A00%253A00.000Z%26toTime%3D2022-12-31T23%253A59%253A59.999Z%26layerId%3DSWC-100%26demSource3D%3D%22MAPZEN%22">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -58,7 +58,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2017-07-01 to 2022-12-31<br>
                 593km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/663C">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D12%26lat%3D-34.5218%26lng%3D146.1202%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252F2e4a87f8-2beb-483e-a62e-689a5916d958%26datasetId%3D65f7e4fb-a27a-4fae-8d79-06a59d7e6ede%26fromTime%3D2022-12-27T00%253A00%253A00.000Z%26toTime%3D2022-12-27T23%253A59%253A59.999Z%26layerId%3DSWC-100%26demSource3D%3D%22MAPZEN%22">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">
@@ -69,7 +69,7 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
                 2017-07-01 to 2023-04-30<br>
                 2460km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href="https://sentinelshare.page.link/AFxB">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href="https%3A%2F%2Fapps.sentinel-hub.com%2Feo-browser%2F%3Fzoom%3D11%26lat%3D44.84%26lng%3D-0.5234%26themeId%3DPLANET_SANDBOX%26visualizationUrl%3Dhttps%253A%252F%252Fservices.sentinel-hub.com%252Fogc%252Fwms%252F2e4a87f8-2beb-483e-a62e-689a5916d958%26datasetId%3D65f7e4fb-a27a-4fae-8d79-06a59d7e6ede%26fromTime%3D2023-04-29T00%253A00%253A00.000Z%26toTime%3D2023-04-29T23%253A59%253A59.999Z%26layerId%3DSWC-100%26demSource3D%3D%22MAPZEN%22">Visualise in EO Browser -></a></div>
         </div>
     </div>
 </div>

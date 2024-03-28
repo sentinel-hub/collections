@@ -247,7 +247,7 @@ dt {
   color: #787878;
 }
 
-@media screen and (min-height: 830px) and (min-width:992px) {
+@media (min-height: 830px) and (min-width:992px) {
  .aboutbox {
     position: fixed;
     z-index: 2;
@@ -261,7 +261,7 @@ dt {
   }
 }
 
-@media screen and (min-height: 830px) and (min-width:1200px) {
+@media (min-height: 830px) and (min-width:1200px) {
  .aboutbox {
     position: fixed;
     z-index: 2;

@@ -249,7 +249,6 @@ dt {
 
 @media (min-height: 930px) and (min-width:992px) {
  .aboutbox {
-    position:fixed;
     z-index: 2;
     width: 392px;
   }
@@ -263,7 +262,6 @@ dt {
 
 @media (min-height: 930px) and (min-width:1200px) {
  .aboutbox {
-    position:fixed;
     z-index: 2;
     width: 490px;
   }

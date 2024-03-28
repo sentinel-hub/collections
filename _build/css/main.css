@@ -267,13 +267,21 @@ dt {
 }
 
 @media (min-height: 930px) and (min-width:1200px) {
- .aboutbox {
-    position: fixed;
+  .aboutbox-psd {
     z-index: 2;
     width: 490px;
   }
 
-  .aboutbox-psd {
+  .breadcrumbs.fixed {
+    position: fixed;
+    top: 90px;
+    z-index: 3;
+  }
+}
+
+@media (min-height: 930px) and (min-width:1200px) {
+ .aboutbox {
+    position: fixed;
     z-index: 2;
     width: 490px;
   }

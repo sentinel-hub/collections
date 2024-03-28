@@ -3,6 +3,7 @@
 This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/) offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Collections
+
 <table>
   <thead>
     <tr>
@@ -31,7 +32,8 @@ This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/
 </table>
 
 ## Sandbox Areas
-*Insert map here*
+
+_Insert map here_
 
 <a href="../forest-carbon-diligence/polygons.geojson" download>Download GeoJSONs</a>
 
@@ -40,8 +42,10 @@ This sandbox collection of [Forest Carbon Diligence](../forest-carbon-diligence/
 To purchase data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 
 ## EO Browser highlights
+
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
+
 <div class="container33">
     <div class="image-card">
         <img src="FCD_FRA.png" alt="EOB Highlight 1" class="imagette">
@@ -55,7 +59,9 @@ To purchase data over your own areas and times of interest, [contact Planet](htt
         </div>
     </div>
     <div class="image-card">
+        <a href="https://sentinelshare.page.link/XN9P">
         <img src="FCD_BRA.png" alt="EOB Highlight 2" class="imagette">
+        </a>
         <div class="info">
             <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">

@@ -19,7 +19,7 @@
         return "<h4>" + feature.properties.geolocation +"</h4>" +
             "<div>" +
             "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
-            "Area size: " + feature.properties["area / sqkmm"] + "km<sup>2</sup><br>" +
+            "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>" +
             '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick('+ encodedString +')">Copy GeoJSON</button>' +
             "</div>";
     }

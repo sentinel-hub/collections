@@ -7,7 +7,7 @@ Description: |
   It is not affected by clouds and has a long and consistent data record of more than 20 years, so there is no need to maintain large networks of physical sensors.
 Documentation: |
   [Sentinel Hub Documentation for Soil Water Content](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/)
-  
+  \n
   [Product Website for Soil Water Content](https://developers.planet.com/docs/planetary-variables/soil-water-content/)
 SandboxData: |
   Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Soil Water Content](sandbox-data.html)

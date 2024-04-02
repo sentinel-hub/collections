@@ -2,7 +2,9 @@ Name: Land Surface Temperature
 Description: |
   Planet’s <a href="https://www.planet.com/products/planetary-variables/" target="_blank">Land Surface Temperature</a> (LST) is a feed of high-resolution, globally available measurement of the skin temperature of the Earth. Combining observations from a range of satellite constellations, Land Surface Temperature is not hindered by clouds, ensuring a continuous, consistent and scientifically reliable data record of more than 20 years. Consequently, there is no requirement to uphold extensive networks of physical sensors.
   This Planetary Variable measures the temperature twice a day (daytime and nighttime) with a spatial resolution of 100 m and 1000 m, providing vital intelligence about our nexus food/water system, and urban living conditions.
-Documentation: "[Land Surface Temperature Product](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/)"
+Documentation: |
+  [Sentinel Hub Documentation for Land Surface Temperature](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/)
+  [Product Website for Land Surface Temperature](https://developers.planet.com/docs/planetary-variables/land-surface-temperature/)
 SandboxData: |
   Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Land Surface Temperature](sandbox-data.html)
 Image: land-surface-temperature/land-surface-temperature.png

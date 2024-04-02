@@ -4,7 +4,7 @@ Description: |
   
   Sentinel Hub offers the ability to purchase, order and access both the archive data and newly acquired data available globally since 2016. Sentinel Hub provides access to PlanetScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: |
-  [Sentinel Hub Documentation for PlanetScope](https://docs.sentinel-hub.com/api/latest/data/planet/planet-scope/)
+  [Sentinel Hub Documentation for PlanetScope](https://docs.sentinel-hub.com/api/latest/data/planet/planet-scope/)<br>
   [Product Website for PlanetScope](https://developers.planet.com/docs/data/planetscope/)
 SandboxData: |
   Discover samples of PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for PlanetScope](sandbox-data.html)

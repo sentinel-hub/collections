@@ -14,7 +14,7 @@ This sandbox collection of [Planet Basemaps](../planet-basemaps/) offers a limit
   <tbody>
     <tr>
       <td>ps_s2_normalized_sr_monthly_mosaic</td>
-      <td>BYOC-48c018f-67a1-4827-a1e4-f3ab98690312</td>
+      <td>BYOC-c48c018f-67a1-4827-a1e4-f3ab98690312</td>
       <td>2017-01-01 - 2023-04-01</td>
     </tr>
    </tbody>

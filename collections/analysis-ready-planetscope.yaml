@@ -1,6 +1,6 @@
-Name: Analysis-Ready PlanetScope 
+Name: Analysis-Ready PlanetScope
 Description: |
-  Analysis-ready PlanetScope combines the monitoring benefits of daily 3 m spatial imagery, while enhancing temporal and spatial consistency with trusted, third-party data sources (Landsat, Sentinel-2, MODIS, VIIRS). 
+  Analysis-Ready PlanetScope combines the monitoring benefits of daily 3 m spatial imagery, while enhancing temporal and spatial consistency with trusted, third-party data sources (Landsat, Sentinel-2, MODIS, VIIRS). 
   This is accomplished with a proprietary algorithm that creates pre-processed, harmonized, and spatially consistent daily stacks of images that enable time-series analysis and machine learning applications. The resulting 4-band data is exceedingly radiometrically and geometrically accurate thanks to vast amounts of reference data in the Planet Archive. 
   With deeper and more extensive pre-processing, data is more precise and pre-formatted for time-series analysis and machine learning applications. Draw on the powerful, cloud-based visualization and analytical tools in Sentinel Hub to work with data that's tailored to your specific area and time of interest. 
   Limit storage and compute costs by working with only the data you need before delivering data to your preferred GIS, data science, remote sensing, or software environments via API or OGC streaming services.
@@ -11,7 +11,7 @@ Resolution: 3 meters
 GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
 TemporalAvailability: January 01, 2018 - Present
 UpdateFrequency: New versions are released multiple times a year.
-TemporalResolution: Near-daily when PlanetScope imagery is available over AOI 
+TemporalResolution: Near-daily when PlanetScope imagery is available over AOI
 BandInformation:
   Table:
     Columns:
@@ -51,7 +51,7 @@ Resources:
     Type: BYOC collection
     Notes: Contains the data purchased by individual user. Explore sample CC-BY-NC [sandbox data here](sandbox-data.html)
 CustomScripts:
-    Title: Coming soon here
-    URL: https://custom-scripts.sentinel-hub.com/
+  Title: Coming soon here
+  URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
 RegistryEntryLastModified: "2024-03-21"

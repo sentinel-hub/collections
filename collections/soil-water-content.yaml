@@ -6,18 +6,18 @@ Description: |
   The Soil Water Content Planetary Variable measures the water content of the soil almost daily with a spatial resolution of 100 m and 1000 m. 
   It is not affected by clouds and has a long and consistent data record of more than 20 years, so there is no need to maintain large networks of physical sensors.
 Documentation: |
-  [Sentinel Hub Documentation for Soil Water Content](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/)<br>
-  [Product Website for Soil Water Content](https://developers.planet.com/docs/planetary-variables/soil-water-content/)
+  <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/" target="_blank">Sentinel Hub Documentation for Soil Water Content</a><br>
+  <a href="https://developers.planet.com/docs/planetary-variables/soil-water-content/" target="_blank">Product Website for Soil Water Content</a>
 SandboxData: |
-  Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Soil Water Content](sandbox-data.html)
+  Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html" target="_blank">Sandbox Data for Soil Water Content</a>
 Image: soil-water-content/soil-water-content.png
 Resolution: 100m and 1000km
 GeographicalCoverage: Global
 TemporalAvailability: 1000 m (2002 - present), 100 m (2017 - present)
 UpdateFrequency: 137-365 observations per year
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/#available-bands)  
-Contact: https://forum.sentinel-hub.com
-Provider: "[Planet](https://www.planet.com/)"
+BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/#available-bands" target="_blank">bands and data</a>
+Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - commercial data
@@ -26,16 +26,15 @@ Tags:
   - agriculture
   - drought
   - sandbox data
-License: |
-  [License](https://www.planet.com/licensing-information/)
+License: <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. Explore sample CC-BY-NC [sandbox data here](sandbox-data.html).
+    Notes: Contains the data purchased by individual user. <a href="sandbox-data.html" target="_blank">Explore sample CC-BY-NC sandbox data here</a>
 CustomScripts:
     Title: Collection of Soil Water Content custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/soil-water-content/
 
 
 RegistryEntryAdded: "2024-01-08"
-RegistryEntryLastModified: "2024-03-21"
+RegistryEntryLastModified: "2024-04-03"

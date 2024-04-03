@@ -4,19 +4,19 @@ Description: |
   
   Sentinel Hub offers the ability to purchase, order and access both the archive data and newly acquired data available globally since 2016. Sentinel Hub provides access to PlanetScope data in Top of the atmosphere (TOA) reflectance.
 Documentation: |
-  [Sentinel Hub Documentation for PlanetScope](https://docs.sentinel-hub.com/api/latest/data/planet/planet-scope/)<br>
-  [Product Website for PlanetScope](https://developers.planet.com/docs/data/planetscope/)
+  <a href="https://docs.sentinel-hub.com/api/latest/data/planet/planet-scope/" target="_blank">Sentinel Hub Documentation for PlanetScope</a><br>
+  <a href="https://developers.planet.com/docs/data/planetscope/" target="_blank">Product Website for PlanetScope</a>
 SandboxData: |
-  Discover samples of PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for PlanetScope](sandbox-data.html)
+  Discover samples of PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html" target="_blank">Sandbox Data for PlanetScope</a>
 Image: planetscope/planetscope.png
 Resolution: 3m
-GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
+GeographicalCoverage: Land surface area (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)
 TemporalAvailability: 2016 - ongoing
 UpdateFrequency: new imagery added on a daily basis
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
-Provider: "[Planet](https://www.planet.com/)"
-ManagedBy: "[Planet](https://www.planet.com/)"
+BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planet-scope/#available-bands-and-data" target="_blank">bands and data</a>
+Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
+ManagedBy: "[Planet](https://www.planet.com/)" 
 Tags:
   - high resolution imagery
   - commercial data
@@ -26,16 +26,15 @@ Tags:
   - mapping
   - agriculture
   - sandbox data
-License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use)
+License: <a href="https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
+    Notes: Contains the data purchased by individual user. <a href="sandbox-data.html" target="_blank">Explore sample CC-BY-NC sandbox data here</a>
 CustomScripts:
     Title: Collection of PlanetScope custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#planet_scope
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-14"
+RegistryEntryLastModified: "2024-04-03"

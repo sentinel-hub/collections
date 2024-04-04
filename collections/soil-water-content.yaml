@@ -9,7 +9,7 @@ Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/soil-water-content/" target="_blank">Sentinel Hub Documentation for Soil Water Content</a><br>
   <a href="https://developers.planet.com/docs/planetary-variables/soil-water-content/" target="_blank">Product Website for Soil Water Content</a>
 SandboxData: |
-  Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html" target="_blank">Sandbox Data for Soil Water Content</a>
+  Discover samples of Soil Water Content, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Soil Water Content</a>
 Image: soil-water-content/soil-water-content.png
 Resolution: 100m and 1000km
 GeographicalCoverage: Global
@@ -30,7 +30,7 @@ License: <a href="https://www.planet.com/licensing-information/" target="_blank"
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. <a href="sandbox-data.html" target="_blank">Explore sample CC-BY-NC sandbox data here</a>
+    Notes: Contains the data purchased by individual user. <a href="sandbox-data.html">Explore sample CC-BY-NC sandbox data here</a>
 CustomScripts:
     Title: Collection of Soil Water Content custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/soil-water-content/

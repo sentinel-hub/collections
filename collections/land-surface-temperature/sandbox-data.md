@@ -1,6 +1,6 @@
 # Land Surface Temperature Sandbox Data
 
-This Sandbox collection of <a href="../land-surface-temperature/" target="_blank">Land Surface Temperature</a> offers a limited area and time of interest. Only Planet users and Sentinel Hub users with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
+This Sandbox collection of <a href="../land-surface-temperature/">Land Surface Temperature</a> offers a limited area and time of interest. Only Planet users and Sentinel Hub users with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
 ## Collections
 
@@ -75,4 +75,4 @@ To purchase data over your own areas and times of interest, <a href="https://www
 </div>
 <br>
 
-Discover more <a href="../planet-sandbox-data/" target="_blank">Planet Sandbox Data collections</a>
+Discover more <a href="../planet-sandbox-data/">Planet Sandbox Data collections</a>

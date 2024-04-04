@@ -1,6 +1,6 @@
 # SkySat Sandbox Data
 
-This sandbox collection of <a href="../skysat/" target="_blank">SkySat</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
+This sandbox collection of <a href="../skysat/">SkySat</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
 ## Collections
 <table>
@@ -69,4 +69,4 @@ To purchase data over your own areas and times of interest, <a href="https://www
 </div>
 <br>
 
-Discover more <a href="../planet-sandbox-data/" target="_blank">Planet Sandbox Data collections</a>
+Discover more <a href="../planet-sandbox-data/">Planet Sandbox Data collections</a>

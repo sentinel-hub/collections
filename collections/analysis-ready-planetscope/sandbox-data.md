@@ -15,7 +15,7 @@
   <tbody>
     <tr>
       <td>PS_ARD_SR_DAILY</td>
-      <td>coming soon</td>
+      <td>b690a8ba-05c4-49dc-91c7-8484a1007176</td>
       <td>2022-05-01 to 2023-04-30</td>
     </tr>
    </tbody>

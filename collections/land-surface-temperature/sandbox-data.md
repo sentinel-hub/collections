@@ -1,8 +1,8 @@
-# Land Surface Temperature Sandbox Data
+## Land Surface Temperature Sandbox Data
 
 This Sandbox collection of <a href="../land-surface-temperature/">Land Surface Temperature</a> offers a limited area and time of interest. Only Planet users and Sentinel Hub users with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
-## Collections
+### Collections
 
 <table>
   <thead>
@@ -29,7 +29,7 @@ This Sandbox collection of <a href="../land-surface-temperature/">Land Surface T
    </tbody>
 </table>
 
-## Sandbox Areas
+### Sandbox Areas
 *Insert map here*
 
 <a href="../land-surface-temperature/polygons.geojson" download>Download GeoJSONs</a>

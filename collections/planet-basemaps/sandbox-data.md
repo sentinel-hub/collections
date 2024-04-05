@@ -1,8 +1,8 @@
-# Planet Basemaps Sandbox Data
+## Planet Basemaps Sandbox Data
 
 This sandbox collection of <a href="../planet-basemaps/">Planet Basemaps</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
-## Collections
+### Collections
 <table>
   <thead>
     <tr>
@@ -22,7 +22,7 @@ This sandbox collection of <a href="../planet-basemaps/">Planet Basemaps</a> off
    </tbody>
 </table>
 
-## Sandbox Areas
+### Sandbox Areas
 *Insert map here*
 
 <a href="../planet-basemaps/polygons.geojson" download>Download GeoJSONs</a>

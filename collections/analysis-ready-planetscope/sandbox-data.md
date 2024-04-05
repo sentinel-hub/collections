@@ -7,7 +7,6 @@
 <table>
   <thead>
     <tr>
-      <th>Source ID</th>
       <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
@@ -15,10 +14,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>PS_ARD_SR_DAILY</td>
-      <td>Planet Sandbox Data - Analysis-Ready Planetscope Daily</td>
+      <td>Planet Sandbox Data - Analysis Ready PlanetScope (Nebraska Sample 2021 - 2022)</td>
       <td>BYOC-b690a8ba-05c4-49dc-91c7-8484a1007176</td>
-      <td>2022-05-01 to 2023-04-30</td>
+      <td>2021-01-01 - 2022-12-31</td>
     </tr>
    </tbody>
 </table>

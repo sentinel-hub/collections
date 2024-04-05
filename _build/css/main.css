@@ -389,6 +389,7 @@ table>tbody+tbody{
   }
 table > tbody > tr > td {
   font-size: 14px;
+  overflow-wrap: anywhere;
 }
 
 .container33 {

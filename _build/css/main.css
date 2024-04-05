@@ -394,20 +394,20 @@ table > tbody > tr > td {
 
 .container33 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  grid-template-columns: 1fr;
   grid-gap: 40px; /* Adjust spacing between image cards */
   padding: 10px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .container33 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1024px) {
   .container33 {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
   }
 }
 

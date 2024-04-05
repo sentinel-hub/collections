@@ -498,7 +498,7 @@ table > tbody > tr > td {
   font-weight: normal;
 }
 
-.explore-psd-btn a {
+a:hover > .explore-psd-btn > h4 {
   text-decoration: none;
 }
 

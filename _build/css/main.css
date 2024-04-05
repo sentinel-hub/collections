@@ -405,7 +405,7 @@ table > tbody > tr > td {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .container33 {
     grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
   }

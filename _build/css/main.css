@@ -389,13 +389,26 @@ table>tbody+tbody{
   }
 table > tbody > tr > td {
   font-size: 14px;
+  overflow-wrap: anywhere;
 }
 
 .container33 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  grid-template-columns: 1fr;
   grid-gap: 40px; /* Adjust spacing between image cards */
   padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .container33 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container33 {
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  }
 }
 
 .container33 .image-card {

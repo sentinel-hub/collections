@@ -35,6 +35,7 @@ This sandbox collection of <a href="../soil-water-content/">Soil Water Content</
 <a href="../soil-water-content/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
+<br>
 
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
 

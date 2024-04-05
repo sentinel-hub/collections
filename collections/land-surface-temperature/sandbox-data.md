@@ -35,6 +35,7 @@ This Sandbox collection of <a href="../land-surface-temperature/">Land Surface T
 <a href="../land-surface-temperature/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
+<br>
 
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
 

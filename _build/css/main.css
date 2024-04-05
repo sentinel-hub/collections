@@ -485,12 +485,12 @@ table > tbody > tr > td {
   background-color: rgb(241,247,231, .9);
 }
 
-.explore-psd-btn h3 {
+.explore-psd-btn h4 {
   color: #a2b228;
   padding: 15px 15px 0px 15px;
 }
 
-.explore-psd-btn h4 {
+.explore-psd-btn h5 {
   color: #333;
   padding: 0px 15px 15px 15px;
   margin-top: 10px;
@@ -502,7 +502,7 @@ a:has(.explore-psd-btn):hover {
   text-decoration: none;
 }
 
-a:hover > .explore-psd-btn > h3 {
+a:hover > .explore-psd-btn > h4 {
   text-decoration: underline;
 }
 

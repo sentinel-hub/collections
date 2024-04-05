@@ -1,8 +1,8 @@
-# Analysis-Ready PlanetScope Sandbox Data
+## Analysis-Ready PlanetScope Sandbox Data
 
 <p> This sandbox collection of  <a href="../analysis-ready-planetscope/">Analysis-Ready Planetscope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license.</a></p>
 
-## Collections
+### Collections
 
 <table>
   <thead>
@@ -23,7 +23,7 @@
    </tbody>
 </table>
 
-## Sandbox Areas
+### Sandbox Areas
 
 To access data over your own areas and times of interest, [contact Planet](https://www.planet.com/contact-sales/#contact-sales).
 <br>
@@ -31,7 +31,7 @@ _Insert map here_
 <br>
 [Download GeoJSONs]()
 
-## EO Browser highlights
+### EO Browser highlights
 
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>

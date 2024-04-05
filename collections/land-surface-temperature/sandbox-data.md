@@ -8,6 +8,7 @@ This Sandbox collection of <a href="../land-surface-temperature/">Land Surface T
   <thead>
     <tr>
       <th>Source ID</th>
+      <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
     </tr>
@@ -15,11 +16,13 @@ This Sandbox collection of <a href="../land-surface-temperature/">Land Surface T
   <tbody>
     <tr>
       <td>LST-AMSR2_V1.0_100</td>
+      <td>Planet Sandbox Data - PV LST 100m</td>
       <td>BYOC-8d977093-cf9e-4351-8159-90f2522c29c1</td>
       <td>2017-07-01 - 2022-12-31</td>
     </tr>
     <tr>
       <td>LST-AMSR2_V1.0_1000</td>
+      <td>Planet Sandbox Data - PV LST 1km</td>
       <td>BYOC-6b613b07-410a-4312-93ad-d1751fdc55de</td>
       <td>2013-01-01 - 2022-12-31</td>
     </tr>

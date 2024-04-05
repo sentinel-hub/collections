@@ -7,6 +7,7 @@ This sandbox collection of <a href="../planetscope/">PlanetScope</a> offers a li
   <thead>
     <tr>
       <th>Source ID</th>
+      <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
     </tr>
@@ -14,6 +15,7 @@ This sandbox collection of <a href="../planetscope/">PlanetScope</a> offers a li
   <tbody>
     <tr>
       <td>analytic_8b_sr_udm2</td>
+      <td>Planet Sandbox Data - PlanetScope</td>
       <td>BYOC-ccb1f8f0-e5bf-4c31-afe5-d8803bcbde2a</td>
       <td>2022-05-01 - 2023-04-30</td>
     </tr>

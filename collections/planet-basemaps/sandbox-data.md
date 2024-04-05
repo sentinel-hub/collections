@@ -7,6 +7,7 @@ This sandbox collection of <a href="../planet-basemaps/">Planet Basemaps</a> off
   <thead>
     <tr>
       <th>Source ID</th>
+      <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
     </tr>
@@ -14,6 +15,7 @@ This sandbox collection of <a href="../planet-basemaps/">Planet Basemaps</a> off
   <tbody>
     <tr>
       <td>ps_s2_normalized_sr_monthly_mosaic</td>
+      <td>Planet Sandbox Data -Planet Monthly Basemaps </td>
       <td>BYOC-c48c018f-67a1-4827-a1e4-f3ab98690312</td>
       <td>2017-01-01 - 2023-04-01</td>
     </tr>

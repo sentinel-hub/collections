@@ -387,6 +387,9 @@ table>caption+thead>tr:first-child>td,.table>caption+thead>tr:first-child>th,.ta
 table>tbody+tbody{
     border-top:2px solid #ddd;
   }
+table > tbody > tr > td {
+  font-size: 14px;
+}
 
 .container33 {
   display: grid;
@@ -482,12 +485,12 @@ table>tbody+tbody{
   background-color: rgb(241,247,231, .9);
 }
 
-.explore-psd-btn h3 {
+.explore-psd-btn h4 {
   color: #a2b228;
   padding: 15px 15px 0px 15px;
 }
 
-.explore-psd-btn h4 {
+.explore-psd-btn h5 {
   color: #333;
   padding: 0px 15px 15px 15px;
   margin-top: 10px;
@@ -495,8 +498,12 @@ table>tbody+tbody{
   font-weight: normal;
 }
 
-.explore-psd-btn a {
+a:has(.explore-psd-btn):hover {
   text-decoration: none;
+}
+
+a:hover > .explore-psd-btn > h4 {
+  text-decoration: underline;
 }
 
 .explore-btn-footer {

@@ -1,8 +1,8 @@
-# PlanetScope Sandbox Data
+## PlanetScope Sandbox Data
 
 This sandbox collection of <a href="../planetscope/">PlanetScope</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>. 
 
-## Collections
+### Collections
 <table>
   <thead>
     <tr>
@@ -22,7 +22,7 @@ This sandbox collection of <a href="../planetscope/">PlanetScope</a> offers a li
    </tbody>
 </table>
 
-## Sandbox Areas
+### Sandbox Areas
 *Insert map here*
 
 <a href="../planetscope/polygons.geojson" download>Download GeoJSONs</a>
@@ -31,7 +31,7 @@ This sandbox collection of <a href="../planetscope/">PlanetScope</a> offers a li
 
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
 
-## EO Browser highlights
+### EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 <div class="container33">

@@ -1,8 +1,8 @@
-# Forest Carbon Diligence Sandbox Data
+## Forest Carbon Diligence Sandbox Data
 
 This sandbox collection of <a href="../forest-carbon-diligence/">Forest Carbon Diligence</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
-## Collections
+### Collections
 
 <table>
   <thead>
@@ -35,7 +35,7 @@ This sandbox collection of <a href="../forest-carbon-diligence/">Forest Carbon D
    </tbody>
 </table>
 
-## Sandbox Areas
+### Sandbox Areas
 
 *Insert map here*
 
@@ -44,7 +44,7 @@ This sandbox collection of <a href="../forest-carbon-diligence/">Forest Carbon D
 <br>
 
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
-## EO Browser highlights
+### EO Browser highlights
 
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>

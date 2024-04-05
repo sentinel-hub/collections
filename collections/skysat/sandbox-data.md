@@ -7,6 +7,7 @@ This sandbox collection of <a href="../skysat/">SkySat</a> offers a limited area
   <thead>
     <tr>
       <th>Source ID</th>
+      <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
     </tr>
@@ -14,6 +15,7 @@ This sandbox collection of <a href="../skysat/">SkySat</a> offers a limited area
   <tbody>
     <tr>
       <td>Ortho_analytic (analytic_udm2)</td>
+      <td>Planet Sandbox Data - SkySat</td>
       <td>BYOC-fc704520-fc81-439f-9016-5e162c32e736</td>
       <td>2021-01-01 - 2022-12-31</td>
     </tr>

@@ -31,7 +31,7 @@ _Insert map here_
 <br>
 [Download GeoJSONs]()
 
-## EO Browser highlights
+### EO Browser highlights
 
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>

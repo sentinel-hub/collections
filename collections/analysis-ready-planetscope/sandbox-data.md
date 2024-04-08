@@ -7,6 +7,7 @@
 <table>
   <thead>
     <tr>
+      <th>Source ID</th>
       <th>Collection Name</th>
       <th>Collection ID</th>
       <th>Time Range</th>
@@ -14,23 +15,24 @@
   </thead>
   <tbody>
     <tr>
-      <td>Planet Sandbox Data - Analysis Ready PlanetScope (Nebraska Sample 2021 - 2022)</td>
-      <td>BYOC-b690a8ba-05c4-49dc-91c7-8484a1007176</td>
-      <td>2021-01-01 - 2022-12-31</td>
+      <td>PS_ARD_SR_DAILY</td>
+      <td>Planet Sandbox Data - Analysis-Ready PlanetScope </td>
+      <td>BYOC-3f605f75-86c4-411a-b4ae-01c896f0e54e</td>
+      <td>2022-05-01 - 2023-04-30</td>
     </tr>
    </tbody>
 </table>
 
 ### Sandbox Areas
+
 *Insert map here*
 
-<a href="" download>Download GeoJSONs</a>
+<a href="../analysis-ready-planetscope/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 <br>
 
-To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>.
-
+To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
 ### EO Browser highlights
 
 3 area samples are available as EO Browser Highlight Visualisations.

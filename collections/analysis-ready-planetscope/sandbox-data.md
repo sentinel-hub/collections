@@ -15,10 +15,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>!---Some name---!</td>
+      <td>PS_ARD_SR_DAILY</td>
       <td>Planet Sandbox Data - Analysis Ready PlanetScope</td>
-      <td>BYOC-!---CollectionId---!</td>
-      <td>202y-mm-dd - 202y-mm-dd</td>
+      <td>BYOC-3f605f75-86c4-411a-b4ae-01c896f0e54e</td>
+      <td>2022-05-01 - 2023-04-30</td>
     </tr>
    </tbody>
 </table>
@@ -32,7 +32,6 @@
 <br>
 
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>.
-
 ### EO Browser highlights
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
@@ -42,7 +41,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
         <div class="info">
             <div class="title">Highlight title 1</div>
             <div class="text">
-              202y-mm-dd - 202y-mm-dd<br>
+              2022-05-01 - 2023-04-30<br>
               25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=40.8408&lng=-96.5355&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F415887db-d2e7-4a13-b076-70f3135bd821&datasetId=b690a8ba-05c4-49dc-91c7-8484a1007176&fromTime=2022-12-22T00%3A00%3A00.000Z&toTime=2022-12-22T23%3A59%3A59.999Z&layerId=TRUE-COLOR &demSource3D="MAPZEN”'>Visualise in EO Browser -></a></div>
@@ -53,7 +52,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
         <div class="info">
             <div class="title">Highlight title 2</div>
             <div class="text">
-                202y-mm-dd - 202y-mm-dd<br>
+                2022-05-01 - 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=40.8408&lng=-96.5355&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F415887db-d2e7-4a13-b076-70f3135bd821&datasetId=b690a8ba-05c4-49dc-91c7-8484a1007176&fromTime=2022-12-22T00%3A00%3A00.000Z&toTime=2022-12-22T23%3A59%3A59.999Z&layerId=TRUE-COLOR &demSource3D="MAPZEN”'>Visualise in EO Browser -></a></div>
@@ -64,7 +63,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
         <div class="info">
             <div class="title">Highlight title 3</div>
             <div class="text">
-                202y-mm-dd - 202y-mm-dd<br>
+                2022-05-01 - 2023-04-30<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=40.8408&lng=-96.5355&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F415887db-d2e7-4a13-b076-70f3135bd821&datasetId=b690a8ba-05c4-49dc-91c7-8484a1007176&fromTime=2022-12-22T00%3A00%3A00.000Z&toTime=2022-12-22T23%3A59%3A59.999Z&layerId=TRUE-COLOR &demSource3D="MAPZEN”'>Visualise in EO Browser -></a></div>

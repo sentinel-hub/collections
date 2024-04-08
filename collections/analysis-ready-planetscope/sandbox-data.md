@@ -32,7 +32,6 @@
 To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>.
 
 ### EO Browser highlights
-
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
 

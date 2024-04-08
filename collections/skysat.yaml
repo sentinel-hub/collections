@@ -1,18 +1,23 @@
 Name: SkySat
 Description: |
-  [Skysat](https://www.planet.com/products/planet-imagery/) satellite constellation consists of 21 satellites, 
-  which were launched between 2013 and 2020. The satellites are based on a CubeSat concept but are a bit bigger comparing 
-  to the PlanetScope's satellites. Because of its rapid revisit time, this data is suitable to monitor fast changes on 
-  earth's surface. However, note that the data acquisition must be tasked, data is not acquired systematically.
-Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/)"
+  Planet's extensive <a href="https://www.planet.com/products/planet-imagery/" target="_blank">Skysat</a> archive is available at 50 cm spatial resolution for images collected on or after June 30, 2020, and at 72 cm spatial resolution for images collected before June 30, 2020. 
+  The SkySat image archive dates back to 2014. 
+  
+  The Skysat satellite constellation consists of ~20 satellites that were launched between 2013 and 2020. 
+  Because of its rapid revisit time, these data are suitable for monitoring rapid changes on the Earth's surface. 
+Documentation: |
+  <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/" target="_blank">Sentinel Hub Documentation for SkySat</a><br>
+  <a href="https://developers.planet.com/docs/data/skysat/" target="_blank">Product Website for Skysat</a>
+SandboxData: |
+  Discover samples of SkySat, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for SkySat</a>
 Image: skysat/skysat.png
 Resolution: 0.5m (resampled)
-GeographicalCoverage: Worldwide ([more info](https://www.planet.com/products/planet-imagery/))
+GeographicalCoverage: Worldwide (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)
 TemporalAvailability: 2014 - ongoing
 UpdateFrequency: Capacity to image up to 10x a day but acquisitions must be tasked (ordered).
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
-Provider: "[Planet](https://www.planet.com/)"
+BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#available-bands-and-data" target="_blank">bands and data</a>
+Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - high resolution imagery
@@ -22,16 +27,16 @@ Tags:
   - vegetation monitoring
   - mapping
   - agriculture
-License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#attribution-and-use)
+  - sandbox data
+License: <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#attribution-and-use" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
 CustomScripts:
     Title: Collection of SkySat custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sky_sat
 
 
 RegistryEntryAdded: "2022-11-24"
-RegistryEntryLastModified: "2022-11-24"
+RegistryEntryLastModified: "2024-03-21"

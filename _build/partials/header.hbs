@@ -39,6 +39,10 @@
     var rootUrl = "{{rootUrl}}";
   </script>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://cdn.usefathom.com/script.js" data-site="UENARRJI" data-excluded-domains="http://devext-fe.sinergise.com/,localhost" defer></script>
   <!-- / Fathom -->
@@ -54,9 +58,21 @@
       <div class="roda-header">
         {{#if isHome}}<h1>{{else}}<h2><a href="{{rootUrl}}" alt="Home">{{/if}}Sentinel Hub Public Collections{{#if isHome}}</h1>{{else}}</a></h2>{{/if}}
         <a href="https://sentinel-hub.com">
-          <img src="{{rootUrl}}img/sentinel-hub-by_sinergise-dark-logo.png" alt="Sentinel Hub" id="header_logo">
+          <img src="{{rootUrl}}img/SentinelHub__min_horizontal_rgb_full_color-gradient.png" alt="Sentinel Hub" id="header_logo">
         </a>
       </div>
     </div>
   </nav>
   <div class="container" {{#if isDataAtWork}}id="dataatwork"{{/if}}>
+
+  {{#if isHome}}
+  {{else}}
+    <div class="breadcrumbs {{#if tag}}fixed{{/if}} {{#if fixedBreadcrumbs}}fixed{{/if}}">
+      <a href="{{rootUrl}}" alt="Home">Collections</a> /
+      {{#if tag}}
+        tags / {{tag}} /
+      {{else if breadcrumbsParent}}
+        <a href="./index.html" alt="{{breadcrumbsParent}}">{{breadcrumbsParent}}</a> /
+      {{/if}}
+    </div>
+  {{/if}}

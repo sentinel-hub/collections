@@ -3,11 +3,14 @@
     <h3>About</h3>
     <p>This registry exists to help people discover and share collections that are available via Sentinel Hub. </p>
 
-    {{#if tag}}
-    <p>See <a href="{{rootUrl}}tag/{{tagURL}}/usage-examples">all usage examples for collections listed in this registry</a> tagged with <strong>{{tag}}</strong>.</p>
-    {{else}}
-    <p>See <a href="{{rootUrl}}usage-examples">all usage examples for collections listed in this registry</a>.</p>
-    {{/if}}
+    <ul>
+      {{#if tag}}
+        <li>See <a href="{{rootUrl}}tag/{{tagURL}}/usage-examples">all usage examples for collections listed in this registry</a> tagged with <strong>{{tag}}</strong></li>
+      {{else}}
+        <li>See <a href="{{rootUrl}}usage-examples">all usage examples for collections listed in this registry</a></li>
+      {{/if}}
+      <li><strong>New: </strong> <a href="{{rootUrl}}planet-sandbox-data">Planet Sandbox Data Collections</a></li>
+    </ul>
 
     <hr>
 
@@ -20,12 +23,6 @@
     {{#if tag}}<p>You are currently viewing a subset of data tagged with <strong>{{tag}}</strong>.</p>{{/if}}
 
     <hr>
-
-    <div >
-        <p><a href="https://collections.eurodatacube.com/">
-          <img src="{{rootUrl}}img/external/edc_banner.png" alt="banner" width="490" />
-         </a></p> 
-    </div>
 
     <h4>Add to this registry</h4>
     <p>If you want to add a collection or example of how to use a collection to this registry, please follow the instructions on the <a href="https://github.com/{{githubRepo}}">Sentinel Hub Public Collections GitHub repository</a>.</p>

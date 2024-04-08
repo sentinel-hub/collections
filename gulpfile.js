@@ -186,7 +186,7 @@ const rankDatasets = function (datasets, ignoreRank) {
 };
 
 
-const convertMDtoHTML = function(mdFile, destDirectory) {
+const convertMDtoHTML = function(mdFile, destDirectory, breadcrumbsParent) {
     var htmlFile = path.basename(path.basename(mdFile, '.md'), '.MD').toLowerCase();
     htmlFile += ".html";
 	if (fs.existsSync(path.join(destDirectory, htmlFile))) {
@@ -195,17 +195,25 @@ const convertMDtoHTML = function(mdFile, destDirectory) {
     
     var mdContent = fs.readFileSync(mdFile, "utf-8");
     var htmlContent = marked(mdContent, {renderer: renderer});
-    
+
     var templateData = {
       baseURL: process.env.BASE_URL,
       buildDate: new Date().toUTCString(),
       rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
       githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
-      githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+      githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH,
+      breadcrumbsParent: breadcrumbsParent,
     };
+
     var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
     var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
-    
+
+    var stringToReplace = "<em>Insert map here</em>";
+    if ("<em>Insert map here</em>") {
+      var interactiveMap = handlebars.compile(fs.readFileSync('./_build/partials/interactive-map.hbs', 'utf-8'))(templateData);
+      htmlContent = htmlContent.replace(stringToReplace, interactiveMap);
+    }
+
     htmlContent = htmlHeader + htmlContent + htmlFooter;
     
     fs.writeFileSync(path.join(destDirectory, htmlFile), htmlContent);
@@ -234,10 +242,10 @@ const copyDirectory = function(sourcePath, destPath, fileProcessingFunc) {
   }
 }
 
-const copyDirectoryWithMDProcessing = function(sourcePath, destPath) {
+const copyDirectoryWithMDProcessing = function(sourcePath, destPath, breadcrumbsParent) {
 	return copyDirectory(sourcePath, destPath, function(file) {
 		if (path.extname(file).toLowerCase() == '.md') {
-			convertMDtoHTML(file, destPath);
+			convertMDtoHTML(file, destPath, breadcrumbsParent);
 			return true;
 		}
 		return false;
@@ -299,7 +307,7 @@ const hbsHelpers = {
     htmlFile += ".html";
     
     var dir = path.dirname(mdFile);
-	copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir));
+	copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir), undefined);
     
     return "<a href=\"" + process.env.COLLECTIONS_BROWSER_ROOT_URL + dir + "/" + htmlFile + "\">" + data.Title + "</a>";
   },
@@ -622,6 +630,30 @@ function htmlOverview () {
     .pipe(gulp.dest('./_output/'));
 };
 
+// Compile sandbox data page and move to _output
+function htmlSandboxData() {
+  const datasets = getDatasets();
+
+  // Filter out datasets without a "sandbox data" tag
+  let filteredDatasets = datasets.filter((d) => {
+    return d.Tags.includes("sandbox data");
+  });
+
+  // HBS templating
+  var templateData = {
+    datasets: filteredDatasets,
+    rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
+    githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
+    githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+  };
+
+  return gulp.src('./_build/sandbox_index.hbs')
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('./_output/planet-sandbox-data/'));
+};
+
+
 // Compile redirect pages and move to _output
 function htmlRedirects (cb) {
   const file = fs.readFileSync('./_build/config.yaml', 'utf8');
@@ -750,8 +782,8 @@ function htmlDetail () {
         templateData.managedByLink = `${process.env.COLLECTIONS_BROWSER_ROOT_URL}?search=managedBy:${managedByName.toLowerCase()}`;
         templateData.managedByName = managedByName;
       }
-	  
-      copyDirectoryWithMDProcessing(`./collections/${slug}`, `./_output/${slug}`);
+  
+      copyDirectoryWithMDProcessing(`./collections/${slug}`, `./_output/${slug}`, templateData.Name);
 
       // Render
       return gulp.src('./_build/detail.hbs')
@@ -848,7 +880,7 @@ function htmlProviders (cb) {
 };
 
 // Server with live reload
-exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
+exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSandboxData, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
 
   browserSync({
     port: 3000,
@@ -871,6 +903,6 @@ exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), 
   gulp.watch('_build/**/*', gulp.series('default'));
 });
 
-exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
+exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSandboxData, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
 exports.default = exports.build;
 

@@ -1,0 +1,39 @@
+Name: Forest Carbon Diligence
+Description: |
+  The <a href="https://www.planet.com/products/forest-carbon/" target="_blank">Forest Carbon Diligence</a> product consists of a bundle of data resources: canopy height, canopy cover, and aboveground live carbon with a spatial resolution of 30 m. 
+  These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).
+Documentation: |
+  <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/" target="_blank">Sentinel Hub Documentation for Forest Carbon Diligence</a><br>
+  <a href="https://developers.planet.com/docs/planetary-variables/forest-carbon-diligence/" target="_blank">Product Website for Forest Carbon Diligence</a>
+SandboxData: |
+  Discover samples of Forest Carbon Diligence, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Forest Carbon Diligence</a>
+Image: forest-carbon-diligence/forest-carbon-diligence.png
+Resolution: 30m
+GeographicalCoverage: Global
+TemporalAvailability: 2013 - ongoing
+UpdateFrequency: Annual
+BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/#available-bands" target="_blank">bands and data</a>
+Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
+ManagedBy: "[Planet](https://www.planet.com/)"
+Tags:
+  - vegetation monitoring
+  - carbon
+  - forest
+  - MRV
+  - VCM
+  - change detection
+  - mapping
+  - sandbox data
+License: <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
+Resources:
+  - EndPoint: services-uswest2.sentinel-hub.com
+    Type: BYOC collection
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
+CustomScripts:
+    Title: Collection of Forest Carbon Diligence custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/forest-carbon-diligence/
+
+
+RegistryEntryAdded: "2024-03-15"
+RegistryEntryLastModified: "2024-04-03"

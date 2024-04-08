@@ -48,14 +48,14 @@ To purchase data over your own areas and times of interest, <a href="https://www
         </div>
     </div>
     <div class="image-card">
-    <a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=30.05862&lng=31.47&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81¬-439f-9016-5e162c32e736&fromTime=2022-08-19T00%3A00%3A00.000Z&toTime=2022-08-19T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank"><img src="SS_EGY.png" alt="EOB Highlight 2" class="imagette"></a>
+    <a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=30.05862&lng=31.47&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81-439f-9016-5e162c32e736&fromTime=2022-08-19T00%3A00%3A00.000Z&toTime=2022-08-19T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank"><img src="SS_EGY.png" alt="EOB Highlight 2" class="imagette"></a>
         <div class="info">
             <div class="title">Cairo, Egypt</div>
             <div class="text">
                 2021-04-16 to 2022-09-22<br>
                 25km<sup>2</sup>
             </div>
-           <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=30.05862&lng=31.47&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81¬-439f-9016-5e162c32e736&fromTime=2022-08-19T00%3A00%3A00.000Z&toTime=2022-08-19T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
+           <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=30.05862&lng=31.47&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81-439f-9016-5e162c32e736&fromTime=2022-08-19T00%3A00%3A00.000Z&toTime=2022-08-19T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">

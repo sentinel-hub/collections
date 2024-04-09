@@ -8,7 +8,7 @@ Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 SandboxData: |
   Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis Ready PlanetScope](sandbox-data.html)
 Resolution: 3 meters
-GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
+GeographicalCoverage: Land surface area (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)
 TemporalAvailability: January 01, 2018 - Present
 UpdateFrequency: New versions are released multiple times a year.
 TemporalResolution: Near-daily when PlanetScope imagery is available over AOI
@@ -34,8 +34,8 @@ BandInformation:
         Description: "Q2"
       - Name: num_ref_scenes
         Description: "Q3"
-Contact: "support@planet.com"
-Provider: "[Planet](https://www.planet.com/)"
+Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - commercial data
@@ -45,7 +45,7 @@ Tags:
   - time series
   - sandbox data
 
-License: "[License](https://www.planet.com/licensing-information/)"
+License: <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
@@ -54,4 +54,4 @@ CustomScripts:
   Title: Coming soon here
   URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
-RegistryEntryLastModified: "2024-03-21"
+RegistryEntryLastModified: "2024-04-09"

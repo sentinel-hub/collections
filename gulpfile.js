@@ -348,13 +348,13 @@ const hbsHelpers = {
 	  }
 	  
 	  if (urlListData.Title) { // was a single resource, not a list
-		  return "<p><a href=\"" + urlListData.URL + "\">" + urlListData.Title + "</a></li></p>";
+		  return "<p><a href=\"" + urlListData.URL + "\" target=\"_blank\">" + urlListData.Title + "</a></li></p>";
 	  }
 	  
 	  var html = "<ul>";
 	  for (var urlIndex in urlListData) {
 		  var urlData = urlListData[urlIndex];
-		  html += "<li><a href=\"" + urlData.URL + "\">" + urlData.Title + "</a></li>";
+		  html += "<li><a href=\"" + urlData.URL + "\" target=\"_blank\">" + urlData.Title + "</a></li>";
 	  }
 	  html += "</ul>\n";
 	  

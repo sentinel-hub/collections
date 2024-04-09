@@ -20,20 +20,20 @@ BandInformation:
       - Name: Description
         Title: Description
     Rows:
-      - Name: B1
-        Description: "Blue"
-      - Name: B2
-        Description: "Green"
-      - Name: B3
-        Description: "Red"
-      - Name: B4
-        Description: "NIR"
-      - Name: Q1
-        Description: "Cloud_mask"
-      - Name: Q2
-        Description: "Scene Mask"
-      - Name: Q3
-        Description: "Num_ref_scenes"
+      - Name: blue
+        Description: "B1"
+      - Name: green
+        Description: "B2"
+      - Name: red
+        Description: "B3"
+      - Name: nir
+        Description: "B4"
+      - Name: cloud_mask
+        Description: "Q1"
+      - Name: scene_mask
+        Description: "Q2"
+      - Name: num_ref_scenes
+        Description: "Q3"
 Contact: "support@planet.com"
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"

@@ -39,7 +39,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
     <div class="image-card">
       <a href='https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=40.8408&lng=-96.5355&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F415887db-d2e7-4a13-b076-70f3135bd821&datasetId=b690a8ba-05c4-49dc-91c7-8484a1007176&fromTime=2022-12-22T00%3A00%3A00.000Z&toTime=2022-12-22T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank"><img src="analysis-ready-planetscope.png" alt="EOB Highlight 1" class="imagette"></a>
         <div class="info">
-            <div class="title">Nebraska, United States</div>
+            <div class="title">Des Moines, United States</div>
             <div class="text">
               2022-05-01 - 2023-04-30<br>
               25km<sup>2</sup>

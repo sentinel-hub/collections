@@ -36,7 +36,7 @@ BandInformation:
         Description: "Q3"
 Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
-ManagedBy: "[Planet](https://www.planet.com/)"
+ManagedBy: <a href="https://www.planet.com/" target="_blank">Planet</a>
 Tags:
   - commercial data
   - satellite imagery

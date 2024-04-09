@@ -8,7 +8,7 @@ Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 SandboxData: |
   Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis Ready PlanetScope](sandbox-data.html)
 Resolution: 3 meters
-GeographicalCoverage: Land surface area (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)
+GeographicalCoverage: Land surface area ([more info](https://www.planet.com/products/planet-imagery/))
 TemporalAvailability: January 01, 2018 - Present
 UpdateFrequency: New versions are released multiple times a year.
 TemporalResolution: Near-daily when PlanetScope imagery is available over AOI
@@ -20,22 +20,22 @@ BandInformation:
       - Name: Description
         Title: Description
     Rows:
-      - Name: blue
-        Description: "B1"
-      - Name: green
-        Description: "B2"
-      - Name: red
-        Description: "B3"
-      - Name: nir
-        Description: "B4"
-      - Name: cloud_mask
-        Description: "Q1"
-      - Name: scene_mask
-        Description: "Q2"
-      - Name: num_ref_scenes
-        Description: "Q3"
-Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
-Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
+      - Name: B1
+        Description: "Blue"
+      - Name: B2
+        Description: "Green"
+      - Name: B3
+        Description: "Red"
+      - Name: B4
+        Description: "NIR"
+      - Name: Q1
+        Description: "Cloud_mask"
+      - Name: Q2
+        Description: "Scene Mask"
+      - Name: Q3
+        Description: "Num_ref_scenes"
+Contact: "support@planet.com"
+Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
   - commercial data
@@ -45,7 +45,7 @@ Tags:
   - time series
   - sandbox data
 
-License: <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
+License: "[License](https://www.planet.com/licensing-information/)"
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
@@ -54,4 +54,4 @@ CustomScripts:
   Title: Coming soon here
   URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
-RegistryEntryLastModified: "2024-04-09"
+RegistryEntryLastModified: "2024-03-21"

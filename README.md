@@ -1,4 +1,4 @@
-# Sentinel Hub Public Collections
+# Sentinel Hub Collections
 
 A repository of publicly available collections that are available for access through [Sentinel Hub](https://www.sentinel-hub.com/). Note that collections in this registry are available via Sentinel Hub, but owned and maintained by different providers.
 

@@ -2,7 +2,7 @@
 
 ## How are collections added to the registry?
 
-Each collection in this repository is described in a dedicated YAML file stored in [./collections](https://github.com/sentinel-hub/public-collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml.  
+Each collection in this repository is described in a dedicated YAML file stored in [./collections](https://github.com/sentinel-hub/collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml.  
 Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and Sentinel Hub team will review it and publish it in the Registry.  
 Note that for additional external files e.g the thumbnail image to be displayed correctly , store it in a directory that is named similar to the associated YAML file. 
 Users are also welcome to revise existing collections, e.g. adding new usage examples , tools, etc.  
@@ -14,7 +14,7 @@ Users are also welcome to revise existing collections, e.g. adding new usage exa
 | Field | Type | Description & Style |
 | --- | --- | --- |
 | **Name** | String | Full name of the collection.|
-| **Description**|MD|A high-level description of the collection. Only the first 600 characters will be displayed on the homepage of the [Sentinel Hub Public Collections](https://collections.sentinel-hub.com/).|
+| **Description**|MD|A high-level description of the collection. Only the first 600 characters will be displayed on the homepage of the [Sentinel Hub Collections](https://collections.sentinel-hub.com/).|
  **Documentation**|MD| A link to documentation of the collection on the data provider's website.|
 |**AdditionalInfoExternal**|| Additional documentation of the collection contained in a README.MD file saved in this repository.|
 |**AdditionalInfoExternal >> Title**|String| Title,  default = 'Additional Info' |
@@ -51,8 +51,8 @@ Users are also welcome to revise existing collections, e.g. adding new usage exa
 </details>
 
 
-## How to build Sentinel Hub Public Collections website locally
-You can build the Sentinel Hub Public Collections website locally, to preview and test your changes before submitting a merge request. Below is a step-by-step guide to build the site locally.
+## How to build Sentinel Hub Collections website locally
+You can build the Sentinel Hub Collections website locally, to preview and test your changes before submitting a merge request. Below is a step-by-step guide to build the site locally.
 
 
 <details> 
@@ -67,7 +67,7 @@ You can build the Sentinel Hub Public Collections website locally, to preview an
    <li>Create a .env file with the following content in the repository.
 
    ```
-   GIT_HUB_COLLECTIONS_REPO=sentinel-hub/public-collections
+   GIT_HUB_COLLECTIONS_REPO=sentinel-hub/collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="http://localhost:3000/"
    ```
@@ -96,7 +96,7 @@ You can build the Sentinel Hub Public Collections website locally, to preview an
    <li>Create a .env file with the following content in the repository.
 
    ```
-   GIT_HUB_COLLECTIONS_REPO=sentinel-hub/public-collections
+   GIT_HUB_COLLECTIONS_REPO=sentinel-hub/collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="http://localhost:3000/"
    ```

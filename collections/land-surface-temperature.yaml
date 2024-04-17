@@ -23,7 +23,7 @@ Tags:
   - agriculture
   - thermal
   - sandbox data
-License:  <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
+License:  <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection

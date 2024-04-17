@@ -28,7 +28,7 @@ Tags:
   - mapping
   - agriculture
   - sandbox data
-License: <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#attribution-and-use" target="_blank">License</a>
+License: <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection

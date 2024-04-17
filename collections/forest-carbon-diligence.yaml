@@ -25,7 +25,7 @@ Tags:
   - change detection
   - mapping
   - sandbox data
-License: <a href="https://www.planet.com/licensing-information/" target="_blank">License</a>
+License: <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a>
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: BYOC collection

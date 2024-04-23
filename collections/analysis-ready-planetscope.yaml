@@ -6,7 +6,7 @@ Description: |
   Limit storage and compute costs by working with only the data you need before delivering data to your preferred GIS, data science, remote sensing, or software environments via API or OGC streaming services.
 Image: analysis-ready-planetscope/analysis-ready-planetscope.png
 SandboxData: |
-  Discover samples of Analysis Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis-Ready PlanetScope](sandbox-data.html)
+  Discover samples of Analysis-Ready PlanetScope, free to all active Planet users and Sentinel Hub users with a paid subscription. [Sandbox Data for Analysis-Ready PlanetScope](sandbox-data.html)
 Resolution: 3 meters
 GeographicalCoverage: Land surface area (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)
 TemporalAvailability: January 01, 2018 - Present

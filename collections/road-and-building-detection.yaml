@@ -1,13 +1,12 @@
 Name: Road and Building Detection
 Description: |
- Globally available land cover maps derived from Planetscope imagery classifying pixels as road, building or neither. 
- Generated on a weekly or monthly basis,  <a href="https://www.planet.com/products/analytics/" target="_blank"> Planet's Road & Building Detection </a> can be used to stay up to date with the latest development around the globe.  
+ Globally available land cover maps derived from Planetscope imagery classifying pixels as road, building or neither. Generated on a weekly or monthly basis,  <a href="https://www.planet.com/products/analytics/" target="_blank"> Planet's Road & Building Detection </a> can be used to stay up to date with the latest development around the globe.  
  By leveraging a semantic segmentation model on all the PlanetScope imagery published in a given area for a given week or month, we assign a probability value (0-255) that the pixel represents a road, building or neither object. 
  These results are aggregated together into a weekly or monthly layer and this process is repeated through time, generating a time-series of pixel values ready for analysis.
 Documentation: |
  <a href="https://www.planet.com/products/analytics/" target="_blank">Planet Road and Building Detection Product Documentation</a>
 SandboxData: |
-  Discover samples of roads and bulding detection, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Road and Building Detection</a>
+  Discover samples of roads and buiding detection, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Road and Building Detection</a>
 Image: road-and-building-detection/road-and-building-detection.png
 Resolution: 4.77m at equator based on PlanetScope GSD
 GeographicalCoverage: Global between 74° N and 60° S (seasonally dependent)
@@ -21,15 +20,21 @@ BandInformation:
         Title: Name
       - Name: Description
         Title: Description
+      - Name: Values
+        Title: Values
     Rows:
       - Name: roads
         Description: "road detection"
+        Values: "0-255, (the greater the pixel value, the greater the probability that the pixel is classified correctly.)"
       - Name: buildings
         Description: "building detection"
+        Values: "0-255, (the greater the pixel value, the greater the probability that the pixel is classified correctly.)"
       - Name: confidence
         Description: "confidence"
+        Values: "0-255"
       - Name: alpha
-        Description: "alpha"    
+        Description: "alpha"   
+        Values: " " 
 Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"

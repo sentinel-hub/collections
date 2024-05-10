@@ -1,4 +1,4 @@
-## Planet Basemaps Sandbox Data
+## Road and Building Detection Sandbox Data
 
 This sandbox collection of <a href="../road-and-building-detection/"> Road and Building Detection</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 

@@ -23,7 +23,9 @@ BandInformation:
       Rows:
         - Name: lulc
           Description: Main discrete classification defined in the <a href="https://www.impactobservatory.com/maps-for-good/">product documentation</a>.
-Contact: "Impact Observatory: hello@impactobservatory.com"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - "Impact Observatory: hello@impactobservatory.com"
 Provider: "[Impact Observatory](https://www.impactobservatory.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -34,7 +36,8 @@ Tags:
   - raster
   - sentinel hub
 License: |
-  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+  - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: byoc-0ed26381-7344-4281-b180-66f3da521f75
@@ -43,4 +46,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2023-02-24"
-RegistryEntryLastModified: "2023-02-24"
+RegistryEntryLastModified: "2024-05-10"

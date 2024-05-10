@@ -13,7 +13,7 @@ GeographicalCoverage: Global
 TemporalAvailability: 100 m (July, 1st 2017 - Present)1000 m (June, 15th 2002 - October 4th 2011 (AMSRE) July, 25th 2012 - Present (AMSR2))
 UpdateFrequency: Above 50 degrees latitude:2 obs. daily at 01:30 and 13:30. At the equator:at least ±180 obs. at 01:30 and ±180 obs. at 13:30 observations annually.
 BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/#available-bands" target="_blank">bands and data</a>
-Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -34,4 +34,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2024-01-08"
-RegistryEntryLastModified: "2024-04-03"
+RegistryEntryLastModified: "2024-05-10"

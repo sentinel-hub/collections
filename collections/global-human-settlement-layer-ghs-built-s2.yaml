@@ -14,7 +14,9 @@ GeographicalCoverage: Global coverage with longitude from 180°W to 180°E and l
 TemporalAvailability: Reference year 2018
 UpdateFrequency: Irregular
 BandInformation: Built-up probability [0 - 100 %] at 10 m spatial resolution
-Contact: "Joint Research Centre - Global Human Settlement Contact: jrc-ghsl-data@ec.europa.eu"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - "Joint Research Centre - Global Human Settlement Contact: jrc-ghsl-data@ec.europa.eu"
 Provider: "[European Commission, Joint Research Centre (JRC)](https://ghsl.jrc.ec.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -23,7 +25,9 @@ Tags:
   - derived data
   - open data
 License: |
-  [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), find more details on use and access conditions [here](https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>. Find more details on use and access conditions <a href="https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863" target="_blank">here</a>.
+
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-3dbeea2c-3207-4c65-8a73-c29ce2675f89
@@ -32,4 +36,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2022-01-07"
-RegistryEntryLastModified: "2022-01-07"
+RegistryEntryLastModified: "2024-05-10"

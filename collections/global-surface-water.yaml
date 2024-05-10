@@ -30,7 +30,9 @@ BandInformation:
           Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 38-year time period.
         - Name: extent
           Description: Maximum extent of surface water bodies in the 38-year time range.
-Contact: "[Global Surface Water Explorer Contact](https://global-surface-water.appspot.com/)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://global-surface-water.appspot.com/" target="_blank">Global Surface Water Explorer Contact</a>
 Provider: "[European Commission, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -41,7 +43,8 @@ Tags:
   - climate change
   - open data
 License: |
- Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Free and open access policy as defined in the European Union's <a href="https://www.copernicus.eu/en/about-copernicus/international-cooperation" target="_blank">Copernicus regulation</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
@@ -51,4 +54,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2023-03-21"
+RegistryEntryLastModified: "2024-05-10"

@@ -26,7 +26,7 @@ BandInformation:
           Description: The confidence of the classifier.
         - Name: OCS_Validity
           Description: The number of cloudless images.
-Contact: "Jordi Inglada: jordi.inglada@cesbio.eu, Vincent Thierion: vincent.thierion@inrae.fr, Silvia Valero: silvia.valero@cesbio.cnes.fr"
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -37,8 +37,9 @@ Tags:
   - raster
   - sentinel hub
   - systematic
-License: |
-  [ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](https://www.theia-land.fr/en/homepage-en/) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
+License: |  
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf" target="_blank">ETALAB V2.0 open license</a>. Value-added data processed by CNES for the [Theia data center](https://www.theia-land.fr/en/homepage-en/) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: byoc-9baa2732-6597-49d2-ae3b-68ba0a5386b2
@@ -47,4 +48,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2022-02-08"
-RegistryEntryLastModified: "2022-09-01"
+RegistryEntryLastModified: "20224-05-10"

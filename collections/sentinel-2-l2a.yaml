@@ -14,7 +14,7 @@ GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/we
 TemporalAvailability: Europe  November 2016 - ongoing, Global January 2017  - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: "Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data)"
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -27,7 +27,8 @@ Tags:
   - open data
   - sentinel
 License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use" target="_blank">Attribution and Use </a>.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: sentinel-2-l2a
@@ -40,4 +41,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
     
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2023-05-10"

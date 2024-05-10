@@ -15,7 +15,7 @@ GeographicalCoverage: Ocean and Land ([more info](https://sentinels.copernicus.e
 TemporalAvailability: April 2018 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -29,7 +29,8 @@ Tags:
   - open data
   - sentinel
 License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use" target="_blank">Attribution and Use </a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: sentinel-5p-l2
@@ -46,4 +47,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

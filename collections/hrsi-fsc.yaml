@@ -63,7 +63,9 @@ BandInformation:
             Sentinel Hub Units: DN
             Data Values: 0-100 NDSI (%), Cloud or cloud shadow - 205
             No data: 255
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://land.copernicus.eu/contact" target="_blank">Copernicus Land Monitoring Service Contact</a>
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -72,7 +74,9 @@ Tags:
   - open data
   - snow
   - hrsi
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
+License: |
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Full, open and free access, Copernicus <a href="https://land.copernicus.eu/en/data-policy" target="_blank">data policy</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-80db97d0-fd6a-4e13-9cf3-d1842beaae5c
@@ -82,4 +86,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#fractional-snow-cover
 
 RegistryEntryAdded: "2023-03-16"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

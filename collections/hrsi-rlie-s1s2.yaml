@@ -52,7 +52,9 @@ BandInformation:
         Sentinel Hub Units: Not applicable
         Digital Range: Not applicable
         No data: Not applicable
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://land.copernicus.eu/contact" target="_blank">Copernicus Land Monitoring Service Contact</a>
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -64,7 +66,9 @@ Tags:
   - CLMS
   - derived data
   - open data
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
+License: |
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Full, open and free access, Copernicus <a href="https://land.copernicus.eu/en/data-policy" target="_blank">data policy</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-65235036-9897-40d2-aed3-40ba038a1f68
@@ -73,4 +77,4 @@ CustomScripts:
   Title: Collection of Copernicus services data custom scripts
   URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#rlie-s1s2
 RegistryEntryAdded: "2023-04-06"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

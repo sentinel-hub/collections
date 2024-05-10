@@ -119,7 +119,9 @@ BandInformation:
           Sentinel Hub Units: DN
           Digital Range:  1 to 10; Additional info <a href="https://collections.sentinel-hub.com/vegetation-phenology-and-productivity-parameters-season-1/readme.html">here</a>.
           No data: 0         
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://land.copernicus.eu/contact" target="_blank">Copernicus Land Monitoring Service Contact</a>
 Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:

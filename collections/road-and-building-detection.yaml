@@ -24,10 +24,10 @@ BandInformation:
         Title: Values
     Rows:
       - Name: roads
-        Description: "road detection"
+        Description: "Road Detection"
         Values: "0-255, (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
       - Name: buildings
-        Description: "building detection"
+        Description: "Building Detection"
         Values: "0-255, (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
       - Name: confidence
         Description: "Confidence"

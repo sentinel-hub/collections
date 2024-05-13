@@ -30,10 +30,10 @@ BandInformation:
         Description: "building detection"
         Values: "0-255, (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
       - Name: confidence
-        Description: "confidence"
+        Description: "Confidence"
         Values: "0-255"
       - Name: alpha
-        Description: "alpha"   
+        Description: "Alpha"   
         Values: " " 
 Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>

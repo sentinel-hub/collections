@@ -25,7 +25,7 @@ BandInformation:
           Description: Corine Land Cover Accounting Layer 
 Contact: |
   - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
-  - <a href="mailto:sdi@eea.europa.eu">European Environment Agency</a> >
+  - sdi@eea.europa.eu
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -37,7 +37,7 @@ Tags:
   - open data
 License: |
   - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
-  - EEA standard re-use policy <a href="https://www.eea.europa.eu/legal/copyright" target="_blank">Read More</a>.
+  - EEA standard re-use policy,  <a href="https://www.eea.europa.eu/legal/copyright" target="_blank">(Read More)</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-4c5441a6-6040-4dc4-a392-c1317bbd1031

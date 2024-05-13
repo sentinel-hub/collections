@@ -26,7 +26,9 @@ BandInformation:
           Description: The confidence of the classifier.
         - Name: OCS_Validity
           Description: The number of cloudless images.
-Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+Contact: | 
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://www.theia-land.fr/en/product/land-cover-map/" target="_blank">Theia</a>
 Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -48,4 +50,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2022-02-08"
-RegistryEntryLastModified: "20224-05-10"
+RegistryEntryLastModified: "2024-05-10"

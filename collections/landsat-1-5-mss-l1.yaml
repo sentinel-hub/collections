@@ -14,7 +14,7 @@ TemporalAvailability: |
   Landsat 5 from 1984 to October 1992, and from June 2012 to January 2013
 UpdateFrequency: Archived data
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[USGS](https://www.usgs.gov//)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -27,7 +27,8 @@ Tags:
   - open data
   - landsat
 License: |
-  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con" target="_blank">USGS EROS Data Citation</a>.
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type:  landsat-mss-l1 
@@ -38,4 +39,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

@@ -14,7 +14,7 @@ GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joe
 TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)
 UpdateFrequency: "[depends on updates by Mapzen](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)"
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Mapzen](https://www.mapzen.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -26,7 +26,8 @@ Tags:
   - orthorectification
   - open data
 License: |
-  [License](https://www.mapzen.com/terms/)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://www.mapzen.com/terms/" target="_blank">Mapzen Terms of Service</a>.
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: dem 
@@ -41,4 +42,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#dem
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-27"
+RegistryEntryLastModified: "2024-05-10"

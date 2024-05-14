@@ -17,7 +17,7 @@ GeographicalCoverage: European and Worldwide coverage ([more info](https://space
 TemporalAvailability: static product(two releases 2019 & 2020) for data acquired in (2011-2015)
 UpdateFrequency: Updated as soon as new release is available publicly
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -29,7 +29,9 @@ Tags:
   - orthorectification
   - open data
 License: |
-  [License](https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf/fb109818-56ad-bbee-053c-d972aed25ce6?t=1674741175657) (Pages 15-20)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Copernicus DEM <a href="https://docs.sentinel-hub.com/api/latest/data/dem/#attribution-and-use" target="_blank"> Attribution and Use</a>.
+  - Copernicus DEM <a href="https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model" target="_blank"> licensing & citation guidelines section</a>.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: dem 
@@ -41,4 +43,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-08-27"
+RegistryEntryLastModified: "2024-05-10"

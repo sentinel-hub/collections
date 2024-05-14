@@ -55,7 +55,9 @@ BandInformation:
           Description: Data density indicator showing quality of the EO input data (0 = bad, 100 = perfect data)
         - Name: Change_Confidence_layer
           Description: Quality layer regarding the change detection of the current mapped year to the previous mapped year. 
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://land.copernicus.eu/contact" target="_blank">Copernicus Land Monitoring Service Contact</a>
 Provider: "[European Commission Joint Research Centre (JRC)](https://land.copernicus.eu/global/about)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -65,7 +67,8 @@ Tags:
   - derived data
   - open data
 License: |
- free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Full, open and free access, Copernicus <a href="https://land.copernicus.eu/en/data-policy" target="_blank">data policy</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
@@ -74,4 +77,4 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2021-06-14"
+RegistryEntryLastModified: "2024-05-10"

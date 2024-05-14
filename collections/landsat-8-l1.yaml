@@ -15,7 +15,7 @@ GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/
 TemporalAvailability: February 2013 - ongoing
 UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[USGS](https://www.usgs.gov//)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"                    
 Tags:
@@ -29,7 +29,8 @@ Tags:
   - open data
   - landsat
 License: |
-   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con" target="_blank">USGS EROS Data Citation</a>.
 Resources:
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: landsat-ot-l1 
@@ -40,4 +41,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

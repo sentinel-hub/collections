@@ -24,7 +24,9 @@ BandInformation:
       Rows:
         - Name: Map
           Description: Main discrete classification according to FAO LCCS scheme, 11 land cover classes.
-Contact: "[VITO Remote Sensing](https://esa-worldcover.org/en/contact)"
+Contact: |
+  - <a href="https://esa-worldcover.org/en/contact" target="_blank">VITO Remote Sensing</a>
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[European Space Agency](https://esa-worldcover.org/en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -43,4 +45,4 @@ CustomScripts:
     Title: Custom scripts for other collections
     URL: https://custom-scripts.sentinel-hub.com/#other_collections
 RegistryEntryAdded: "2021-10-20"
-RegistryEntryLastModified: "2022-10-31"
+RegistryEntryLastModified: "2024-05-10"

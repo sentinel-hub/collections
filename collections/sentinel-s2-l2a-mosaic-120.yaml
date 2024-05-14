@@ -57,7 +57,7 @@ BandInformation:
         - Name: QM
           Description: QualityMask
           Notes: DN, from 0-3; OK if larger than 0. Additional info <a href="https://collections.sentinel-hub.com/sentinel-s2-l2a-mosaic-120/readme.html">here</a>.
-Contact:  https://forum.sentinel-hub.com
+Contact:  <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -67,7 +67,9 @@ Tags:
   - agriculture
   - open data
   - sentinel 
-License: "CC-BY 4.0, Credit: Contains modified Copernicus data 2020 processed by Sentinel Hub"
+License: |
+  - "CC-BY 4.0, Credit: Contains modified Copernicus data 2020 processed by Sentinel Hub"
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: byoc-484d8dbb-9e3e-41f2-b96b-35189d3ae37f
@@ -91,4 +93,4 @@ DataAtWork:
       AuthorName: Milcinski G., Lubej M.
 
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2023-08-04"
+RegistryEntryLastModified: "2024-05-10"

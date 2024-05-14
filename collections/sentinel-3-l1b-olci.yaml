@@ -32,7 +32,7 @@ Tags:
   - sentinel
 License: |
   - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
-  - <a href="https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use" target="_blank">Attribution and Use </a>.
+  - <a href="https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use" target="_blank">Sentinel-3 OLCI Attribution and Use </a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: sentinel-3-olci 

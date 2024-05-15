@@ -12,15 +12,36 @@
         return geojsonPolygons;
     }
 
-    function generatePopupText(feature){
+    function generatePopupText(feature, centroid){
         // replace " with ' so the string can be passed as a function param in HTML
         const encodedString = JSON.stringify(feature.geometry).replace(/"/g, "'");
+
+        /*
+            https://apps.sentinel-hub.com/eo-browser/?
+            zoom=14&
+            lat=44.84178&
+            lng=-0.57841&
+            themeId=PLANET_SANDBOX&
+            visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F655dfaa9-35e3-4fe1-a8e2-14e4c178f6b9&
+            datasetId=9ff30ab7-62c2-4d19-b5ef-83805c7e7602&
+            fromTime=2023-03-01T00%3A00%3A00.000Z&
+            toTime=2023-03-01T23%3A59%3A59.999Z&
+            layerId=ROADS-AND-BUILDINGS&
+        */
+        // to add
+        // - theme id
+        // - vis url
+        // - dataset id
+        // - timespan
+        // - layer id
+        const EOBstring = `https://apps.sentinel-hub.com/eo-browser/?lat=${centroid.lat}&lng=${centroid.lng}`;
 
         return "<h4>" + feature.properties.geolocation +"</h4>" +
             "<div>" +
             "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
             "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>" +
             '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick('+ encodedString +')">Copy GeoJSON</button>' +
+            '<a href="' + EOBstring + '" class="leaflet-copy-geojson" target="_blank">Open in EOB</a>' +
             "</div>";
     }
 
@@ -43,7 +64,7 @@
             const centroid = leafletPolygon.getCenter();
             const marker = L.marker(centroid, { icon: customMarker }).addTo(leafletMap);
 
-            const popupText = generatePopupText(polygon);
+            const popupText = generatePopupText(polygon, centroid);
             leafletPolygon.bindPopup(popupText);
             marker.bindPopup(popupText);
         });

@@ -12,7 +12,7 @@
         return geojsonPolygons;
     }
 
-    function generatePopupText(feature){
+    function generatePopupText(feature, centroid) {
         // replace " with ' so the string can be passed as a function param in HTML
         const encodedString = JSON.stringify(feature.geometry).replace(/"/g, "'");
 
@@ -43,7 +43,7 @@
             const centroid = leafletPolygon.getCenter();
             const marker = L.marker(centroid, { icon: customMarker }).addTo(leafletMap);
 
-            const popupText = generatePopupText(polygon);
+            const popupText = generatePopupText(polygon, centroid);
             leafletPolygon.bindPopup(popupText);
             marker.bindPopup(popupText);
         });

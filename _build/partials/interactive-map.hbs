@@ -1,11 +1,11 @@
 <div id="leaflet-map"></div>
 <script>
 
-    function copyGeojsonOnClick(geometry){
+    function copyGeojsonOnClick(geometry) {
         navigator.clipboard.writeText(JSON.stringify(geometry));
     }
 
-    async function loadData(){
+    async function loadData() {
         const polygonsResponse = await fetch("polygons.geojson");
         const geojsonPolygons = polygonsResponse.status === 404 ? null : await polygonsResponse.json();
 
@@ -24,8 +24,8 @@
             "</div>";
     }
 
-    function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap){
-        if(!geojsonPolygons){
+    function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap) {
+        if (!geojsonPolygons) {
             return;
         }
 
@@ -38,7 +38,7 @@
 
         geojsonPolygons.features.forEach(polygon => {
             const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
-            const leafletPolygon = L.polygon(switchedCoords, {color: '#009db1'}).addTo(leafletMap);
+            const leafletPolygon = L.polygon(switchedCoords, { color: '#009db1' }).addTo(leafletMap);
 
             const centroid = leafletPolygon.getCenter();
             const marker = L.marker(centroid, { icon: customMarker }).addTo(leafletMap);
@@ -51,7 +51,7 @@
 
     loadData().then((geojsonPolygons) => {
         // don't render map if no data to show
-        if(!geojsonPolygons){
+        if (!geojsonPolygons) {
             document.getElementById("leaflet-map").style.height = "0px";
             return;
         }
@@ -65,7 +65,7 @@
 
         // add geojson polygons and points to the map
         addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap);
-        
+
     }).catch(e => console.error(e));
-    
+
 </script>

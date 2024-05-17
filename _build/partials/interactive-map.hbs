@@ -21,8 +21,8 @@
             themeId: "PLANET_SANDBOX",
             lat: centroid.lat,
             lng: centroid.lng,
-            fromTime: feature.properties.from,
-            toTime: feature.properties.to,
+            fromTime: feature.properties.to + "T00:00:00.000Z",
+            toTime: feature.properties.to + "T23:59:59.999Z",
             datasetId: feature.properties.collection_id,
         });
         const eobUrlString = eobUrl.toString();

@@ -16,25 +16,6 @@
         // replace " with ' so the string can be passed as a function param in HTML
         const encodedString = JSON.stringify(feature.geometry).replace(/"/g, "'");
 
-        /*
-            https://apps.sentinel-hub.com/eo-browser/?
-            zoom=14&
-            lat=44.84178&
-            lng=-0.57841&
-            themeId=PLANET_SANDBOX&
-            visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F655dfaa9-35e3-4fe1-a8e2-14e4c178f6b9&
-            datasetId=9ff30ab7-62c2-4d19-b5ef-83805c7e7602&
-            fromTime=2023-03-01T00%3A00%3A00.000Z&
-            toTime=2023-03-01T23%3A59%3A59.999Z&
-            layerId=ROADS-AND-BUILDINGS&
-        */
-        // to add
-        // - theme id: can be hardcoded
-        // - vis url: depends on the instance in EOB account NOT NEEDED
-        // - dataset id: (collection id) add when generating polygons.json
-        // - timespan (fromTime, toTime): get from polygon properties
-        // - layer id: depends on the instance in EOB account NOT NEEDED
-
         let eobUrl = new URL("https://apps.sentinel-hub.com/eo-browser/");
         eobUrl.search = new URLSearchParams({
             themeId: "PLANET_SANDBOX",

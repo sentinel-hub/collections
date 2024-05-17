@@ -29,19 +29,29 @@
             layerId=ROADS-AND-BUILDINGS&
         */
         // to add
-        // - theme id
-        // - vis url
-        // - dataset id
-        // - timespan
-        // - layer id
-        const EOBstring = `https://apps.sentinel-hub.com/eo-browser/?lat=${centroid.lat}&lng=${centroid.lng}`;
+        // - theme id: can be hardcoded
+        // - vis url: depends on the instance in EOB account NOT NEEDED
+        // - dataset id: (collection id) add when generating polygons.json
+        // - timespan (fromTime, toTime): get from polygon properties
+        // - layer id: depends on the instance in EOB account NOT NEEDED
+
+        let eobUrl = new URL("https://apps.sentinel-hub.com/eo-browser/");
+        eobUrl.search = new URLSearchParams({
+            themeId: "PLANET_SANDBOX",
+            lat: centroid.lat,
+            lng: centroid.lng,
+            fromTime: feature.properties.from,
+            toTime: feature.properties.to,
+            datasetId: feature.properties.collection_id,
+        });
+        const eobUrlString = eobUrl.toString();
 
         return "<h4>" + feature.properties.geolocation + "</h4>" +
             "<div>" +
             "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
             "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>" +
             '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick(' + encodedString + ')">Copy GeoJSON</button>' +
-            '<a href="' + EOBstring + '" class="leaflet-copy-geojson" target="_blank">Open in EOB</a>' +
+            '<a href="' + eobUrlString + '" class="leaflet-copy-geojson" target="_blank">Open in EOB</a>' +
             "</div>";
     }
 

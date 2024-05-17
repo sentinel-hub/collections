@@ -472,7 +472,7 @@ table > tbody > tr > td {
 .leaflet-tooltip-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 0.6em;
 }
 
 .leaflet-copy-geojson,

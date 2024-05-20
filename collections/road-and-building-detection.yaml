@@ -25,16 +25,16 @@ BandInformation:
     Rows:
       - Name: roads
         Description: "Road Detection"
-        Values: "0-255, (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
+        Values: "[0-255], (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
       - Name: buildings
         Description: "Building Detection"
-        Values: "0-255, (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
+        Values: "[0-255], (the greater the pixel value, the greater the likelihood that the pixel is classified correctly)"
       - Name: confidence
-        Description: "Confidence"
-        Values: "0-255"
+        Description: "Confidence score representing likelihood of the detection being true positive"
+        Values: "[0-255], with 255 indicating full confidence"
       - Name: alpha
-        Description: "Alpha"   
-        Values: " " 
+        Description: "Alpha mask"   
+        Values: "[0/255], 255 indicating valid pixels,  0 indicating invalid pixels" 
 Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"

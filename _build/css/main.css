@@ -468,7 +468,15 @@ table > tbody > tr > td {
   font-size: 14px !important;
 }
 
-.leaflet-copy-geojson {
+
+.leaflet-tooltip-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6em;
+}
+
+.leaflet-copy-geojson,
+.leaflet-open-in-eob {
   background-color: #A2B228;
   color: white;
   border-radius: 4px;
@@ -476,12 +484,26 @@ table > tbody > tr > td {
   margin-top: 8px;
 }
 
-.leaflet-copy-geojson:hover {
+.leaflet-copy-geojson:hover,
+.leaflet-open-in-eob:hover {
   background-color: #c0d049;
 }
 
-.leaflet-copy-geojson:active {
+.leaflet-copy-geojson:active,
+.leaflet-open-in-eob:active {
   background-color: #A2B228;
+}
+
+.leaflet-open-in-eob {
+  padding: 1px 4px; /* top+bottom, left+right */
+}
+
+.leaflet-open-in-eob,
+.leaflet-open-in-eob:hover,
+.leaflet-open-in-eob:active,
+.leaflet-open-in-eob:focus {
+  color: white !important;
+  text-decoration: none;
 }
 
 .sandbox-about-title {

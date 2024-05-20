@@ -1,31 +1,46 @@
 <div id="leaflet-map"></div>
 <script>
 
-    function copyGeojsonOnClick(geometry){
+    function copyGeojsonOnClick(geometry) {
         navigator.clipboard.writeText(JSON.stringify(geometry));
     }
 
-    async function loadData(){
+    async function loadData() {
         const polygonsResponse = await fetch("polygons.geojson");
         const geojsonPolygons = polygonsResponse.status === 404 ? null : await polygonsResponse.json();
 
         return geojsonPolygons;
     }
 
-    function generatePopupText(feature){
+    function generatePopupText(feature, centroid) {
         // replace " with ' so the string can be passed as a function param in HTML
         const encodedString = JSON.stringify(feature.geometry).replace(/"/g, "'");
 
-        return "<h4>" + feature.properties.geolocation +"</h4>" +
+        let eobUrl = new URL("https://apps.sentinel-hub.com/eo-browser/");
+        eobUrl.search = new URLSearchParams({
+            themeId: "PLANET_SANDBOX",
+            lat: centroid.lat,
+            lng: centroid.lng,
+            fromTime: feature.properties.to + "T00:00:00.000Z",
+            toTime: feature.properties.to + "T23:59:59.999Z",
+            datasetId: feature.properties.collection_id,
+            zoom: 14
+        });
+        const eobUrlString = eobUrl.toString();
+
+        return "<h4>" + feature.properties.geolocation + "</h4>" +
             "<div>" +
             "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
             "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>" +
-            '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick('+ encodedString +')">Copy GeoJSON</button>' +
+            '<div class="leaflet-tooltip-buttons">' +
+            '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick(' + encodedString + ')">Copy GeoJSON</button>' +
+            '<a href="' + eobUrlString + '" class="leaflet-open-in-eob" target="_blank">Open in EO Browser</a>' +
+            '</div>' +
             "</div>";
     }
 
-    function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap){
-        if(!geojsonPolygons){
+    function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap) {
+        if (!geojsonPolygons) {
             return;
         }
 
@@ -38,12 +53,12 @@
 
         geojsonPolygons.features.forEach(polygon => {
             const switchedCoords = polygon.geometry.coordinates[0].map(pair => [pair[1], pair[0]]);
-            const leafletPolygon = L.polygon(switchedCoords, {color: '#009db1'}).addTo(leafletMap);
+            const leafletPolygon = L.polygon(switchedCoords, { color: '#009db1' }).addTo(leafletMap);
 
             const centroid = leafletPolygon.getCenter();
             const marker = L.marker(centroid, { icon: customMarker }).addTo(leafletMap);
 
-            const popupText = generatePopupText(polygon);
+            const popupText = generatePopupText(polygon, centroid);
             leafletPolygon.bindPopup(popupText);
             marker.bindPopup(popupText);
         });
@@ -51,7 +66,7 @@
 
     loadData().then((geojsonPolygons) => {
         // don't render map if no data to show
-        if(!geojsonPolygons){
+        if (!geojsonPolygons) {
             document.getElementById("leaflet-map").style.height = "0px";
             return;
         }
@@ -65,7 +80,7 @@
 
         // add geojson polygons and points to the map
         addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap);
-        
+
     }).catch(e => console.error(e));
-    
+
 </script>

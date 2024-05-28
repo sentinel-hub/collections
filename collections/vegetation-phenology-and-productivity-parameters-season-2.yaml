@@ -119,7 +119,9 @@ BandInformation:
           Sentinel Hub Units: DN
           Digital Range: 1 to 10; Additional info <a href="https://collections.sentinel-hub.com/vegetation-phenology-and-productivity-parameters-season-2/readme.html">here</a>.
           No data: 0 
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Contact: |
+  - <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
+  - <a href="https://land.copernicus.eu/contact" target="_blank">Copernicus Land Monitoring Service Contact</a>
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -130,7 +132,9 @@ Tags:
   - phenology
   - derived data
   - open data
-License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
+License: |
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - Full, open and free access, Copernicus <a href="https://land.copernicus.eu/en/data-policy" target="_blank">data policy</a>.
 Resources:
   - EndPoint: creodias.sentinel-hub.com
     Type: byoc-8c2bc96a-3c2c-482b-9394-031310171b33
@@ -139,4 +143,4 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 RegistryEntryAdded: "2021-10-12"
-RegistryEntryLastModified: "2021-10-15"
+RegistryEntryLastModified: "2024-05-10"

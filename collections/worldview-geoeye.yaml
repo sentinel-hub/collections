@@ -16,7 +16,7 @@ GeographicalCoverage: Land surface area ([more info](https://www.maxar.com/const
 TemporalAvailability: 2009 - ongoing
 UpdateFrequency: data is not acquired systematically, data acquisition is tasked
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact:  <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Maxar](https://www.maxar.com/)"
 ManagedBy: "[European Space Imaging](https://www.euspaceimaging.com/)"
 Tags:
@@ -28,11 +28,12 @@ Tags:
   - disaster response
   - mapping
 License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/#attribution-and-use)
+  - <a href="https://www.sentinel-hub.com/tou/" target="_blank">Sentinel Hub Terms of Use</a>.
+  - <a href="https://www.maxar.com/legal/internal-use-license" target="_blank">Maxar Internal use License</a>.
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
     Notes: Contains the data purchased by individual user
 
 RegistryEntryAdded: "2021-04-17"
-RegistryEntryLastModified: "2021-04-13"
+RegistryEntryLastModified: "2024-05-10"

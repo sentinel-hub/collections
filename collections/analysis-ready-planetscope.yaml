@@ -34,7 +34,7 @@ BandInformation:
         Description: "Q2"
       - Name: num_ref_scenes
         Description: "Q3"
-Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -54,4 +54,4 @@ CustomScripts:
   Title: Coming soon here
   URL: https://custom-scripts.sentinel-hub.com/
 RegistryEntryAdded: "2024-01-15"
-RegistryEntryLastModified: "2024-04-09"
+RegistryEntryLastModified: "2024-05-10"

@@ -13,7 +13,7 @@ GeographicalCoverage: Global
 TemporalAvailability: 2013 - ongoing
 UpdateFrequency: Annual
 BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/#available-bands" target="_blank">bands and data</a>
-Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -36,4 +36,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2024-03-15"
-RegistryEntryLastModified: "2024-04-03"
+RegistryEntryLastModified: "2024-05-10"

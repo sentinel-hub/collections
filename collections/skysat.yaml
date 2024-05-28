@@ -16,7 +16,7 @@ GeographicalCoverage: Worldwide (<a href="https://www.planet.com/products/planet
 TemporalAvailability: 2014 - ongoing
 UpdateFrequency: Capacity to image up to 10x a day but acquisitions must be tasked (ordered).
 BandInformation: Information about <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/#available-bands-and-data" target="_blank">bands and data</a>
-Contact: <a href="https://forum.sentinel-hub.com" target="_blank">Sentinel Hub Forum</a>
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: <a href="https://www.planet.com/" target="_blank">Planet</a>
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -39,4 +39,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2022-11-24"
-RegistryEntryLastModified: "2024-03-21"
+RegistryEntryLastModified: "2024-05-10"

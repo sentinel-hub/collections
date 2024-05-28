@@ -14,7 +14,7 @@ GeographicalCoverage: Global; Open data in [limited areas](open-data.html);
 TemporalAvailability: Global since 2019 (limited after December 2021)
 UpdateFrequency: Daily
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planetary-variables/crop-biomass/#available-bands)  
-Contact: https://www.planet.com/contact-sales/#contact-sales
+Contact: <a href="https://community.planet.com/sentinel-hub-81" target="_blank">Sentinel Hub Forum on Planet Commmunity</a>
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:

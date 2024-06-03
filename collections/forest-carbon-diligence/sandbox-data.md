@@ -80,7 +80,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
         <div class="info">
             <div class="title">Des Moines, USA</div>
             <div class="text">
-                2015-01-01 - 2017-01-31<br>
+                2015-01-01 - 2017-01-01<br>
                 581km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=41.2969&lng=-93.959&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ff006c031-60da-4262-bdf7-6fc4f1532d13&datasetId=f3312c82-edea-42a1-8c9d-ada86ddcc857&fromTime=2016-01-01T00%3A00%3A00.000Z&toTime=2016-01-01T23%3A59%3A59.999Z&layerId=CANOPY-HEIGHT&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>

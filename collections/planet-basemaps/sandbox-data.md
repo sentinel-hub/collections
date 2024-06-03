@@ -42,7 +42,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
             <div class="title">São Félix do Xingu, Brazil</div>
             <div class="text">
                 2021-01-01 to 2023-04-01<br>
-                27020km<sup>2</sup>
+                27021km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=9&lat=-6.7652&lng=-52.3763&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F64e8174f-7d03-4863-ba70-5139e325a75d&datasetId=c48c018f-67a1-4827-a1e4-f3ab98690312&fromTime=2023-04-01T00%3A00%3A00.000Z&toTime=2023-04-01T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
         </div>

@@ -41,7 +41,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
          <div class="info">
             <div class="title">Bahia, Brazil</div>
             <div class="text">
-                2021-04-16 to 2022-09-22<br>
+                2021-01-04 to 2022-12-28<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=-9.46769&lng=-40.83146&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81-439f-9016-5e162c32e736&fromTime=2022-05-07T00%3A00%3A00.000Z&toTime=2022-05-07T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
@@ -63,7 +63,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
         <div class="info">
             <div class="title">Perth, Australia</div>
             <div class="text">
-                2021-04-16 to 2022-09-22<br>
+                2021-01-01 to 2022-12-28<br>
                 25km<sup>2</sup>
             </div>
             <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=-32.1112&lng=116.0231&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fc0d9df19-9fb2-4191-89bd-4168678def5d&datasetId=fc704520-fc81-439f-9016-5e162c32e736&fromTime=2022-10-19T00%3A00%3A00.000Z&toTime=2022-10-19T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>

@@ -18,19 +18,19 @@ This sandbox collection of <a href="../forest-carbon-diligence/">Forest Carbon D
       <td>CANOPY_HEIGHT_v1.1.0_30</td>
       <td>Planet Sandbox Data - PV FCD Canopy Height</td>
       <td>BYOC-f3312c82-edea-42a1-8c9d-ada86ddcc857</td>
-      <td>2013-01-01 - 2017-12-31</td>
+      <td>2013-01-01 - 2017-01-01</td>
     </tr>
     <tr>
       <td>CANOPY_COVER_v1.1.0_30</td>
       <td>Planet Sandbox Data - PV FCD Canopy Cover</td>
       <td>BYOC-e3d2a21c-cb75-4311-86ac-024385c85b9c</td>
-      <td>2013-01-01 - 2017-12-31</td>
+      <td>2013-01-01 - 2017-01-01</td>
     </tr>
     <tr>
       <td>ABOVEGROUND_CARBON_DENSITY_v1.1.0_30</td>
       <td>Planet Sandbox Data - PV FCD Aboveground Carbon</td>
       <td>BYOC-cc31cada-80d8-46fe-a746-43ac2f87b5da</td>
-      <td>2013-01-01 - 2017-12-31</td>
+      <td>2013-01-01 - 2017-01-01</td>
     </tr>
    </tbody>
 </table>

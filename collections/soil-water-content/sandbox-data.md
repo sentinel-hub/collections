@@ -18,13 +18,13 @@ This sandbox collection of <a href="../soil-water-content/">Soil Water Content</
       <td>SWC-SMAP-L_V2.0_100</td>
       <td>Planet Sandbox Data - PV SWC 100m</td>
       <td>BYOC-65f7e4fb-a27a-4fae-8d79-06a59d7e6ede</td>
-      <td>2017-04-01 - 2022-12-31</td>
+      <td>2017-07-01 - 2023-04-30</td>
     </tr>
     <tr>
       <td>SWC-SMAP-L_V5.0_1000</td>
       <td>Planet Sandbox Data - PV SWC 1km</td>
       <td>BYOC-858254ae-0f29-4152-ac53-449efa00bbb0</td>
-      <td>2015-04-01 - 2022-12-31</td>
+      <td>2015-04-01 - 2023-04-30</td>
     </tr>
    </tbody>
 </table>

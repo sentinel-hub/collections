@@ -3,6 +3,7 @@
 This sandbox collection of <a href="../road-and-building-detection/"> Road and Building Detection</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
 ### Collections
+
 <table>
   <thead>
     <tr>
@@ -23,18 +24,21 @@ This sandbox collection of <a href="../road-and-building-detection/"> Road and B
 </table>
 
 ### Sandbox Areas
-*Insert map here*
+
+_Insert map here_
 
 <a href="../road-and-building-detection/polygons.geojson" download>Download GeoJSONs</a>
 
 <br>
 <br>
 
-To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>. 
+To purchase data over your own areas and times of interest, <a href="https://www.planet.com/contact-sales/#contact-sales)" target="_blank">contact Planet</a>.
 
 ### EO Browser highlights
+
 3 area samples are available as EO Browser Highlight Visualisations.
 <br>
+
 <div class="container33">
     <div class="image-card">
     <a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=-6.64342&lng=-51.97589&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F655dfaa9-35e3-4fe1-a8e2-14e4c178f6b9&datasetId=9ff30ab7-62c2-4d19-b5ef-83805c7e7602&fromTime=2023-03-01T00%3A00%3A00.000Z&toTime=2023-03-01T23%3A59%3A59.999Z&layerId=ROADS-AND-BUILDINGS&demSource3D="MAPZEN"' target="_blank"><img src="RNB_BRA.png" alt="EOB Highlight 1" class="imagette"></a>
@@ -55,7 +59,7 @@ To purchase data over your own areas and times of interest, <a href="https://www
                 2021-01-01 to 2023-03-01<br>
                 13962km<sup>2</sup>
             </div>
-            <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=44.84178&lng=-0.57841&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F655dfaa9-35e3-4fe1-a8e2-14e4c178f6b9&datasetId=9ff30ab7-62c2-4d19-b5ef-83805c7e7602&fromTime=2023-03-01T00%3A00%3A00.000Z&toTime=2023-03-01T23%3A59%3A59.999Z&layerId=ROADS-AND-BUILDINGS&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
+            <div class="eob-link"><a href='https://apps.sentinel-hub.com/eo-browser/?zoom=14&lat=29.94687&lng=31.63204&themeId=PLANET_SANDBOX&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F655dfaa9-35e3-4fe1-a8e2-14e4c178f6b9&datasetId=9ff30ab7-62c2-4d19-b5ef-83805c7e7602&fromTime=2023-03-01T00%3A00%3A00.000Z&toTime=2023-03-01T23%3A59%3A59.999Z&layerId=ROADS-AND-BUILDINGS&demSource3D="MAPZEN"' target="_blank">Visualise in EO Browser -></a></div>
         </div>
     </div>
     <div class="image-card">

@@ -9,7 +9,7 @@ Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planet/skysat/" target="_blank">Sentinel Hub Documentation for SkySat</a><br>
   <a href="https://developers.planet.com/docs/data/skysat/" target="_blank">Product Website for Skysat</a>
 SandboxData: |
-  Discover samples of SkySat, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for SkySat</a>
+  Discover samples of SkySat, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for SkySat</a>
 Image: skysat/skysat.png
 Resolution: 0.5m (resampled)
 GeographicalCoverage: Worldwide (<a href="https://www.planet.com/products/planet-imagery/" target="_blank">more info</a>)

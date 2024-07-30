@@ -6,7 +6,7 @@ Description: |
 Documentation: |
   <a href="https://www.planet.com/products/analytics/" target="_blank">Planet Road and Building Detection Product Documentation</a>
 SandboxData: |
-  Discover samples of Road and Buiding Detection, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Road and Building Detection</a>
+  Discover samples of Road and Buiding Detection, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for Road and Building Detection</a>
 Image: road-and-building-detection/road-and-building-detection.png
 Resolution: 4.77m at equator based on PlanetScope GSD
 GeographicalCoverage: Global between 74° N and 60° S (seasonally dependent)

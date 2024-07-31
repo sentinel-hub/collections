@@ -6,7 +6,7 @@ Description: |
 Documentation: |
  <a href="https://www.planet.com/products/basemap/" target="_blank">Planet Basemaps Product Documentation</a>
 SandboxData: |
-  Discover samples of Basemaps, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for  Planet Basemaps</a>
+  Discover samples of Basemaps, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for  Planet Basemaps</a>
 Image: planet-basemaps/planet-basemaps.png
 Resolution: 4.77m at equator based on PlanetScope GSD
 GeographicalCoverage: Global between 74° N and 60° S (seasonally dependent)

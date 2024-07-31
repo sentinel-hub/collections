@@ -1,6 +1,6 @@
 ## Soil Water Content Sandbox Data
 
-This sandbox collection of <a href="../soil-water-content/">Soil Water Content</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
+This sandbox collection of <a href="../soil-water-content/">Soil Water Content</a> offers a limited area and time of interest. Only Planet accounts and Sentinel Hub accounts with a paid subscription or a Trial account have access under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC license</a>.
 
 ### Collections
 

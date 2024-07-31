@@ -6,7 +6,7 @@ Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/" target="_blank">Sentinel Hub Documentation for Land Surface Temperature</a><br>
   <a href="https://developers.planet.com/docs/planetary-variables/land-surface-temperature" target="_blank">Product Website for Land Surface Temperature</a>
 SandboxData: |
-  Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription. <a href="sandbox-data.html">Sandbox Data for Land Surface Temperature</a>
+  Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for Land Surface Temperature</a>
 Image: land-surface-temperature/land-surface-temperature.png
 Resolution: 100m and 1000m
 GeographicalCoverage: Global

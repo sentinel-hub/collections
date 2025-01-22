@@ -27,16 +27,35 @@
             zoom: 14
         });
         const eobUrlString = eobUrl.toString();
+        
+        // add title and start the div for the tooltip
+        let popupText = "<h4>" + feature.properties.geolocation + "</h4>" +
+            "<div>";
 
-        return "<h4>" + feature.properties.geolocation + "</h4>" +
-            "<div>" +
-            "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
-            "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>" +
-            '<div class="leaflet-tooltip-buttons">' +
-            '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick(' + encodedString + ')">Copy GeoJSON</button>' +
-            '<a href="' + eobUrlString + '" class="leaflet-open-in-eob" target="_blank">Open in EO Browser</a>' +
-            '</div>' +
-            "</div>";
+        // add name and description, if they are present
+        if (feature.properties.name) {
+            popupText += "<b>" + feature.properties.name + "</b><br>";
+        }
+        if (feature.properties.description) {
+            popupText += feature.properties.description + "<br><br>";
+        }
+
+        // add time range and area size
+        popupText += "Time range: " + feature.properties.from + " to " + feature.properties.to + "<br>" +
+            "Area size: " + feature.properties["area_sqkm"] + "km<sup>2</sup><br>";
+        
+        // add div with buttons for "copy JSON" and "open in EO Browser"
+        popupText += '<div class="leaflet-tooltip-buttons">' +
+            '<button class="leaflet-copy-geojson" onClick="copyGeojsonOnClick(' + encodedString + ')">Copy GeoJSON</button>';
+        if(feature.properties.eobrowserReady !== false){
+            popupText += '<a href="' + eobUrlString + '" class="leaflet-open-in-eob" target="_blank">Open in EO Browser</a>';
+        }
+        popupText += '</div>';
+
+        // close the started div
+        popupText += "</div>";
+
+        return popupText;
     }
 
     function addPolygonsAndMarkersToLeafletMap(geojsonPolygons, leafletMap) {

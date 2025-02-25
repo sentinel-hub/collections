@@ -27,7 +27,7 @@ Tags:
   - sandbox data
 License: <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a>
 Resources:
-  - EndPoint: services-uswest2.sentinel-hub.com
+  - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
     Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
 CustomScripts:
@@ -36,4 +36,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2024-03-15"
-RegistryEntryLastModified: "2024-05-10"
+RegistryEntryLastModified: "2025-02-11"

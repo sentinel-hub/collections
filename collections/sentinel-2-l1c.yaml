@@ -33,19 +33,10 @@ Resources:
   - EndPoint: services.sentinel-hub.com
     Type: sentinel-2-l1c 
     Notes: Global since November 2015
-  - EndPoint: creodias.sentinel-hub.com
-    Type: sentinel-2-l1c
-    Notes: Global since November 2015
-  - EndPoint: code-de.sentinel-hub.com
-    Type: sentinel-2-l1c
-    Notes: Germany since July 2015
-  - EndPoint: shservices.mundiwebservices.com
-    Type: sentinel-2-l1c
-    Notes: Europe coverage since July 2015. Rolling policy of 12 months for World.
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2024-05-10"
+RegistryEntryLastModified: "2025-02-25"

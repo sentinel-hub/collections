@@ -11,13 +11,6 @@ Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel value
 | Collection_id |`0074520d-bcf5-4811-8f6f-afd946e77695`  |  
 
 
-| Name | Description |
-| ------ | ------ |
-| End Point  | `creodias.sentinel-hub.com` |
-| Type | `byoc-eaa027cc-1d9b-40fc-a15c-9dc486caebd7`|
-| Collection_id |`eaa027cc-1d9b-40fc-a15c-9dc486caebd7 ` |
-
-
 ## Band information
 Sentinel-2 L2A 120m Mosaic 2019 product contains 6  bands as described in table 1 below. Find more information about sentinel 2 L2A bands [here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data)   
 **Table 1: Bands** 

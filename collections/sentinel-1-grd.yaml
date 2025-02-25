@@ -34,19 +34,10 @@ Resources:
   - EndPoint: services.sentinel-hub.com
     Type: sentinel-1-grd 
     Notes: Global since January 2017
-  - EndPoint: creodias.sentinel-hub.com
-    Type: sentinel-1-grd
-    Notes: Rolling policy of 1 month for World
-  - EndPoint: shservices.mundiwebservices.com
-    Type: sentinel-1-grd
-    Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
-  - EndPoint: code-de.sentinel-hub.com
-    Type: sentinel-1-grd
-    Notes: Germany since October 2014
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2024-05-10"
+RegistryEntryLastModified: "2025-02-25"

@@ -33,12 +33,9 @@ Resources:
   - EndPoint: services.sentinel-hub.com
     Type: sentinel-2-l2a
     Notes: 	Europe since November 2016, Global since January 2017
-  - EndPoint: shservices.mundiwebservices.com
-    Type: sentinel-2-l2a
-    Notes: Europe since July 2016
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
     
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2023-05-10"
+RegistryEntryLastModified: "2025-02-25"

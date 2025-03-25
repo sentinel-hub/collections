@@ -4,7 +4,7 @@ Description: |
   These data are collected annually over the entire land mass of the Earth (between 75° N and 60° S).
 Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/" target="_blank">Sentinel Hub Documentation for Forest Carbon Diligence</a><br>
-  <a href="https://developers.planet.com/docs/planetary-variables/forest-carbon-diligence/" target="_blank">Product Website for Forest Carbon Diligence</a>
+  <a href="https://docs.planet.com/data/planetary-variables/forest-carbon-diligence/" target="_blank">Product Website for Forest Carbon Diligence</a>
 SandboxData: |
   Discover samples of Forest Carbon Diligence, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for Forest Carbon Diligence</a>
 Image: forest-carbon-diligence/forest-carbon-diligence.png

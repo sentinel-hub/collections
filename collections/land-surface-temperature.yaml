@@ -6,7 +6,7 @@ Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/land-surface-temp/" target="_blank">Sentinel Hub Documentation for Land Surface Temperature</a><br>
   <a href="https://docs.planet.com/data/planetary-variables/land-surface-temperature/" target="_blank">Product Website for Land Surface Temperature</a>
 SandboxData: |
-  Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for Land Surface Temperature</a>
+  Discover samples of Land Surface Temperature, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="https://docs.planet.com/data/planetary-variables/land-surface-temperature/sandbox/">Sandbox Data for Land Surface Temperature</a>
 Image: land-surface-temperature/land-surface-temperature.png
 Resolution: 100m and 1000m
 GeographicalCoverage: Global
@@ -27,7 +27,7 @@ License:  <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](https://docs.planet.com/data/planetary-variables/land-surface-temperature/sandbox/)
 CustomScripts:
     Title: Collection of Land Surface Temperature custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/land-surface-temperature/

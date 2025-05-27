@@ -6,7 +6,7 @@ Documentation: |
   <a href="https://docs.sentinel-hub.com/api/latest/data/planetary-variables/forest-carbon-diligence/" target="_blank">Sentinel Hub Documentation for Forest Carbon Diligence</a><br>
   <a href="https://docs.planet.com/data/planetary-variables/forest-carbon-diligence/" target="_blank">Product Website for Forest Carbon Diligence</a>
 SandboxData: |
-  Discover samples of Forest Carbon Diligence, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="sandbox-data.html">Sandbox Data for Forest Carbon Diligence</a>
+  Discover samples of Forest Carbon Diligence, free to all active Planet users and Sentinel Hub users with a paid subscription or a Trial account. <a href="https://docs.planet.com/data/planetary-variables/forest-carbon-diligence/sandbox/">Sandbox Data for Forest Carbon Diligence</a>
 Image: forest-carbon-diligence/forest-carbon-diligence.png
 Resolution: 30m
 GeographicalCoverage: Global
@@ -29,7 +29,7 @@ License: <a href="https://www.sentinel-hub.com/tou/" target="_blank">License</a>
 Resources:
   - EndPoint: services.sentinel-hub.com
     Type: BYOC collection
-    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](sandbox-data.html)
+    Notes: Contains the data purchased by individual user. [Explore sample CC-BY-NC sandbox data here](https://docs.planet.com/data/planetary-variables/forest-carbon-diligence/sandbox/)
 CustomScripts:
     Title: Collection of Forest Carbon Diligence custom scripts
     URL: https://custom-scripts.sentinel-hub.com/custom-scripts/planetary-variables/forest-carbon-diligence/
